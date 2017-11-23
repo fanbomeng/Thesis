@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Collaboration(2016)]{btag_ago}
+C.~Collaboration.
+\newblock {Identification of b quark jets at the CMS Experiment in the LHC Run
+  2}.
+\newblock Technical Report CMS-PAS-BTV-15-001, CERN, Geneva, 2016.
+\newblock URL \url{https://cds.cern.ch/record/2138504}.
+
+\end{thebibliography}
