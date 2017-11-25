@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.7)  21 NOV 2017 22:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.7)  25 NOV 2017 18:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -336,46 +336,106 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-) (./mainbody.aux
-(./chapter1.aux) (./chapter2.aux) (./chapter3.aux
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip67
 
-LaTeX Warning: Label `chap:golfing' multiply defined.
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
 
-) (./chapter4.aux) (./chapter5.aux) (./chapter6/chapter6.aux
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen123
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen124
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count111
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count112
+\leftroot@=\count113
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count114
+\DOTSCASE@=\count115
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen125
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count116
+\c@MaxMatrixCols=\count117
+\dotsspace@=\muskip11
+\c@parentequation=\count118
+\dspbrk@lvl=\count119
+\tag@help=\toks20
+\row@=\count120
+\column@=\count121
+\maxfields@=\count122
+\andhelp@=\toks21
+\eqnshift@=\dimen126
+\alignsep@=\dimen127
+\tagshift@=\dimen128
+\tagwidth@=\dimen129
+\totwidth@=\dimen130
+\lineht@=\dimen131
+\@envbody=\toks22
+\multlinegap=\skip68
+\multlinetaggap=\skip69
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-LaTeX Warning: Label `tab:antil' multiply defined.
-
-) (./chapter7.aux) (./chapter8.aux) (./chapter9.aux))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(./mainbody.aux)
 \openout1 = `mainbody.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count111
-\scratchdimen=\dimen123
-\scratchbox=\box30
-\nofMPsegments=\count112
-\nofMParguments=\count113
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count114
-\MPscratchDim=\dimen124
-\MPnumerator=\count115
-\makeMPintoPDFobject=\count116
-\everyMPtoPDFconversion=\toks20
+\scratchcounter=\count123
+\scratchdimen=\dimen132
+\scratchbox=\box32
+\nofMPsegments=\count124
+\nofMParguments=\count125
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count126
+\MPscratchDim=\dimen133
+\MPnumerator=\count127
+\makeMPintoPDFobject=\count128
+\everyMPtoPDFconversion=\toks25
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -393,8 +453,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 86.
+\AtBeginShipoutBox=\box33
+Package hyperref Info: Link coloring OFF on input line 88.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -402,85 +462,17 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count117
+\c@section@level=\count129
 )
-LaTeX Info: Redefining \ref on input line 86.
-LaTeX Info: Redefining \pageref on input line 86.
-LaTeX Info: Redefining \nameref on input line 86.
+LaTeX Info: Redefining \ref on input line 88.
+LaTeX Info: Redefining \pageref on input line 88.
+LaTeX Info: Redefining \nameref on input line 88.
 
 (./mainbody.out) (./mainbody.out)
 \@outlinefile=\write3
 \openout3 = `mainbody.out'.
 
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip67
-
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
-\ex@=\dimen125
-))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen126
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
-)
-\inf@bad=\count118
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count119
-\leftroot@=\count120
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count121
-\DOTSCASE@=\count122
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box32
-\strutbox@=\box33
-\big@size=\dimen127
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count123
-\c@MaxMatrixCols=\count124
-\dotsspace@=\muskip11
-\c@parentequation=\count125
-\dspbrk@lvl=\count126
-\tag@help=\toks22
-\row@=\count127
-\column@=\count128
-\maxfields@=\count129
-\andhelp@=\toks23
-\eqnshift@=\dimen128
-\alignsep@=\dimen129
-\tagshift@=\dimen130
-\tagwidth@=\dimen131
-\totwidth@=\dimen132
-\lineht@=\dimen133
-\@envbody=\toks24
-\multlinegap=\skip68
-\multlinetaggap=\skip69
-\mathdisplay@stack=\toks25
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup5
-\symAMSb=\mathgroup6
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count130
@@ -524,47 +516,48 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 Pagestyle and spacing normal
+(./symbolsinput.tex)
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <14.4> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 101.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 126.
 
-LaTeX Font Info:    Try loading font information for U+lasy on input line 101.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 126.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 101.
+LaTeX Font Info:    Try loading font information for U+msa on input line 126.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 101.
+LaTeX Font Info:    Try loading font information for U+msb on input line 126.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <12> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 101.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 126.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 101
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 126
 .
-LaTeX Font Info:    No file OMScmtt.fd. on input line 101.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 126.
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbackslash' on input line 101.
+(Font)              for symbol `textbackslash' on input line 126.
 
 [1
 
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-./mainbody.tex:101: Class nddiss2e Error: The \secondadvisor macro is undefined
+./mainbody.tex:126: Class nddiss2e Error: The \secondadvisor macro is undefined
 .
 (nddiss2e)              The title page may be incorrectly formatted..
 
@@ -572,37 +565,32 @@ See the nddiss2e class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 \maketitle
+l.126 \maketitle
                 
 ? 
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.101 \maketitle
+l.126 \maketitle
                  [1
 
 
 ]
-./mainbody.tex:111: Undefined control sequence.
-l.111 \copyrightlicense
-                       {CC-BY-4.0}
-? 
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.112 \makecopyright
-                     [1]
 Copyleft page
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 112.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 137.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 112.
- [2
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 137.
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.137 \makecopyright
+                     [1
 
 ]
 Abstract page(s)
@@ -610,56 +598,50 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.117 \end{abstract}
+l.142 \end{abstract}
                      [1
 
 
 ]
 Dedication page
-pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.124 \end{dedication}
-                       [2
+[2
 
-] (./mainbody.toc [3
+]
 
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
 
-])
 \tf@toc=\write4
 \openout4 = `mainbody.toc'.
 
- [4]
-List of figures - FIGURES
-(./mainbody.lof
-Overfull \hbox (29.73183pt too wide) in paragraph at lines 7--7
- [][] []\OT1/cmr/m/n/12 Expected lim-its based on an Asi-mov dataset as a func-
-tion of $\OML/cmm/m/it/12 M[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^\; MET\OT1/cmr
-/m/n/12 )$ 
- []
+[3
 
-)
+
+]
+List of figures - FIGURES
+
+Package hyperref Warning: old lof file detected, not used; run LaTeX again.
+
 \tf@lof=\write5
 \openout5 = `mainbody.lof'.
 
- [5
+[4
 
 ]
 List of tables - TABLES
-(./mainbody.lot)
+
+Package hyperref Warning: old lot file detected, not used; run LaTeX again.
+
 \tf@lot=\write6
 \openout6 = `mainbody.lot'.
 
-
 Preface page
-[6
+[5
 
-] [7
+] [6
 
 ]
 Acknowledgment page
-[8
+[7
 
 
 ]
@@ -713,30 +695,6 @@ CHAPTER 5.
 
  (./chapter6/chapter6.tex
 CHAPTER 6.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 11.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 11.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 11.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tau' on input line 11.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 11.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 11.
-
 Runaway argument?
 ]{btag_ago} as a b quark jets will be vetoed. The $\mu $ from signal \ETC.
 ./chapter6/chapter6.tex:14: Paragraph ended before \@citex was complete.
@@ -749,219 +707,8 @@ l.14
 
 
 
-]
-./chapter6/chapter6.tex:27: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   G
-l.27 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:27: Missing number, treated as zero.
-<to be read again> 
-                   \advance 
-l.27 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:27: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \advance 
-l.27 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:27: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   G
-l.27 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:27: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   G
-l.27 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:27: Missing = inserted for \ifdim.
-<to be read again> 
-                   G
-l.27 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:27: Missing number, treated as zero.
-<to be read again> 
-                   G
-l.27 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:27: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   G
-l.27 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:27: Missing number, treated as zero.
-<to be read again> 
-                   \advance 
-l.27 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:27: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \advance 
-l.27 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:27: Missing number, treated as zero.
-<to be read again> 
-                   \unskip 
-l.27 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:27: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \unskip 
-l.27 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-
-Overfull \vbox (12.49998pt too high) detected at line 27
- []
-
-./chapter6/chapter6.tex:27: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   G
-l.27 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:27: Missing = inserted for \ifdim.
-<to be read again> 
-                   G
-l.27 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:27: Missing number, treated as zero.
-<to be read again> 
-                   G
-l.27 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:27: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   G
-l.27 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-
-Overfull \hbox (13.72221pt too wide) in paragraph at lines 22--35
- [] 
- []
-
-./chapter6/chapter6.tex:48: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   G
-l.48 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:48: Missing number, treated as zero.
-<to be read again> 
-                   \advance 
-l.48 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:48: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \advance 
-l.48 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:48: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   G
-l.48 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:48: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   G
-l.48 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:48: Missing = inserted for \ifdim.
-<to be read again> 
-                   G
-l.48 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:48: Missing number, treated as zero.
-<to be read again> 
-                   G
-l.48 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:48: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   G
-l.48 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:48: Missing number, treated as zero.
-<to be read again> 
-                   \advance 
-l.48 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:48: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \advance 
-l.48 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:48: Missing number, treated as zero.
-<to be read again> 
-                   \unskip 
-l.48 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:48: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \unskip 
-l.48 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-
-Overfull \vbox (12.49998pt too high) detected at line 48
- []
-
-./chapter6/chapter6.tex:48: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   G
-l.48 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:48: Missing = inserted for \ifdim.
-<to be read again> 
-                   G
-l.48 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:48: Missing number, treated as zero.
-<to be read again> 
-                   G
-l.48 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-./chapter6/chapter6.tex:48: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   G
-l.48 ...1.Good Global muon}                      &
-                                                  Global muon\\\cline{2-2}
-? 
-
-Overfull \hbox (13.72221pt too wide) in paragraph at lines 43--56
- [] 
- []
-
-[7pdfTeX warning (ext4): destination with the same identifier (name{table.6.1})
- has been already used, duplicate ignored
+] [7pdfTeX warning (ext4): destination with the same identifier (name{table.6.1
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -972,77 +719,115 @@ e.6.2}) has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.60 
-     ]
-./chapter6/chapter6.tex:64: Undefined control sequence.
-l.64 ...f the two jets, $\textrm{M}_{jj}<550$ \GeV
-                                                  .
-? 
-./chapter6/chapter6.tex:65: Undefined control sequence.
-l.65 ...$, also require $\textrm{M}_{jj}>550$ \GeV
-                                                  .
-? 
-[9]
-<chapter6/Tuning/ggtMtToPfMet_type1.pdf, id=309, 569.12625pt x 549.05125pt>
+     ] [9]
+
+LaTeX Warning: Reference `fig:optMT' on page 10 undefined on input line 73.
+
+
+LaTeX Warning: Reference `fig:optVBFmass' on page 10 undefined on input line 73
+.
+
+<chapter6/Tuning/ggtMtToPfMet_type1.pdf, id=132, 569.12625pt x 549.05125pt>
 File: chapter6/Tuning/ggtMtToPfMet_type1.pdf Graphic file (type pdf)
 
 <use chapter6/Tuning/ggtMtToPfMet_type1.pdf>
 Package pdftex.def Info: chapter6/Tuning/ggtMtToPfMet_type1.pdf used on input l
-ine 79.
+ine 78.
 (pdftex.def)             Requested size: 166.39746pt x 160.52773pt.
 
-<chapter6/Tuning/boosttMtToPfMet_type1.pdf, id=310, 569.12625pt x 549.05125pt>
+<chapter6/Tuning/boosttMtToPfMet_type1.pdf, id=133, 569.12625pt x 549.05125pt>
 File: chapter6/Tuning/boosttMtToPfMet_type1.pdf Graphic file (type pdf)
 
 <use chapter6/Tuning/boosttMtToPfMet_type1.pdf>
 Package pdftex.def Info: chapter6/Tuning/boosttMtToPfMet_type1.pdf used on inpu
-t line 80.
+t line 79.
 (pdftex.def)             Requested size: 166.39746pt x 160.52773pt.
 
-<chapter6/Tuning/vbf_ggtMtToPfMet_type1.pdf, id=311, 569.12625pt x 549.05125pt>
+<chapter6/Tuning/vbf_ggtMtToPfMet_type1.pdf, id=134, 569.12625pt x 549.05125pt>
 File: chapter6/Tuning/vbf_ggtMtToPfMet_type1.pdf Graphic file (type pdf)
 <use chapter6/Tuning/vbf_ggtMtToPfMet_type1.pdf>
 Package pdftex.def Info: chapter6/Tuning/vbf_ggtMtToPfMet_type1.pdf used on inp
-ut line 81.
+ut line 80.
 (pdftex.def)             Requested size: 166.39746pt x 160.52773pt.
 
-<chapter6/Tuning/vbf_vbftMtToPfMet_type1.pdf, id=312, 569.12625pt x 549.05125pt
+<chapter6/Tuning/vbf_vbftMtToPfMet_type1.pdf, id=135, 569.12625pt x 549.05125pt
 >
 File: chapter6/Tuning/vbf_vbftMtToPfMet_type1.pdf Graphic file (type pdf)
  <use chapter6/Tuning/vbf_vbftMtToPfMet_type1.pdf>
 Package pdftex.def Info: chapter6/Tuning/vbf_vbftMtToPfMet_type1.pdf used on in
-put line 82.
+put line 81.
 (pdftex.def)             Requested size: 166.39746pt x 160.52773pt.
 
-<chapter6/Tuning/vbf_vbfvbfMass.pdf, id=313, 569.12625pt x 549.05125pt>
+<chapter6/Tuning/vbf_vbfvbfMass.pdf, id=136, 569.12625pt x 549.05125pt>
 File: chapter6/Tuning/vbf_vbfvbfMass.pdf Graphic file (type pdf)
 
 <use chapter6/Tuning/vbf_vbfvbfMass.pdf>
 Package pdftex.def Info: chapter6/Tuning/vbf_vbfvbfMass.pdf used on input line 
-89.
+88.
 (pdftex.def)             Requested size: 166.39746pt x 160.52773pt.
-) [10] [11pdfTeX warning (ext4): destination with the same identifier (name{fig
-ure.6.1}) has been already used, duplicate ignored
+
+
+LaTeX Warning: Reference `BDTchaper' on page 10 undefined on input line 97.
+
+
+LaTeX Warning: Reference `fig:BDTvariable' on page 10 undefined on input line 9
+7.
+
+[10] [11pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.6.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.238 \include{chapter6/chapter6}
-                                  <./chapter6/Tuning/ggtMtToPfMet_type1.pdf, pa
-ge is rotated 90 degrees> <./chapter6/Tuning/boosttMtToPfMet_type1.pdf, page is
- rotated 90 degrees> <./chapter6/Tuning/vbf_ggtMtToPfMet_type1.pdf, page is rot
-ated 90 degrees> <./chapter6/Tuning/vbf_vbftMtToPfMet_type1.pdf, page is rotate
-d 90 degrees>] [12pdfTeX warning (ext4): destination with the same identifier (
-name{figure.6.2}) has been already used, duplicate ignored
+l.98 
+      <./chapter6/Tuning/ggtMtToPfMet_type1.pdf, page is rotated 90 degrees> <.
+/chapter6/Tuning/boosttMtToPfMet_type1.pdf, page is rotated 90 degrees> <./chap
+ter6/Tuning/vbf_ggtMtToPfMet_type1.pdf, page is rotated 90 degrees> <./chapter6
+/Tuning/vbf_vbftMtToPfMet_type1.pdf, page is rotated 90 degrees>]
+./chapter6/chapter6.tex:102: Undefined control sequence.
+l.102 ...d the $\tauh$ candidate, $\Delta\eta(\Pgm
+                                                  , \tauh)$.
+? 
+./chapter6/chapter6.tex:103: Undefined control sequence.
+l.103 ...he muon and the $\tauh$, $\Delta\phi(\Pgm
+                                                  ,\tauh)$.
+? 
+./chapter6/chapter6.tex:106: Undefined control sequence.
+<recently read> \pt 
+                    
+l.106 \item Muon $\pt
+                     $.
+? 
+./chapter6/chapter6.tex:107: Undefined control sequence.
+<recently read> \pt 
+                    
+l.107 \item $\tau_h$ $\pt
+                         $.
+? 
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.238 \include{chapter6/chapter6}
-                                  <./chapter6/Tuning/vbf_vbfvbfMass.pdf, page i
-s rotated 90 degrees>]
+l.108 \end{itemize}
+                    <./chapter6/Tuning/vbf_vbfvbfMass.pdf, page is rotated 90 d
+egrees>] <chapter6/BDTvariable.pdf, id=258, 569.48758pt x 444.4605pt>
+File: chapter6/BDTvariable.pdf Graphic file (type pdf)
+
+<use chapter6/BDTvariable.pdf>
+Package pdftex.def Info: chapter6/BDTvariable.pdf used on input line 112.
+(pdftex.def)             Requested size: 416.0pt x 324.67726pt.
+) [13pdfTeX warning (ext4): destination with the same identifier (name{figure.6
+.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.263 \include{chapter6/chapter6}
+                                  <./chapter6/BDTvariable.pdf>]
 \openout2 = `chapter7.aux'.
 
  (./chapter7.tex
 CHAPTER 7.
-) [13
+) [14
 
 
 
@@ -1051,7 +836,7 @@ CHAPTER 7.
 
  (./chapter8.tex
 CHAPTER 8.
-) [14
+) [15
 
 
 
@@ -1060,46 +845,60 @@ CHAPTER 8.
 
  (./chapter9.tex
 CHAPTER 9.
-) [15
+) [16
 
 
 
 ] (./mainbody.bbl)
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 288.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 313.
 
-[16
+[17
 
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 288.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 288.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 313.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 313.
  (./mainbody.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
 (./chapter4.aux) (./chapter5.aux) (./chapter6/chapter6.aux) (./chapter7.aux)
-(./chapter8.aux) (./chapter9.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 288.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 288.
-Package rerunfilecheck Info: File `mainbody.out' has not changed.
-(rerunfilecheck)             Checksum: 70EB9F1ED3526CBFA2010C3981A844B3;2617.
+(./chapter8.aux) (./chapter9.aux)
 
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 313.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 313.
+
+
+Package rerunfilecheck Warning: File `mainbody.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `mainbody.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  540B013659C874DB8B84EED8842FF9CC;2705.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 288.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 313.
  ) 
 Here is how much of TeX's memory you used:
- 7564 strings out of 492995
- 108816 string characters out of 6132705
- 203075 words of memory out of 5000000
- 10810 multiletter control sequences out of 15000+600000
+ 7530 strings out of 492995
+ 108199 string characters out of 6132705
+ 197161 words of memory out of 5000000
+ 10794 multiletter control sequences out of 15000+600000
  17128 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,33p,1544b,369s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,32p,1544b,394s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pf
 b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pf
@@ -1117,10 +916,10 @@ live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
 ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
 ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on mainbody.pdf (28 pages, 276076 bytes).
+Output written on mainbody.pdf (27 pages, 523781 bytes).
 PDF statistics:
- 529 PDF objects out of 1000 (max. 8388607)
- 442 compressed objects within 5 object streams
- 75 named destinations out of 1000 (max. 500000)
- 338 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 376 PDF objects out of 1000 (max. 8388607)
+ 288 compressed objects within 3 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

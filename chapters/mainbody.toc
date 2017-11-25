@@ -1,7 +1,7 @@
-\contentsline {chapter}{FIGURES}{v}{chapter*.3}
-\contentsline {chapter}{TABLES}{vi}{chapter*.4}
-\contentsline {chapter}{PREFACE}{vii}{chapter*.5}
-\contentsline {chapter}{ACKNOWLEDGMENTS}{viii}{chapter*.6}
+\contentsline {chapter}{FIGURES}{iv}{chapter*.3}
+\contentsline {chapter}{TABLES}{v}{chapter*.4}
+\contentsline {chapter}{PREFACE}{vi}{chapter*.5}
+\contentsline {chapter}{ACKNOWLEDGMENTS}{vii}{chapter*.6}
 \contentsline {chapter}{{CHAPTER\ 1: Introduction}}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Pre-LHC era on lepton Flavor violation(LFV) search and results}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Overview of CMS Run1 and Run2 direct search on LFV }{1}{section.1.2}
@@ -27,10 +27,11 @@
 \contentsline {section}{\numberline {6.1}$H\rightarrow \mu \tau _h$}{6}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Loose selection}{6}{subsection.6.1.1}
 \contentsline {subsection}{\numberline {6.1.2}Cut-based analysis}{9}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}Multivarite analysis}{10}{section.6.2}
-\contentsline {chapter}{{CHAPTER\ 7: Signal extraction and systematics}}{13}{chapter.7}
-\contentsline {section}{\numberline {7.1}statistical methods}{13}{section.7.1}
-\contentsline {section}{\numberline {7.2}Nuisance variables}{13}{section.7.2}
-\contentsline {chapter}{{CHAPTER\ 8: LFV Higgs decay searching results}}{14}{chapter.8}
-\contentsline {chapter}{{CHAPTER\ 9: Conclusion}}{15}{chapter.9}
-\contentsline {chapter}{BIBLIOGRAPHY}{16}{appendix*.7}
+\contentsline {subsection}{\numberline {6.1.3}Multivariate analysis}{10}{subsection.6.1.3}
+\contentsline {chapter}{{CHAPTER\ 7: Signal extraction and systematics}}{14}{chapter.7}
+\contentsline {section}{\numberline {7.1}Boost decision trees method}{14}{section.7.1}
+\contentsline {section}{\numberline {7.2}statistical methods}{14}{section.7.2}
+\contentsline {section}{\numberline {7.3}Nuisance variables}{14}{section.7.3}
+\contentsline {chapter}{{CHAPTER\ 8: LFV Higgs decay searching results}}{15}{chapter.8}
+\contentsline {chapter}{{CHAPTER\ 9: Conclusion}}{16}{chapter.9}
+\contentsline {chapter}{BIBLIOGRAPHY}{17}{appendix*.7}
