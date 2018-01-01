@@ -4,15 +4,23 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Expected limits based on an Asimov dataset as a function of $M_T(\tau , MET)$ for the different categories.}}{11}{figure.6.1}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {0 jet}}}{11}{figure.6.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {1 jet}}}{11}{figure.6.1}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {2 jets, gg-enriched}}}{11}{figure.6.1}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {2 jets, VBF-enriched}}}{11}{figure.6.1}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Expected limits based on an Asimov dataset as a function of $M_T(\tau , MET)$ for the different categories.}}{17}{figure.6.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {0 jet}}}{17}{figure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {1 jet}}}{17}{figure.6.1}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {2 jets, gg-enriched}}}{17}{figure.6.1}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {2 jets, VBF-enriched}}}{17}{figure.6.1}
  {\vskip 0.4em} 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Expected limits based on an Asimov dataset as a function of $M_{jj}$ for the 2 jet categories.}}{12}{figure.6.2}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Expected limits based on an Asimov dataset as a function of $M_{jj}$ for the 2 jet categories.}}{19}{figure.6.2}
  {\vskip 0.4em} 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $: BDT input variable distributions. Signal distributions are drawn in blue and the background distributions in red.}}{13}{figure.6.3}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Distributions of the input variables to the BDT for the \ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace channel.}}{20}{figure.6.3}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Expected limits based on an Asimov dataset as a function of $M_T(\tau , MET)$ for the different categories.}}{21}{figure.6.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Signal sample variables correlation}}}{21}{figure.6.4}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Background sample variable correlation}}}{21}{figure.6.4}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Overtraining checking for the BDT training in the TMVA package.}}{21}{figure.6.5}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces With loose selection conditions, the comparison of the observed collinear mass distributions with background from prediction. The shaded grey bands indicate the total background uncertainty. The open histograms correspond to the expected signal distributions for $\mathcal {B}(\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace )=100\%$ in the 0-jet, 1-jet and 2-jet categories, respectively.}}{24}{figure.6.6}
  {\vskip 0.4em} 
 \addvspace {10\p@ }
 \addvspace {10\p@ }

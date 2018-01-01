@@ -2,11 +2,19 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Muon ID used in the analysis, for the LHC data 2016, running period BCDEF. }}{7}{table.6.1}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Muon ID used in the analysis, for the LHC data 2016, running period BCDEF. }}{5}{table.4.1}
  {\vskip 0.4em} 
-\contentsline {table}{\numberline {6.2}{\ignorespaces Muon ID used in the analysis, for the LHC data 2016, running period G and H, also the monte Carlo samples. }}{8}{table.6.2}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Muon ID used in the analysis, for the LHC data 2016, running period G and H, also the monte Carlo samples. }}{6}{table.4.2}
+ {\vskip 0.4em} 
+\contentsline {table}{\numberline {4.3}{\ignorespaces Dominant hadronic $\tau $ lepton decays branching fractions and the associated intermediate resonance. The h stands for both $\pi $ and K. The table is symmetric under charge conjugation.}}{8}{table.4.3}
+ {\vskip 0.4em} 
+\contentsline {table}{\numberline {4.4}{\ignorespaces $\tau $ hadronic decay mode hypothesis signatures compatibility tests. $m_{\tau }$ is required to be in the mass window }}{11}{table.4.4}
+ {\vskip 0.4em} 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Selection criteria for each event category after cut optimization, for the $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $ channel}}{18}{table.6.1}
+ {\vskip 0.4em} 
+\contentsline {table}{\numberline {6.2}{\ignorespaces Selection criteria for each event category after cut optimization, for the $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $ channel}}{25}{table.6.2}
  {\vskip 0.4em} 
 \addvspace {10\p@ }
 \addvspace {10\p@ }

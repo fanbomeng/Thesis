@@ -19,8 +19,8 @@
 %   the Graduate Student Union
 %   http://www.gsu.nd.edu/
 %
-% Nothing in this document is serious except the format.  :-)
-%
+% Nothing in this document is serious except the format.  :-)%
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % This is *not* a substitute for the documentation, which is included
 % as a pdf file in the standard distribution, and can be obatined from
@@ -81,34 +81,12 @@
 \usepackage{multirow}
 \usepackage{subfigure}
 \usepackage{hyperref}
-\usepackage{cite}
+%\usepackage{cite}
 \usepackage{subfigure}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \begin{document}
 \input{symbolsinput.tex} 
-%\providecommand{\mt}{\ensuremath{M_\mathrm{T}}\xspace}
-%\newcommand{\Htt}{\ensuremath{\mathrm{H} \to \tau \tau}\xspace}
-%\newcommand{\Htetmu}{\ensuremath{\mathrm{H} \to \tau_{e} \tau_{\mu}}\xspace}
-%\newcommand{\Hteth}{\ensuremath{\mathrm{H} \to \tau_{e} \tau_{\textrm{h}}}\xspace}
-%\newcommand{\Het}{\ensuremath{\mathrm{H} \to e \tau}\xspace}
-%\newcommand{\Hmt}{\ensuremath{\mathrm{H} \to \mu \tau}\xspace}
-%\newcommand{\Hmue}{\ensuremath{\mathrm{H} \to \mu \tau_{e}}\xspace}
-%\newcommand{\Hmuhad}{\ensuremath{\mathrm{H}\to \mu\tau_{h}}\xspace}
-%%\newcommand\Hmuhad      {\ensuremath{\PH \to \Pgm \Pgt_{h}}\xspace}
-%\newcommand{\Hehad}{\ensuremath{\mathrm{H} \to e \tau_{h}}\xspace}
-%\newcommand{\Hemu}{\ensuremath{\mathrm{H} \to e \tau_{\mu}}\xspace}
-%\newcommand{\mue}{\ensuremath{\mu \tau_{e}}\xspace}
-%\newcommand{\emu}{\ensuremath{e \tau_{\mu}}\xspace}
-%\newcommand{\muhad}{\ensuremath{\mu \tau_{h}}\xspace}
-%\newcommand{\ehad}{\ensuremath{e \tau_{h}}\xspace}
-%\newcommand{\met}{\ensuremath{\cancel{\it{E}}_{T}}\xspace}
-%\newcommand{\mcol}{\ensuremath{M_{col}}\xspace}
-%\newcommand{\mvis}{\ensuremath{M_{vis}}\xspace}
-%\newcommand{\msig}{\ensuremath{100\:\GeV< M_{collinear} < \: 150\:\GeV}\xspace}
-%\newcommand{\tauh}{\ensuremath{\tau_{h}}\xspace}
-%\newcommand{\wjets}{\ensuremath{W+\textrm{jets}}\xspace}
-%\newcommand{\zjets}{\ensuremath{Z+\textrm{jets}}\xspace}
 \frontmatter % All the items before the first chapter go in ``frontmatter''
 
 % Titles may be 1-4 lines long. If your title is longer than 4 lines,
@@ -280,6 +258,8 @@ probably I will write some preface, but it depends   \Hmuhad
 % Appendix (optional)
 %
 
+\include{chapterfakerate}
+
 \appendix
 
 %\include{appendix}
@@ -294,7 +274,7 @@ probably I will write some preface, but it depends   \Hmuhad
 
  \backmatter
  \bibliographystyle{abbrvnat} % The standard abbrvnat style should be acceptable. Also provided with both the advanced and standard
- \bibliography{/Users/FMENG/Desktop/Thesis/My_thesis/chapters/reference/reference}       % distributions are nddiss2e and nddiss2enoarticletitles style options.
+ \bibliography{/Users/FMENG/Desktop/Thesis/Thesis/chapters/reference/reference}       % distributions are nddiss2e and nddiss2enoarticletitles style options.
 % If you prefer to manually enter your bibliography, that is fine. Comment out the previous two lines, and enter your bibliography
 % as usual. Note that if you choose this route, formatting the bibliography is your responsibility. An example is below, including the
 % optional arguments necessary for author-date style citations.

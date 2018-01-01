@@ -1,33 +1,3 @@
-%
-% Modified by Megan Patnott
-% Last Change: Jan 18, 2013
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Modified by Sameer Vijay
-% Last Change: Wed Jul 27 2005 13:00 CEST
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Sample Notre Dame Thesis/Dissertation
-% Using Donald Peterson's ndthesis classfile
-%
-% Written by Jeff Squyres and Don Peterson
-%
-% Provided by the Information Technology Committee of
-%   the Graduate Student Union
-%   http://www.gsu.nd.edu/
-%
-% Nothing in this document is serious except the format.  :-)
-%
-% If you have any suggestions, comments, questions, please send e-mail
-% to: ndthesis@gsu.nd.edu
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%
-% Chapter 2
-%
 
 \chapter{Datasets}
 \section{Datasets used in LFV analysis}
@@ -36,6 +6,124 @@
 
 
 \section{Event reconstruction}
+
+
+\subsection{Muon reconstruction and selection criteria}
+
+With the PF muon as the input, muons used in the analysis are further categorized into different identification, isolation categories. Muon ID suggested in CMS RunII, for the LHC data 2016, running period BCDEF, ICHEP medium muon ID is applied(table~\ref{tbl:ICHEPMedID}), for running period G and H, also the monte Carlo samples, standard medium muon ID(table~\ref{tbl:standardMedID})are applied to achieve the best performance for muon identification.
+
+
+\begin{table}[!tpb]
+\caption{Muon ID used in the analysis, for the LHC data 2016, running period BCDEF.  \label{tbl:ICHEPMedID}}
+\label{tab:antil}
+\begin{center}
+\begin{tabular}{|l|c|}   
+\hline
+ICHEP mediumID description                    &  Technical description\\\hline
+Loose muon ID                               & PFLoose Muon\\\hline
+Fraction of valid tracker hits           & $>0.49$ \\\hline
+\multirow{5}{*}{1.Good Global muon}                      &Global muon\\\cline{2-2}
+                                                                        &Normalized global-track $\chi^{2}<3$\\\cline{2-2}
+                                                                        &Tracker-Standalone position match $< 12$\\\cline{2-2}
+                                                                        &kick finder $< 20$ \\\cline{2-2}
+                                                                        &Segment compatibility $> 0.303$ \\\hline                                                                       
+\hline
+2. Tight segment compatibility      & Segment compatibility $>0.451$\\\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{table}[!tpb]
+\caption{Muon ID used in the analysis, for the LHC data 2016, running period G and H, also the monte Carlo samples.  \label{tbl:standardMedID}}
+\label{tab:antil}
+\begin{center}
+\begin{tabular}{|l|c|}   
+\hline
+Standard mediumID description                    &  Technical description\\\hline
+Loose muon ID                               & PFLoose Muon\\\hline
+Fraction of valid tracker hits           & $>0.8$ \\\hline
+\multirow{5}{*}{1.Good Global muon}                      &Global muon\\\cline{2-2}
+                                                                        &Normalized global-track $\chi^{2}<3$\\\cline{2-2}
+                                                                        &Tracker-Standalone position match $< 12$\\\cline{2-2}
+                                                                        &kick finder $< 20$ \\\cline{2-2}
+                                                                        &Segment compatibility $> 0.303$ \\\hline                                                                       
+\hline
+2. Tight segment compatibility      & Segment compatibility $>0.451$\\\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{Tau lepton reconstruction} \label{Chapter:taureco}
+
+In Run I CMS experiment, tau lepton are constructed with hadrons plus strips(HPS) algorithm. In general, HPS starts with PF jets which are reconstructed with $anti-k_{T}$, as the initial seeds. $\pi_{0}$ components from the $\tau$ hadronic decays are first constructed and combined with the charge hadrons parts, to identify different $\tau$ decay modes and calculate $\tau$ four-momentum and other quantities ~\cite{TauIdentiRunI}. 
+
+Photon conversions and the bremsstrahlung of electron/positron when traveling inside the CMS detector are well treated by the HPS algorithm. These phenomenons broaden the signature of the tau decay. With PF jets as input, the algorithm constructs strips out of electromagnetic particles and starts by taking the strip in which contains the most energetic electromagnetic particle as the center one. With the center strip, a window of the size $\Delta \eta=0.05$ and $\Delta \phi=0.2$ is taken. Within this window, if other charged particles are found, they are associated with the strip. The position of the strip is taken and four momentum of the strip is calculated. This procedure is repeated, until no strips can be constructed. The selected strips are required to have $P_{T}^{strip}>1GeV$. The following decay topologies are taking into account by HPS:
+\begin{enumerate}[$\bullet$]
+\item one charged particle without any strip, $h^{\pm}$ and the case when $\pi^{0}$ is not energetic enough to form a strip
+\item one charged particle plus one strip
+\item one charged particle plus two strips
+\item three charged partibles. 
+\end{enumerate} 
+
+All of the charged hadrons and strips are required to be contained in the $\Delta R=2.8/P_{T}^{\tau_{h}}$ core, where the $P_{T}^{\tau_{h}}$ is the reconstructed $\tau_{h}$ transverse momentum and $\Delta R$ is defined as $\Delta R=\sqrt(\Delta \phi^{2}+\Delta \eta^{2})$. The $\tau_{h}$ candidate is also required to match the direction of the seed PF jet within $\Delta R=0.1$. Assuming all of the charged hadrons to be pions and taking in the associated strips, the HPS algorithm requires that different decay topologies meet the intermediate meson mass as listed in Table.~\ref{tb:tauHdecay}. Tau lepton isolation in the cut based criterion is determined by if there are extra charged hadrons or photons besides the ones from $\tau_{h}$ in the cone $\Delta R=0.5$ in $\tau_{h}$ direction. Isolation cuts differ in which energy of the photons and hadrons are considered, ending up in loose, medium and tight level of cuts. The exact of the energy selection is suggested by the study of QCD dijet events. The loose cut brings in approximate $1\%$ of fake $\tau$ from jets. 
+
+
+\begin{table}[htp]
+\caption{Dominant hadronic $\tau$ lepton decays branching fractions and the associated intermediate resonance. The h stands for both $\pi$ and K. The table is symmetric under charge conjugation.}\label{tb:tauHdecay}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Decay mode                                             & Resonance & Mass ($MeV/c^{2}$) & Branching fraction(\%)\\\hline
+$\tau^{-}\to h^{-}v_{\tau}$                                     &                                  &           &  11.6\%     \\
+$\tau^{-}\to h^{-}\pi^{0} v_{\tau}$                       & $\rho^{-}$                 & 770     &   26.0\%      \\
+$\tau^{-}\to h^{-}\pi^{0} \pi^{0}  v_{\tau}$       & $\alpha_{1}^{-}$       & 1200   &   9.5\%     \\
+$\tau^{-}\to h^{-}h^{+}h^{-}v_{\tau}$                     & $\alpha_{1}^{-}$       &  1200  &   9.8\%  \\
+$\tau^{-}\to h^{-}h^{+}h^{-}\pi^{0} v_{\tau}$      &                                  &            &   4.8\% \\\hline
+ \end{tabular}
+\end{center}
+\end{table}
+
+
+In CMS RunII, Tau reconstruction algorithm HPS has been improved~\cite{TauRecoandIDRunII}. The major improvement lies in Dynamic strip instead of fix size strip. Tau decay products can also affect the isolation. Charged pions in tau decay products experience nuclear interaction with tracker materials, which can results in low $P_{T}$ secondary particles. Photons from the neutral pion decay can also go through pair production into $e^{+}e{-}$, which further spread because of bremsstrahlung and the magnetic field. Broadening the strip is need in these cases in order to better cover the tau decay production. On the other hand, if the tau is boosted, high $P_{T}$ decay products tends to be more concentrate and smaller strip size will be better. Similar to RunI tau reconstruction, the algorithm starts with hightest $\pt$ charged particle as seeds for the strip. Starting from the seed strip, a window in $\eta$ and $\phi$ direction is set.  
+
+\begin{align*}
+\delta\eta&=f(P_{T}^{\gamma})+f(P_{T}^{strip})   & f(P_{T})&=0.2\cdot P_{T}^{-0.66}\\
+\delta\phi&=g(P_{T}^{\gamma})+g(P_{T}^{strip}) & g(P_{T})&=0.35\cdot P_{T}^{-0.71}\\
+\end{align*}
+
+The window is determined from single $\tau$ gun MC simulation. 95\% of the decay product will be covered in that range. The upward and downward limits for $\eta$ is 0.15 and 0.05, for $\phi$ the range is 0.3 and 0.05.  The position of strip is set as $\pt$ weighted average against all of the objects. 
+
+\begin{align*}
+\eta_{strip}&=\frac{1}{P_{T}^{strip}}\cdot\sum P_{T}^{\gamma}\cdot\eta_{\gamma}\\
+\phi_{strip}&=\frac{1}{P_{T}^{strip}}\cdot\sum P_{T}^{\gamma}\cdot\phi_{\gamma}\\
+\end{align*}
+
+Construct the strip until no seed strip can be found. After the construction of the $\tau$ lepton, for different decay mode, $m_{\tau}$ is required to lie in different mass windows~\cite{TauReconstuction}.  The conditions of different hadronic decay mode mass window are listed in the Table.~\ref{tb:tauHdecayRecomass}. With respect to RunI, the difference in mass window is $\delta m$, which originates from dynamic clustering. $\delta m$ is calculated as:
+
+\begin{align*}
+\delta m&=\sqrt{\Big(\frac{\partial m_{\tau}}{\partial \eta_{strip}}\cdot f(\pt^{strip})\Big)^{2}+\Big(\frac{\partial m_{\tau}}{\partial \phi_{strip}}\cdot g(\pt^{strip})\Big)^{2}}\\
+\end{align*}
+with:
+\begin{align*}
+\frac{\partial m_{\tau}}{\partial\eta_{strip}}&=\frac{P_{z}^{strip}\cdot E_{\tau}-E_{strip}\cdot P_{z}^{\tau}}{m_{\tau}}\\
+\frac{\partial m_{\tau}}{\partial\phi_{strip}}&=\frac{-(P_{y}^{\tau}-P_{y}^{strip})\cdot P_{x}^{strip}+(P_{x}^{\tau}-P_{x}^{strip})\cdot P_{y}^{strip}}{m_{\tau}}
+\end{align*}
+
+
+\begin{table}[htp]
+\caption{$\tau$ hadronic decay mode hypothesis signatures compatibility tests. $m_{\tau}$ is required to be in the mass window }\label{tb:tauHdecayRecomass}
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+Decay mode                                             & Mass window\\\hline
+$\tau^{-}\to h^{-}\pi^{0} v_{\tau}$                       & $0.3-\delta m_{\tau}<m_{\tau}<1.3\cdot \sqrt{\pt/100}+\delta m_{\tau}$      \\\hline
+$\tau^{-}\to h^{-}\pi^{0} \pi^{0}  v_{\tau}$       &  $0.4-\delta m_{\tau}<m_{\tau}<1.2\cdot \sqrt{\pt/100}+\delta m_{\tau}$   \\\hline
+$\tau^{-}\to h^{-}h^{+}h^{-}v_{\tau}$                     & $0.8-\delta m_{\tau}<m_{\tau}<1.5+\delta m_{\tau}$   \\\hline
+ \end{tabular}
+\end{center}
+\end{table}
+
 
 \section{Event simulation}
 
