@@ -29,5 +29,29 @@
 % Chapter 2
 %
 
-\chapter{Conclusion}
+\chapter{Fake background}
+
+The misidentified lepton backgrounds are estimated with full data driven method from the collision data. In $\Hmuhad$ channel,  the misidentification $\tau$ lepton rate is obtained from independent Z + jets data sets and then apply the rate to an control region that orthogonal to the signal region to estimate the misidentified lepton backgrounds. 
+
+Two set of Z + jets data sets are used, $Z\rightarrow\mu\mu$ and $Z\rightarrow e e$, to estimate the misidentified lepton rate in order to increase the statistics in the estimation.  In both cases, Z bosons are selected in the invariant mass window $70<M_{ll}<110 GeV$. In $Z\rightarrow\mu\mu$, the trigger HLT\_IsoMu24 or HLT\_IsoTkMu24 is used. Both muons are required to have $\pt>26 GeV$, $|\eta|<2.4$, cut based tight muon isolation($I^{\mu}_{rel}<0.15$), passing the muon medium ID   and in $Z\rightarrow e e$ case,  the trigger HLT\_singleE25eta2p1Tight is used. Both electrons are required to pass $\pt>26 GeV$, $|\eta|<2.1$, cut based tight electron isolation($I^{e}_{rel}<0.1$), passing MVANonTrigWP80 ID. In the Z+jets samples, with the selected Z boson in an event, the remaining jets are checked if they pass $\tau$ ID. The misidentified $\tau$ lepton ratio $\tau(f_{\tau})$ is calculated as in equation .~\ref{eq:1}, together with one related ratio $f_{\tau}$.
+
+\begin{align} \label{eq:1}
+\tau(f_{\tau})&=\frac{f_{\tau}}{1-f_{\tau}}\\
+f_{\tau}&=\frac{N_{\tau}(Z+jets\ tau\ tight\ Iso)}{N_{\tau}(Z+jets\ tau\ very\ loose\ Iso)}
+\end{align}
+
+$f_{\tau}$ is the ratio between number of jets pass tight $\tau$ MVA isolation ID and number of jets pass very loose $\tau$ MVA isolation ID. The jets that are identified as $\tau$ are also required to have $\pt>30$GeV and $|\eta|<2.3$. The control region which is orthogonal to the signal region is defined in the same criteria as the signal region, besides the requirement that $\tau$ leptons pass very loose isolation and not the tight isolation.  
+
+
+
+
+Exact method: 
+For mutauh: estimate the tau fake rate and not the muon fake rate. The muon fake numbers can be commented.  with Zmumu+jets and Zee+jets to increase the statistics. 
+The tau fake rate depends on Tau decay mode and $\pt$.
+
+
+
+For etauh: with the same tau fake rate as the mutauh channel, but also have extra electron fake rate. Electron fake rate is also estimated with both Zmumu+jets and Zee+jets samples to increase the statistics in high $\pt$ regions. 
+Control regions are checked to test the performance of this estimation. Same sign region and W+Jets enriched region. 
+Z+jets, fake ratio,  applied the weights to control region. 
 
