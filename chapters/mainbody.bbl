@@ -1,9 +1,15 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{12}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Chatrchyan et~al.(2014)]{Chatrchyan:2014nva}
+S.~Chatrchyan et~al.
+\newblock {Evidence for the 125 GeV Higgs boson decaying to a pair of $\tau$
+  leptons}.
+\newblock 2014.
 
 \bibitem[Collaboration"(2011)]{TauIdentiRunI}
 C.~Collaboration".
@@ -34,6 +40,32 @@ C.~Collaboration.
   2016{\natexlab{c}}.
 \newblock URL \url{https://cds.cern.ch/record/2138504}.
 
+\bibitem[Collaboration(2017)]{paper:13TeVsearch}
+C.~Collaboration.
+\newblock {Search for lepton flavour violating decays of the Higgs boson to
+  μτ and eτ in proton-proton collisions at $\sqrt{s}$= 13 TeV}.
+\newblock \emph{JHEP}, 2017.
+
+\bibitem[Denner et~al.(2011)Denner, Heinemeyer, Puljak, Rebuzzi, and
+  Spira]{Denner:2011mq}
+A.~Denner, S.~Heinemeyer, I.~Puljak, D.~Rebuzzi, and M.~Spira.
+\newblock Standard model {H}iggs-boson branching ratios with uncertainties.
+\newblock \emph{Eur. Phys. J. C}, 71:\penalty0 1753, 2011.
+\newblock \doi{10.1140/epjc/s10052-011-1753-8}.
+
+\bibitem[Harnik et~al.(2013)Harnik, Kopp, and Zupan]{Harnik:2012pb}
+R.~Harnik, J.~Kopp, and J.~Zupan.
+\newblock Flavor violating higgs decays.
+\newblock \emph{JHEP}, 03:\penalty0 26, 2013.
+\newblock \doi{10.1007/JHEP03(2013)026}.
+
+\bibitem[Hayasaka et~al.(2010)]{Hayasaka:2010np}
+K.~Hayasaka et~al.
+\newblock {Search for lepton flavor violating $\tau$ decays into three leptons
+  with 719 million produced $\tau^+\tau^-$ pairs}.
+\newblock \emph{Phys. Lett. B}, 687:\penalty0 139, 2010.
+\newblock \doi{10.1016/j.physletb.2010.03.037}.
+
 \bibitem[{Hoecker} et~al.(2007){Hoecker}, {Speckmayer}, {Stelzer}, {Therhaag},
   {von Toerne}, {Voss}, {Backes}, {Carli}, {Cohen}, {Christov}, {Dannheim},
   {Danielowski}, {Henrot-Versille}, {Jachowski}, {Kraszewski}, {Krasznahorkay},
@@ -47,5 +79,20 @@ A.~{Hoecker}, P.~{Speckmayer}, J.~{Stelzer}, J.~{Therhaag}, E.~{von Toerne},
   K.~{Voss}, M.~{Wolter}, and A.~{Zemla}.
 \newblock {TMVA - Toolkit for Multivariate Data Analysis}.
 \newblock \emph{ArXiv Physics e-prints}, Mar. 2007.
+
+\bibitem[Khachatryan et~al.(2016)]{HIG-14-040}
+V.~Khachatryan et~al.
+\newblock Search for lepton flavour violating decays of the higgs boson to
+  $\mathrm{e}\tau$ and $\mathrm{e}\mu$ in proton-proton collisions at
+  {$\sqrt{s}=8$ TeV}.
+\newblock \emph{Phys. Lett. B}, 763:\penalty0 472, 2016.
+\newblock \doi{10.1016/j.physletb.2016.09.062}.
+
+\bibitem[{Particle Data Group} et~al.(2016){Particle Data Group}, Patrignani,
+  et~al.]{Olive:2016xmw}
+{Particle Data Group}, C.~Patrignani, et~al.
+\newblock {Review of Particle Physics}.
+\newblock \emph{Chin. Phys. C}, 40:\penalty0 100001, 2016.
+\newblock \doi{10.1088/1674-1137/40/10/100001}.
 
 \end{thebibliography}

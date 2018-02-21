@@ -3,26 +3,79 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Expected limits based on an Asimov dataset as a function of $M_T(\tau , MET)$ for the different categories.}}{17}{figure.5.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {0 jet}}}{17}{figure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {1 jet}}}{17}{figure.5.1}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {2 jets, gg-enriched}}}{17}{figure.5.1}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {2 jets, VBF-enriched}}}{17}{figure.5.1}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Expected limits based on an Asimov dataset as a function of $M_{jj}$ for the 2 jet categories.}}{19}{figure.5.2}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Distributions of the input variables to the BDT for the \ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace channel.}}{21}{figure.5.3}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Expected limits based on an Asimov dataset as a function of $M_T(\tau , MET)$ for the different categories.}}{22}{figure.5.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Signal sample variables correlation}}}{22}{figure.5.4}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Background sample variable correlation}}}{22}{figure.5.4}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Overtraining checking for the BDT training in the TMVA package.}}{22}{figure.5.5}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces With loose selection conditions, the comparison of the observed collinear mass distributions with background from prediction. The shaded grey bands indicate the total background uncertainty. The open histograms correspond to the expected signal distributions for $\mathcal {B}(\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace )=100\%$ in the 0-jet, 1-jet and 2-jet categories, respectively.}}{24}{figure.5.6}
+ {\vskip 0.4em} 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Expected limits based on an Asimov dataset as a function of $M_T(\tau , MET)$ for the different categories.}}{17}{figure.6.1}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {0 jet}}}{17}{figure.6.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {1 jet}}}{17}{figure.6.1}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {2 jets, gg-enriched}}}{17}{figure.6.1}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {2 jets, VBF-enriched}}}{17}{figure.6.1}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces $f_{\tau }$ ratio for the $\tau $ fake rate calculation shows in term of tau decay modes, $\ensuremath {p_{T}}\xspace $, ECAL barrel, ECAL endcap, and $|\eta |$}}{30}{figure.6.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {EB tau decay mode 0}}}{30}{figure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {EB tau decay mode 1}}}{30}{figure.6.1}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {EB tau decay mode 10}}}{30}{figure.6.1}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {EE tau decay mode 0}}}{30}{figure.6.1}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {EE tau decay mode 1}}}{30}{figure.6.1}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {EE tau decay mode 10}}}{30}{figure.6.1}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {tau decay mode 0 vs $|\eta |$}}}{30}{figure.6.1}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {tau decay mode 0 vs $|\eta |$}}}{30}{figure.6.1}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {tau decay mode 0 vs $|\eta |$}}}{30}{figure.6.1}
  {\vskip 0.4em} 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Expected limits based on an Asimov dataset as a function of $M_{jj}$ for the 2 jet categories.}}{19}{figure.6.2}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces $f_{\tau }$ ratio for the $\mu $ fake rate calculation shows in term of muon $\ensuremath {p_{T}}\xspace $ and $|\eta |$.}}{31}{figure.6.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$f_{\mu }$ vs $\ensuremath {p_{T}}\xspace $}}}{31}{figure.6.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$f_{\mu }$ vs $|\eta |$}}}{31}{figure.6.2}
  {\vskip 0.4em} 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Distributions of the input variables to the BDT for the \ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace channel.}}{20}{figure.6.3}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces The validation of full data driven method for the misidentified lepton background. 30\% of uncertainty is assumed in both cases. }}{32}{figure.6.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Wjets enriched control region}}}{32}{figure.6.3}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Like-sign control region}}}{32}{figure.6.3}
  {\vskip 0.4em} 
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Expected limits based on an Asimov dataset as a function of $M_T(\tau , MET)$ for the different categories.}}{21}{figure.6.4}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Signal sample variables correlation}}}{21}{figure.6.4}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Background sample variable correlation}}}{21}{figure.6.4}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces $f_{\tau }$ and $f_{\tau }$ ratio for the fake rate calculation shows in term of $\ensuremath {p_{T}}\xspace $ and $|\eta |$}}{36}{figure.6.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$f_{\tau }$ vs $\ensuremath {p_{T}}\xspace $}}}{36}{figure.6.4}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$f_{\tau }$ vs $|\eta |$}}}{36}{figure.6.4}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$f_{e}$ vs $\ensuremath {p_{T}}\xspace $}}}{36}{figure.6.4}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$f_{e}$ vs $|\eta |$}}}{36}{figure.6.4}
  {\vskip 0.4em} 
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Overtraining checking for the BDT training in the TMVA package.}}{21}{figure.6.5}
- {\vskip 0.4em} 
-\contentsline {figure}{\numberline {6.6}{\ignorespaces With loose selection conditions, the comparison of the observed collinear mass distributions with background from prediction. The shaded grey bands indicate the total background uncertainty. The open histograms correspond to the expected signal distributions for $\mathcal {B}(\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace )=100\%$ in the 0-jet, 1-jet and 2-jet categories, respectively.}}{24}{figure.6.6}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Data driven method validation in Region II with e and $\tau $ leptons in same sign of charge}}{37}{figure.6.5}
  {\vskip 0.4em} 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces $\ensuremath {M_{col}}\xspace $ distribution after the selection. The signal and backgrounds in the plots have been normalized to the best fit values. The gray bands shows the total uncertainties in each bin and the signal is plotted with the branching ratio of 5\% of the higgs decay branching ratio for visualization purpose.}}{42}{figure.8.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {0 jet}}}{42}{figure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {1 jet}}}{42}{figure.8.1}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {2 jets, gg-enriched}}}{42}{figure.8.1}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {2 jets, VBF-enriched}}}{42}{figure.8.1}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {8.2}{\ignorespaces BDT discriminator distribution after the selection. The signal and backgrounds in the plots has been normalized to the best fit values. The gray bands shows the total uncertainties in each bin and the signal is plotted with the branching ratio of 5\% of the higgs decay branching ratio for visualization purpose. }}{43}{figure.8.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {0 jet}}}{43}{figure.8.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {1 jet}}}{43}{figure.8.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {2 jets, gg-enriched}}}{43}{figure.8.2}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {2 jets, VBF-enriched}}}{43}{figure.8.2}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {8.3}{\ignorespaces The expected and observed 95\% CL limits on branching ratio of total $H \to \mu \tau $ which shows the results from both $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $ and $H \to \mu \tau _{e}$ in the $\ensuremath {M_{col}}\xspace $ fit analysis and BDT fit analysis.}}{46}{figure.8.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\ensuremath {M_{col}}\xspace $ fit analysis}}}{46}{figure.8.3}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {BDT fit analysis}}}{46}{figure.8.3}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Upper limit of flavour violating Yukawa coupling $|Y_{\mu \tau }|, |Y_{\tau \mu }|$ from the BDT fit analysis. The red solid line represents the expected limit and the black solid line is the observed limit. 68\% and 95\% range of containing the observed limit is shown in the green and yellow band. The result from $\tau \to 3 \mu $ is shown in dark green\nobreakspace {}\cite {Hayasaka:2010np,Olive:2016xmw,Harnik:2012pb} and the one from $\tau \to \mu \gamma $ is shown in lighter green\nobreakspace {}\cite {Olive:2016xmw,Harnik:2012pb}. The theoretical naturalness limit $Y_{ij}Y_{ji} \leq m_im_j/v^2$ is shown by purple diagonal line\nobreakspace {}\cite {Harnik:2012pb}.}}{47}{figure.8.4}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {8.5}{\ignorespaces $\ensuremath {M_{col}}\xspace $ distribution after the selection. The signal and backgrounds in the plots have been normalized to the best fit values. The gray bands shows the total uncertainties in each bin and the signal is plotted with the branching ratio of 0.69\% of the higgs decay branching ratio for visualization purpose. }}{49}{figure.8.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {0 jet}}}{49}{figure.8.5}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {1 jet}}}{49}{figure.8.5}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {2 jets}}}{49}{figure.8.5}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {8.6}{\ignorespaces 95\% CL upper limit on branching ratio on $H \to e \tau $ with both the results from $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $ and $H \to e \tau _{\mu }$ and the combined. }}{50}{figure.8.6}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Upper limit of flavour violating Yukawa coupling $|Y_{e\tau }|, |Y_{\tau e}|$ from the combined $H \to e \tau $ result. The red solid line represents the expected limit and the black solid line is the observed limit. 68\% and 95\% range of containing the observed limit is shown in the green and yellow band. The result from $\tau \to 3e$ is shown in gray, the one from $\tau \to e\gamma $ is shown in dark green and presented analysis is in light blue. The theoretical naturalness limit $Y_{ij}Y_{ji} \leq m_im_j/v^2$ is shown by purple diagonal line\nobreakspace {}\cite {Harnik:2012pb}}}{52}{figure.8.7}
+ {\vskip 0.4em} 
 \addvspace {10\p@ }

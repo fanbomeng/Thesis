@@ -17,7 +17,7 @@
 %
 % Provided by the Information Technology Committee ofs
 %   the Graduate Student Union
-%   http://www.gsu.nd.edu/
+%   http://www.gsu.nd.edu/ 
 %
 % Nothing in this document is serious except the format.  :-)%
 
@@ -41,7 +41,7 @@
 % (at the very least, one chapter per file) and use the \include
 % command, as has been done here for chapters 1 and 2 and the appendix.
 % There is also an \input command, but \include is more commonly used to
-% import chapters in books and dissertations. For the differences between these
+% import chapters in books and dissertations. For the differencets between these
 % two commands, see, e.g., 
 % http://web.science.mq.edu.au/~rdale/resources/writingnotes/latexstruct.html
 % or http://tex.stackexchange.com/questions/246/when-should-i-use-input-vs-include.
@@ -85,6 +85,8 @@
 \usepackage{subfigure}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{hepnicenames}
+\usepackage{longtable}
 \begin{document}
 \input{symbolsinput.tex} 
 \frontmatter % All the items before the first chapter go in ``frontmatter''
@@ -233,7 +235,7 @@ probably I will write some preface, but it depends   \Hmuhad
 % Chapter 5 
 %
 
-\include{chapter5}
+\include{chapter5/chapter5}
 %
 % Chapter 6 
 %
@@ -243,12 +245,12 @@ probably I will write some preface, but it depends   \Hmuhad
 % Chapter 7 
 %
 
-\include{chapter7}
+\include{chapter7/chapter7}
 %
 % Chapter 8 
 %
 
-\include{chapter8}
+\include{chapter8/chapter8}
 %
 % Chapter 9 
 %
@@ -258,7 +260,7 @@ probably I will write some preface, but it depends   \Hmuhad
 % Appendix (optional)
 %
 
-\include{chapterfakerate}
+%\include{chapterfakerate/chapterfakerate}
 
 \appendix
 

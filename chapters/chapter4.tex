@@ -4,6 +4,58 @@
 
 
 
+\begin{table}[!hbpt]
+\begin{center}
+{\footnotesize
+\begin{tabular}{|l|c|}
+\hline
+MC simulations & Cross section \\
+\hline
+\texttt{/DYJetsToLL\_M-50\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8} & 4954.0 pb (LO)\\
+\texttt{/DY1JetsToLL\_M-50\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8} & 1012.5 pb (LO)\\
+\texttt{/DY2JetsToLL\_M-50\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8} & 332.8 pb (LO)\\
+\texttt{/DY3JetsToLL\_M-50\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8} & 101.8 pb (LO)\\
+\texttt{/DY4JetsToLL\_M-50\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8} & 54.8 pb (LO)\\
+\texttt{/DYJetsToLL\_M-10to50\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8} & 18610 pb (LO)\\
+\texttt{/TT\_TuneCUETP8M1\_13TeV-powheg-pythia8} & 831.76 pb\\
+\texttt{/WJetsToLNu\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8} & 50380 pb (LO)\\
+\texttt{/W1JetsToLNu\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8} & 9644.5 pb (LO)\\
+\texttt{/W2JetsToLNu\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8} & 3144.5 pb (LO)\\
+\texttt{/W3JetsToLNu\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8} & 954.8 pb (LO)\\
+\texttt{/W4JetsToLNu\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8/} & 485.6 pb (LO)\\
+\texttt{/WZTo1L3Nu\_13TeV\_amcatnloFXFX\_madspin\_pythia8} & 3.05 pb\\
+\texttt{/WZTo1L1Nu2Q\_13TeV\_amcatnloFXFX\_madspin\_pythia8} & 10.71 pb\\
+\texttt{/WZTo2L2Q\_13TeV\_amcatnloFXFX\_madspin\_pythia8} & 5.595 pb\\
+\texttt{/ST\_tW\_antitop\_5f\_inclusiveDecays\_13TeV-powheg-pythia8\_TuneCUETP8M1} & 35.85 pb\\
+\texttt{/ST\_tW\_top\_5f\_inclusiveDecays\_13TeV-powheg-pythia8\_TuneCUETP8M1} & 35.85 pb\\
+\texttt{/ST\_t-channel\_antitop\_4f\_leptonDecays\_13TeV-powheg-pythia8\_TuneCUETP8M1} & 80.95 pb\\
+\texttt{/ST\_t-channel\_top\_4f\_leptonDecays\_13TeV-powheg-pythia8\_TuneCUETP8M1} & 136.02 pb\\
+\texttt{/WWTo1L1Nu2Q\_13TeV\_amcatnloFXFX\_madspin\_pythia8} & 1.212 pb\\
+\texttt{/ZZTo2L2Q\_13TeV\_amcatnloFXFX\_madspin\_pythia8} & 3.22 pb\\
+\texttt{/VVTo2L2Nu\_13TeV\_amcatnloFXFX\_madspin\_pythia8} & 11.95 pb\\
+\texttt{/WGToLNuG\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8} & 489.0 pb \\
+\texttt{/WGstarToLNuMuMu\_012Jets\_13TeV-madgraph} & 2.793 pb \\
+\texttt{/WGstarToLNuEE\_012Jets\_13TeV-madgraph} & 3.526 pb \\
+\texttt{/GluGluHToTauTau\_M125\_13TeV\_powheg\_pythia8}   & 48.58 pb X 0.0627 \\
+\texttt{/VBFHToTauTau\_M125\_13TeV\_powheg\_pythia8}   & 3.782 pb X 0.0627 \\
+\texttt{/GluGluHToWWTo2L2Nu\_M125\_13TeV\_powheg\_pythia8}& 48.58 pb X 0.0227 \\
+\texttt{/VBFHToWWTo2L2Nu\_M125\_13TeV\_powheg\_pythia8}& 3.782 pb X 0.0227 \\
+\texttt{/ZHToTauTau\_M125\_13TeV\_powheg\_pythia8} & 0.8839 pb X 0.0627\\
+\texttt{/WminusHToTauTau\_M125\_13TeV\_powheg\_pythia8} & 1.373 pb X 0.0627\\
+\texttt{/WplusHToTauTau\_M125\_13TeV\_powheg\_pythia8} & 1.373 pb X 0.0627\\
+\texttt{/ttHJetToTT\_M125\_13TeV\_amcatnloFXFX\_madspin\_pythia8} & 0.507 pb  X 0.0627 \\
+\hline
+\end{tabular}
+} % end footnotesize
+\end{center}
+\caption{Monte Carlo samples used in the search, together with their respective cross sections. The k-factors for the
+W+jets and Z+jets samples are 1.21 and 1.16, respectively. The NNLO+NNLL QCD cross sections for the Higgs boson samples
+in gluon-gluon fusion production mode are considered in this version of the analysis, and will be replaced
+by N3LO cross sections before the approval.}
+\label{tab:mcsamples}
+\end{table}
+
+
 
 \section{Event reconstruction}
 
@@ -66,7 +118,15 @@ Photon conversions and the bremsstrahlung of electron/positron when traveling in
 \item three charged partibles. 
 \end{enumerate} 
 
-All of the charged hadrons and strips are required to be contained in the $\Delta R=2.8/P_{T}^{\tau_{h}}$ core, where the $P_{T}^{\tau_{h}}$ is the reconstructed $\tau_{h}$ transverse momentum and $\Delta R$ is defined as $\Delta R=\sqrt(\Delta \phi^{2}+\Delta \eta^{2})$. The $\tau_{h}$ candidate is also required to match the direction of the seed PF jet within $\Delta R=0.1$. Assuming all of the charged hadrons to be pions and taking in the associated strips, the HPS algorithm requires that different decay topologies meet the intermediate meson mass as listed in Table.~\ref{tb:tauHdecay}. Tau lepton isolation in the cut based criterion is determined by if there are extra charged hadrons or photons besides the ones from $\tau_{h}$ in the cone $\Delta R=0.5$ in $\tau_{h}$ direction. Isolation cuts differ in which energy of the photons and hadrons are considered, ending up in loose, medium and tight level of cuts. The exact of the energy selection is suggested by the study of QCD dijet events. The loose cut brings in approximate $1\%$ of fake $\tau$ from jets. 
+All of the charged hadrons and strips are required to be contained in the $\Delta R=2.8/P_{T}^{\tau_{h}}$ core, where the $P_{T}^{\tau_{h}}$ is the reconstructed $\tau_{h}$ transverse momentum and $\Delta R$ is defined as $\Delta R=\sqrt(\Delta \phi^{2}+\Delta \eta^{2})$. The $\tau_{h}$ candidate is also required to match the direction of the seed PF jet within $\Delta R=0.1$. Assuming all of the charged hadrons to be pions and taking in the associated strips, the HPS algorithm requires that different decay topologies meet the intermediate meson mass as listed in Table.~\ref{tb:tauHdecay}. 
+
+The cut based $\tau_{h}$ isolation discriminant required that the PF charged particles and photons to be considered in the isolation variable have $\pt>0.5$ GeV and within an isolation cone  $\Delta R=0.5$ in $\tau_{h}$ direction. The particles that  constituent $\tau_{h}$ are excluded from the summation. The effect of charged particle from pileup is eliminated by considering on the charged particle oriented from the $\tau_{h}$ production vertex with in $D_{z}=0.2$ cm and $\Delta r=0.03$ cm. The effect of pileup on the isolation of the photons on the strips is estimated by summing the charged particles that are not oriented from $\tau_{h}$ decay primary vertex, within $\Delta R=0.8$ cm in the direction of and have the impact parameter $D_{z}>0.2$ cm. Then a factor $\Delta \beta$ is multiplied to the $\pt$ sum. The isolation variable is defined as in Equation.~\ref{eq:taucutiso1}.
+
+\begin{align}
+I_{\tau}=\sum \pt^{\text{charged}} (d_{z}<0.2 \ \text{cm})+\text{max}(0,\sum \pt^{\gamma}-\Delta \beta \sum \pt^{\text{charged}} (d_{z}>0.2 \ \text{cm}))\label{eq:taucutiso1}
+\end{align}
+
+Tight, loose, medium working points(WP) for the tau isolation discriminants. The exact of the energy selection is suggested by the study of QCD dijet events, by requiring the $I_{\tau}$ in Equation.~{eq:taucutiso1} to have different values. The loose cut brings in approximate $1\%$ of fake $\tau$ from jets. 
 
 
 \begin{table}[htp]
@@ -85,7 +145,7 @@ $\tau^{-}\to h^{-}h^{+}h^{-}\pi^{0} v_{\tau}$      &                            
 \end{table}
 
 
-In CMS RunII, Tau reconstruction algorithm HPS has been improved~\cite{TauRecoandIDRunII}. The major improvement lies in Dynamic strip instead of fix size strip. Tau decay products can also affect the isolation. Charged pions in tau decay products experience nuclear interaction with tracker materials, which can results in low $P_{T}$ secondary particles. Photons from the neutral pion decay can also go through pair production into $e^{+}e{-}$, which further spread because of bremsstrahlung and the magnetic field. Broadening the strip is need in these cases in order to better cover the tau decay production. On the other hand, if the tau is boosted, high $P_{T}$ decay products tends to be more concentrate and smaller strip size will be better. Similar to RunI tau reconstruction, the algorithm starts with hightest $\pt$ charged particle as seeds for the strip. Starting from the seed strip, a window in $\eta$ and $\phi$ direction is set.  
+In CMS Run II, Tau reconstruction algorithm HPS has been improved~\cite{TauRecoandIDRunII}. The major improvement lies in Dynamic strip instead of fix size strip. Tau decay products can also affect the isolation. Charged pions in tau decay products experience nuclear interaction with tracker materials, which can results in low $P_{T}$ secondary particles. Photons from the neutral pion decay can also go through pair production into $e^{+}e{-}$, which further spread because of bremsstrahlung and the magnetic field. Broadening the strip is need in these cases in order to better cover the tau decay production. On the other hand, if the tau is boosted, high $P_{T}$ decay products tends to be more concentrate and smaller strip size will be better. Similar to RunI tau reconstruction, the algorithm starts with hightest $\pt$ charged particle as seeds for the strip. Starting from the seed strip, a window in $\eta$ and $\phi$ direction is set.  
 
 \begin{align*}
 \delta\eta&=f(P_{T}^{\gamma})+f(P_{T}^{strip})   & f(P_{T})&=0.2\cdot P_{T}^{-0.66}\\
@@ -102,12 +162,12 @@ The window is determined from single $\tau$ gun MC simulation. 95\% of the decay
 Construct the strip until no seed strip can be found. After the construction of the $\tau$ lepton, for different decay mode, $m_{\tau}$ is required to lie in different mass windows~\cite{TauReconstuction}.  The conditions of different hadronic decay mode mass window are listed in the Table.~\ref{tb:tauHdecayRecomass}. With respect to RunI, the difference in mass window is $\delta m$, which originates from dynamic clustering. $\delta m$ is calculated as:
 
 \begin{align*}
-\delta m&=\sqrt{\Big(\frac{\partial m_{\tau}}{\partial \eta_{strip}}\cdot f(\pt^{strip})\Big)^{2}+\Big(\frac{\partial m_{\tau}}{\partial \phi_{strip}}\cdot g(\pt^{strip})\Big)^{2}}\\
+\delta m&=\sqrt{\Big(\frac{\partial m_{\tau}}{\partial \eta_\text{{strip}}}\cdot f(\pt^\text{{strip}})\Big)^{2}+\Big(\frac{\partial m_{\tau}}{\partial \phi_\text{{strip}}}\cdot g(\pt^\text{{strip}})\Big)^{2}}\\
 \end{align*}
 with:
 \begin{align*}
 \frac{\partial m_{\tau}}{\partial\eta_{strip}}&=\frac{P_{z}^{strip}\cdot E_{\tau}-E_{strip}\cdot P_{z}^{\tau}}{m_{\tau}}\\
-\frac{\partial m_{\tau}}{\partial\phi_{strip}}&=\frac{-(P_{y}^{\tau}-P_{y}^{strip})\cdot P_{x}^{strip}+(P_{x}^{\tau}-P_{x}^{strip})\cdot P_{y}^{strip}}{m_{\tau}}
+\frac{\partial m_{\tau}}{\partial\phi_\text{{strip}}}&=\frac{-(P_{y}^{\tau}-P_{y}^\text{{strip}})\cdot P_{x}^\text{{strip}}+(P_{x}^{\tau}-P_{x}^\text{{strip}})\cdot P_{y}^\text{{strip}}}{m_{\tau}}
 \end{align*}
 
 
@@ -126,7 +186,14 @@ $\tau^{-}\to h^{-}h^{+}h^{-}v_{\tau}$                     & $0.8-\delta m_{\tau}
 
 In current algorithm, $\tau^{-}\to h^{-}h^{+}h^{-}v_{\tau}$ is not included, because of the jets contamination. This hadronic $\tau$ decay mode composed of 4.8\% of total branching fraction. The $h^{-}\pi^{0}$ and $h^{-}\pi^{0}\pi^{0}$ are analyzed together, which is referred as $h^{-}\pi^{0}$.
 
-The analysis with 2016 datasets, MVA based $\tau$ isolation criteria is used, which keeps high identification efficiency while maintains relatively low fake rate compared with cut based criteria.
+The analysis with 2016 datasets, MVA based $\tau$ isolation criteria is used, which keeps high identification efficiency while maintains relatively low fake rate compared with cut based discriminator. A Boosted Decision Tree(BDT) has been used in the training of the isolation variable. With BDT, the isolation variable shows a good distinguishing power against jets. Various variables have been used as BDT inputs. The variables are isolation variable($I_{\tau}$), impact parameter from highest $\pt$ track of $\tau_{h}$ candidate, $\tau_{h}$ decay mode information, shape variables like $\Delta R$, $\Delta \eta$, $\tau-$lifetime information and photon electron multiplicity, more of the exact variables used are discussed in~\cite{TauRecoandIDRunII,TauReconstuction}. BDT uses these variables to distinguishing $\tau_{h}$ dacay($H \to \tau \tau$) from jets, which can be the decay products from quarks and gluons(QCD MC).  
+
+BDT method also used in the tau discriminating again electron training. The algorithm utilizes the variables that sensitive to the energy deposit in Ecal and Hcal, the electron bremsstrahlung, overall particle multiplicity and difference in electromagnetic and hadronic showers. Detail list of variable can be find in~\cite{TauRecoandIDRunII,TauReconstuction}.
+
+Tau signals can be faked by muons, especially in $\tau_{h}$ decay mode $h^{\pm}$. Tau against muon cut based muon discriminant is set by checking if there are signals in the muon system within $\Delta R=0.3$ of the $\tau_{h}$ direction or if the energy sum from Ecal and Hcal is less than 20$\%$ of the total $\tau$ energy. If less than two hits are found in the muon system, then it passes the loose working point. If no hits are found in the muon system, then this is the tight working point. 
+
+
+\section{Electron reconstruction}
 
 \section{Event simulation}
 

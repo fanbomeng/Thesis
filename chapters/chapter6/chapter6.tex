@@ -1,186 +1,153 @@
-%
-% Chapter 6
-%
+\chapter{LFV analysis background estimation}
 
-%% I need to describe muon ID in chaper 4.2 and Tau decay mode finding, tau MVA ID around 4.2 too 
-\chapter{LFV event selection}
-For both 8TeV analysis $H\rightarrow e\tau_h$ channel and 13TeV analysis  $H\rightarrow\mu\tau_h$, events are selected in several steps. The loose selection on the different IDs, energy, geometry parameters of the analysis related objects are applied. In both  $H\rightarrow e\tau_h$ and $H\rightarrow\mu\tau_h$ analysis, cut-based analyses are applied. In $H\rightarrow\mu\tau_h$, a multivariate analysis with Boosted decision tree (BDT) is exploited to provide more sensitive results. 
+\subsection{Background estimates for $\Hmuhad$}
 
 
+\subsubsection{Misidentified Leptons}
 
-\section{\texorpdfstring{$H\rightarrow\mu\tau_h$}{Lg}}
-\subsection{Loose selection}
-In $H\rightarrow\mu\tau_h$ events, tau leptons from signal events decay hadronically. SM higgs is much heavier than the LFV decay products $\mu$ and $\tau$, so $\mu$ and $\tau$ are expected to have high $P_{T}$. Since the decay products are boosted, a cut on the $\Delta R>0.3$ is applied. $\Delta$R is defined as $\Delta R=\sqrt(\Delta phi^{2}+\Delta eta^{2})$. Higgs has no charge, so $\mu$ and $\tau$ candidates are required to have opposite sign of charges. Further, the events with additional $\mu$ and $\tau$ that pass a loose selection, the events with jets that are identified by the combined secondary vertex(CSVv2) b-tagging algorithm \cite{btag_ago} as a b quark jets will be vetoed. Muons from signal events are boosted and isolated, as mentioned in previous chapter, the trigger HLT\_IsoMu24 or HLT\_IsoTkMu24 is used. The trigger select isolated muons that have energy higher than 24GeV. An further $P_{T}$ cut on reconstructed $\mu$,  $P_{T}>26$GeV and $|\eta|<2.4$ are applied. Muons are required to pass the recommended Medium muon ID(chapter 4.2). For the LHC data 2016, running period BCDEF, ICHEP medium muon ID is applied(table~\ref{tbl:ICHEPMedID}), for data running period G and H, also the monte Carlo samples, standard medium muon ID(table~\ref{tbl:standardMedID})are applied to achieve the best performance for muon identification.
-
-Hadronic taus are required to have $P_T>30$GeV,$|\eta|<2.3$, passing old tau decay mode finding(chapter 4.2), an MVA based tight tau isolation ID(Chapter 4.2) and tau discriminators against electrons and muons. These discriminators are very loose MVA based rejection against electrons and cut-based tight rejection against muons.  
+The misidentified lepton backgrounds are estimated with full data driven method from the collision data. In $\Hmuhad$ channel, the misidentification $\tau$ and $\mu$ lepton rate is obtained from independent Z + jets data sets and then apply the rate to an control region that orthogonal to the signal region to estimate the misidentified lepton backgrounds.  The control regions for the estimation and validation of the misidentified lepton background are shown in Table.~\ref{tab:fakeratediagram}. Region I is the signal region with full selection applied. Region III is the background enriched region, in which one or two leptons have loose isolation but not tight isolation. Region II is the same to Region I besides the requirement that $\mu$ and $\tau$ lepton pairs have the same sign of charge, so as Region IV to Region III. Region III is used to estimate the misidentified background in Region I. Region II and IV are used in the validation of the method. 
 
 
+\begin{table}[hbt]
+ \centering
+ {
+ \renewcommand{\arraystretch}{1.1}
+ \caption{Definition of the samples used to estimate the misidentified lepton background.}
+  \label{tab:fakeratediagram}
+  \begin{tabular}{c|c} \hline
+\textbf{Region I}              &  \textbf{Region II}             \\ \hline
+$\ell^{\pm}_{1}$(isolated)  &  $\ell^{\pm}_{1}$(isolated)             \\
+$\ell^{\mp}_{2}$(isolated)  &  $\ell^{\pm}_{2}$(isolated)             \\
 
-Events in the analysis are divided into four categories based on the number of jets in an event. In 2-jets category, it is furthered divided into 2 categories,  2-jet gluon gluon fusion higgs production(ggH) category and 2-jet vector boson fusion(VBF) category based on the value of 2 jets invariant mass($M_{jj}$) . In 0-jet category, the signal mainly comes from ggH. In 1-jet category, the dominant signal production mode is also ggH, but with a boosted jet associated with the production, some of the VBF higgs signal also shows up in this category. In the 2-jet ggH category, signal evens mainly come from ggH and in 2-jet VBF, VBF production dominants the production mode.  The following is a more detailed list of the selection condition in each categories.
+\hline \hline
+\textbf{Region III}           &  \textbf{Region IV}             \\ \hline
+$\ell^{\pm}_{1}$(isolated)  &  $\ell^{\pm}_{1}$(isolated)             \\
+$\ell^{\mp}_{2}$(not-isolated )  &  $\ell^{\pm}_{2}$(not-isolated)             \\
+\hline
+  \end{tabular}
+}
+\end{table}
 
-\begin{enumerate}
-\item[{\bf 0-jet:}] No events have jets pass the loose PF ID and  with jet $P_T>30$ GeV, $|\eta|<4.7$.
-\item[{\bf 1-jet:}] Events with one jet passes losse PF ID and jet $P_T>30$ GeV, $|\eta|<4.7$.
-\item [{\bf 2-jets ggH:}] Events have two jets passing loose PF ID, $P_T>30$ GeV, $|\eta|<4.7$ and a requirement on the invariant mass of the two jets, $\textrm{M}_{jj}<550GeV$. 
-\item [{\bf 2 jets VBF:}] Events with two jets pass loose PF ID. Jets $P_T>30$ GeV, $|\eta|<4.7$ and $\textrm{M}_{jj}>550 GeV$ are required. 
-\end{enumerate} The threshold on $\textrm{M}_{jj}$ has been optimized to give the best expected exclusion limits.
 
 
-\subsection{Cut-based analysis}
-With the loose selection, including the categorization, a further cut-based selection strategy is applied. Variables that can help distinguish signal from background used in this analysis are $P_{T}^{\mu}$, $P_{T}^{\tau}$ and $M_{T}(\tau_{h})$. The lepton $P_{T}$ variables are very powerful background discriminant variables, but it will also cause the problem that signal picks under the background. Leptons from signal process  incline to have higher $P_{T}$ values, by cutting tighter on the lepton $P_{T}$, more background events can be removed. However this will also reshape some of the backgrounds, making them peak closer under the signal so that signal processes will be affected more by the background statistics fluctuation. In the $H\rightarrow e\tau_h$ analysis, the effect of cutting hard on lepton $P_{T}$ will be shown. So in $H\rightarrow\mu\tau_h$ search, lepton $P_{T}$ variables are kept at loose values and tune on other variables to achieve better signal significance. 
+$Z\rightarrow\mu\mu$ is used in Z + jets data sets to estimate both misidentified $\tau$ and $\mu$ lepton rates. Z bosons are selected in the invariant mass window $70<M_{ll}<110$ GeV and trigger HLT\_IsoMu24 or HLT\_IsoTkMu24 is used in the selection. Two muons that are composed of Z bosons are required to have $\pt>26$ GeV, $|\eta|<2.4$, cut based tight muon isolation($I^{\mu}_{rel}<0.15$) and passing the muon medium ID. In the Z+jets samples, with the selected Z boson in an event, the remaining jets are checked if they pass $\tau$ or $\mu$ selection.
 
-Tuning process is done only with Monte Carlo samples to not double use data. The final results are extract from data, so the double use of data may cause biases on the results. Misidentified lepton background estimated with full data driven method, is replaced with the semi data driven estimation in tuning. In $\Hmuhad$  channel, the variables tuned are $\textrm{M}_{jj}$ and $M_{T}(\tau_{h})$. Cuts have been optimized to have the most stringent expected limits with the Asimov dataset. If loose value of the cut gives same expected limits as the tight one, then chose the loose cut value to have more statistics. Examples of obtaining the limits are shown in Fig. \ref{fig:optMT}, $M_T(\tau_{h})$ for the different categories and Fig.~\ref{fig:optVBFmass}  for the optimization of $\textrm{M}_{jj}$ in 2-jets categories. With this method and criteria, the cut optimized for $\Hmuhad$ is shown in Table.~\ref{tab:Mhadcategories}
+To estimate the misidentified $\tau$ lepton rate, The jets in the sample Z + jets are checked if they pass the $\tau$ isolation ID. Misidentified $\tau$ lepton ratio $\tau(f_{\tau})$ is calculated as in Equation .~\ref{eq:fakerate1}, together with one related ratio $f_{\tau}$. In Equation .~\ref{eq:fakerate1}, $\ell$ stands for leptons in general.
+
+\begin{align} 
+\ell(f_{\ell})&=\frac{f_{\ell}}{1-f_{\ell}} \label{eq:fakerate1}\\
+f_{\ell}&=\frac{N_{\ell}(Z+jets\ \ell \ tight\ Iso)}{N_{\tau}(Z+jets\ \ell \ loose\ Iso)} \label{eq:fakerate2}
+\end{align}
+
+$f_{\tau}$ is the ratio between number of jets that pass tight $\tau$ MVA isolation ID and number of jets that pass very loose $\tau$ MVA isolation ID. The contribution from Diboson sample is subtracted with simulation, in which the third leptons are genuine leptons. With the ratio $f_{\tau}$ , misidentified rate $\tau(f_{\tau})$(Equation.~\ref{eq:fakerate2}) is applied as a weight to Region III. When estimating misidentified $tau$ leptons, Region III is defined in the same selection condition as the signal region Region I , but  $\tau$ leptons are required to pass the very loose MVA isolation and not pass the tight MVA isolation. The misidentified $\tau$ lepton rate $\tau(f_{\tau})$ shows dependence on tau $\pt$, tau decay mode and ECAL geometry. Thus $\tau(f_{\tau})$ is applied in term of tau $\pt$, tau decay modes and ECAL barrel and endcap seperately. The distribution of $f_{\tau}$ is shown in Fig.~ \ref{fig:fakerationumber}, which shows a comparison of the estimated $f_{\tau}$ between data and simulated Z+jets samples. The distribution of $f_{\tau}$ vs $|\eta|$ are also shown, which show less dependency. 
+
+\begin{figure}[htbp] 
+     \centering
+     \subfigure[EB tau decay mode 0]{ \includegraphics[width=0.3\textwidth]{chapter6/t_DM0EB_tPt_fakeRate.pdf}}
+      \subfigure[EB tau decay mode 1]{ \includegraphics[width=0.3\textwidth]{chapter6/t_DM1EB_tPt_fakeRate.pdf}}
+      \subfigure[EB tau decay mode 10]{ \includegraphics[width=0.3\textwidth]{chapter6/t_DM10EB_tPt_fakeRate.pdf}}
+     \subfigure[EE tau decay mode 0]{ \includegraphics[width=0.3\textwidth]{chapter6/t_DM0EE_tPt_fakeRate.pdf}}
+      \subfigure[EE tau decay mode 1]{ \includegraphics[width=0.3\textwidth]{chapter6/t_DM1EE_tPt_fakeRate.pdf}}
+      \subfigure[EE tau decay mode 10]{ \includegraphics[width=0.3\textwidth]{chapter6/t_DM10EE_tPt_fakeRate.pdf}}
+       \subfigure[tau decay mode 0 vs $|\eta|$]{ \includegraphics[width=0.3\textwidth]{chapter6/t_DM0_abstEta_fakeRate.pdf}}
+        \subfigure[tau decay mode 0 vs $|\eta|$]{ \includegraphics[width=0.3\textwidth]{chapter6/t_DM1_abstEta_fakeRate.pdf}}
+         \subfigure[tau decay mode 0 vs $|\eta|$]{ \includegraphics[width=0.3\textwidth]{chapter6/t_DM10_abstEta_fakeRate.pdf}}
+     \caption{$f_{\tau}$ ratio for the $\tau$ fake rate calculation shows in term of tau decay modes, $\pt$, ECAL barrel, ECAL endcap, and $|\eta|$}
+     \label{fig:fakerationumber}
+\end{figure}
+
+The estimation of $\mu$ misidentified rate the same as the $\tau$ misidentified rate, but checks if the jets in Z + jets samples pass the muon isolation. As in Equation.~\ref{eq:fakerate1}, $f_{\mu}$ is defined as the ratio between tight cut based muon isolation($I^{\mu}_{rel}<0.15$) and loose cut based muon isolation($I^{\mu}_{rel}<0.25$). The misidentified $\mu$ lepton rate $\mu(f_{\mu})$ is calculated by Equation.~\ref{eq:fakerate2}. $\mu(f_{\mu})$ is a weight to apply to Region III. In the case of estimating the misidentified $\mu$, Region III is defined as Regin I but with $\mu$ passing the loose cut based muon isolation and not passing tight cut based muon isolation. The ratio $f_{\mu}$ is shown in Figure.~\ref{fig:muonfakerationumber} in term of muon $\pt$ and $|\eta|$ distribution. 
+
+\begin{figure}[htbp] 
+     \centering
+       \subfigure[$f_{\mu}$ vs $\pt$]{ \includegraphics[width=0.3\textwidth]{chapter6/m_fakerate_0p25_pt.pdf}}
+        \subfigure[$f_{\mu}$ vs $|\eta|$]{ \includegraphics[width=0.3\textwidth]{chapter6/m_Loose_m3Etaabs_fakeRate}}
+     \caption{$f_{\tau}$ ratio for the $\mu$ fake rate calculation shows in term of muon $\pt$ and $|\eta|$.}
+     \label{fig:muonfakerationumber}
+\end{figure}
+
+There are overlap between the estimated misidentified muon and tau lepton when both of the leptons are fake ones. The overlap events are estimated as in Equation.~\ref{eq:fakerateoverlep}. In the equation, the N(Region III) stands for the events in Region III. In this case, Region III is defined as muon leptons passing the lose isolation, but not passing the tight isolation, while tau leptons pass the very loose isolation but not pass the tight isolation. The final misidentified lepton background obtained by adding the misidentified muon and tau background and deducts the overlap events between these two. 
+
+\begin{align} 
+N(\text{overlap})=\frac{f_{\tau}\cdot f_{\tau}}{(1-f_{\tau})\cdot (1-f_{\mu})}\cdot N(\text{Region\ III}) \\\label{eq:fakerateoverlep}
+\end{align}
+
+
+
+In $\Hmuhad$ channel, the validation of the misidentified lepton background with full data driven method is performed in a like-sign sample and W+jets enriched control region. The like-sign sample validation requires the events pass the loose selection, the same as the signal region, but with inverted charge. Misidentified background is enriched with the requirement of inverting charge. In the W+jets enriched control region, events that pass the loose selection are further selected with  $M_T(\tau)>60$ GeV and $M_T(\mu)>80$ GeV.  In both of the control regions, misidentified background is the dominant one, as shown in Fig.~\ref{fig:fakebackgroundValidation}. With full data driven method, applied with the $\tau(f_{\tau})$ as weight, the like-sign and W+jets control regions show good data and MC agreement. 
 
 
 \begin{figure}[htbp] 
      \centering
-     \subfigure[0 jet]{ \includegraphics[width=0.4\textwidth]{chapter6/Tuning/ggtMtToPfMet_type1.pdf}}
-     \subfigure[1 jet]{ \includegraphics[width=0.4\textwidth]{chapter6/Tuning/boosttMtToPfMet_type1.pdf}}\\
-     \subfigure[2 jets, gg-enriched]{ \includegraphics[width=0.4\textwidth]{chapter6/Tuning/vbf_ggtMtToPfMet_type1.pdf}}
-     \subfigure[2 jets, VBF-enriched]{ \includegraphics[width=0.4\textwidth]{chapter6/Tuning/vbf_vbftMtToPfMet_type1.pdf}}
-     \caption{Expected limits based on an Asimov dataset as a function of $M_T(\tau, MET)$ for the different categories.}
-     \label{fig:optMT}
+     \subfigure[Wjets enriched control region]{ \includegraphics[width=0.4\textwidth]{chapter6/Wjets_Enriched_mutau_had01jet.pdf}}
+     \subfigure[Like-sign control region]{ \includegraphics[width=0.4\textwidth]{chapter6/LikeSig_CR_presel_mutauh.pdf}}
+     \caption{The validation of full data driven method for the misidentified lepton background. 30\% of uncertainty is assumed in both cases. }
+     \label{fig:fakebackgroundValidation}
 \end{figure}
+
+
+\subsubsection{Other backgrounds}
+Besides the misidentified background, which is composed by W+jets and QCD multi-jets background and estimated with data driven method, $Z \to \tau\tau$ and $Z \to \mu\mu$ are also major background in this analysis. In $Z \to \tau\tau$, the muons arise from a $\tau$ decay, while in $Z \to \mu\mu$, one of the $\mu$ can be misidentified as a $\tau$. In other smaller backgrounds, the $\mu\tau$ pairs can be produced from the weak decays of quarks and vector bosons. These smaller backgrounds include standard model Higgs production($H \to \tau\tau, WW$),$t\bar{t}$ ,single top quark, di-boson(WW,WZ,ZZ). A full list of background used is in the Table.~\ref{tab:mcsamples}.  These backgrounds are all estimated with MC simulation. 
+
+In the $Z \to \mu\mu$  background, an additional scale factor is applied to the tau leptons that do not come from real taus. This is checked in the MC generator level. The scale factor is applied in term of $|\eta|$ as shown in Table.~\ref{tb:MFTcorrection}.
+
+\begin{table}[htp]
+\caption{Scale factor to the events in which a muon is misidentified as a tau}\label{tb:MFTcorrection}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+$|\eta|$ ranges             & Correction values \\\hline
+0-0.4                             & 1.263                   \\
+0.4-0.8                          & 1.364           \\
+0.8-1.2                          & 0.854        \\
+1.2-1.7                          & 1.712  \\
+1.7-2.3                          & 2.324                                  \\\hline
+ \end{tabular}
+\end{center}
+\end{table}
+
+
+
+
+
+
+
+\subsection{Background estimates for $\Hehad$}
+
+\subsubsection{Misidentified Leptons}
+
+Misidentified lepton background is a very important one in $\Hehad$ channel. This background mainly raises from W+jets and QCD multijets. A background event passes the signal selection, may have one or both leptons are misidentified, which are faked by other objects. In $\Hehad$ 8 TeV analysis, both misidentified electron and tau leptons are considered. 
+
+Similar to $\Hmuhad$ channel, the misidentified background in $\Hehad$ is estimated with full data driven method, with independent data sets Z+jets, in which Z bosons decay into two electrons.  Data sets are divided into four control regions for this estimation as in Table.~\ref{tab:fakeratediagram}. Region II is used to extra misidentified background in signal region, Region I, while Region II and Region IV are used for the validation of the fake rate. In the Z+jets data set selection, trigger HLT\_Ele27\_WP80 is used. The two electrons in Z+jets are required to have $\pt>30$ GeV, $|\eta|<2.3$, tight electron MVA ID and cut based tight PF isolation($I^{e}_{rel}<0.1$). The invariant mass formed by the two electrons are required to be in the Z boson mass window. Then the jets in the events are checked if they pass $\tau$ or e selection. Tau leptons should have $\pt>30$ GeV, $|\eta|<2.3$, passing tau decay mode finder and discriminator against elections and muons. Electrons pass the same conditions as the elections used in forming the Z boson mass peak, but without the requirement of isolation.  The isolation conditions are required in different conditions in the fake ratio estimation. Tau leptons use the cut based tight or loose isolation, while loose or tight MVA based electron isolation have the value $I^{e}_{rel}<0.1$ and $I^{e}_{rel}<0.2$ respectively. After the selection, the fake ratio $f_{\tau}$ is defined as the number of tau leptons passing the tight isolation divided the number of tau leptons passing the loose isolation. Similarly the fake ratio $f_{e}$ is defined as the number of elections passing the loose isolation divided by the number of electron passing the tight isolation as shown in Equation.~\ref{eq:fakerate2}. With the fake ratio $f_{\tau}$ and  $f_{e}$, the electron and tau fake rate $\tau(f_{\tau})$ and $e(f_{e})$ are estimated according to Equation.~\ref{eq:fakerate1}. The fake ratio for tau leptons and electrons are shown in Figure.~\ref{fig:fakerationumberetau}. 
+
+\begin{figure}[htbp] 
+     \centering
+     \subfigure[$f_{\tau}$ vs $\pt$]{ \includegraphics[width=0.4\textwidth]{chapter6/tauFakerateComparison_Pt.pdf}}
+      \subfigure[$f_{\tau}$ vs $|\eta|$]{ \includegraphics[width=0.4\textwidth]{chapter6/tauFakerateComparison_Eta.pdf}}
+      \subfigure[$f_{e}$ vs $\pt$]{ \includegraphics[width=0.4\textwidth]{chapter6/eFakerateComparison_Pt.pdf}}
+     \subfigure[$f_{e}$ vs $|\eta|$]{ \includegraphics[width=0.4\textwidth]{chapter6/eFakerateComparison_Eta.pdf}}
+     \caption{$f_{\tau}$ and  $f_{\tau}$ ratio for the fake rate calculation shows in term of  $\pt$ and $|\eta|$}
+     \label{fig:fakerationumberetau}
+\end{figure}
+
+
+The tau and electron fake ratio is applied in term of $|\eta|$. In the estimation, the background source of three prompt leptons from Diboson samples are deducted. The tau and electron misidentified backgrounds are estimated separately, the overlap events in which both leptons are misidentified objects are estimated with Equation.~\ref{eq:fakerateoverlep}. In the equation, N(Region III) in $\Hehad$ channel satisfies the condition both leptons are loose isolated but not tight isolated.  The validation of full data driven method is done with Region II and Region IV. The distribution of the $M_{col}$ is checked in the same sign region of the two leptons, shown in Figure.~ \ref{fig:etaufakebackgroundValidationSS}, in which observed data agrees well with the events from MC and misidentified background from data driven method.
+
 
 \begin{figure}[!tbp] 
 \centering
-\includegraphics[width=0.4\textwidth]{chapter6/Tuning/vbf_vbfvbfMass.pdf}
-\caption{Expected limits based on an Asimov dataset as a function of $M_{jj}$ for the 2 jet categories.}
-\label{fig:optVBFmass}
+\includegraphics[width=0.4\textwidth]{chapter6/etausamesign.pdf}
+\caption{Data driven method validation in Region II with e and $\tau$ leptons in same sign of charge}
+\label{fig:etaufakebackgroundValidationSS}
 \end{figure}
 
+\subsubsection{$Z \to \tau \tau$}
+$Z \to \tau \tau$ in another significant background in $\Hehad$ channel. In the case one of the tau leptons decay to a electron and the other hadronically decay. The background is estimated with the embedding technique\cite{Chatrchyan:2014nva}, which starts by selecting the $Z \to \mu\mu$ events from collision data. The muons pass loose muon selection and then are replaced by simulated $\tau$ leptons and reconstructed with PF algorithm. The key advantage of this technique is that the major topologies like missing energy, jet multiplicity, underlying events are directly from data. Besides tau, the other event records and detector responds are from real environment. When added to the background, the embedded data is normalized to MC prediction.  Compared with MC prediction, the visible mass peak from embedding sample shifts 2\%. This is mainly because of the difference in final-state radiation of photons between muon and tau and is corrected for. Identification and isolation correction for this shift to embedded sample are obtained by comparing with MC simulations.
 
+\subsubsection{Other backgrounds}
+$t\bar{t}$ is one of the main background. Leptonic decay W bosons can produce opposite sign lepton pair and missing energy. The shape of this background is obtained from MC samples and normalized to $t\bar{t}$ control region sample. The evens in  $t\bar{t}$ control samples are required to pass the 2-jet base selection in $\Hehad$ channel and at lease one the jets is identified as a b jet. 
 
-\begin{table}[hbtp]
-  \begin{center}
-  \caption{Selection criteria for each event category after cut
-    optimization, for the $\Hmuhad$ channel}
-  \begin{tabular}{l} \hline
-  {\bf 0-jet category} \\ \hline
-  \tabitem $\pt^{\mu}>26GeV$, $\pt^{\tau}>30GeV$\\
-  \tabitem $M_T(\tau)<105GeV$ \\
-  \tabitem No jets with $\pt^{jet}>30 GeV$, $|\eta|<4.7$, LooseID \\ \hline
- {\bf 1-jet category} \\ \hline
-  \tabitem $\pt^{\mu}>26GeV$, $\pt^{\tau}>30GeV$ \\
-  \tabitem $M_T(\tau)<105GeV$ \\
-  \tabitem One jet  with $\pt^{jet}>30 GeV$, $|\eta|<4.7$, LooseID
-  \\ \hline
-  {\bf 2-jet, gg-enriched category} \\ \hline
-  \tabitem $\pt^{\mu}>26GeV$, $\pt^{\tau}>30GeV$ \\
-  \tabitem $M_T(\tau)<105GeV$ \\
-      \tabitem $\pt^{jet1}>30 GeV$,$\pt^{jet2}>30 GeV$
-      $|\eta_{jet1}|<4.7$,$|\eta_{jet2}|<4.7$, LooseID\\
-      \tabitem $M_{jj}<550GeV$\\
-      \tabitem Two jets with $\pt^{jet}>30 GeV$, $|\eta|<4.7$, LooseID\\ \hline
-  {\bf 2-jet, vbf-enriched category} \\ \hline
-  \tabitem $\pt^{\mu}>26GeV$, $\pt^{\tau}>30GeV$ \\
-  \tabitem $M_T(\tau)<85GeV$ \\
-      \tabitem $\pt^{jet1}>30 GeV$,$\pt^{jet2}>30 GeV$
-      $|\eta_{jet1}|<4.7$,$|\eta_{jet2}|<4.7$, LooseID\\
-      \tabitem $M_{jj}>550GeV$\\
-      \tabitem Two jets with $\pt^{jet}>30 GeV$, $|\eta|<4.7$, LooseID\\ \hline
-  \label{tab:Mhadcategories}
-\end{tabular}
-\end{center}
-\end{table}
-
-
-
-
-\subsection{Multivariate analysis}
-A Boost decision trees(BDT) method is chosen as the multivariate analysis method used in  $H\rightarrow\mu\tau_h$ search. It provides better sensitivity compared with the cut-based analysis. In this analysis, the BDT is provided by the TMVA package \cite{TMVAnote}. BDT method takes in signal and background datasets with a selected set of input variables. Input variables are the ones that show distinguishing power between signal and background.  The training output is a weight file, which contains a list of weights to indicate in percentage how likely an event is signal like with a give set of input variable values from that event. A more detail description of the BDT method is available in section \ref{BDTchaper}.  In this analysis, signal and background events are required to pass the loose selection criteria. All of the categories are combined. The signal events from gluon gluon fusion and vector boson fusion higgs production mode are mix by the weight with respect to their production cross section. The background sample used in the training is misidentified lepton background from the like sign region(Region II as in table **). The list of BDT input variables  is following and the distribution of the variables are shown in Fig.~\ref{fig:BDT_input_var_mutauhad}.
-
-\begin{itemize}
-\item Transverse mass between the $\tauh$ and $\ETmiss$, $M_{T}(\tau_{h})$.
-\item Missing transverse energy, $\ETmiss$.
-\item Pseudorapidity difference between the $\mu$ and the $\tauh$ candidate, $\Delta\eta(\mu, \tauh)$.
-\item Azimutal angle between the $\mu$ and the $\tauh$, $\Delta\phi (\mu,\tauh)$.
-\item Azimutal angle between the $\tauh$ and the $\ETmiss$, $\Delta\phi(\tau_h,\ETmiss)$.
-\item Collinear mass, $\mcol$.
-\item Muon $\pt$.
-\item $\tau_h$ $\pt$.
-\end{itemize}
-
-\begin{figure}[htpb]\centering
- \includegraphics[width=0.315\textwidth]{chapter6/BDTvariable/LFV_preselection_collMass_type1_Fakes_PoissonErrors.pdf}
- \includegraphics[width=0.315\textwidth]{chapter6/BDTvariable/LFV_preselection_mPt_Fakes_PoissonErrors.pdf} \\
- \includegraphics[width=0.315\textwidth]{chapter6/BDTvariable/LFV_preselection_tPt_Fakes_PoissonErrors.pdf}
- \includegraphics[width=0.315\textwidth]{chapter6/BDTvariable/LFV_preselection_tMtToPfMet_type1_Fakes_PoissonErrors.pdf}  \\
- \includegraphics[width=0.315\textwidth]{chapter6/BDTvariable/LFV_preselection_tDPhiToPfMet_type1_Fakes_PoissonErrors.pdf}
- \includegraphics[width=0.315\textwidth]{chapter6/BDTvariable/LFV_preselection_type1_pfMetEt_Fakes_PoissonErrors.pdf} \\
- \includegraphics[width=0.315\textwidth]{chapter6/BDTvariable/LFV_preselection_m_t_DPhi_Fakes_PoissonErrors.pdf}
- \includegraphics[width=0.315\textwidth]{chapter6/BDTvariable/LFV_preselection_m_t_DEta_Fakes_PoissonErrors.pdf}
-\caption{Distributions of the  input variables to the BDT for the \Hmuhad channel.}
- \label{fig:BDT_input_var_mutauhad}
-\end{figure}
-
-
-\begin{figure}[htbp] 
-     \centering
-     \subfigure[Signal sample variables correlation]{ \includegraphics[width=0.4\textwidth]{chapter6/CorrelationMatrixS.pdf}}
-     \subfigure[Background sample variable correlation]{ \includegraphics[width=0.4\textwidth]{chapter6/CorrelationMatrixB.pdf}}\\
-     \caption{Expected limits based on an Asimov dataset as a function of $M_T(\tau, MET)$ for the different categories.}
-     \label{fig:BDTvarcorrelation}
-\end{figure}
-
-
-Fig.~\ref{fig:BDTvarcorrelation} shows BDT input variables in the signal and background training samples. The chosen input variables show low correlation in both samples. Fig.~\ref{fig:BDTovertraining} shows the TMVA overtraining checks. Training samples are divided into two groups, one for training and one for testing. After the training, the algorithm applies the training output to the testing sample to check if they are in good matching.
-
-\begin{figure}[htbp] 
-\centering
-\includegraphics[width=0.6\textwidth]{chapter6/overtrain_BDT.pdf}
-\caption{Overtraining checking for the BDT training in the TMVA package.}
-\label{fig:BDTovertraining}
-\end{figure}
-
-\section{\texorpdfstring{$H\rightarrow e \tau_h$}{Lg}}
-
-\subsection{Loose selection}
-In $ \Hehad$ channel, the trigger used is $HLT\_Ele27\_WP80$, which applies an electron $\pt$ cut at 27GeV at HLT level. A further cut on electron $P_{T}>30GeV$ is applied. Electrons are required to have $|\eta_{e}<2.3|$ and $D_{z}<0.2 cm$. $D_{z}$ is the longitudinal impact parameter that shows the displacement between primary vertex and track path. Electrons are also requirement to pass the MVA based tight ID and cut based PF tight isolation  $PFiso<0.1$. Tau candidates are required to have $P_{T}>30GeV$, pseudorapidity in the range $|\eta^{\tau}<2.3|$ and the longitudinal impact parameter $D_{z}<0.2 cm$. Tau isolation used is the cut based tight tau isolation. In addition, tau candidates pass the tau Decay mode finding and tau discriminator against electrons and muons. The analysis also requires no extra isolated electrons with $\pt>10GeV$ and extra taus with $\pt>20GeV$. Tau and electron candidates are required to have opposite sign of charges and separate with an $\Delta R>0.4$ from any jets in the events with $\pt>30GeV$. All of the requirements contribute to the selections of good qualities candidates. The datasets are binned into three categories according to the number of jets in the events:
-\begin{enumerate}
-\item[{\bf 0-jet:}] No events have jets pass the loose PF ID and  with jet $P_T>30GeV$, $|\eta|<4.7$. This category enhances the gluon-gluon fusion contribution.
-\item[{\bf 1-jet:}] Events with one jet passes loose PF ID and jet $P_T>30GeV$ , $|\eta|<4.7$. This category enhances the gluon-gluon fusion production with initial state radiation.
-\item [{\bf 2 jets:}] Events with two jets pass loose PF ID and with jet $P_T>30$ GeV and $|\eta|<4.7$, This category contains both Higgs production mode and with an enhancement in VBF production mode. \end{enumerate}
-
-With the preselection and binning of the jets numbers, the $\mcol$ distribution of $\Hehad$ in different categories are shown in Fig.~\ref{fig:etauCol_preselection}
-\begin{figure}[hbtp]\centering
- \includegraphics[width=0.4565\textwidth]{chapter6/etauPlots/etau_preselection0jet.pdf}
- \includegraphics[width=0.4565\textwidth]{chapter6/etauPlots/etau_preselection1jet.pdf}
- \includegraphics[width=0.4565\textwidth]{chapter6/etauPlots/etau_preselection2jet.pdf}
- \caption{With loose selection conditions, the comparison of the observed collinear mass distributions with background from prediction. The shaded grey bands indicate the total background uncertainty.
-The open histograms correspond to the expected signal distributions for $\mathcal{B}(\Hehad)=100\%$ in the  0-jet, 1-jet and 2-jet categories, respectively.}
-\label{fig:etauCol_preselection}\end{figure}
-
-
-\subsection{Cut-based analysis}
-A set of kinematics variables are defined and set to further select signal events. In $\Hehad$ channel, similar to the $\Hmuhad$, muon and tau leptons from the signal events are highly boosted, so as $\pt$ variables plays an important role in distinguishing from background events and the separation in $\phi$ direction is bigger between $\mu$ and $\tau$ for signal events. Missing energy from the $\tau$ neutrino in hadronic decay is one of the characters in signal events, so $M_{T}(\tau_{h})$ is an useful variable. In two jets category, $M_{jj}$ also used as a cut variable.  The cuts have been optimized to have the most stringent expected limits with the Asimov dataset. The detailed cuts used for $\Hehad$ is shown in table.~\ref{tab:ehadcategories}.
-
-
-\begin{table}[hbtp]
-  \begin{center}
-  \caption{Selection criteria for each event category after cut
-    optimization, for the $\Hehad$ channel}
-  \begin{tabular}{l} \hline
-  {\bf 0-jet category} \\ \hline
-  \tabitem $\pt^{e}>45GeV$, $\pt^{\tau}>30GeV$, $\Delta \phi_{e \tau}>2.3$ \\
-  \tabitem $M_T(\tau)<70GeV$ \\
-  \tabitem No jets with $\pt^{jet}>30 GeV$, $|\eta|<4.7$, LooseID \\ \hline
- {\bf 1-jet category} \\ \hline
-  \tabitem $\pt^{e}>35GeV$, $\pt^{\tau}>40GeV$ \\
-  \tabitem One jet  with $\pt^{jet}>30 GeV$, $|\eta|<4.7$, LooseID
-  \\ \hline
-  {\bf 2-jet category} \\ \hline
-  \tabitem $\pt^{e}>35GeV$, $\pt^{\tau}>30GeV$ \\
-  \tabitem $M_T(\tau)<50GeV$ \\
-      \tabitem $\pt^{jet1}>30 GeV$,$\pt^{jet2}>30 GeV$
-      $|\eta_{jet1}|<4.7$,$|\eta_{jet2}|<4.7$, LooseID\\
-      \tabitem $\Delta\eta(jet1,jet2)>2.3$\\
-      \tabitem $M_{jj}>400GeV$\\
-      \tabitem Two jets with $\pt^{jet}>30 GeV$, $|\eta|<4.7$, LooseID \\ \hline
-  \label{tab:ehadcategories}
-\end{tabular}
-\end{center}
-\end{table}
+The other backgrounds presented in the samples are Z+jets in which one of the electrons is misidentified as a $\tau$ lepton. Di-boson(WW,WZ,ZZ) events, single Top, SM Higgs boson production($H \to \tau \tau$)  and W$\gamma^{(\star)}$. These backgrounds are all estimated from MC simulation. 
 
 
 
@@ -189,6 +156,8 @@ A set of kinematics variables are defined and set to further select signal event
 
 
 
+
+   
 
 
 
