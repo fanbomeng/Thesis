@@ -36,45 +36,134 @@
 \section{statistical methods}
 
 \section{Systematics}
+Systematic uncertainties originated from different sources that experimentally or theoretically affects the physics results. These uncertainties are considered by the effects on the normalization and shape of the distribution of different processes. 
+
 \subsection{Systematics used in $\Hmuhad$}
+The systematic uncertainties considered in this analysis are summarized in Table.~\ref{tab:systematicsone} and Table.~\ref{tab:systematicstwo}. The uncertainty on muon trigger, identification and isolation together amounts  to 2\% and the hadronic tau lepton efficiency amounts to 5\%. The uncertainties on lepton selections that include trigger, ID, isolation efficiencies are estimated Tag and probe method with Z boson data sets~\cite{Khachatryan2011,Chatrchyan:2012xi,Khachatryan:2015hwa,Khachatryan:2015dfa,CMS:2016gvn}. The systematic uncertainty of b tagging veto is taken from the uncertainty of b tagging veto efficiency measurement, which adjusts b tagging veto performance in simulation to match data samples. The exact values used in each category of $t\bar{t}$ and single top samples are in Table.~\ref{tab:btaguncertainty}. The uncertainties on $Z\to\tau\tau$, WW, WZ, ZZ, $t\bar{t}$, single top backgrounds mainly come from the uncertainties on the cross section measurement of each process. The normalization uncertainty of $\mu$ fake $\tau$ scale factor measurement and the uncertainty on $Z\to \mu\mu$ process together amounts to 25\%. An additional shape uncertainty of muon misidentifying tau is extracted from the measurement of the scale factor and treats independently of hadronic tau decay modes. $Z\to \mu\mu$ is the main source that contributes to $\mu$ fake $\tau$.  The uncertainty of the misidentified lepton background is estimated from the matching of the same sign control region which is defined as region II in Table.~\ref{tab:fakeratediagram}. The 30\% on normalization uncorrelated between each category and additional 10\% partially correlated within each category is a conservative estimation. Only the tau shape uncertainties are considered, which are taken from the variations of the misidentified tau parameters in fitting.  Muon misidentified shape uncertainty is omitted as it would be negligible compared with the bin-by-bin uncertainty applied.  The shape uncertainties of jet energy scale is estimated by varying the fitting parameters of different sources that affect this scale by one $\sigma$. Tau energy scale is treated as shape uncertainties and each of the tau decay modes is considered as independently. Unclustered energy refers to the energy loses from the jets $\pt<10$ GeV and the PF candidates that are not included in the jets reconstruction. The unclustered energy uncertainty is considered independently for charged particles, photons, neutral hadrons and very forward particles.  The uncertainties on Higgs boson cross section is affected by the renormalization scales, factorization, parton distribution functions(PDF) and the strong coupling constant($\alpha_{s}$). These affections in normalization are taken from \cite{YR4}.The uncertainties on Higgs cross section also affect the acceptance and result in the migration of events between categories.  
+
+
 
 \begin{table}[htpb]
-%\caption{Systematic uncertainties in the expected event yields. All uncertainties are treated as correlated between the categories, except those that have two values separated by the $\oplus$ sign. In this case, the first value is the correlated uncertainty and the second value is the  uncorrelated uncertainty for each individual category. Theoretical uncertainties on VBF Higgs boson production~\cite{YR4}  are also applied to VH production. Uncertainties on acceptance lead to migration of events between the categories, and can be correlated or anticorrelated between categories. Ranges of uncertainties for the Higgs boson production indicate the variation in size, from negative (anticorrelated) to positive (correlated).
-%}
-\caption{1111}
-\label{tab:systematics}
+\caption{Part one of the systematic uncertainties considered in $\Hmuhad$ analysis. All of the uncertainties listed in the systematic tables are correlated between categories besides the ones after the sign $\oplus$. These are the uncertainties correlated in within each category but independent between categories. The theoretical uncertainties related to the acceptance and migration of events are listed in a range. The negative or positive values indicate a anticorrelated or correlated between categories}
+
+%\caption{Part one of the systematic uncertainties considered in $\Hmuhad$ analysis. Systematic uncertainties in the expected event yields. All uncertainties are treated as correlated between the categories, except those that have two values separated by the $\oplus$ sign. In this case, the first value is the correlated uncertainty and the second value is the  uncorrelated uncertainty for each individual category. Theoretical uncertainties on VBF Higgs boson production~\cite{YR4}  are also applied to VH production. Uncertainties on acceptance lead to migration of events between the categories, and can be correlated or anticorrelated between categories. Ranges of uncertainties for the Higgs boson production indicate the variation in size, from negative (anticorrelated) to positive (correlated)}
+\label{tab:systematicsone}
 \centering
 \begin{tabular}{l*{4}{c}} \hline
-Systematic  uncertainty            & $\PH\to\Pgm\tauh$ & $\PH\to\Pgm\Pgt_{\Pe}$ & $\PH\to\Pe\tauh $ & $\PH\to\Pe\Pgt_{\mu}$ \\ \hline
-Muon  trigger/identification/isolation         &       2\%             &       2\%          &          \NA          &  2\%   \\
-Electron trigger/identification/isolation      &       \NA               &       2\%          &          2\%          &    2\% \\
-Hadronic tau lepton efficiency     &       5\%              &       \NA          &          5\%           & \NA\\
-b tagging veto                     &      2.0--4.5\%        &      2.0--4.5\%     &      \NA       &    2.0--4.5\% \\
-$\PZ\to\Pgm\Pgm, \Pe\Pe$ + jets background&   \NA    &  10\%$\oplus$5\%           &     \NA   &   10\%$\oplus$5\%  \\
-$\PZ\to\Pgt\Pgt$ + jets background &     10\%$\oplus$5\%   &   10\%$\oplus$5\%  &     10\%$\oplus$5\%   & 10\%$\oplus$5\%  \\
-$\PW+\text{jets}$ background     &           \NA         &        10\%          &         \NA          & 10\%  \\
-QCD multijet background            &           \NA         &        30\%          &         \NA          & 30\%  \\
-$\PW\PW, \PZ\PZ$ background      &     5\%$\oplus$5\%    &   5\%$\oplus$5\%   &     5\%$\oplus$5\%    & 5\%$\oplus$5\%    \\
-\ttbar\  background                &     10\%$\oplus$5\%   &   10\%$\oplus$5\%  &     10\%$\oplus$5\%   & 10\%$\oplus$5\%     \\
-$\PW\gamma$ background           &   \NA  &       10\%$\oplus$5\%        &    \NA   &   10\%$\oplus$5\%    \\
-Single top quark background   &     5\%$\oplus$5\%    &   5\%$\oplus$5\%   &     5\%$\oplus$5\%    &         5\%$\oplus$5\%      \\
-$\Pgm\to\tauh$ background         &         25\%           &         \NA      &           \NA           & \NA \\
-$\Pe\to\tauh$ background          &           \NA           &          \NA         &           12\%           & \NA \\
-$\text{Jet}\to\tauh, \Pgm, \Pe $ background &  30\%$\oplus$10\%   &  \NA  &            30\%$\oplus$10\%         &   \NA  \\
-Jet energy scale                   &        3--20\%         &        3--20\%      &          3-20\%       &   3--20\%\\
-\tauh energy scale                 &         1.2\%             &        \NA     &           1.2$\%$           &  \NA \\
-$\Pgm,\Pe\to\tauh$ energy scale          &           1.5\%         &       \NA      &           3\%          & \NA \\
-\Pe\ energy scale                   &       \NA    &        0.1 -- 0.5\%         &      0.1 -- 0.5\%      &  0.1 -- 0.5\% \\
-\Pgm\ energy scale                  &        0.2\%          &        0.2\%       &           \NA         &  0.2\%  \\
-Unclustered energy scale           &        $\pm 1 \sigma$    &  $\pm 1 \sigma$       &      $\pm 1 \sigma$      &  $\pm 1 \sigma$\\
-Renorm./fact. scales ({\Pg\Pg}H)   \cite{YR4}     &   \multicolumn{4}{c}{3.9\%}\\
-Renorm./fact. scales (VBF and VH) \cite{YR4}             &   \multicolumn{4}{c}{0.4\%}\\
-PDF + $\alpha_s$ ({\Pg\Pg}H)    \cite{YR4}        &   \multicolumn{4}{c}{ 3.2\%}\\
-PDF + $\alpha_s$ (VBF and VH)   \cite{YR4}                  &   \multicolumn{4}{c}{ 2.1\%}\\
-Renorm./fact. acceptance ({\Pg\Pg}H)     &   \multicolumn{4}{c}{$-3.0$\% -- $+2.0$\% } \\
-Renorm./fact. acceptance (VBF and VH)           &   \multicolumn{4}{c}{$-0.3$\% -- $+1.0$\% } \\
-PDF + $\alpha_s$ acceptance ({\Pg\Pg}H)       &   \multicolumn{4}{c}{ $-1.5$\% --  $+0.5$\%}\\
-PDF + $\alpha_s$ acceptance (VBF and VH)             &   \multicolumn{4}{c}{ $-1.5$\% --  $+1.0$\%}\\
+Systematic  uncertainty            & $\PH\to\Pgm\tauh$  \\ \hline
+Muon  trigger/identification/isolation         &       2\%             \\
+Hadronic tau lepton efficiency                  &       5\%              \\
+b tagging veto                                          &      2.0--4.5\%     \\
+$\PZ\to\Pgt\Pgt$ + jets background         &    10\%$\oplus$5\%   \\
+$\PW\PW, \PZ\PZ$ background              &     5\%$\oplus$5\%       \\
+\ttbar\  background                                  &     10\%$\oplus$5\%             \\
+Single top quark background                 &     5\%$\oplus$5\%  \\
+$\Pgm\to\tauh$ background                                      &         25\%         \\
+$\text{Jet}\to\tauh, \Pgm $ background             &  30\%$\oplus$10\%   \\
+Jet energy scale                                                       &   3--20\% \\
+\tauh energy scale                                                    &   1.2\%  \\\hline
+\end{tabular}
+\end{table}
+
+
+
+\begin{table}[htpb]
+\caption{Part two of the systematic uncertainties considered in $\Hmuhad$ analysis}
+\label{tab:systematicstwo}
+\centering
+\begin{tabular}{l*{4}{c}} \hline
+Systematic  uncertainty                                             & $\PH\to\Pgm\tauh$ \\ \hline
+
+$\Pgm \to\tauh$ energy scale                                   &    1.5\%  \\
+\Pgm\ energy scale                                                   &        0.2\%      \\
+Unclustered energy scale                                         &        $\pm 1 \sigma$  \\
+Renorm./fact. scales ({\Pg\Pg}H)   \cite{YR4}          &   \multicolumn{4}{c}{3.9\%}\\
+Renorm./fact. scales (VBF and VH) \cite{YR4}         &   \multicolumn{4}{c}{0.4\%}\\
+PDF + $\alpha_s$ ({\Pg\Pg}H)    \cite{YR4}             &   \multicolumn{4}{c}{ 3.2\%}\\
+PDF + $\alpha_s$ (VBF and VH)   \cite{YR4}          &   \multicolumn{4}{c}{ 2.1\%}\\
+Renorm./fact. acceptance ({\Pg\Pg}H)                     &   \multicolumn{4}{c}{$-3.0$\% -- $+2.0$\% } \\
+Renorm./fact. acceptance (VBF and VH)                &   \multicolumn{4}{c}{$-0.3$\% -- $+1.0$\% } \\
+PDF + $\alpha_s$ acceptance ({\Pg\Pg}H)              &   \multicolumn{4}{c}{ $-1.5$\% --  $+0.5$\%}\\
+PDF + $\alpha_s$ acceptance (VBF and VH)          &   \multicolumn{4}{c}{ $-1.5$\% --  $+1.0$\%}\\
 Integrated luminosity               &   \multicolumn{4}{c}{ 2.5\%  } \\ \hline
 \end{tabular}
 \end{table}
+
+\begin{table}[htpb]
+\caption{b tagging veto systematic uncertainty in each category}
+\label{tab:btaguncertainty}
+\centering
+\begin{tabular}{lclclclcl}\hline
+                       & 0 jet    &  1 jet       & 2 jets gg-enriched & 2 jets VBF-enriched \\\hline
+$t\bar{t}$        &  \NA    &  2.45\%    &4.37\%                   & 2.59\%     \\   
+$t$   & \NA     &  2.11\%    & 3.07\%                   & 1.98\%   \\\hline
+\end{tabular}
+\end{table}
+
+
+
+
+
+
+
+\subsection{Systematic uncertainties in $\Hehad$}
+
+
+
+
+\begin{table*}[hbt]
+ \centering
+  \caption{The systematic uncertainties in the expected event yields in percentage for the $\Pe\tauh$ and $\Pe\Pgt_{\Pgm}$ channels. All uncertainties are treated as correlated between the categories, except when two values are quoted, in which case the number denoted by an asterisk is treated as uncorrelated between categories.}
+  \label{tab:systematics_had}
+\begin{tabular}{l|c|c|c} \hline
+Systematic uncertainty                  & \multicolumn{3}{c}{\PH$\to \Pe\tauh$}      \\ 
+                                                      & 0-jet       & 1-jet        & 2-jet                 \\ \hline
+Electron trigger/ID/isolation           &  1\%           &   1\%         &  2\%                       \\
+Efficiency of $\tauh$                      &  6.7\%         &  6.7\%        & 6.7\%                      \\
+$\PZ\to \Pgt \Pgt$ background    & 3\%$\oplus$5\% & 3\%$\oplus$5\%& 3\%$\oplus$10\%            \\
+$\PZ\to \Pgm\Pgm, \,
+\Pe\Pe$ background                      & 30\%           &  30\%         & 30\%                       \\
+
+Misidentified leptons background                   & 30\%           &  30\%         & 30\%                       \\
+Pileup                                           & 4\%           & 4\%          & 2\%                       \\
+$\PW\PW,\PW\PZ,\PZ\PZ\mathrm{+jets}$ background                 & 15\%           &  15\%         & 15\%                       \\
+$\ttbar$ background                     & 10\%           &  10\%         & 10\%$\oplus$33\%           \\
+Single top quark background       & 25\%           &  25\%         & 25\%                      \\
+Luminosity                                    & 2.6\%          &  2.6\%        & 2.6\%                      \\ \hline
+\end{tabular}
+\end{table*}
+
+
+\begin{table*}[hbtp]
+ \centering
+  \caption{Theoretical uncertainties in percentage for the Higgs boson production cross section for each
+production process and category. All uncertainties are treated as fully correlated between categories except
+those denoted by a negative superscript which are fully anticorrelated due to the migration of events.}
+  \label{tab:theory_systematics}
+  \begin{tabular}{l|l|l|l|l|l|l} \hline
+Systematic uncertainty                  &  \multicolumn{3}{c|}{Gluon fusion} &  \multicolumn{3}{c}{Vector boson fusion}  \\ \cline{2-7}
+                                &    0-jet  & 1-jet  & 2-jet   & 0-jet & 1-jet  & 2-jet  \\ \hline
+Parton distribution function         &    $9.7$\%  &  $9.7$\% &   $9.7$\% & $3.6$\%  &   $3.6$\%  &  $3.6$\%  \\
+Renormalization/factorization scale           &    $8$\%    &  $10$\%   &  $30^{-}$\%   & $4$\%     &   $1.5$\%  & $2$\%   \\
+Underlying event/parton shower  &   $4$\%     & $5^{-}$\%   &  $10^{-}$\%   & $10$\%    &   $<$1\%    & $1^{-}$\%   \\ \hline
+  \end{tabular}
+\end{table*}
+
+\begin{table}[hbtp]
+ \centering
+  \caption{Systematic uncertainties in the shape of the signal and background distributions, expressed in percentage. The systematic uncertainty and its implementation are described in the text.}
+  \label{tab:shape_systematics}
+  \begin{tabular}{lclc} \hline
+Systematic Uncertainty                                 &   $\PH \to \Pe \tauh$                   \\ \hline
+$Z \to \Pe\Pe$ bias                                       &   5\%                                         \\
+Jet energy scale                                           &    3\%--7\%                                       \\
+Jet energy resolution                                    &    1\%--10\%                                       \\
+Unclustered energy scale                             &    10\%                                       \\
+$\tauh$ energy scale                                    &    3\%                                         \\    \hline
+  \end{tabular}
+\end{table}
+       
+
+
+
+

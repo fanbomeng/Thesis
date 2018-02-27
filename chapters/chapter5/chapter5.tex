@@ -15,7 +15,7 @@ Tau leptons from signal events decay hadronically. SM higgs is much heavier than
 Hadronic taus are required to have $P_T>30$ GeV,$|\eta|<2.3$, passing old tau decay mode finding, the MVA based tight tau isolation ID and tau discriminators against electrons and muons. %The discriminators are very loose MVA based rejection against electrons and cut-based tight rejection against muons.  
 
 
-Events in the analysis are divided into four categories based on the number of jets. In 2-jets category, it is furthered divided into 2 categories,  2-jet gluon gluon fusion higgs production(ggH) category and 2-jet vector boson fusion(VBF) category based on the value of 2 jets invariant mass($M_{jj}$) . The 0-jet category enhances ggH production mode. In 1-jet category, the dominant signal production mode is also ggH, but with a boosted jet associated with the production and VBF higgs production also contributes this category. In the 2-jet ggH category, signal evens mainly come from ggH, while in 2-jet VBF, VBF higgs is the dominant production channel.  The following is a more detailed list of the selection condition in each categories.
+Events in the analysis are divided into four categories based on the number of jets. In 2-jets category, it is furthered divided into 2 categories,  2-jet gluon gluon fusion higgs production(ggH) category and 2-jet vector boson fusion(VBF) category based on the value of 2 jets invariant mass($M_{jj}$) . The 0-jet category enhances ggH production mode. In 1-jet category, the dominant signal production mode is also ggH, but with a boosted jet associated with the production and VBF higgs production also contributes this category. In the 2-jet ggH category, signal events mainly come from ggH, while in 2-jet VBF, VBF higgs is the dominant production channel.  The following is a more detailed list of the selection condition in each categories.
 
 \begin{enumerate}
 \item[{\bf 0-jet:}] No events have jets pass the loose PF ID and  with jet $P_T>30$ GeV, $|\eta|<4.7$.
@@ -26,7 +26,7 @@ Events in the analysis are divided into four categories based on the number of j
 
 
 \subsection{Cut-based analysis}
-After the loose selection and the categorization, a further cut-based selection is applied. Variables that can help distinguish signal from background are $P_{T}^{\mu}$, $P_{T}^{\tau}$ and $M_{T}(\tau_{h})$. The lepton $P_{T}$ variables are very powerful background discriminant variables, but it will also cause the problem that signal picks under backgrounds. Leptons from signal process  incline to have higher $P_{T}$ values, by cutting tighter on the lepton $P_{T}$, more background events can be removed. However this will also reshape some of the backgrounds, making them peak closer under the signal so that signal processes will be affected more by the background statistics fluctuation. In the $H\rightarrow e\tau_h$ analysis, the effect of cutting tighter on lepton $P_{T}$ will be shown. In $H\rightarrow\mu\tau_h$ search, lepton $P_{T}$ variables are kept at loose values and optimizes on other variables to achieve better signal significance. 
+After the loose selection and the categorization, a further cut-based selection is applied. Variables that can help distinguish signal from background are $P_{T}^{\mu}$, $P_{T}^{\tau}$ and $M_{T}(\tau_{h})$. The lepton $P_{T}$ variables are very powerful background discriminant variables, but it will also cause the problem that signal picks under backgrounds. Leptons from signal process  incline to have higher $P_{T}$ values, by cutting tighter on the lepton $P_{T}$, more background events can be removed. However this will also reshape some of the backgrounds, making them peak closer under the signal so that signal processes will be affected more by the background statistics fluctuation. In the $H\rightarrow e\tau_h$ analysis, the effect of cutting tighter on lepton $P_{T}$ will be shown. In $H\rightarrow\mu\tau_h$ search, lepton $P_{T}$ variables are kept at loose values and optimizes on other variables to achieve tighter expected limits. 
 
 Optimization is proceeded with only Monte Carlo samples so as not to double use data. In $\Hmuhad$  channel, the variables tuned are $\textrm{M}_{jj}$ and $M_{T}(\tau_{h})$. Cuts have been optimized to have the most stringent expected limits with the Asimov dataset. If looser values of the cuts give the same expected limits as the tighter ones, then the looser cut values are chosen to have more statistics. Examples of optimization by checking the limits are shown in Figure. \ref{fig:optMT} and~\ref{fig:optVBFmass}, in which the optimization of $M_T(\tau_{h})$  and $\textrm{M}_{jj}$ are shown. A full summary of the cuts optimized for $\Hmuhad$ is shown in Table.~\ref{tab:Mhadcategories}
 
@@ -86,7 +86,7 @@ Optimization is proceeded with only Monte Carlo samples so as not to double use 
 
 
 \subsection{Multivariate analysis}
-A Boost decision trees(BDT) method is chosen as the multivariate analysis method used in  $H\rightarrow\mu\tau_h$ search. It provides better sensitivity compared with the cut-based analysis. In this analysis, the BDT is provided by the TMVA package \cite{TMVAnote}. BDT method takes in signal and background datasets with a selected set of input variables. Input variables are the ones that show distinguishing power between signal and background.  The training output is a weight file, which contains a list of weights to indicate in percentage how likely an event is signal like with a give set of input variable values from that event. A more detail description of the BDT method is available in section \ref{BDTchaper}.  In this analysis, signal and background events are required to pass the loose selection criteria. All of the categories are combined. The signal events from gluon gluon fusion and vector boson fusion higgs production mode are mix by the weight with respect to their production cross section. The background sample used in the training is misidentified lepton background from the like sign region(Region II as in table **). The list of BDT input variables  is following and the distribution of the variables are shown in Fig.~\ref{fig:BDT_input_var_mutauhad}.
+A Boost decision trees(BDT) method is used as the multivariate analysis method in $H\rightarrow\mu\tau_h$ search which is more sensitive than the $\mcol$ fit analysis. BDT algorithm used in this search is implemented in the TMVA package \cite{TMVAnote}. BDT takes in signal and background datasets with a selected set of input variables. Input variables are the ones that show distinguishing power between signal and backgrounds. The training output is a weight file, which contains a list of weights to indicate how likely an event is signal like with a give set of input variables. A more detail description of the BDT method is available in section \ref{BDTchaper}.  In this analysis, signal and background events are required to pass the loose selection criteria. All of the categories are combined. The signal events from ggH and VBF higgs production mode are mixed by the weight with respect to their production cross section. The background sample used in the training is misidentified lepton background from the like sign region(Region II as in Table.~\ref{tab:fakeratediagram}). The list of BDT input variables  is in the following list and the distribution of the variables are shown in Fig.~\ref{fig:BDT_input_var_mutauhad}.
 
 \begin{itemize}
 \item Transverse mass between the $\tauh$ and $\ETmiss$, $M_{T}(\tau_{h})$.
@@ -122,8 +122,7 @@ A Boost decision trees(BDT) method is chosen as the multivariate analysis method
 \end{figure}
 
 
-Fig.~\ref{fig:BDTvarcorrelation} shows BDT input variables in the signal and background training samples. The chosen input variables show low correlation in both samples. Fig.~\ref{fig:BDTovertraining} shows the TMVA overtraining checks. Training samples are divided into two groups, one for training and one for testing. After the training, the algorithm applies the training output to the testing sample to check if they are in good matching.
-
+The chosen input variables show low correlation in both samples as shown in Figure.~\ref{fig:BDTvarcorrelation}. The TMVA overtraining checks is performed by checking with the testing samples to see if similar distinguishing power can be achieved with the output weight file from the training samples. Training and testing samples show good agreement and the training process exempts from overtraining as indicated in Figure.~\ref{fig:BDTovertraining}.
 \begin{figure}[htbp] 
 \centering
 \includegraphics[width=0.6\textwidth]{chapter5/overtrain_BDT.pdf}
@@ -134,24 +133,24 @@ Fig.~\ref{fig:BDTvarcorrelation} shows BDT input variables in the signal and bac
 \section{\texorpdfstring{$H\rightarrow e \tau_h$}{Lg}}
 
 \subsection{Loose selection}
-In $ \Hehad$ channel, the trigger used is $HLT\_Ele27\_WP80$, which applies an electron $\pt$ cut at 27GeV at HLT level. A further cut on electron $P_{T}>30GeV$ is applied. Electrons are required to have $|\eta_{e}<2.3|$ and $D_{z}<0.2 cm$. $D_{z}$ is the longitudinal impact parameter that shows the displacement between primary vertex and track path. Electrons are also requirement to pass the MVA based tight ID and cut based PF tight isolation  $PFiso<0.1$. Tau candidates are required to have $P_{T}>30GeV$, pseudorapidity in the range $|\eta^{\tau}<2.3|$ and the longitudinal impact parameter $D_{z}<0.2 cm$. Tau isolation used is the cut based tight tau isolation. In addition, tau candidates pass the tau Decay mode finding and tau discriminator against electrons and muons. The analysis also requires no extra isolated electrons with $\pt>10GeV$ and extra taus with $\pt>20GeV$. Tau and electron candidates are required to have opposite sign of charges and separate with an $\Delta R>0.4$ from any jets in the events with $\pt>30GeV$. All of the requirements contribute to the selections of good qualities candidates. The datasets are binned into three categories according to the number of jets in the events:
+In $ \Hehad$ channel, trigger $HLT\_Ele27\_WP80$ is used, which applies an electron $\pt$ cut at 27 GeV at HLT level. A further cut on electron $P_{T}>30$ GeV is applied. Electrons are also required to have $|\eta_{e}<2.3|$ and $D_{z}<0.2 cm$. $D_{z}$ is the longitudinal impact parameter that shows the displacement between primary vertex and track path. Electrons are required to pass the MVA based tight ID and cut based PF tight isolation  $I_{rel}^{e}<0.1$. Tau candidates are required to have $P_{T}>30$ GeV, pseudorapidity $|\eta^{\tau}<2.3|$ and the longitudinal impact parameter $D_{z}<0.2$ cm. Tau isolation used is the cut based tight tau isolation. In addition, tau candidates are required to pass the tau Decay mode finding and tau discriminator against electrons and muons. The analysis also requires no extra isolated electrons with $\pt>10$ GeV and extra taus with $\pt>20$ GeV. Tau and electron candidates are required to have opposite sign of charges and separate with $\Delta R>0.4$ from any jets in the events with $\pt>30$ GeV. All of the requirements contribute to the selections of good qualities candidates. The datasets are binned into three categories according to the number of jets in the events:
 \begin{enumerate}
-\item[{\bf 0-jet:}] No events have jets pass the loose PF ID and  with jet $P_T>30GeV$, $|\eta|<4.7$. This category enhances the gluon-gluon fusion contribution.
-\item[{\bf 1-jet:}] Events with one jet passes loose PF ID and jet $P_T>30GeV$ , $|\eta|<4.7$. This category enhances the gluon-gluon fusion production with initial state radiation.
+\item[{\bf 0-jet:}] No events have jets pass the loose PF ID and  with jet $P_T>30$ GeV, $|\eta|<4.7$. This category enhances the gluon-gluon fusion contribution.
+\item[{\bf 1-jet:}] Events with one jet passes loose PF ID and jet $P_T>30$ GeV , $|\eta|<4.7$. This category enhances the gluon-gluon fusion production with initial state radiation.
 \item [{\bf 2 jets:}] Events with two jets pass loose PF ID and with jet $P_T>30$ GeV and $|\eta|<4.7$, This category contains both Higgs production mode and with an enhancement in VBF production mode. \end{enumerate}
 
-With the preselection and binning of the jets numbers, the $\mcol$ distribution of $\Hehad$ in different categories are shown in Fig.~\ref{fig:etauCol_preselection}
+With the preselection and binning of the jets numbers, the $\mcol$ distribution of $\Hehad$ in different categories are shown in Figure.~\ref{fig:etauCol_preselection}
 \begin{figure}[hbtp]\centering
- \includegraphics[width=0.4565\textwidth]{chapter5/etauPlots/etau_preselection0jet.pdf}
- \includegraphics[width=0.4565\textwidth]{chapter5/etauPlots/etau_preselection1jet.pdf}
- \includegraphics[width=0.4565\textwidth]{chapter5/etauPlots/etau_preselection2jet.pdf}
+ \subfigure[0 jet]{\includegraphics[width=0.4565\textwidth]{chapter5/etauPlots/etau_preselection0jet.pdf}}
+ \subfigure[1 jet]{ \includegraphics[width=0.4565\textwidth]{chapter5/etauPlots/etau_preselection1jet.pdf}}
+ \subfigure[2 jets]{\includegraphics[width=0.4565\textwidth]{chapter5/etauPlots/etau_preselection2jet.pdf}}
  \caption{With loose selection conditions, the comparison of the observed collinear mass distributions with background from prediction. The shaded grey bands indicate the total background uncertainty.
 The open histograms correspond to the expected signal distributions for $\mathcal{B}(\Hehad)=100\%$ in the  0-jet, 1-jet and 2-jet categories, respectively.}
 \label{fig:etauCol_preselection}\end{figure}
 
 
 \subsection{Cut-based analysis}
-A set of kinematics variables are defined and set to further select signal events. In $\Hehad$ channel, similar to the $\Hmuhad$, muon and tau leptons from the signal events are highly boosted, so as $\pt$ variables plays an important role in distinguishing from background events and the separation in $\phi$ direction is bigger between $\mu$ and $\tau$ for signal events. Missing energy from the $\tau$ neutrino in hadronic decay is one of the characters in signal events, so $M_{T}(\tau_{h})$ is an useful variable. In two jets category, $M_{jj}$ also used as a cut variable.  The cuts have been optimized to have the most stringent expected limits with the Asimov dataset. The detailed cuts used for $\Hehad$ is shown in table.~\ref{tab:ehadcategories}.
+A set of kinematics variables are used to further select signal events. In $\Hehad$ channel, similar to the $\Hmuhad$, muon and tau leptons from the signal events are highly boosted so as $\pt$ variables plays an important role in distinguishing from background events and the separation in $\phi$ direction is bigger between $\mu$ and $\tau$ of signal events. The variable $M_{T}(\tau_{h})$ which is the transverse mass form by the reconstructed $\tau$ and MET is also used in the selection. In two jets category, the invariant mass of two jets $M_{jj}$ is used as a cut variable.  The cuts have been optimized to have the most stringent expected limits with the Asimov dataset. The detailed cuts used for $\Hehad$ is shown in table.~\ref{tab:ehadcategories}.
 
 
 \begin{table}[hbtp]
@@ -160,21 +159,21 @@ A set of kinematics variables are defined and set to further select signal event
     optimization, for the $\Hehad$ channel}
   \begin{tabular}{l} \hline
   {\bf 0-jet category} \\ \hline
-  \tabitem $\pt^{e}>45GeV$, $\pt^{\tau}>30GeV$, $\Delta \phi_{e \tau}>2.3$ \\
-  \tabitem $M_T(\tau)<70GeV$ \\
-  \tabitem No jets with $\pt^{jet}>30 GeV$, $|\eta|<4.7$, LooseID \\ \hline
+  \tabitem $\pt^{e}>45$ GeV, $\pt^{\tau}>30$ GeV, $\Delta \phi_{e \tau}>2.3$ \\
+  \tabitem $M_T(\tau)<70$ GeV \\
+  \tabitem No jets with $\pt^{jet}>30$ GeV, $|\eta|<4.7$, LooseID \\ \hline
  {\bf 1-jet category} \\ \hline
-  \tabitem $\pt^{e}>35GeV$, $\pt^{\tau}>40GeV$ \\
-  \tabitem One jet  with $\pt^{jet}>30 GeV$, $|\eta|<4.7$, LooseID
+  \tabitem $\pt^{e}>35 $GeV, $\pt^{\tau}>40$ GeV \\
+  \tabitem One jet  with $\pt^{jet}>30$ GeV, $|\eta|<4.7$, LooseID
   \\ \hline
   {\bf 2-jet category} \\ \hline
-  \tabitem $\pt^{e}>35GeV$, $\pt^{\tau}>30GeV$ \\
-  \tabitem $M_T(\tau)<50GeV$ \\
-      \tabitem $\pt^{jet1}>30 GeV$,$\pt^{jet2}>30 GeV$
+  \tabitem $\pt^{e}>35$ GeV, $\pt^{\tau}>30$ GeV \\
+  \tabitem $M_T(\tau)<50$ GeV \\
+      \tabitem $\pt^{jet1}>30$ GeV,$\pt^{jet2}>30$ GeV
       $|\eta_{jet1}|<4.7$,$|\eta_{jet2}|<4.7$, LooseID\\
       \tabitem $\Delta\eta(jet1,jet2)>2.3$\\
-      \tabitem $M_{jj}>400GeV$\\
-      \tabitem Two jets with $\pt^{jet}>30 GeV$, $|\eta|<4.7$, LooseID \\ \hline
+      \tabitem $M_{jj}>400$ GeV\\
+      \tabitem Two jets with $\pt^{jet}>30$ GeV, $|\eta|<4.7$, LooseID \\ \hline
   \label{tab:ehadcategories}
 \end{tabular}
 \end{center}

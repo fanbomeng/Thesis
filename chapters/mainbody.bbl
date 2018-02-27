@@ -1,9 +1,16 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{18}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Chatrchyan et~al.(2012)]{Chatrchyan:2012xi}
+S.~Chatrchyan et~al.
+\newblock {Performance of CMS muon reconstruction in pp collision events at
+  $\sqrt{s} = 7$ TeV}.
+\newblock \emph{JINST}, 7:\penalty0 P10002, 2012.
+\newblock \doi{10.1088/1748-0221/7/10/P10002}.
 
 \bibitem[Chatrchyan et~al.(2014)]{Chatrchyan:2014nva}
 S.~Chatrchyan et~al.
@@ -19,25 +26,32 @@ C.~Collaboration".
   CERN-PH-EP-2011-137):\penalty0 P01001. 33 p, Sep 2011.
 \newblock URL \url{http://cds.cern.ch/record/1385560}.
 
-\bibitem[Collaboration(2016{\natexlab{a}})]{TauRecoandIDRunII}
+\bibitem[Collaboration(2016{\natexlab{a}})]{CMS:2016gvn}
 C.~Collaboration.
 \newblock {Performance of reconstruction and identification of tau leptons in
   their decays to hadrons and tau neutrino in LHC Run-2}.
-\newblock 2016{\natexlab{a}}.
+\newblock CMS Physics Analysis Summary CMS-PAS-TAU-16-002, 2016{\natexlab{a}}.
+\newblock URL \url{https://cds.cern.ch/record/2196972}.
 
-\bibitem[Collaboration(2016{\natexlab{b}})]{TauReconstuction}
+\bibitem[Collaboration(2016{\natexlab{b}})]{TauRecoandIDRunII}
+C.~Collaboration.
+\newblock {Performance of reconstruction and identification of tau leptons in
+  their decays to hadrons and tau neutrino in LHC Run-2}.
+\newblock 2016{\natexlab{b}}.
+
+\bibitem[Collaboration(2016{\natexlab{c}})]{TauReconstuction}
 C.~Collaboration.
 \newblock {Reconstruction and identification of tau lepton decays to hadrons
   and tau neutrino at CMS}.
-\newblock \emph{JINST 11 (2016) P01019}, 11, 2016{\natexlab{b}}.
+\newblock \emph{JINST 11 (2016) P01019}, 11, 2016{\natexlab{c}}.
 \newblock \doi{10.1088/1748-0221/11/01/P01019}.
 
-\bibitem[Collaboration(2016{\natexlab{c}})]{btag_ago}
+\bibitem[Collaboration(2016{\natexlab{d}})]{btag_ago}
 C.~Collaboration.
 \newblock {Identification of b quark jets at the CMS Experiment in the LHC Run
   2}.
 \newblock Technical Report CMS-PAS-BTV-15-001, CERN, Geneva,
-  2016{\natexlab{c}}.
+  2016{\natexlab{d}}.
 \newblock URL \url{https://cds.cern.ch/record/2138504}.
 
 \bibitem[Collaboration(2017)]{paper:13TeVsearch}
@@ -45,6 +59,12 @@ C.~Collaboration.
 \newblock {Search for lepton flavour violating decays of the Higgs boson to
   μτ and eτ in proton-proton collisions at $\sqrt{s}$= 13 TeV}.
 \newblock \emph{JHEP}, 2017.
+
+\bibitem[de~Florian et~al.(2016)]{YR4}
+D.~de~Florian et~al.
+\newblock Handbook of {LHC} {H}iggs cross sections: 4. deciphering the nature
+  of the {H}iggs sector.
+\newblock CERN Report CERN-2017-002-M, 2016.
 
 \bibitem[Denner et~al.(2011)Denner, Heinemeyer, Puljak, Rebuzzi, and
   Spira]{Denner:2011mq}
@@ -80,13 +100,34 @@ A.~{Hoecker}, P.~{Speckmayer}, J.~{Stelzer}, J.~{Therhaag}, E.~{von Toerne},
 \newblock {TMVA - Toolkit for Multivariate Data Analysis}.
 \newblock \emph{ArXiv Physics e-prints}, Mar. 2007.
 
-\bibitem[Khachatryan et~al.(2016)]{HIG-14-040}
+\bibitem[Khachatryan et~al.(2011)]{Khachatryan2011}
+V.~Khachatryan et~al.
+\newblock Measurements of inclusive {W} and {Z} cross sections in pp collisions
+  at $\sqrt{s}$ = 7 {TeV}.
+\newblock \emph{J. High Energy Phys.}, 01:\penalty0 080, 2011.
+\newblock \doi{10.1007/JHEP01(2011)080}.
+
+\bibitem[Khachatryan et~al.(2015)]{Khachatryan:2015hwa}
+V.~Khachatryan et~al.
+\newblock {Performance of electron reconstruction and selection with the CMS
+  detector in proton-proton collisions at $\sqrt{s}$ = 8 TeV}.
+\newblock \emph{JINST}, 10:\penalty0 P06005, 2015.
+\newblock \doi{10.1088/1748-0221/10/06/P06005}.
+
+\bibitem[Khachatryan et~al.(2016{\natexlab{a}})]{HIG-14-040}
 V.~Khachatryan et~al.
 \newblock Search for lepton flavour violating decays of the higgs boson to
   $\mathrm{e}\tau$ and $\mathrm{e}\mu$ in proton-proton collisions at
   {$\sqrt{s}=8$ TeV}.
-\newblock \emph{Phys. Lett. B}, 763:\penalty0 472, 2016.
+\newblock \emph{Phys. Lett. B}, 763:\penalty0 472, 2016{\natexlab{a}}.
 \newblock \doi{10.1016/j.physletb.2016.09.062}.
+
+\bibitem[Khachatryan et~al.(2016{\natexlab{b}})]{Khachatryan:2015dfa}
+V.~Khachatryan et~al.
+\newblock {Reconstruction and identification of tau lepton decays to hadrons
+  and $\nu_\tau$ at CMS}.
+\newblock \emph{JINST}, 11:\penalty0 P01019, 2016{\natexlab{b}}.
+\newblock \doi{10.1088/1748-0221/11/01/P01019}.
 
 \bibitem[{Particle Data Group} et~al.(2016){Particle Data Group}, Patrignani,
   et~al.]{Olive:2016xmw}
