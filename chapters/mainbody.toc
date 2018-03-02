@@ -46,9 +46,9 @@
 \contentsline {section}{\numberline {7.2}statistical methods}{38}{section.7.2}
 \contentsline {section}{\numberline {7.3}Systematics}{38}{section.7.3}
 \contentsline {subsection}{\numberline {7.3.1}Systematics used in $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $}{38}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Systematic uncertainties in $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $}{41}{subsection.7.3.2}
-\contentsline {chapter}{{CHAPTER\ 8: LFV Higgs decay searching results}}{44}{chapter.8}
-\contentsline {subsection}{\numberline {8.0.1}Results in $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $ search}{44}{subsection.8.0.1}
-\contentsline {subsection}{\numberline {8.0.2}Results in $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $ search}{52}{subsection.8.0.2}
-\contentsline {chapter}{{CHAPTER\ 9: Conclusion}}{57}{chapter.9}
-\contentsline {chapter}{BIBLIOGRAPHY}{58}{appendix*.7}
+\contentsline {subsection}{\numberline {7.3.2}Systematic uncertainties in $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $}{40}{subsection.7.3.2}
+\contentsline {chapter}{{CHAPTER\ 8: LFV Higgs decay searching results}}{46}{chapter.8}
+\contentsline {subsection}{\numberline {8.0.1}Results in $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $ search}{46}{subsection.8.0.1}
+\contentsline {subsection}{\numberline {8.0.2}Results in $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $ search}{54}{subsection.8.0.2}
+\contentsline {chapter}{{CHAPTER\ 9: Conclusion}}{59}{chapter.9}
+\contentsline {chapter}{BIBLIOGRAPHY}{60}{appendix*.7}
