@@ -1,37 +1,52 @@
-%
-% Modified by Megan Patnott
-% Last Change: Jan 18, 2013
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Modified by Sameer Vijay
-% Last Change: Wed Jul 27 2005 13:00 CEST
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Sample Notre Dame Thesis/Dissertation
-% Using Donald Peterson's ndthesis classfile
-%
-% Written by Jeff Squyres and Don Peterson
-%
-% Provided by the Information Technology Committee of
-%   the Graduate Student Union
-%   http://www.gsu.nd.edu/
-%
-% Nothing in this document is serious except the format.  :-)
-%
-% If you have any suggestions, comments, questions, please send e-mail
-% to: ndthesis@gsu.nd.edu
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%
-% Chapter 2
-%
 
 \chapter{Signal extraction and systematics}
 
-\section{Boost decision trees method} \label{BDTchaper}
+\section{Boosted decision trees method} \label{BDTchaper}
+Boosted decision trees(BDT) is used in the $\Hmuhad$ analysis. With this MVA method, the final result, which is referred as BDT fit analysis, improved a factor of two with respect to the $\mcol$ fit analysis. There are two parts within BDT, the boosting algorithm and the decision tree. AdaBoost(adaptive boost) is the main boosting algorithm focused on. 
+
+Decision tree is a simple two dimensional tree structure. BDT takes in one signal and one background data sets, which are further divided into training and test samples. A set of selected variables are used the training. At the initial node of the tree structure, events are ordered by the value of variables. Trying with every variable, the node is split into two branches by a binary selection of the variable that gives the best separation between signal and background in each of the branch. The splitting continues until the training reaches the number of layers or the number of events in the branch is smaller than the set limit. The splitting stops and the last notes are called leaves. Depending on the main population inside each leaf, the leafs are categorized as signal leaves or background leaves. An example of the tree structure is shown in Figure.~\ref{fig:BDTtreestructure}.  A criterion is needed for the selection of a variable and the exact point of the cut at the node or branch. Purity is defined as in Equation.~\ref{Equ.purityBDT}, in which the superscript s stands of signal events, b stands of background events and W stands of event weight. With the definition of purity, a couple of criteria can be configured. Here the one called Gini, defined in Equation.~\ref{Equ.BDTGini}, is selected also it is the default one for BDT in TMVA package. In every splitting, the variable value that maximize the criterion in Equation.~\ref{Equ.BDTtreecriterion} is selected.  
+
+
+\begin{align} \label{Equ.purityBDT}
+P=\frac{\sum_{s}W_{s}}{\sum_{s}W_{s}+\sum_{b}W_{b}}
+\end{align}
+
+\begin{align}\label{Equ.BDTGini} 
+Gini=(\sum_{i=1}^{n}W_{i})P(1-P)
+\end{align}
+
+\begin{align}\label{Equ.BDTtreecriterion} 
+Criterion=Gini_{n-1}-Gini_{n \ left}-Gini_{n \ right}
+\end{align}
+
+
+\begin{figure}[!tbp] 
+\centering
+\includegraphics[width=0.6\textwidth]{chapter7/BDT_tree_show.pdf}
+\caption{Tree structure example in BDT}
+\label{fig:BDTtreestructure}
+\end{figure}
+
+Decision tree method is powerful, but the performance suffers from fluctuations. The selection of two variables with similar selection quality may be affected by a small change in the training sample. One of the solution is introducing the boosting algorithm. The boosting algorithm not only help stabilize decision tree training with respect to the small fluctuations inside the training data, but also enhance the classification.  AdaBoost is one of the boosting algorithms. With AdaBoost, after the first decision tree training, the misclassified events get higher even weights and as input into the second tree. Typically the AdaBoost training 1000 to 2000 trees. Misclassified event weights depend on the training error of each decision tree. Training error is calculated as in Equation.~\ref{Equ.errorBDT}, in which the superscript m, w are the tree label and event weight respectively. $y_{i}$ indicates the ith event type, 1 for signal and -1 for background. $T_{m}(x_{i})$ indicate the what kind of leaf event i with variable x lands on, 1 for signal leaf and -1 for background leaf. Variable $I(y_{i}\neq T_{m}(x_{i}))$ inside the Equation.~\ref{Equ.errorBDT} constructs on the variables $y_{i}$ and $T_{m}$ equal 1 if $y_{i}\neq T_{m}(x_{i})$ or 0 if $y_{i}= T_{m}(x_{i})$. As shown in Equation.~\ref{Equ.boostingweight}, with the intermediate quantity $\alpha_{m}$ for the tree m, the weight for event i is updated to its new value. While $\textrm{error}_{m}$ is required to be less than 0.5 so as the event weights are updated to the right direction. Learning rate parameter $\beta$ can be used to adjust the step of each re-weighting. The default value of $\beta$ is 1. Event weights in each tree is renormalized to keep the summed weights constant. The final score of each event after the boosting and training processes is obtained with Equation.~\ref{Equ.boostingeventweight}. High score indicates a signal like event while low score indicates a background ground like event.
+
+
+
+\begin{align}\label{Equ.errorBDT} 
+\textrm{error}_{m}=\frac{\sum_{i=1}^{N}w_{i}I(y_{i}\neq T_{m}(x_{i}))}{\sum_{i=1}^{N}w_{i}} 
+\end{align}
+
+
+\begin{align}\label{Equ.boostingweight} 
+\alpha_{m}=&\beta\times \textrm{ln}((1-\textrm{error}_{m})/\textrm{error}_{m})\\
+w_{i}\rightarrow &w_{i}\times e^{\alpha I(y_{i}\neq T_{m}(x_{i}))} \\
+w_{i}\rightarrow &w_{i}/\sum_{i=1}^{N}w_{i}
+\end{align}
+
+\begin{align}\label{Equ.boostingeventweight} 
+T(x)=\sum_{m=1}^{N_{tree}}\alpha_{m}T_{m}(x)
+\end{align}
+
+
 
 \section{statistical methods}
 
