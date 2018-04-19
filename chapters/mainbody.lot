@@ -2,43 +2,47 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Monte Carlo samples used in the search, together with their respective cross sections. The k-factors for the W+jets and Z+jets samples are 1.21 and 1.16, respectively. The NNLO+NNLL QCD cross sections for the Higgs boson samples in gluon-gluon fusion production mode are considered in this version of the analysis, and will be replaced by N3LO cross sections before the approval.}}{5}{table.4.1}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Monte Carlo samples used in the search, together with their respective cross sections.}}{6}{table.4.1}
  {\vskip 0.4em} 
-\contentsline {table}{\numberline {4.2}{\ignorespaces Muon ID used in the analysis, for the LHC data 2016, running period BCDEF. }}{6}{table.4.2}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Continue with MC samples used in the analysis.}}{7}{table.4.2}
  {\vskip 0.4em} 
-\contentsline {table}{\numberline {4.3}{\ignorespaces Muon ID used in the analysis, for the LHC data 2016, running period G and H, also the monte Carlo samples. }}{7}{table.4.3}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Signal and background MC samples}}{8}{table.4.3}
  {\vskip 0.4em} 
-\contentsline {table}{\numberline {4.4}{\ignorespaces Dominant hadronic $\tau $ lepton decays branching fractions and the associated intermediate resonance. The h stands for both $\pi $ and K. The table is symmetric under charge conjugation.}}{10}{table.4.4}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Muon ID used in the analysis, for the LHC data 2016, running period BCDEF. }}{10}{table.4.4}
  {\vskip 0.4em} 
-\contentsline {table}{\numberline {4.5}{\ignorespaces $\tau $ hadronic decay mode hypothesis signatures compatibility tests. $m_{\tau }$ is required to be in the mass window }}{12}{table.4.5}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Muon ID used in the analysis, for the LHC data 2016, running period G and H, also the monte Carlo samples. }}{11}{table.4.5}
  {\vskip 0.4em} 
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Selection criteria in each category with the optimization of the $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $ analysis}}{18}{table.5.1}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Dominant hadronic $\tau $ lepton decays branching fractions and the associated intermediate resonance. The h stands for both $\pi $ and K. The table is symmetric under charge conjugation.}}{14}{table.4.6}
  {\vskip 0.4em} 
-\contentsline {table}{\numberline {5.2}{\ignorespaces Selection criteria for each event category after cut optimization, for the $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $ channel}}{26}{table.5.2}
- {\vskip 0.4em} 
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Definition of the samples used to estimate the misidentified lepton background.}}{28}{table.6.1}
- {\vskip 0.4em} 
-\contentsline {table}{\numberline {6.2}{\ignorespaces Scale factor to the events in which a muon is misidentified as a tau}}{33}{table.6.2}
+\contentsline {table}{\numberline {4.7}{\ignorespaces $\tau $ hadronic decay mode hypothesis signatures compatibility tests. $m_{\tau }$ is required to be in the mass window }}{16}{table.4.7}
  {\vskip 0.4em} 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Part one of the systematic uncertainties considered in $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $ analysis. All of the uncertainties listed in the systematic tables are correlated between categories besides the ones after the sign $\oplus $. These are the uncertainties correlated in within each category but independent between categories. The theoretical uncertainties related to the acceptance and migration of events are listed in a range. The negative or positive values indicate a anticorrelated or correlated between categories}}{44}{table.7.1}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Selection criteria in each category with the optimization of the $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $ analysis}}{22}{table.5.1}
  {\vskip 0.4em} 
-\contentsline {table}{\numberline {7.2}{\ignorespaces Part two of the systematic uncertainties considered in $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $ analysis}}{45}{table.7.2}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Selection criteria for each event category after cut optimization, for the $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $ channel}}{30}{table.5.2}
  {\vskip 0.4em} 
-\contentsline {table}{\numberline {7.3}{\ignorespaces b tagging veto systematic uncertainty in each category}}{45}{table.7.3}
- {\vskip 0.4em} 
-\contentsline {table}{\numberline {7.4}{\ignorespaces The normalization systematic uncertainties considered in $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $ analysis. The uncertainties are correlated between categories besides the ones after $\oplus $. These uncertainies are uncorrelated between categories. }}{47}{table.7.4}
-\contentsline {table}{\numberline {7.5}{\ignorespaces The systematic uncertainties that affect the shape of $\ensuremath {M_{col}}\xspace $ distribution. }}{47}{table.7.5}
- {\vskip 0.4em} 
-\contentsline {table}{\numberline {7.6}{\ignorespaces Theoretical uncertainties that affects the Higgs boson production cross section. These uncertainties are correlated or anticorrelated(with minus sign superscript) between all of the categories.}}{48}{table.7.6}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces $\ensuremath {M_{col}}\xspace $ fit analysis expected and observed upper limits at 95\% CL and the best fit branching fractions in each of the categories.}}{53}{table.8.1}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Definition of the samples used to estimate the misidentified lepton background.}}{32}{table.6.1}
  {\vskip 0.4em} 
-\contentsline {table}{\numberline {8.2}{\ignorespaces BDT fit analysis expected and observed upper limits at 95\% CL and the best fit branching fractions in each of the categories.}}{54}{table.8.2}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Scale factor to the events in which a muon is misidentified as a tau}}{37}{table.6.2}
  {\vskip 0.4em} 
-\contentsline {table}{\numberline {8.3}{\ignorespaces Events yields of the signal and backgrounds are shown in the mass range $100\nobreakspace {}\textrm {GeV}<\ensuremath {M_{col}}\xspace <150\nobreakspace {}\textrm {GeV}$. The branching ratio of $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $ is assumed to be 0.69\% of the SM higgs production cross section. The numbers in the table are normalized to the integrated luminosity of 19.7 $fb^{-1}$.}}{59}{table.8.3}
-\contentsline {table}{\numberline {8.4}{\ignorespaces $\ensuremath {M_{col}}\xspace $ fit analysis expected and observed upper limits at 95\% CL and the best fit branching fractions in each of the categories of both $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $ and $H \to e \tau _{\mu }$ analysises. The asymmetric one standard-deviation uncertainties around the expected limits are shown in parentheses.}}{60}{table.8.4}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Part one of the systematic uncertainties considered in $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $ analysis. All of the uncertainties listed in the systematic tables are correlated between categories besides the ones after the sign $\oplus $. These are the uncertainties correlated in within each category but independent between categories. The theoretical uncertainties related to the acceptance and migration of events are listed in a range. The negative or positive values indicate a anticorrelated or correlated between categories}}{53}{table.7.1}
+ {\vskip 0.4em} 
+\contentsline {table}{\numberline {7.2}{\ignorespaces Part two of the systematic uncertainties considered in $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $ analysis}}{54}{table.7.2}
+ {\vskip 0.4em} 
+\contentsline {table}{\numberline {7.3}{\ignorespaces b tagging veto systematic uncertainty in each category}}{54}{table.7.3}
+ {\vskip 0.4em} 
+\contentsline {table}{\numberline {7.4}{\ignorespaces The normalization systematic uncertainties considered in $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $ analysis. The uncertainties are correlated between categories besides the ones after $\oplus $. These uncertainies are uncorrelated between categories. }}{57}{table.7.4}
+\contentsline {table}{\numberline {7.5}{\ignorespaces The systematic uncertainties that affect the shape of $\ensuremath {M_{col}}\xspace $ distribution. }}{57}{table.7.5}
+ {\vskip 0.4em} 
+\contentsline {table}{\numberline {7.6}{\ignorespaces Theoretical uncertainties that affects the Higgs boson production cross section. These uncertainties are correlated or anticorrelated(with minus sign superscript) between all of the categories.}}{58}{table.7.6}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {8.1}{\ignorespaces $\ensuremath {M_{col}}\xspace $ fit analysis expected and observed upper limits at 95\% CL and the best fit branching fractions in each of the categories.}}{63}{table.8.1}
+ {\vskip 0.4em} 
+\contentsline {table}{\numberline {8.2}{\ignorespaces BDT fit analysis expected and observed upper limits at 95\% CL and the best fit branching fractions in each of the categories.}}{64}{table.8.2}
+ {\vskip 0.4em} 
+\contentsline {table}{\numberline {8.3}{\ignorespaces Events yields of the signal and backgrounds are shown in the mass range $100\nobreakspace {}\textrm {GeV}<\ensuremath {M_{col}}\xspace <150\nobreakspace {}\textrm {GeV}$. The branching ratio of $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $ is assumed to be 0.69\% of the SM higgs production cross section. The numbers in the table are normalized to the integrated luminosity of 19.7 $fb^{-1}$.}}{69}{table.8.3}
+\contentsline {table}{\numberline {8.4}{\ignorespaces $\ensuremath {M_{col}}\xspace $ fit analysis expected and observed upper limits at 95\% CL and the best fit branching fractions in each of the categories of both $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $ and $H \to e \tau _{\mu }$ analysises. The asymmetric one standard-deviation uncertainties around the expected limits are shown in parentheses.}}{70}{table.8.4}
  {\vskip 0.4em} 
 \addvspace {10\p@ }

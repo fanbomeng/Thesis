@@ -1,59 +1,97 @@
 
 \chapter{Datasets}
 \section{Datasets used in LFV analysis}
-
-
+\subsection{\Hmuhad}
+The data sample used in the analysis is from LHC 2016 Runs, recorded by CMS detecter. Total integrated luminosity of the analyzed data is $35.9 ~\textrm{fb}^{-1} $ with center-of-mass energy of $ \sqrt{s}=13 ~\textrm{TeV} $. The data sample labeled in the CMS experiment as SingleMuon\_Run2016B,C,D,E,F,G,H. The name SingleMuon in the data sample represents the trigger used in the analysis, which selects the events with at least a muon passed the trigger selection. Gluon gluon fusion Higgs(ggH)~\cite{Georgi:1977gs} production and vector boson fusion Higgs(VBF)~\cite{Cahn:1986zv} are the main Higgs production channels considered in the analysis. For the background samples, besides the misidentified background which is talked about in detail in Chapter6, the other background samples are all generated with Monte Carlo(MC) simulation.  POWHEG~\cite{POWHEG-BOX} or MadGraph~\cite{Alwall:2014} generator is used for the generation and all of the MC samples, including the signal samples, the parton showering, fragmentation, and decays are performed by Pythia8~\cite{Sjostrand:2014zea}.  Pileup effect is taking into account in the generator by generate minimum bias events simultaneously and a correction is applied by comparing the data sample. The average number of pileup interaction per bunch crossing is 27. CMS detector environment is simulated by GEANT4~\cite{GEANT4}. The details of the MC samples used in the analysis are summarized in Table.~\ref{tab:mutaumcsamples} and Table.~\ref{tab:mutaumcsamples2}.
 
 \begin{table}[!hbpt]
+\caption{Monte Carlo samples used in the search, together with their respective cross sections.}
 \begin{center}
-{\footnotesize
-\begin{tabular}{|l|c|}
+% sample name   &    generator    & cross section 
+\begin{tabular}{|c|c|c|}
 \hline
-MC simulations & Cross section \\
-\hline
-\texttt{/DYJetsToLL\_M-50\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8} & 4954.0 pb (LO)\\
-\texttt{/DY1JetsToLL\_M-50\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8} & 1012.5 pb (LO)\\
-\texttt{/DY2JetsToLL\_M-50\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8} & 332.8 pb (LO)\\
-\texttt{/DY3JetsToLL\_M-50\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8} & 101.8 pb (LO)\\
-\texttt{/DY4JetsToLL\_M-50\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8} & 54.8 pb (LO)\\
-\texttt{/DYJetsToLL\_M-10to50\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8} & 18610 pb (LO)\\
-\texttt{/TT\_TuneCUETP8M1\_13TeV-powheg-pythia8} & 831.76 pb\\
-\texttt{/WJetsToLNu\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8} & 50380 pb (LO)\\
-\texttt{/W1JetsToLNu\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8} & 9644.5 pb (LO)\\
-\texttt{/W2JetsToLNu\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8} & 3144.5 pb (LO)\\
-\texttt{/W3JetsToLNu\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8} & 954.8 pb (LO)\\
-\texttt{/W4JetsToLNu\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8/} & 485.6 pb (LO)\\
-\texttt{/WZTo1L3Nu\_13TeV\_amcatnloFXFX\_madspin\_pythia8} & 3.05 pb\\
-\texttt{/WZTo1L1Nu2Q\_13TeV\_amcatnloFXFX\_madspin\_pythia8} & 10.71 pb\\
-\texttt{/WZTo2L2Q\_13TeV\_amcatnloFXFX\_madspin\_pythia8} & 5.595 pb\\
-\texttt{/ST\_tW\_antitop\_5f\_inclusiveDecays\_13TeV-powheg-pythia8\_TuneCUETP8M1} & 35.85 pb\\
-\texttt{/ST\_tW\_top\_5f\_inclusiveDecays\_13TeV-powheg-pythia8\_TuneCUETP8M1} & 35.85 pb\\
-\texttt{/ST\_t-channel\_antitop\_4f\_leptonDecays\_13TeV-powheg-pythia8\_TuneCUETP8M1} & 80.95 pb\\
-\texttt{/ST\_t-channel\_top\_4f\_leptonDecays\_13TeV-powheg-pythia8\_TuneCUETP8M1} & 136.02 pb\\
-\texttt{/WWTo1L1Nu2Q\_13TeV\_amcatnloFXFX\_madspin\_pythia8} & 1.212 pb\\
-\texttt{/ZZTo2L2Q\_13TeV\_amcatnloFXFX\_madspin\_pythia8} & 3.22 pb\\
-\texttt{/VVTo2L2Nu\_13TeV\_amcatnloFXFX\_madspin\_pythia8} & 11.95 pb\\
-\texttt{/WGToLNuG\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8} & 489.0 pb \\
-\texttt{/WGstarToLNuMuMu\_012Jets\_13TeV-madgraph} & 2.793 pb \\
-\texttt{/WGstarToLNuEE\_012Jets\_13TeV-madgraph} & 3.526 pb \\
-\texttt{/GluGluHToTauTau\_M125\_13TeV\_powheg\_pythia8}   & 48.58 pb X 0.0627 \\
-\texttt{/VBFHToTauTau\_M125\_13TeV\_powheg\_pythia8}   & 3.782 pb X 0.0627 \\
-\texttt{/GluGluHToWWTo2L2Nu\_M125\_13TeV\_powheg\_pythia8}& 48.58 pb X 0.0227 \\
-\texttt{/VBFHToWWTo2L2Nu\_M125\_13TeV\_powheg\_pythia8}& 3.782 pb X 0.0227 \\
-\texttt{/ZHToTauTau\_M125\_13TeV\_powheg\_pythia8} & 0.8839 pb X 0.0627\\
-\texttt{/WminusHToTauTau\_M125\_13TeV\_powheg\_pythia8} & 1.373 pb X 0.0627\\
-\texttt{/WplusHToTauTau\_M125\_13TeV\_powheg\_pythia8} & 1.373 pb X 0.0627\\
-\texttt{/ttHJetToTT\_M125\_13TeV\_amcatnloFXFX\_madspin\_pythia8} & 0.507 pb  X 0.0627 \\
-\hline
+Processes & Generator & Cross section [pb] \\\hline
+DYJets$\to\ell \ell$, $m_{\ell \ell}>50$ GeV &MadGraph+pythia8   & 4954.0 \\\hline
+DY1Jets$\to\ell \ell$, $m_{\ell \ell}>50$ GeV &MadGraph+pythia8 & 1012.5 \\\hline
+DY2Jets$\to\ell \ell$, $m_{\ell \ell}>50$ GeV&MadGraph+pythia8  & 332.8 \\\hline
+DY3Jets$\to\ell \ell$, $m_{\ell \ell}>50$ GeV&MadGraph+pythia8  & 101.8 \\\hline
+DY4Jets$\to\ell \ell$, $m_{\ell \ell}>50$ GeV&MadGraph+pythia8  & 54.8 \\\hline
+DYJets$\to\ell \ell$, $m_{\ell \ell}<50$ GeV&MadGraph+pythia8    & 1861.0 \\\hline
+$t\bar{t}$                                                     & powheg+PYTHIA     &  831.76\\\hline
+$t \backslash \bar{t}\to t w$                        & powheg+PYTHIA8     &  35.85 \\\hline
+$WZ \to \ell 3v$                                          & MadGraph+PYTHIA8   &  3.05   \\\hline
+$WZ \to \ell v 2q $                                      & MadGraph+PYTHIA8   &  10.71  \\\hline
+$WZ \to 2 \ell 2q $                                      &  MadGraph+PYTHIA8  &  5.595 \\\hline
+$t\to4f $                                                     & POWHEG+PYTHIA8       & 136.02\\\hline
+$\bar{t}\to4f $                                             & POWHEG+PYTHIA8       & 80.95\\\hline
+$WW \to \ell v 2q$                                      & MadGraph+PYTHIA8   &  1.212   \\\hline
+$ZZ \to 2\ell 2q $                                        & MadGraph+PYTHIA8    &  3.22   \\\hline
+$VV \to2\ell 2 q$                                        &  MadGraph+PYTHIA8   &  11.95  \\\hline
+
 \end{tabular}
-} % end footnotesize
 \end{center}
-\caption{Monte Carlo samples used in the search, together with their respective cross sections. The k-factors for the
-W+jets and Z+jets samples are 1.21 and 1.16, respectively. The NNLO+NNLL QCD cross sections for the Higgs boson samples
-in gluon-gluon fusion production mode are considered in this version of the analysis, and will be replaced
-by N3LO cross sections before the approval.}
-\label{tab:mcsamples}
+\label{tab:mutaumcsamples}
 \end{table}
+
+\begin{table}[!hbpt]
+\caption{Continue with MC samples used in the analysis.}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+MC simulations & Generator & Cross section [pb] \\\hline
+$VV \to2\ell 2 q$                                        &  MadGraph+PYTHIA8   &  11.95  \\\hline
+$ggH\to \Pgt\Pgt $                                      & POWHEG+PYTHIA8 &      3.046\\\hline
+$\textrm{VBF}H\to \Pgt\Pgt $                     & POWHEG+PYTHIA8 &      0.237\\\hline
+$ggH\to WW \to 2\ell 2v$                            & POWHEG+PYTHIA8 &      1.103\\\hline
+$\textrm{VBF}H\to WW\to 2\Pl 2v$             & POWHEG+PYTHIA8 &    0.086\\\hline
+$ZH \to \Pgt\Pgt$                                        & POWHEG+PYTHIA8 &    0.055\\\hline  
+$W^{-}\backslash W^{+} H\to\Pgt\Pgt$        & POWHEG+PYTHIA8 &    0.086\\\hline 
+$ttHJet \to \Pgt\Pgt$                                   &MadGraph+PYTHIA8&     0.32\\\hline   
+\end{tabular}
+\end{center}
+\label{tab:mutaumcsamples2}
+\end{table}
+
+
+\subsection{\Hehad}
+
+The search of lepton flavour violation Higgs decay $\Hehad$  is performed with CMS 2012 RunI dataset at center-of-mass energy  $\sqrt{s}=8 ~\textrm{TeV}$. The dataset is named as SingleElectron\_Run2012A,B,C,D with an integrated luminosity of $19.7 ~\textrm{fb}^{-1}$. Single electron HLT tigger is used which is talked more in details in Chapter 5. 
+
+
+\begin{table}[hbtp]
+ \begin{center}
+  \caption{Signal and background MC samples}
+  \label{tab:mcdatasets}
+  \begin{tabular}{l|l|l}
+Processes & Generator & Cross section [pb] \\\hline
+$ggH\to e\tau $     &          PYTHIA8                     &  19.27                \\\hline
+$VBH\to e\tau$     &          PYTHIA8                      &   1.58                \\  \hline
+$ggH \to \tau\tau$ &POWHEG+PYTHIA6              &  19.27           \\\hline
+ $VBF\to\tau\tau$  &POWHEG+PYTHIA6              &   1.58           \\  \hline
+$t\overline{t}+\textrm{jets}~ \textrm{full}~\textrm{leptonic}$  &  MadGraph+Tauola                &  26.20                \\\hline
+$t\overline{t}+\textrm{jets}~\textrm{Semi}~\textrm{leptonic}$   & MadGraph+Tauola           &  109.28               \\ \hline
+$t$,$\bar{t}$           & /T(bar)\_tW-channel\_TuneZ2star\_8TeV-powheg-tauola        &   11.1 (11.1)          \\
+                        & T(bar)\_t-channel-DR\_TuneZ2star\_8TeV?powheg-tauola  &   56.4 (30.7)         \\  \hline
+$WW \to 2l2\nu+jets$    & WWTo2L2Nu\_TuneZ2star\_8TeV\_pythia6\_tauola                  & 5.824 (k-factor: 1.2) \\ \hline
+$ZZ\to 4l$               & ZZJetsTo4L\_TuneZ2star\_8TeV-madgraph-tauola                 & 0.18                  \\  \hline
+$ZZ\to 2l2Q$             & ZZJetsTo2L2Q\_TuneZ2star\_8TeV-madgraph-tauola               &   2.502               \\  \hline
+$ZZ\to 2l2\nu$           &ZZJetsTo2L2Nu\_TuneZ2star\_8TeV-madgraph-tauola               &    0.716              \\  \hline
+$WZ\to 2l2Q$             &WZJetsTo2L2Q\_TuneZ2star\_8TeV-madgraph-tauola                &    2.21               \\  \hline
+$WZ\to 3l\nu$            &WZJetsTo3LNu\_TuneZ2\_8TeV-madgraph-tauola            & 1.06                  \\  \hline
+$W\gamma\to l\nu\gamma$ &WGToLNuG\_TuneZ2star\_8TeV-madgraph-tauola             & 461.6                 \\  \hline
+$W\gamma*\to l\nu 2e$    &WGstarToLNu2E\_TuneZ2star\_8TeV-madgraph-tauola               &  5.87  (k-factor: 1.5) \\  \hline
+$W\gamma*\to l\nu 2\mu$  &WGstarToLNu2Mu\_TuneZ2star\_7TeV-madgraph-tauola              &  1.91 (k-factor: 1.5) \\  \hline
+$W\gamma*\to l\nu 2\tau$&WGstarToLNu2Tau\_TuneZ2star\_7TeV-madgraph-tauola              &  0.336 (k-factor: 1.5) \\  \hline
+  \end{tabular}
+ \end{center}
+\end{table}
+
+
+
+The data sample used in the analysis is from LHC 2016 Runs, recorded by CMS detecter. Total integrated luminosity of the analyzed data is $35.9 ~\textrm{fb}^{-1} $ with center-of-mass energy of $ \sqrt{s}=13 ~\textrm{TeV} $. The data sample labeled in the CMS experiment as SingleMuon\_Run2016B,C,D,E,F,G,H. The name SingleMuon in the data sample represents the trigger used in the analysis, which selects the events with at least a muon passed the trigger selection. Gluon gluon fusion Higgs(ggH)~\cite{Georgi:1977gs} production and vector boson fusion Higgs(VBF)~\cite{Cahn:1986zv} are the main Higgs production channels considered in the analysis. For the background samples, besides the misidentified background which is talked about in detail in Chapter6, the other background samples are all generated with Monte Carlo(MC) simulation.  POWHEG~\cite{POWHEG-BOX} or MadGraph~\cite{Alwall:2014} generator is used for the generation and all of the MC samples, including the signal samples, the parton showering, fragmentation, and decays are performed by Pythia8~\cite{Sjostrand:2014zea}.  Pileup effect is taking into account in the generator by generate minimum bias events simultaneously and a correction is applied by comparing the data sample. The average number of pileup interaction per bunch crossing is 27. CMS detector environment is simulated by GEANT4~\cite{GEANT4}. The details of the MC samples used in the analysis are summarized in Table.~\ref{tab:mutaumcsamples} and Table.~\ref{tab:mutaumcsamples2}.
+
+
+
 
 
 

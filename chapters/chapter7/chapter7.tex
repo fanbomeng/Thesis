@@ -2,7 +2,7 @@
 \chapter{Signal extraction and systematics}
 
 \section{Boosted decision trees method} \label{BDTchaper}
-Boosted decision trees(BDT) is used in the $\Hmuhad$ analysis. With this MVA method, the final result, which is referred as BDT fit analysis, improved a factor of two with respect to the $\mcol$ fit analysis. There are two parts within BDT, the boosting algorithm and the decision tree. AdaBoost(adaptive boost) is the main boosting algorithm focused on. 
+Boosted decision trees(BDT)~\cite{BDTboostPI,TMVAnote} is used in the $\Hmuhad$ analysis. With this MVA method, the final result, which is referred as BDT fit analysis, improved a factor of two with respect to the $\mcol$ fit analysis. There are two parts within BDT, the boosting algorithm and the decision tree. AdaBoost(adaptive boost) is the main boosting algorithm focused on. 
 
 Decision tree is a simple two dimensional tree structure. BDT takes in one signal and one background data sets, which are further divided into training and test samples. A set of selected variables are used the training. At the initial node of the tree structure, events are ordered by the value of variables. Trying with every variable, the node is split into two branches by a binary selection of the variable that gives the best separation between signal and background in each of the branch. The splitting continues until the training reaches the number of layers or the number of events in the branch is smaller than the set limit. The splitting stops and the last notes are called leaves. Depending on the main population inside each leaf, the leafs are categorized as signal leaves or background leaves. An example of the tree structure is shown in Figure.~\ref{fig:BDTtreestructure}.  A criterion is needed for the selection of a variable and the exact point of the cut at the node or branch. Purity is defined as in Equation.~\ref{Equ.purityBDT}, in which the superscript s stands of signal events, b stands of background events and W stands of event weight. With the definition of purity, a couple of criteria can be configured. Here the one called Gini, defined in Equation.~\ref{Equ.BDTGini}, is selected also it is the default one for BDT in TMVA package. In every splitting, the variable value that maximize the criterion in Equation.~\ref{Equ.BDTtreecriterion} is selected.  
 
@@ -48,7 +48,93 @@ T(x)=\sum_{m=1}^{N_{tree}}\alpha_{m}T_{m}(x)
 
 
 
-\section{statistical methods}
+\section{Statistical methods}
+
+The physics results are extracted with statistical methods. The limit of branching ratio with confident level(CL) method, significance and best fit branching fraction are mentioned in the analysis.  
+
+Probability density function(PDF) and likelihood function are the base functions used. PDF of a continuous variable x can be interpreted as the likelihood of x at its different values. Probability density function holds the property that it is normalized to unity. 
+\begin{align*}
+\int f(x) dx =1
+\end{align*}
+
+Usually PDF of a variable interested accompanied with a set of parameters, so as PDF is usually written in the form $f(data|\alpha)$, which means the probability density function of variables in data  given the parameter set $\alpha$. These parameters can from various source, for example, from theory estimation, detector response and Monte Carlo simulation. All of the parameters in a model or a system, besides the parameters of interest, the other parameters that have an impact on the results are referred as nuisance parameters.       
+
+
+Likelihood function of the same model $L(data|\alpha)$ is a function of parameter set $\alpha$ give data. In particle physics, Likelihood function more often in the form of $L(data|\mu,\theta)$, in which $\mu$ stands for signal strength modifier and $\theta$ stands for a full suite of nuisance parameters. Data in Likelihood function can be experimental data or pseudo-data which is produced to generate sample distribution. 
+Taking the counting experiment as an example, PDFs and likelihood function in a binned sample can be estimated with poisson distribution as the PDF can be expressed as
+\begin{align*}
+f(data|u,\theta)=\prod_{i}\frac{(\mu s_{i}+b_{i})^{n_{i}}}{n_{i}!}e^{-\mu s_{i}-b_{i}}
+\end{align*}
+The $s_{i}$ and $b_{i}$ stand for the expected number signal and background events respectively and both of them are a function of nuisance parameter $\theta$ as $s_{i}(\theta)$ and $b_{i}(\theta)$. $n_{i}$ represents the number of events observed in bin i. The likelihood function in numerical form is similar to PDFs but implement the systematic error pdfs $\rho(\theta|\tilde{\theta})$ if there are systematics considered in the model~\cite{CMS-NOTE-2011-005}. The form of likelihood function can be expressed as 
+\begin{align*}
+\mathcal{L}=\prod_{i}\frac{(\mu s_{i}+b_{i})^{n_{i}}}{n_{i}!}e^{-\mu s_{i}-b_{i}}\cdot p(\tilde{\theta}|\theta)
+\end{align*}
+
+Both PDF and likelihood function rely on the knowledge of nuisance parameters. Auxiliary measurements or control regions are often used for the scale estimation of systematic uncertainties. With observations in different auxiliary measurements, a PDF $p(\tilde{\theta}|\theta)$ which is referred as the posteriors can be measured. Together with $\pi(\theta)$ which is referred as a prior, the systematic error pdfs can be constructed under the Bayes' theorem as
+\begin{align*}
+\rho(\theta|\tilde{\theta})\sim p(\tilde{\theta}|\theta)\cdot \pi_{\theta}(\theta)
+\end{align*}
+The systematic error pdfs can be improved and less affected by the choice of prior $\pi(\theta)$~\cite{statistics:school2016} by the auxiliary measurements. 
+
+In the search of lepton flavour violaton higgs decay, the discovery will be finding the higgs events either decay into $\mu\tau$ pair in 13 TeV search or $e\tau$ pair in 8 TeV search.  LFV is forbidden in Standard Model(SM), thus, if take SM as a background only model, roughly speaking, a discovery can be claimed if the observation is not compatible with the background only model~\cite{LHCstaticstics}. To test the compatibility of the observed data with respect to the background only model and further calculate limits on the signal strength modifier of the signal+background hypothesis, the quantity test statistics and the PDFs of the two model under tested are needed.
+
+Test statistics is a function which can map a set of data into a number. According to the Neyman-Pearson lemma, likelihood ratio of two model under test gives the most powerful test, which is expressed as
+\begin{align*}
+\tilde{q}_{\mu}=-2\textrm{ln}\frac{\mathcal{L}(data|\mu,\tilde{\theta}_{\mu})}{\mathcal{L}(data|\hat{\mu},\hat{\theta})}
+\end{align*}
+$\mu$ is the given signal strength modifier and $0<\hat{\mu}<\mu$. In the formula of $\tilde{q}_{\mu}$, $\tilde{\theta}$ is referred as conditional maximum likelihood estimator, given the signal strength modifier $\mu$, while in the denominator, $\hat{\mu}$ and $\hat{\theta}$ are allowed to flow freely to maximize the likelihood. The PDFs of signal+background model and background only model can be calculated in the following way. The observed $\theta^{obs}_{\mu}$ and  $\theta^{obs}_{0}$ for signal+background and background only model are obtained by maximizing the likelihood function respectively, also the observed $\tilde{q}_{\mu}^{obs}$ are calculated give $\mu$. The PDFs of signal+background model $f(\tilde{q}_{\mu}|\mu,\theta^{obs}_{\mu})$ and background only model $f(\tilde{q}_{\mu}|0,\theta^{obs}_{0})$ are constructed with the MC pseudo-data as shown in Figure.~\ref{fig:teststatistics}.
+
+\begin{figure}[!tbp] 
+\centering
+\includegraphics[width=0.6\textwidth]{chapter7/Test_statistics.png}
+\caption{Test statistics distribution of signal+background and background only PDFs and the observed valued shown in arrow.}
+\label{fig:teststatistics}
+\end{figure}
+ 
+Confident Level(CLs) are defined with two values $p_{\mu}$ and 1-$p_{b}$. In signal+background model, $p_{\mu}$ is defined as
+\begin{align*}
+p_{\mu}=P(\tilde{q}_{\mu}\geq  \tilde{q}_{\mu}^{obs}  |\textrm{signal+background})=\int^{\infty}_{\tilde{q}_{\mu}^{obs}}f(\tilde{q}_{\mu}|\mu,\hat{\theta}_{\mu}^{obs})d \tilde{q}_{\mu}
+\end{align*}
+In background only model 1-$p_{b}$ is defined as
+\begin{align*}
+1-p_{b}=P(\tilde{q}\geq  \tilde{q}_{\mu}^{obs} | \textrm{background only})=\int^{\infty}_{\tilde{q}_{0}^{obs}}f(\tilde{q}_{\mu}|0,\hat{\theta}_{0}^{obs})d \tilde{q}_{\mu}
+\end{align*}
+
+The $CL_{s}$ then is expressed as
+\begin{align*}
+CL_{s}=\frac{p_{\mu}}{1-p_{b}}
+\end{align*}
+
+With a given value of signal strength modifier $\mu$, $CL_{s}\leq\alpha$, then the signal+background is said excluded with $(1-\alpha)~ CL_{s}$. Usually $\alpha$ is picked as 95\%.
+
+The expected limit shown in lepton flavour violation Higgs decay is the median 95\% $CL_{s}$ upper limit with the $\pm 1 \sigma$ and $\pm 2 \sigma$ bands in the background only model. By generating a large number of background only pseudo-data, the CLs and $\mu^{95\%}$ of each toy are calculated. An example of $\mu_{95\%}$ distributions is shown in Figure.~\ref{fig:Signal_strength_example}. As shown in the cumulative distribution of $\mu^{95\%}$, the median corresponds to 50\%,while $\pm 1 \sigma$, $\pm 2 \sigma$  correspond to range 16\% to 84\% and 2.5\% to 97.5\% respectively.     
+\begin{figure}[!tbp] 
+\centering
+\includegraphics[width=0.4\textwidth]{chapter7/Signal_strength_example_1.png}
+\includegraphics[width=0.4\textwidth]{chapter7/Signal_strength_example_2.png}
+\caption{Signal strength modifier $\mu$ at 95\% $CL_{s}$ distribution from the MC pseudo-data. The right plot is the cumulative distribution of $\mu^{95\%}$ with $\pm 1 \sigma$ and $\pm 2 \sigma$ bands.}
+\label{fig:Signal_strength_example}
+\end{figure}
+
+The estimator p value and significance are used to check if the data is compatible with background only model. Test statistics in the checking of background only model is expressed as
+\begin{align*}
+\tilde{q}_{\mu}=-2\textrm{ln}\frac{\mathcal{L}(data|0,\tilde{\theta}_{\mu})}{\mathcal{L}(data|\hat{\mu},\hat{\theta})}
+\end{align*}
+Similar procedure as mentioned above to get the PDF of background ground only model $f(q_{0}|0,\hat{\theta}^{obs}_{0})$ and $q^{obs}_{0}$. p-value corresponding to the experimental observable is calculated as
+
+\begin{align*}
+p_{0}=P(q_{0}\geq q_{0}^{obs})=\int^{\infty}_{q_{0}^{obs}}f(q_{0}|0,\hat{\theta}_{0}^{obs})d q_{0}
+\end{align*}  
+Significance Z of the observable with respect to the background only model test can be derived from p value~\cite{CMS-NOTE-2011-005}.
+\begin{align*}
+p=\int^{\infty}_{Z}\frac{1}{\sqrt{2\pi}}exp(-x^2/2)dx
+\end{align*}  
+The term used in the discovery as 5$\sigma$ correspond to Z=5 and p=$2.8\times10^{-7}$. The distribution of test statistics tends to  a chi-squared distribution as according to the Wilk's theorem, which gives a quick way of estimating of pdfs in test statistics~\cite{LHCstaticstics}. In the case when the expected number of events is large, expected limit with this asymptotic approximation gives a fairly well performance and save the computing time for toy samples. Asymptotic approximation can also used in the estimation of p value as
+\begin{align*}
+p^{estimate}=\frac{1}{2}\bigg[1-erf\bigg(\sqrt{q_{0}^{obs}/2}\bigg)\bigg]
+\end{align*}  
+
+
 
 \section{Systematics}
 Systematic uncertainties originated from different sources that experimentally or theoretically affects the physics results. These uncertainties are considered by the effects on the normalization and shape of the distribution of different processes. 

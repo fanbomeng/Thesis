@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.7)  9 MAR 2018 15:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.7)  10 APR 2018 00:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -425,7 +425,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsfit' in version `bold'
 
 LaTeX Warning: Label `chap:golfing' multiply defined.
 
-) (./chapter4.aux
+) (./chapter4/chapter4.aux
 
 LaTeX Warning: Label `tab:antil' multiply defined.
 
@@ -680,8 +680,8 @@ tion of $\OML/cmm/m/it/12 M[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^\; MET\OT1/cmr
 /m/n/12 )$ 
  []
 
-LaTeX Info: Redefining \HepProcess on input line 65.
-LaTeX Info: Redefining \HepProcess on input line 65.
+LaTeX Info: Redefining \HepProcess on input line 63.
+LaTeX Info: Redefining \HepProcess on input line 63.
 [5
 
 ])
@@ -695,12 +695,12 @@ LaTeX Info: Redefining \HepProcess on input line 134.
 
 List of tables - TABLES
 (./mainbody.lot
-LaTeX Info: Redefining \HepProcess on input line 28.
-LaTeX Info: Redefining \HepProcess on input line 28.
+LaTeX Info: Redefining \HepProcess on input line 34.
+LaTeX Info: Redefining \HepProcess on input line 34.
  [7
 
 ]
-Overfull \hbox (13.61041pt too wide) in paragraph at lines 35--35
+Overfull \hbox (13.61041pt too wide) in paragraph at lines 39--39
  \OT1/cmr/m/n/12 cross sec-tion. These un-cer-tain-ties are cor-re-lated or an-
 ti-cor-re-lated(with 
  []
@@ -781,97 +781,139 @@ LaTeX Info: Redefining \HepProcess on input line 228.
 
 
 ]
-\openout2 = `chapter4.aux'.
+\openout2 = `chapter4/chapter4.aux'.
 
- (./chapter4.tex
+ (./chapter4/chapter4.tex
 CHAPTER 4.
 LaTeX Info: Redefining \HepProcess on input line 2.
 LaTeX Info: Redefining \HepProcess on input line 3.
+LaTeX Info: Redefining \HepProcess on input line 4.
 
-Overfull \hbox (57.29361pt too wide) in paragraph at lines 10--50
- [] 
- []
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 4.
 
 
-LaTeX Warning: Float too large for page by 294.24904pt on input line 56.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 4.
 
-LaTeX Info: Redefining \HepProcess on input line 60.
-LaTeX Info: Redefining \HepProcess on input line 63.
-LaTeX Info: Redefining \HepProcess on input line 109.
-LaTeX Info: Redefining \HepProcess on input line 113.
-LaTeX Info: Redefining \HepProcess on input line 113.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 4.
+
+LaTeX Info: Redefining \HepProcess on input line 6.
+LaTeX Info: Redefining \HepProcess on input line 6.
 [4
 
 
 
 ]
-LaTeX Info: Redefining \HepProcess on input line 113.
-LaTeX Info: Redefining \HepProcess on input line 113.
- [5pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}
+LaTeX Info: Redefining \HepProcess on input line 56.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 56.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 56.
+
+
+Overfull \hbox (126.22838pt too wide) in paragraph at lines 65--86
+ [][] 
+ []
+
+LaTeX Info: Redefining \HepProcess on input line 92.
+LaTeX Info: Redefining \HepProcess on input line 92.
+[5]
+LaTeX Info: Redefining \HepProcess on input line 92.
+LaTeX Info: Redefining \HepProcess on input line 92.
+ [6pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.113 P
-       hoton conversions and the bremsstrahlung of electron/positron when tr...
-]
-LaTeX Info: Redefining \HepProcess on input line 113.
-LaTeX Info: Redefining \HepProcess on input line 113.
- [6pdfTeX warning (ext4): destination with the same identifier (name{table.4.2}
+l.92 
+     ]
+LaTeX Info: Redefining \HepProcess on input line 92.
+LaTeX Info: Redefining \HepProcess on input line 92.
+ [7pdfTeX warning (ext4): destination with the same identifier (name{table.4.2}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.113 P
-       hoton conversions and the bremsstrahlung of electron/positron when tr...
-]
-LaTeX Info: Redefining \HepProcess on input line 113.
-LaTeX Info: Redefining \HepProcess on input line 113.
- [7pdfTeX warning (ext4): destination with the same identifier (name{table.4.3}
+l.92 
+     ]
+LaTeX Info: Redefining \HepProcess on input line 92.
+LaTeX Info: Redefining \HepProcess on input line 92.
+ [8pdfTeX warning (ext4): destination with the same identifier (name{table.4.3}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.113 P
-       hoton conversions and the bremsstrahlung of electron/positron when tr...
-]
+l.92 
+     ]
+LaTeX Info: Redefining \HepProcess on input line 98.
+LaTeX Info: Redefining \HepProcess on input line 101.
+LaTeX Info: Redefining \HepProcess on input line 147.
+
 
 LaTeX Warning: The counter will not be printed.
-             The label is: $\bullet $ on input line 114.
+             The label is: $\bullet $ on input line 152.
 
-LaTeX Info: Redefining \HepProcess on input line 123.
-LaTeX Info: Redefining \HepProcess on input line 123.
-[8]
-LaTeX Info: Redefining \HepProcess on input line 149.
-LaTeX Info: Redefining \HepProcess on input line 149.
- [9]
-LaTeX Info: Redefining \HepProcess on input line 156.
-LaTeX Info: Redefining \HepProcess on input line 156.
+LaTeX Info: Redefining \HepProcess on input line 152.
+LaTeX Info: Redefining \HepProcess on input line 152.
+[9]
+LaTeX Info: Redefining \HepProcess on input line 152.
+LaTeX Info: Redefining \HepProcess on input line 152.
  [10pdfTeX warning (ext4): destination with the same identifier (name{table.4.4
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.156 
-      ]
-LaTeX Info: Redefining \HepProcess on input line 185.
-LaTeX Info: Redefining \HepProcess on input line 185.
- [11]
-LaTeX Info: Redefining \HepProcess on input line 192.
-LaTeX Info: Redefining \HepProcess on input line 192.
- [12pdfTeX warning (ext4): destination with the same identifier (name{table.4.5
+l.152 \begin{enumerate}[$\bullet$]
+                                  ]
+LaTeX Info: Redefining \HepProcess on input line 152.
+LaTeX Info: Redefining \HepProcess on input line 152.
+ [11pdfTeX warning (ext4): destination with the same identifier (name{table.4.5
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.192 
-      ]
-LaTeX Info: Redefining \HepProcess on input line 196.
+l.152 \begin{enumerate}[$\bullet$]
+                                  ]
+LaTeX Info: Redefining \HepProcess on input line 162.
+LaTeX Info: Redefining \HepProcess on input line 162.
+ [12]
+LaTeX Info: Redefining \HepProcess on input line 191.
+LaTeX Info: Redefining \HepProcess on input line 191.
+ [13]
 LaTeX Info: Redefining \HepProcess on input line 198.
+LaTeX Info: Redefining \HepProcess on input line 198.
+ [14pdfTeX warning (ext4): destination with the same identifier (name{table.4.6
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.198 \end{align*}
+                  ]
+LaTeX Info: Redefining \HepProcess on input line 228.
+LaTeX Info: Redefining \HepProcess on input line 228.
+ [15]
+LaTeX Info: Redefining \HepProcess on input line 232.
+LaTeX Info: Redefining \HepProcess on input line 232.
+ [16pdfTeX warning (ext4): destination with the same identifier (name{table.4.7
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.232 
+      ]
+LaTeX Info: Redefining \HepProcess on input line 234.
+LaTeX Info: Redefining \HepProcess on input line 236.
 )
 LaTeX Info: Redefining \HepProcess on input line 233.
 LaTeX Info: Redefining \HepProcess on input line 233.
- [13]
+ [17]
 \openout2 = `chapter5/chapter5.aux'.
 
  (./chapter5/chapter5.tex
@@ -881,17 +923,17 @@ LaTeX Info: Redefining \HepProcess on input line 11.
 LaTeX Info: Redefining \HepProcess on input line 12.
 LaTeX Info: Redefining \HepProcess on input line 14.
 LaTeX Info: Redefining \HepProcess on input line 14.
-[14
+[18
 
 
 
 ]
 LaTeX Info: Redefining \HepProcess on input line 25.
 LaTeX Info: Redefining \HepProcess on input line 25.
- [15]
+ [19]
 LaTeX Info: Redefining \HepProcess on input line 28.
 
-<chapter5/Tuning/ggtMtToPfMet_type1.pdf, id=535, 569.12625pt x 549.05125pt>
+<chapter5/Tuning/ggtMtToPfMet_type1.pdf, id=590, 569.12625pt x 549.05125pt>
 File: chapter5/Tuning/ggtMtToPfMet_type1.pdf Graphic file (type pdf)
 
 <use chapter5/Tuning/ggtMtToPfMet_type1.pdf>
@@ -899,7 +941,7 @@ Package pdftex.def Info: chapter5/Tuning/ggtMtToPfMet_type1.pdf used on input l
 ine 36.
 (pdftex.def)             Requested size: 166.39746pt x 160.52773pt.
 
-<chapter5/Tuning/boosttMtToPfMet_type1.pdf, id=536, 569.12625pt x 549.05125pt>
+<chapter5/Tuning/boosttMtToPfMet_type1.pdf, id=591, 569.12625pt x 549.05125pt>
 File: chapter5/Tuning/boosttMtToPfMet_type1.pdf Graphic file (type pdf)
 
 <use chapter5/Tuning/boosttMtToPfMet_type1.pdf>
@@ -907,14 +949,14 @@ Package pdftex.def Info: chapter5/Tuning/boosttMtToPfMet_type1.pdf used on inpu
 t line 37.
 (pdftex.def)             Requested size: 166.39746pt x 160.52773pt.
 
-<chapter5/Tuning/vbf_ggtMtToPfMet_type1.pdf, id=537, 569.12625pt x 549.05125pt>
+<chapter5/Tuning/vbf_ggtMtToPfMet_type1.pdf, id=592, 569.12625pt x 549.05125pt>
 File: chapter5/Tuning/vbf_ggtMtToPfMet_type1.pdf Graphic file (type pdf)
 <use chapter5/Tuning/vbf_ggtMtToPfMet_type1.pdf>
 Package pdftex.def Info: chapter5/Tuning/vbf_ggtMtToPfMet_type1.pdf used on inp
 ut line 38.
 (pdftex.def)             Requested size: 166.39746pt x 160.52773pt.
 
-<chapter5/Tuning/vbf_vbftMtToPfMet_type1.pdf, id=538, 569.12625pt x 549.05125pt
+<chapter5/Tuning/vbf_vbftMtToPfMet_type1.pdf, id=593, 569.12625pt x 549.05125pt
 >
 File: chapter5/Tuning/vbf_vbftMtToPfMet_type1.pdf Graphic file (type pdf)
  <use chapter5/Tuning/vbf_vbftMtToPfMet_type1.pdf>
@@ -922,7 +964,7 @@ Package pdftex.def Info: chapter5/Tuning/vbf_vbftMtToPfMet_type1.pdf used on in
 put line 39.
 (pdftex.def)             Requested size: 166.39746pt x 160.52773pt.
 
-<chapter5/Tuning/vbf_vbfvbfMass.pdf, id=539, 569.12625pt x 549.05125pt>
+<chapter5/Tuning/vbf_vbfvbfMass.pdf, id=594, 569.12625pt x 549.05125pt>
 File: chapter5/Tuning/vbf_vbfvbfMass.pdf Graphic file (type pdf)
 
 <use chapter5/Tuning/vbf_vbfvbfMass.pdf>
@@ -936,10 +978,10 @@ LaTeX Warning: Float too large for page by 1.84825pt on input line 83.
 LaTeX Info: Redefining \HepProcess on input line 88.
 LaTeX Info: Redefining \HepProcess on input line 90.
 LaTeX Info: Redefining \HepProcess on input line 90.
-[16]
+[20]
 LaTeX Info: Redefining \HepProcess on input line 90.
 LaTeX Info: Redefining \HepProcess on input line 90.
- [17pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [21pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -951,7 +993,7 @@ ter5/Tuning/vbf_ggtMtToPfMet_type1.pdf, page is rotated 90 degrees> <./chapter5
 /Tuning/vbf_vbftMtToPfMet_type1.pdf, page is rotated 90 degrees>]
 LaTeX Info: Redefining \HepProcess on input line 90.
 LaTeX Info: Redefining \HepProcess on input line 90.
- [18pdfTeX warning (ext4): destination with the same identifier (name{table.5.1
+ [22pdfTeX warning (ext4): destination with the same identifier (name{table.5.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -960,7 +1002,7 @@ l.90
      ]
 LaTeX Info: Redefining \HepProcess on input line 92.
 LaTeX Info: Redefining \HepProcess on input line 92.
- [19pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [23pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -969,7 +1011,7 @@ l.92 \item T
             ransverse mass between the $\tauh$ and $\ETmiss$, $M_{T}(\tau_{h...
  <./chapter5/Tuning/vbf_vbfvbfMass.pdf, page is rotated 90 degrees>]
 <chapter5/BDTvariable/LFV_preselection_collMass_type1_Fakes_PoissonErrors.pdf, 
-id=667, 569.12625pt x 552.0625pt>
+id=722, 569.12625pt x 552.0625pt>
 File: chapter5/BDTvariable/LFV_preselection_collMass_type1_Fakes_PoissonErrors.
 pdf Graphic file (type pdf)
 
@@ -979,7 +1021,7 @@ Package pdftex.def Info: chapter5/BDTvariable/LFV_preselection_collMass_type1_F
 akes_PoissonErrors.pdf used on input line 103.
 (pdftex.def)             Requested size: 131.04102pt x 127.1149pt.
 
-<chapter5/BDTvariable/LFV_preselection_mPt_Fakes_PoissonErrors.pdf, id=668, 569
+<chapter5/BDTvariable/LFV_preselection_mPt_Fakes_PoissonErrors.pdf, id=723, 569
 .12625pt x 552.0625pt>
 File: chapter5/BDTvariable/LFV_preselection_mPt_Fakes_PoissonErrors.pdf Graphic
  file (type pdf)
@@ -989,7 +1031,7 @@ Package pdftex.def Info: chapter5/BDTvariable/LFV_preselection_mPt_Fakes_Poisso
 nErrors.pdf used on input line 104.
 (pdftex.def)             Requested size: 131.04102pt x 127.1149pt.
 
-<chapter5/BDTvariable/LFV_preselection_tPt_Fakes_PoissonErrors.pdf, id=669, 569
+<chapter5/BDTvariable/LFV_preselection_tPt_Fakes_PoissonErrors.pdf, id=724, 569
 .12625pt x 552.0625pt>
 File: chapter5/BDTvariable/LFV_preselection_tPt_Fakes_PoissonErrors.pdf Graphic
  file (type pdf)
@@ -1000,7 +1042,7 @@ nErrors.pdf used on input line 105.
 (pdftex.def)             Requested size: 131.04102pt x 127.1149pt.
 
 <chapter5/BDTvariable/LFV_preselection_tMtToPfMet_type1_Fakes_PoissonErrors.pdf
-, id=670, 569.12625pt x 552.0625pt>
+, id=725, 569.12625pt x 552.0625pt>
 File: chapter5/BDTvariable/LFV_preselection_tMtToPfMet_type1_Fakes_PoissonError
 s.pdf Graphic file (type pdf)
 
@@ -1011,7 +1053,7 @@ _Fakes_PoissonErrors.pdf used on input line 106.
 (pdftex.def)             Requested size: 131.04102pt x 127.1149pt.
 
 <chapter5/BDTvariable/LFV_preselection_tDPhiToPfMet_type1_Fakes_PoissonErrors.p
-df, id=671, 569.12625pt x 552.0625pt>
+df, id=726, 569.12625pt x 552.0625pt>
 File: chapter5/BDTvariable/LFV_preselection_tDPhiToPfMet_type1_Fakes_PoissonErr
 ors.pdf Graphic file (type pdf)
 
@@ -1022,7 +1064,7 @@ e1_Fakes_PoissonErrors.pdf used on input line 107.
 (pdftex.def)             Requested size: 131.04102pt x 127.1149pt.
 
 <chapter5/BDTvariable/LFV_preselection_type1_pfMetEt_Fakes_PoissonErrors.pdf, i
-d=672, 569.12625pt x 552.0625pt>
+d=727, 569.12625pt x 552.0625pt>
 File: chapter5/BDTvariable/LFV_preselection_type1_pfMetEt_Fakes_PoissonErrors.p
 df Graphic file (type pdf)
 
@@ -1032,7 +1074,7 @@ Package pdftex.def Info: chapter5/BDTvariable/LFV_preselection_type1_pfMetEt_Fa
 kes_PoissonErrors.pdf used on input line 108.
 (pdftex.def)             Requested size: 131.04102pt x 127.1149pt.
 
-<chapter5/BDTvariable/LFV_preselection_m_t_DPhi_Fakes_PoissonErrors.pdf, id=673
+<chapter5/BDTvariable/LFV_preselection_m_t_DPhi_Fakes_PoissonErrors.pdf, id=728
 , 569.12625pt x 552.0625pt>
 File: chapter5/BDTvariable/LFV_preselection_m_t_DPhi_Fakes_PoissonErrors.pdf Gr
 aphic file (type pdf)
@@ -1042,7 +1084,7 @@ Package pdftex.def Info: chapter5/BDTvariable/LFV_preselection_m_t_DPhi_Fakes_P
 oissonErrors.pdf used on input line 109.
 (pdftex.def)             Requested size: 131.04102pt x 127.1149pt.
 
-<chapter5/BDTvariable/LFV_preselection_m_t_DEta_Fakes_PoissonErrors.pdf, id=674
+<chapter5/BDTvariable/LFV_preselection_m_t_DEta_Fakes_PoissonErrors.pdf, id=729
 , 569.12625pt x 552.0625pt>
 File: chapter5/BDTvariable/LFV_preselection_m_t_DEta_Fakes_PoissonErrors.pdf Gr
 aphic file (type pdf)
@@ -1052,7 +1094,7 @@ Package pdftex.def Info: chapter5/BDTvariable/LFV_preselection_m_t_DEta_Fakes_P
 oissonErrors.pdf used on input line 110.
 (pdftex.def)             Requested size: 131.04102pt x 127.1149pt.
 
-<chapter5/CorrelationMatrixS.pdf, id=675, 569.12625pt x 546.04pt>
+<chapter5/CorrelationMatrixS.pdf, id=730, 569.12625pt x 546.04pt>
 File: chapter5/CorrelationMatrixS.pdf Graphic file (type pdf)
 
 <use chapter5/CorrelationMatrixS.pdf>
@@ -1060,7 +1102,7 @@ Package pdftex.def Info: chapter5/CorrelationMatrixS.pdf used on input line 118
 .
 (pdftex.def)             Requested size: 166.39746pt x 159.64731pt.
 
-<chapter5/CorrelationMatrixB.pdf, id=676, 569.12625pt x 546.04pt>
+<chapter5/CorrelationMatrixB.pdf, id=731, 569.12625pt x 546.04pt>
 File: chapter5/CorrelationMatrixB.pdf Graphic file (type pdf)
 
 <use chapter5/CorrelationMatrixB.pdf>
@@ -1068,7 +1110,7 @@ Package pdftex.def Info: chapter5/CorrelationMatrixB.pdf used on input line 119
 .
 (pdftex.def)             Requested size: 166.39746pt x 159.64731pt.
 
-<chapter5/overtrain_BDT.pdf, id=679, 569.12625pt x 420.57124pt>
+<chapter5/overtrain_BDT.pdf, id=734, 569.12625pt x 420.57124pt>
 File: chapter5/overtrain_BDT.pdf Graphic file (type pdf)
 
 <use chapter5/overtrain_BDT.pdf>
@@ -1078,10 +1120,10 @@ LaTeX Info: Redefining \HepProcess on input line 133.
 LaTeX Info: Redefining \HepProcess on input line 135.
 LaTeX Info: Redefining \HepProcess on input line 138.
 LaTeX Info: Redefining \HepProcess on input line 138.
- [20]
+ [24]
 LaTeX Info: Redefining \HepProcess on input line 138.
 LaTeX Info: Redefining \HepProcess on input line 138.
- [21pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1101,7 +1143,7 @@ rees> <./chapter5/BDTvariable/LFV_preselection_m_t_DPhi_Fakes_PoissonErrors.pdf
 _Fakes_PoissonErrors.pdf, page is rotated 90 degrees>]
 LaTeX Info: Redefining \HepProcess on input line 138.
 LaTeX Info: Redefining \HepProcess on input line 138.
- [22pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [26pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1117,7 +1159,7 @@ l.138 \item
            [{\bf 0-jet:}] No events have jets pass the loose PF ID and  with...
  <./chapter5/CorrelationMatrixS.pdf> <./chapter5/CorrelationMatrixB.pdf> <./cha
 pter5/overtrain_BDT.pdf>]
-<chapter5/etauPlots/etau_preselection0jet.pdf, id=1086, 569.12625pt x 547.04375
+<chapter5/etauPlots/etau_preselection0jet.pdf, id=1142, 569.12625pt x 547.04375
 pt>
 File: chapter5/etauPlots/etau_preselection0jet.pdf Graphic file (type pdf)
  <use chapter5/etauPlots/etau_preselection0jet.pdf>
@@ -1125,7 +1167,7 @@ Package pdftex.def Info: chapter5/etauPlots/etau_preselection0jet.pdf used on i
 nput line 144.
 (pdftex.def)             Requested size: 189.90283pt x 182.53667pt.
 
-<chapter5/etauPlots/etau_preselection1jet.pdf, id=1087, 569.12625pt x 547.04375
+<chapter5/etauPlots/etau_preselection1jet.pdf, id=1143, 569.12625pt x 547.04375
 pt>
 File: chapter5/etauPlots/etau_preselection1jet.pdf Graphic file (type pdf)
  <use chapter5/etauPlots/etau_preselection1jet.pdf>
@@ -1133,7 +1175,7 @@ Package pdftex.def Info: chapter5/etauPlots/etau_preselection1jet.pdf used on i
 nput line 145.
 (pdftex.def)             Requested size: 189.90283pt x 182.53667pt.
 
-<chapter5/etauPlots/etau_preselection2jet.pdf, id=1088, 569.12625pt x 547.04375
+<chapter5/etauPlots/etau_preselection2jet.pdf, id=1144, 569.12625pt x 547.04375
 pt>
 File: chapter5/etauPlots/etau_preselection2jet.pdf Graphic file (type pdf)
  <use chapter5/etauPlots/etau_preselection2jet.pdf>
@@ -1143,10 +1185,10 @@ nput line 146.
 LaTeX Info: Redefining \HepProcess on input line 152.
 LaTeX Info: Redefining \HepProcess on input line 154.
 LaTeX Info: Redefining \HepProcess on input line 154.
- [23]
+ [27]
 LaTeX Info: Redefining \HepProcess on input line 154.
 LaTeX Info: Redefining \HepProcess on input line 154.
- [24pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [28pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1158,10 +1200,10 @@ s> <./chapter5/etauPlots/etau_preselection2jet.pdf, page is rotated 90 degrees>
 ])
 LaTeX Info: Redefining \HepProcess on input line 238.
 LaTeX Info: Redefining \HepProcess on input line 238.
- [25]
+ [29]
 LaTeX Info: Redefining \HepProcess on input line 238.
 LaTeX Info: Redefining \HepProcess on input line 238.
- [26pdfTeX warning (ext4): destination with the same identifier (name{table.5.2
+ [30pdfTeX warning (ext4): destination with the same identifier (name{table.5.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1205,20 +1247,20 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 LaTeX Info: Redefining \HepProcess on input line 6.
 LaTeX Info: Redefining \HepProcess on input line 34.
 LaTeX Info: Redefining \HepProcess on input line 34.
-[27
+[31
 
 
 
 ]
 LaTeX Info: Redefining \HepProcess on input line 43.
 LaTeX Info: Redefining \HepProcess on input line 43.
- [28pdfTeX warning (ext4): destination with the same identifier (name{table.6.1
+ [32pdfTeX warning (ext4): destination with the same identifier (name{table.6.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.43 
-     ] <chapter6/t_DM0EB_tPt_fakeRate.pdf, id=1255, 569.12625pt x 552.0625pt>
+     ] <chapter6/t_DM0EB_tPt_fakeRate.pdf, id=1311, 569.12625pt x 552.0625pt>
 File: chapter6/t_DM0EB_tPt_fakeRate.pdf Graphic file (type pdf)
 
 <use chapter6/t_DM0EB_tPt_fakeRate.pdf>
@@ -1226,7 +1268,7 @@ Package pdftex.def Info: chapter6/t_DM0EB_tPt_fakeRate.pdf used on input line 4
 6.
 (pdftex.def)             Requested size: 124.80127pt x 121.0582pt.
 
-<chapter6/t_DM1EB_tPt_fakeRate.pdf, id=1256, 569.12625pt x 552.0625pt>
+<chapter6/t_DM1EB_tPt_fakeRate.pdf, id=1312, 569.12625pt x 552.0625pt>
 File: chapter6/t_DM1EB_tPt_fakeRate.pdf Graphic file (type pdf)
 
 <use chapter6/t_DM1EB_tPt_fakeRate.pdf>
@@ -1234,7 +1276,7 @@ Package pdftex.def Info: chapter6/t_DM1EB_tPt_fakeRate.pdf used on input line 4
 7.
 (pdftex.def)             Requested size: 124.80127pt x 121.0582pt.
 
-<chapter6/t_DM10EB_tPt_fakeRate.pdf, id=1257, 569.12625pt x 552.0625pt>
+<chapter6/t_DM10EB_tPt_fakeRate.pdf, id=1313, 569.12625pt x 552.0625pt>
 File: chapter6/t_DM10EB_tPt_fakeRate.pdf Graphic file (type pdf)
 
 <use chapter6/t_DM10EB_tPt_fakeRate.pdf>
@@ -1242,7 +1284,7 @@ Package pdftex.def Info: chapter6/t_DM10EB_tPt_fakeRate.pdf used on input line
 48.
 (pdftex.def)             Requested size: 124.80127pt x 121.0582pt.
 
-<chapter6/t_DM0EE_tPt_fakeRate.pdf, id=1258, 569.12625pt x 552.0625pt>
+<chapter6/t_DM0EE_tPt_fakeRate.pdf, id=1314, 569.12625pt x 552.0625pt>
 File: chapter6/t_DM0EE_tPt_fakeRate.pdf Graphic file (type pdf)
 
 <use chapter6/t_DM0EE_tPt_fakeRate.pdf>
@@ -1250,7 +1292,7 @@ Package pdftex.def Info: chapter6/t_DM0EE_tPt_fakeRate.pdf used on input line 4
 9.
 (pdftex.def)             Requested size: 124.80127pt x 121.0582pt.
 
-<chapter6/t_DM1EE_tPt_fakeRate.pdf, id=1259, 569.12625pt x 552.0625pt>
+<chapter6/t_DM1EE_tPt_fakeRate.pdf, id=1315, 569.12625pt x 552.0625pt>
 File: chapter6/t_DM1EE_tPt_fakeRate.pdf Graphic file (type pdf)
 
 <use chapter6/t_DM1EE_tPt_fakeRate.pdf>
@@ -1258,7 +1300,7 @@ Package pdftex.def Info: chapter6/t_DM1EE_tPt_fakeRate.pdf used on input line 5
 0.
 (pdftex.def)             Requested size: 124.80127pt x 121.0582pt.
 
-<chapter6/t_DM10EE_tPt_fakeRate.pdf, id=1260, 569.12625pt x 552.0625pt>
+<chapter6/t_DM10EE_tPt_fakeRate.pdf, id=1316, 569.12625pt x 552.0625pt>
 File: chapter6/t_DM10EE_tPt_fakeRate.pdf Graphic file (type pdf)
 
 <use chapter6/t_DM10EE_tPt_fakeRate.pdf>
@@ -1266,7 +1308,7 @@ Package pdftex.def Info: chapter6/t_DM10EE_tPt_fakeRate.pdf used on input line
 51.
 (pdftex.def)             Requested size: 124.80127pt x 121.0582pt.
 
-<chapter6/t_DM0_abstEta_fakeRate.pdf, id=1261, 569.12625pt x 552.0625pt>
+<chapter6/t_DM0_abstEta_fakeRate.pdf, id=1317, 569.12625pt x 552.0625pt>
 File: chapter6/t_DM0_abstEta_fakeRate.pdf Graphic file (type pdf)
 
 <use chapter6/t_DM0_abstEta_fakeRate.pdf>
@@ -1274,7 +1316,7 @@ Package pdftex.def Info: chapter6/t_DM0_abstEta_fakeRate.pdf used on input line
  52.
 (pdftex.def)             Requested size: 124.80127pt x 121.0582pt.
 
-<chapter6/t_DM1_abstEta_fakeRate.pdf, id=1262, 569.12625pt x 552.0625pt>
+<chapter6/t_DM1_abstEta_fakeRate.pdf, id=1318, 569.12625pt x 552.0625pt>
 File: chapter6/t_DM1_abstEta_fakeRate.pdf Graphic file (type pdf)
 
 <use chapter6/t_DM1_abstEta_fakeRate.pdf>
@@ -1282,7 +1324,7 @@ Package pdftex.def Info: chapter6/t_DM1_abstEta_fakeRate.pdf used on input line
  53.
 (pdftex.def)             Requested size: 124.80127pt x 121.0582pt.
 
-<chapter6/t_DM10_abstEta_fakeRate.pdf, id=1263, 569.12625pt x 552.0625pt>
+<chapter6/t_DM10_abstEta_fakeRate.pdf, id=1319, 569.12625pt x 552.0625pt>
 File: chapter6/t_DM10_abstEta_fakeRate.pdf Graphic file (type pdf)
 
 <use chapter6/t_DM10_abstEta_fakeRate.pdf>
@@ -1290,7 +1332,7 @@ Package pdftex.def Info: chapter6/t_DM10_abstEta_fakeRate.pdf used on input lin
 e 54.
 (pdftex.def)             Requested size: 124.80127pt x 121.0582pt.
 
-<chapter6/m_fakerate_0p25_pt.pdf, id=1267, 569.12625pt x 552.0625pt>
+<chapter6/m_fakerate_0p25_pt.pdf, id=1323, 569.12625pt x 552.0625pt>
 File: chapter6/m_fakerate_0p25_pt.pdf Graphic file (type pdf)
 
 <use chapter6/m_fakerate_0p25_pt.pdf>
@@ -1298,7 +1340,7 @@ Package pdftex.def Info: chapter6/m_fakerate_0p25_pt.pdf used on input line 63.
 
 (pdftex.def)             Requested size: 124.80127pt x 121.0582pt.
 
-<chapter6/m_Loose_m3Etaabs_fakeRate.pdf, id=1268, 569.12625pt x 552.0625pt>
+<chapter6/m_Loose_m3Etaabs_fakeRate.pdf, id=1324, 569.12625pt x 552.0625pt>
 File: chapter6/m_Loose_m3Etaabs_fakeRate.pdf Graphic file (type pdf)
 
 <use chapter6/m_Loose_m3Etaabs_fakeRate.pdf>
@@ -1307,10 +1349,10 @@ ine 64.
 (pdftex.def)             Requested size: 124.80127pt x 121.0582pt.
 LaTeX Info: Redefining \HepProcess on input line 71.
 LaTeX Info: Redefining \HepProcess on input line 71.
- [29]
+ [33]
 LaTeX Info: Redefining \HepProcess on input line 71.
 LaTeX Info: Redefining \HepProcess on input line 71.
- [30pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+ [34pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1324,14 +1366,14 @@ _tPt_fakeRate.pdf, page is rotated 90 degrees> <./chapter6/t_DM1EE_tPt_fakeRate
 s rotated 90 degrees> <./chapter6/t_DM0_abstEta_fakeRate.pdf, page is rotated 9
 0 degrees> <./chapter6/t_DM1_abstEta_fakeRate.pdf, page is rotated 90 degrees> 
 <./chapter6/t_DM10_abstEta_fakeRate.pdf, page is rotated 90 degrees>]
-<chapter6/Wjets_Enriched_mutau_had01jet.pdf, id=1680, 569.12625pt x 552.0625pt>
+<chapter6/Wjets_Enriched_mutau_had01jet.pdf, id=1735, 569.12625pt x 552.0625pt>
 File: chapter6/Wjets_Enriched_mutau_had01jet.pdf Graphic file (type pdf)
 <use chapter6/Wjets_Enriched_mutau_had01jet.pdf>
 Package pdftex.def Info: chapter6/Wjets_Enriched_mutau_had01jet.pdf used on inp
 ut line 82.
 (pdftex.def)             Requested size: 166.39746pt x 161.40813pt.
 
-<chapter6/LikeSig_CR_presel_mutauh.pdf, id=1681, 569.12625pt x 552.0625pt>
+<chapter6/LikeSig_CR_presel_mutauh.pdf, id=1736, 569.12625pt x 552.0625pt>
 File: chapter6/LikeSig_CR_presel_mutauh.pdf Graphic file (type pdf)
 
 <use chapter6/LikeSig_CR_presel_mutauh.pdf>
@@ -1340,7 +1382,7 @@ ne 83.
 (pdftex.def)             Requested size: 166.39746pt x 161.40813pt.
 LaTeX Info: Redefining \HepProcess on input line 86.
 LaTeX Info: Redefining \HepProcess on input line 86.
- [31pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+ [35pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1349,10 +1391,14 @@ l.86 \end{figure}
                   <./chapter6/m_fakerate_0p25_pt.pdf, page is rotated 90 degree
 s> <./chapter6/m_Loose_m3Etaabs_fakeRate.pdf, page is rotated 90 degrees>]
 LaTeX Info: Redefining \HepProcess on input line 89.
-LaTeX Info: Redefining \HepProcess on input line 91.
-LaTeX Info: Redefining \HepProcess on input line 91.
 
-[32pdfTeX warning (ext4): destination with the same identifier (name{figure.6.3
+
+LaTeX Warning: Reference `tab:mcsamples' on page 36 undefined on input line 90.
+
+
+LaTeX Info: Redefining \HepProcess on input line 91.
+LaTeX Info: Redefining \HepProcess on input line 91.
+[36pdfTeX warning (ext4): destination with the same identifier (name{figure.6.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1381,14 +1427,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 LaTeX Info: Redefining \HepProcess on input line 117.
 LaTeX Info: Redefining \HepProcess on input line 120.
 LaTeX Info: Redefining \HepProcess on input line 120.
-[33pdfTeX warning (ext4): destination with the same identifier (name{table.6.2}
+[37pdfTeX warning (ext4): destination with the same identifier (name{table.6.2}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.120 
       ]
-<chapter6/tauFakerateComparison_Pt.pdf, id=1879, 569.12625pt x 694.595pt>
+<chapter6/tauFakerateComparison_Pt.pdf, id=1934, 569.12625pt x 694.595pt>
 File: chapter6/tauFakerateComparison_Pt.pdf Graphic file (type pdf)
 
 <use chapter6/tauFakerateComparison_Pt.pdf>
@@ -1396,7 +1442,7 @@ Package pdftex.def Info: chapter6/tauFakerateComparison_Pt.pdf used on input li
 ne 125.
 (pdftex.def)             Requested size: 166.39746pt x 203.08078pt.
 
-<chapter6/tauFakerateComparison_Eta.pdf, id=1880, 569.12625pt x 694.595pt>
+<chapter6/tauFakerateComparison_Eta.pdf, id=1935, 569.12625pt x 694.595pt>
 File: chapter6/tauFakerateComparison_Eta.pdf Graphic file (type pdf)
 
 <use chapter6/tauFakerateComparison_Eta.pdf>
@@ -1404,7 +1450,7 @@ Package pdftex.def Info: chapter6/tauFakerateComparison_Eta.pdf used on input l
 ine 126.
 (pdftex.def)             Requested size: 166.39746pt x 203.08078pt.
 
-<chapter6/eFakerateComparison_Pt.pdf, id=1881, 569.12625pt x 694.595pt>
+<chapter6/eFakerateComparison_Pt.pdf, id=1936, 569.12625pt x 694.595pt>
 File: chapter6/eFakerateComparison_Pt.pdf Graphic file (type pdf)
 
 <use chapter6/eFakerateComparison_Pt.pdf>
@@ -1412,7 +1458,7 @@ Package pdftex.def Info: chapter6/eFakerateComparison_Pt.pdf used on input line
  127.
 (pdftex.def)             Requested size: 166.39746pt x 203.08078pt.
 
-<chapter6/eFakerateComparison_Eta.pdf, id=1882, 569.12625pt x 694.595pt>
+<chapter6/eFakerateComparison_Eta.pdf, id=1937, 569.12625pt x 694.595pt>
 File: chapter6/eFakerateComparison_Eta.pdf Graphic file (type pdf)
 
 <use chapter6/eFakerateComparison_Eta.pdf>
@@ -1421,8 +1467,8 @@ e 128.
 (pdftex.def)             Requested size: 166.39746pt x 203.08078pt.
 LaTeX Info: Redefining \HepProcess on input line 131.
 LaTeX Info: Redefining \HepProcess on input line 131.
- [34]
-<chapter6/etausamesign.pdf, id=1889, 569.12625pt x 547.04375pt>
+ [38]
+<chapter6/etausamesign.pdf, id=1944, 569.12625pt x 547.04375pt>
 File: chapter6/etausamesign.pdf Graphic file (type pdf)
 
 <use chapter6/etausamesign.pdf>
@@ -1448,10 +1494,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 LaTeX Info: Redefining \HepProcess on input line 146.
 LaTeX Info: Redefining \HepProcess on input line 146.
-[35]
+[39]
 LaTeX Info: Redefining \HepProcess on input line 146.
 LaTeX Info: Redefining \HepProcess on input line 146.
- [36pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+ [40pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1464,7 +1510,7 @@ LaTeX Info: Redefining \HepProcess on input line 147.
 )
 LaTeX Info: Redefining \HepProcess on input line 243.
 LaTeX Info: Redefining \HepProcess on input line 243.
- [37pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+ [41pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1480,11 +1526,11 @@ LaTeX Info: Redefining \HepProcess on input line 2.
 LaTeX Info: Redefining \HepProcess on input line 4.
 LaTeX Info: Redefining \HepProcess on input line 8.
 LaTeX Info: Redefining \HepProcess on input line 8.
-[38
+[42
 
 
 
-] <chapter7/BDT_tree_show.pdf, id=2133, 1027.84pt x 770.88pt>
+] <chapter7/BDT_tree_show.pdf, id=2191, 1027.84pt x 770.88pt>
 File: chapter7/BDT_tree_show.pdf Graphic file (type pdf)
 
 <use chapter7/BDT_tree_show.pdf>
@@ -1492,10 +1538,10 @@ Package pdftex.def Info: chapter7/BDT_tree_show.pdf used on input line 25.
 (pdftex.def)             Requested size: 249.60254pt x 187.20284pt.
 LaTeX Info: Redefining \HepProcess on input line 31.
 LaTeX Info: Redefining \HepProcess on input line 31.
- [39]
+ [43]
 LaTeX Info: Redefining \HepProcess on input line 36.
 LaTeX Info: Redefining \HepProcess on input line 36.
- [40pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+ [44pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1503,91 +1549,150 @@ LaTeX Info: Redefining \HepProcess on input line 36.
 l.36 \end{align}
                  <./chapter7/BDT_tree_show.pdf>]
 LaTeX Info: Redefining \HepProcess on input line 51.
-LaTeX Info: Redefining \HepProcess on input line 53.
-LaTeX Info: Redefining \HepProcess on input line 56.
+LaTeX Info: Redefining \HepProcess on input line 61.
+LaTeX Info: Redefining \HepProcess on input line 61.
+ [45]
+LaTeX Info: Redefining \HepProcess on input line 74.
+LaTeX Info: Redefining \HepProcess on input line 74.
+ [46]
+LaTeX Info: Redefining \HepProcess on input line 86.
+LaTeX Info: Redefining \HepProcess on input line 86.
+ [47]
+<chapter7/Test_statistics.png, id=2244, 750.805pt x 485.815pt>
+File: chapter7/Test_statistics.png Graphic file (type png)
 
+<use chapter7/Test_statistics.png>
+Package pdftex.def Info: chapter7/Test_statistics.png used on input line 89.
+(pdftex.def)             Requested size: 249.60254pt x 161.50551pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 56.
+Overfull \hbox (25.68085pt too wide) in paragraph at lines 94--95
+[]\OT1/cmr/m/n/12 Confident Level(CLs) are de-fined with two val-ues $\OML/cmm/
+m/it/12 p[]$ \OT1/cmr/m/n/12 and 1-$\OML/cmm/m/it/12 p[]$\OT1/cmr/m/n/12 . In s
+ig-nal+background
+ []
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 56.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tau' on input line 56.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 56.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 56.
-
-LaTeX Info: Redefining \HepProcess on input line 58.
-LaTeX Info: Redefining \HepProcess on input line 58.
-[41]
-LaTeX Info: Redefining \HepProcess on input line 58.
-LaTeX Info: Redefining \HepProcess on input line 58.
- [42]
-LaTeX Info: Redefining \HepProcess on input line 124.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 124.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tau' on input line 124.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 124.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 124.
-
-LaTeX Info: Redefining \HepProcess on input line 127.
-LaTeX Info: Redefining \HepProcess on input line 127.
-[43]
-LaTeX Info: Redefining \HepProcess on input line 127.
-LaTeX Info: Redefining \HepProcess on input line 127.
- [44pdfTeX warning (ext4): destination with the same identifier (name{table.7.1
+LaTeX Info: Redefining \HepProcess on input line 101.
+LaTeX Info: Redefining \HepProcess on input line 101.
+[48pdfTeX warning (ext4): destination with the same identifier (name{figure.7.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.127 
+l.101 \end{align*}
+                   <./chapter7/Test_statistics.png>]
+<chapter7/Signal_strength_example_1.png, id=2253, 382.42876pt x 252.945pt>
+File: chapter7/Signal_strength_example_1.png Graphic file (type png)
+
+<use chapter7/Signal_strength_example_1.png>
+Package pdftex.def Info: chapter7/Signal_strength_example_1.png used on input l
+ine 113.
+(pdftex.def)             Requested size: 166.39746pt x 110.0572pt.
+
+<chapter7/Signal_strength_example_2.png, id=2254, 379.4175pt x 255.95625pt>
+File: chapter7/Signal_strength_example_2.png Graphic file (type png)
+
+<use chapter7/Signal_strength_example_2.png>
+Package pdftex.def Info: chapter7/Signal_strength_example_2.png used on input l
+ine 114.
+(pdftex.def)             Requested size: 166.39746pt x 112.25397pt.
+LaTeX Info: Redefining \HepProcess on input line 120.
+LaTeX Info: Redefining \HepProcess on input line 120.
+ [49pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.120 \begin{align*}
+                     <./chapter7/Signal_strength_example_1.png> <./chapter7/Sig
+nal_strength_example_2.png>]
+LaTeX Info: Redefining \HepProcess on input line 135.
+LaTeX Info: Redefining \HepProcess on input line 135.
+ [50]
+LaTeX Info: Redefining \HepProcess on input line 139.
+LaTeX Info: Redefining \HepProcess on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 142.
+
+LaTeX Info: Redefining \HepProcess on input line 144.
+LaTeX Info: Redefining \HepProcess on input line 144.
+[51]
+LaTeX Info: Redefining \HepProcess on input line 210.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 210.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 210.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 210.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 210.
+
+LaTeX Info: Redefining \HepProcess on input line 213.
+LaTeX Info: Redefining \HepProcess on input line 213.
+[52]
+LaTeX Info: Redefining \HepProcess on input line 213.
+LaTeX Info: Redefining \HepProcess on input line 213.
+ [53pdfTeX warning (ext4): destination with the same identifier (name{table.7.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.213 
       ]
-LaTeX Info: Redefining \HepProcess on input line 127.
-LaTeX Info: Redefining \HepProcess on input line 127.
- [45pdfTeX warning (ext4): destination with the same identifier (name{table.7.2
+LaTeX Info: Redefining \HepProcess on input line 213.
+LaTeX Info: Redefining \HepProcess on input line 213.
+ [54pdfTeX warning (ext4): destination with the same identifier (name{table.7.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.127 
+l.213 
       pdfTeX warning (ext4): destination with the same identifier (name{table.7
 .3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.127 
+l.213 
       ]
-Overfull \hbox (7.84506pt too wide) in paragraph at lines 175--182
+LaTeX Info: Redefining \HepProcess on input line 213.
+LaTeX Info: Redefining \HepProcess on input line 213.
+ [55]
+Overfull \hbox (7.84506pt too wide) in paragraph at lines 261--268
  [][] 
  []
 
 )
 LaTeX Info: Redefining \HepProcess on input line 248.
 LaTeX Info: Redefining \HepProcess on input line 248.
- [46]
+ [56]
 LaTeX Info: Redefining \HepProcess on input line 248.
 LaTeX Info: Redefining \HepProcess on input line 248.
- [47pdfTeX warning (ext4): destination with the same identifier (name{table.7.4
+ [57pdfTeX warning (ext4): destination with the same identifier (name{table.7.4
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1602,7 +1707,7 @@ l.248 \include{chapter7/chapter7}
                                  ]
 LaTeX Info: Redefining \HepProcess on input line 248.
 LaTeX Info: Redefining \HepProcess on input line 248.
- [48pdfTeX warning (ext4): destination with the same identifier (name{table.7.6
+ [58pdfTeX warning (ext4): destination with the same identifier (name{table.7.6
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1641,12 +1746,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 LaTeX Info: Redefining \HepProcess on input line 9.
 LaTeX Info: Redefining \HepProcess on input line 9.
-[49
+[59
 
 
 
 ]
-<chapter8/mutau_HMuTau_mutauhad_1_2016_postfit_COLMASS.pdf, id=2254, 569.12625p
+<chapter8/mutau_HMuTau_mutauhad_1_2016_postfit_COLMASS.pdf, id=2353, 569.12625p
 t x 552.0625pt>
 File: chapter8/mutau_HMuTau_mutauhad_1_2016_postfit_COLMASS.pdf Graphic file (t
 ype pdf)
@@ -1656,7 +1761,7 @@ Package pdftex.def Info: chapter8/mutau_HMuTau_mutauhad_1_2016_postfit_COLMASS.
 pdf used on input line 15.
 (pdftex.def)             Requested size: 166.39746pt x 161.40813pt.
 
-<chapter8/mutau_HMuTau_mutauhad_2_2016_postfit_COLMASS.pdf, id=2255, 569.12625p
+<chapter8/mutau_HMuTau_mutauhad_2_2016_postfit_COLMASS.pdf, id=2354, 569.12625p
 t x 552.0625pt>
 File: chapter8/mutau_HMuTau_mutauhad_2_2016_postfit_COLMASS.pdf Graphic file (t
 ype pdf)
@@ -1666,7 +1771,7 @@ Package pdftex.def Info: chapter8/mutau_HMuTau_mutauhad_2_2016_postfit_COLMASS.
 pdf used on input line 16.
 (pdftex.def)             Requested size: 166.39746pt x 161.40813pt.
 
-<chapter8/mutau_HMuTau_mutauhad_3_2016_postfit_COLMASS.pdf, id=2256, 569.12625p
+<chapter8/mutau_HMuTau_mutauhad_3_2016_postfit_COLMASS.pdf, id=2355, 569.12625p
 t x 552.0625pt>
 File: chapter8/mutau_HMuTau_mutauhad_3_2016_postfit_COLMASS.pdf Graphic file (t
 ype pdf)
@@ -1683,7 +1788,7 @@ Package pdftex.def Info: chapter8/mutau_HMuTau_mutauhad_1_2016_postfit_COLMASS.
 pdf used on input line 18.
 (pdftex.def)             Requested size: 166.39746pt x 161.40813pt.
 
-<chapter8/mutau_HMuTau_mutauhad_1_2016_postfit_BDT.pdf, id=2257, 569.12625pt x 
+<chapter8/mutau_HMuTau_mutauhad_1_2016_postfit_BDT.pdf, id=2356, 569.12625pt x 
 552.0625pt>
 File: chapter8/mutau_HMuTau_mutauhad_1_2016_postfit_BDT.pdf Graphic file (type 
 pdf)
@@ -1692,7 +1797,7 @@ Package pdftex.def Info: chapter8/mutau_HMuTau_mutauhad_1_2016_postfit_BDT.pdf
 used on input line 27.
 (pdftex.def)             Requested size: 166.39746pt x 161.40813pt.
 
-<chapter8/mutau_HMuTau_mutauhad_2_2016_postfit_BDT.pdf, id=2258, 569.12625pt x 
+<chapter8/mutau_HMuTau_mutauhad_2_2016_postfit_BDT.pdf, id=2357, 569.12625pt x 
 552.0625pt>
 File: chapter8/mutau_HMuTau_mutauhad_2_2016_postfit_BDT.pdf Graphic file (type 
 pdf)
@@ -1701,7 +1806,7 @@ Package pdftex.def Info: chapter8/mutau_HMuTau_mutauhad_2_2016_postfit_BDT.pdf
 used on input line 28.
 (pdftex.def)             Requested size: 166.39746pt x 161.40813pt.
 
-<chapter8/mutau_HMuTau_mutauhad_3_2016_postfit_BDT.pdf, id=2259, 569.12625pt x 
+<chapter8/mutau_HMuTau_mutauhad_3_2016_postfit_BDT.pdf, id=2358, 569.12625pt x 
 552.0625pt>
 File: chapter8/mutau_HMuTau_mutauhad_3_2016_postfit_BDT.pdf Graphic file (type 
 pdf)
@@ -1721,7 +1826,7 @@ Overfull \hbox (5.62352pt too wide) in paragraph at lines 79--99
  [][] 
  []
 
-<chapter8/HMUTAU_CB_SUMMARY.pdf, id=2260, 569.12625pt x 633.36626pt>
+<chapter8/HMUTAU_CB_SUMMARY.pdf, id=2359, 569.12625pt x 633.36626pt>
 File: chapter8/HMUTAU_CB_SUMMARY.pdf Graphic file (type pdf)
 
 <use chapter8/HMUTAU_CB_SUMMARY.pdf>
@@ -1729,7 +1834,7 @@ Package pdftex.def Info: chapter8/HMUTAU_CB_SUMMARY.pdf used on input line 105.
 
 (pdftex.def)             Requested size: 166.39746pt x 185.17915pt.
 
-<chapter8/HMUTAU_BDT_SUMMARY.pdf, id=2261, 569.12625pt x 633.36626pt>
+<chapter8/HMUTAU_BDT_SUMMARY.pdf, id=2360, 569.12625pt x 633.36626pt>
 File: chapter8/HMUTAU_BDT_SUMMARY.pdf Graphic file (type pdf)
 
 <use chapter8/HMUTAU_BDT_SUMMARY.pdf>
@@ -1738,10 +1843,10 @@ Package pdftex.def Info: chapter8/HMUTAU_BDT_SUMMARY.pdf used on input line 106
 (pdftex.def)             Requested size: 166.39746pt x 185.17915pt.
 LaTeX Info: Redefining \HepProcess on input line 120.
 LaTeX Info: Redefining \HepProcess on input line 120.
- [50]
+ [60]
 LaTeX Info: Redefining \HepProcess on input line 120.
 LaTeX Info: Redefining \HepProcess on input line 120.
- [51pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+ [61pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1753,7 +1858,7 @@ t_COLMASS.pdf, page is rotated 90 degrees> <./chapter8/mutau_HMuTau_mutauhad_3_
 2016_postfit_COLMASS.pdf, page is rotated 90 degrees>]
 LaTeX Info: Redefining \HepProcess on input line 120.
 LaTeX Info: Redefining \HepProcess on input line 120.
- [52pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+ [62pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1765,7 +1870,7 @@ T.pdf, page is rotated 90 degrees> <./chapter8/mutau_HMuTau_mutauhad_3_2016_pos
 tfit_BDT.pdf, page is rotated 90 degrees>]
 LaTeX Info: Redefining \HepProcess on input line 120.
 LaTeX Info: Redefining \HepProcess on input line 120.
- [53pdfTeX warning (ext4): destination with the same identifier (name{table.8.1
+ [63pdfTeX warning (ext4): destination with the same identifier (name{table.8.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1774,7 +1879,7 @@ l.120 \end{equation}
                     ]
 LaTeX Info: Redefining \HepProcess on input line 120.
 LaTeX Info: Redefining \HepProcess on input line 120.
- [54pdfTeX warning (ext4): destination with the same identifier (name{table.8.2
+ [64pdfTeX warning (ext4): destination with the same identifier (name{table.8.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1792,7 +1897,7 @@ Overfull \hbox (13.30118pt too wide) in paragraph at lines 122--123
 ling is $[] \OML/cmm/m/it/12 <
  []
 
-<chapter8/yukawaMuon_dark.pdf, id=2554, 569.12625pt x 546.04pt>
+<chapter8/yukawaMuon_dark.pdf, id=2653, 569.12625pt x 546.04pt>
 File: chapter8/yukawaMuon_dark.pdf Graphic file (type pdf)
 
 <use chapter8/yukawaMuon_dark.pdf>
@@ -1818,7 +1923,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 LaTeX Info: Redefining \HepProcess on input line 147.
 LaTeX Info: Redefining \HepProcess on input line 147.
-[55pdfTeX warning (ext4): destination with the same identifier (name{figure.8.3
+[65pdfTeX warning (ext4): destination with the same identifier (name{figure.8.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1828,14 +1933,14 @@ l.147
 LaTeX Info: Redefining \HepProcess on input line 147.
 LaTeX Info: Redefining \HepProcess on input line 147.
 
-[56pdfTeX warning (ext4): destination with the same identifier (name{figure.8.4
+[66pdfTeX warning (ext4): destination with the same identifier (name{figure.8.4
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.147 
        <./chapter8/yukawaMuon_dark.pdf, page is rotated 90 degrees>]
-<chapter8/etau_HETau_etauhad_1_2016_postfit.pdf, id=2711, 569.12625pt x 546.04p
+<chapter8/etau_HETau_etauhad_1_2016_postfit.pdf, id=2811, 569.12625pt x 546.04p
 t>
 File: chapter8/etau_HETau_etauhad_1_2016_postfit.pdf Graphic file (type pdf)
  <use chapter8/etau_HETau_etauhad_1_2016_postfit.pdf>
@@ -1843,7 +1948,7 @@ Package pdftex.def Info: chapter8/etau_HETau_etauhad_1_2016_postfit.pdf used on
  input line 158.
 (pdftex.def)             Requested size: 166.39746pt x 159.64731pt.
 
-<chapter8/etau_HETau_etauhad_2_2016_postfit.pdf, id=2712, 569.12625pt x 546.04p
+<chapter8/etau_HETau_etauhad_2_2016_postfit.pdf, id=2812, 569.12625pt x 546.04p
 t>
 File: chapter8/etau_HETau_etauhad_2_2016_postfit.pdf Graphic file (type pdf)
  <use chapter8/etau_HETau_etauhad_2_2016_postfit.pdf>
@@ -1851,7 +1956,7 @@ Package pdftex.def Info: chapter8/etau_HETau_etauhad_2_2016_postfit.pdf used on
  input line 159.
 (pdftex.def)             Requested size: 166.39746pt x 159.64731pt.
 
-<chapter8/etau_HETau_etauhad_3_2016_postfit.pdf, id=2713, 569.12625pt x 546.04p
+<chapter8/etau_HETau_etauhad_3_2016_postfit.pdf, id=2813, 569.12625pt x 546.04p
 t>
 File: chapter8/etau_HETau_etauhad_3_2016_postfit.pdf Graphic file (type pdf)
  <use chapter8/etau_HETau_etauhad_3_2016_postfit.pdf>
@@ -1859,14 +1964,14 @@ Package pdftex.def Info: chapter8/etau_HETau_etauhad_3_2016_postfit.pdf used on
  input line 160.
 (pdftex.def)             Requested size: 166.39746pt x 159.64731pt.
 
-<chapter8/HEtau_summary.pdf, id=2714, 518.93875pt x 569.12625pt>
+<chapter8/HEtau_summary.pdf, id=2814, 518.93875pt x 569.12625pt>
 File: chapter8/HEtau_summary.pdf Graphic file (type pdf)
 
 <use chapter8/HEtau_summary.pdf>
 Package pdftex.def Info: chapter8/HEtau_summary.pdf used on input line 210.
 (pdftex.def)             Requested size: 249.60254pt x 273.74196pt.
 
-<chapter8/EtauYukawa.pdf, id=2715, 569.12625pt x 547.04375pt>
+<chapter8/EtauYukawa.pdf, id=2815, 569.12625pt x 547.04375pt>
 File: chapter8/EtauYukawa.pdf Graphic file (type pdf)
 
 <use chapter8/EtauYukawa.pdf>
@@ -1875,10 +1980,10 @@ Package pdftex.def Info: chapter8/EtauYukawa.pdf used on input line 220.
 )
 LaTeX Info: Redefining \HepProcess on input line 253.
 LaTeX Info: Redefining \HepProcess on input line 253.
- [57]
+ [67]
 LaTeX Info: Redefining \HepProcess on input line 253.
 LaTeX Info: Redefining \HepProcess on input line 253.
- [58pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+ [68pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1890,7 +1995,7 @@ l.253 \include{chapter8/chapter8}
 .pdf, page is rotated 90 degrees>]
 LaTeX Info: Redefining \HepProcess on input line 253.
 LaTeX Info: Redefining \HepProcess on input line 253.
- [59pdfTeX warning (ext4): destination with the same identifier (name{table.8.3
+ [69pdfTeX warning (ext4): destination with the same identifier (name{table.8.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1905,7 +2010,7 @@ l.253 \include{chapter8/chapter8}
                                   <./chapter8/HEtau_summary.pdf>]
 LaTeX Info: Redefining \HepProcess on input line 253.
 LaTeX Info: Redefining \HepProcess on input line 253.
- [60pdfTeX warning (ext4): destination with the same identifier (name{table.8.4
+ [70pdfTeX warning (ext4): destination with the same identifier (name{table.8.4
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1914,7 +2019,7 @@ l.253 \include{chapter8/chapter8}
                                  ]
 LaTeX Info: Redefining \HepProcess on input line 253.
 LaTeX Info: Redefining \HepProcess on input line 253.
- [61pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+ [71pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
 7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1930,50 +2035,56 @@ LaTeX Info: Redefining \HepProcess on input line 32.
 )
 LaTeX Info: Redefining \HepProcess on input line 258.
 LaTeX Info: Redefining \HepProcess on input line 258.
- [62
+ [72
 
 
 
 ] (./mainbody.bbl
 LaTeX Info: Redefining \HepProcess on input line 1.
-LaTeX Info: Redefining \HepProcess on input line 51.
-LaTeX Info: Redefining \HepProcess on input line 51.
- [63
+LaTeX Info: Redefining \HepProcess on input line 50.
+LaTeX Info: Redefining \HepProcess on input line 50.
+ [73
 
 
 
 ]
-LaTeX Info: Redefining \HepProcess on input line 106.
-LaTeX Info: Redefining \HepProcess on input line 106.
- [64]
+LaTeX Info: Redefining \HepProcess on input line 105.
+LaTeX Info: Redefining \HepProcess on input line 105.
+ [74]
 Missing character: There is no Î in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 Missing character: There is no Ï in font cmr12!
 Missing character: There is no „ in font cmr12!
 Missing character: There is no Ï in font cmr12!
 Missing character: There is no „ in font cmr12!
-LaTeX Info: Redefining \HepProcess on input line 160.
-LaTeX Info: Redefining \HepProcess on input line 160.
- [65])
+LaTeX Info: Redefining \HepProcess on input line 166.
+LaTeX Info: Redefining \HepProcess on input line 166.
+ [75]
+LaTeX Info: Redefining \HepProcess on input line 222.
+LaTeX Info: Redefining \HepProcess on input line 222.
+ [76])
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
 (Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 295.
 
 LaTeX Info: Redefining \HepProcess on input line 295.
 LaTeX Info: Redefining \HepProcess on input line 295.
-[66]
+[77]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 295.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 295.
  (./mainbody.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
-(./chapter4.aux) (./chapter5/chapter5.aux) (./chapter6/chapter6.aux)
+(./chapter4/chapter4.aux) (./chapter5/chapter5.aux) (./chapter6/chapter6.aux)
 (./chapter7/chapter7.aux) (./chapter8/chapter8.aux) (./chapter9.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 295.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 295.
 Package rerunfilecheck Info: File `mainbody.out' has not changed.
-(rerunfilecheck)             Checksum: D8B56E0BC7A7E2EB54192D3E43CE7B6F;4152.
+(rerunfilecheck)             Checksum: B981FFB6BF0FF165C8ECD640B45A5381;4285.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1981,13 +2092,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 295.
  ) 
 Here is how much of TeX's memory you used:
- 9427 strings out of 492995
- 134255 string characters out of 6132705
- 242142 words of memory out of 5000000
- 12420 multiletter control sequences out of 15000+600000
- 17296 words of font info for 70 fonts, out of 8000000 for 9000
+ 9511 strings out of 492995
+ 136021 string characters out of 6132705
+ 244066 words of memory out of 5000000
+ 12472 multiletter control sequences out of 15000+600000
+ 18527 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,13n,40p,3701b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,13n,40p,3701b,500s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pf
 b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pf
@@ -1999,20 +2110,20 @@ sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
 al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2017/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on mainbody.pdf (79 pages, 1392952 bytes).
+/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on mainbody.pdf (90 pages, 1475824 bytes).
 PDF statistics:
- 3117 PDF objects out of 3580 (max. 8388607)
- 1820 compressed objects within 19 object streams
- 259 named destinations out of 1000 (max. 500000)
- 717 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3226 PDF objects out of 3580 (max. 8388607)
+ 1911 compressed objects within 20 object streams
+ 286 named destinations out of 1000 (max. 500000)
+ 748 words of extra memory for PDF output out of 10000 (max. 10000000)
 

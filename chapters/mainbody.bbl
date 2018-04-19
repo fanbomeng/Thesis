@@ -1,14 +1,43 @@
-\begin{thebibliography}{27}
+\begin{thebibliography}{37}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
+\bibitem[CMS(2011)]{CMS-NOTE-2011-005}
+{Procedure for the LHC Higgs boson search combination in Summer 2011}.
+\newblock Technical Report CMS-NOTE-2011-005. ATL-PHYS-PUB-2011-11, CERN,
+  Geneva, Aug 2011.
+\newblock URL \url{https://cds.cern.ch/record/1379837}.
+
+\bibitem[HIG(2016)]{HIG-14-040}
+Search for lepton flavour violating decays of the higgs boson to
+  $\mathrm{e}\tau$ and $\mathrm{e}\mu$ in proton-proton collisions at
+  {$\sqrt{s}=8$ TeV}.
+\newblock \emph{Phys. Lett. B}, 763:\penalty0 472, 2016.
+\newblock \doi{10.1016/j.physletb.2016.09.062}.
+
 \bibitem[CMS(2017)]{CMS-PAS-LUM-17-001}
 {CMS} luminosity measurements for the 2016 data taking period.
 \newblock CMS Physics Analysis Summary CMS-PAS-LUM-17-001, 2017.
 \newblock URL \url{https://cds.cern.ch/record/2257069}.
+
+\bibitem[Agostinelli et~al.(2003)]{GEANT4}
+S.~Agostinelli et~al.
+\newblock {GEANT4} --- a simulation toolkit.
+\newblock \emph{Nucl. Instrum. Meth. A}, 506:\penalty0 250, 2003.
+\newblock \doi{10.1016/S0168-9002(03)01368-8}.
+
+\bibitem[Alwall et~al.(2014)Alwall, Frederix, Frixione, Hirschi, Maltoni,
+  Mattelaer, Shao, Stelzer, Torrielli, and Zaro]{Alwall:2014}
+J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
+  H.-S. Shao, T.~Stelzer, P.~Torrielli, and M.~Zaro.
+\newblock {The automated computation of tree-level and next-to-leading order
+  differential cross sections, and their matching to parton shower
+  simulations}.
+\newblock \emph{JHEP}, 07:\penalty0 079, 2014.
+\newblock \doi{10.1007/JHEP07(2014)079}.
 
 \bibitem[Ball et~al.(2010)Ball, Del~Debbio, Forte, Guffanti, Latorre, Rojo, and
   Ubiali]{Ball:2010de}
@@ -26,6 +55,12 @@ M.~Botje, J.~Butterworth, A.~Cooper-Sarkar, A.~de~Roeck, J.~Feltesse, S.~Forte,
   A.~Glazov, J.~Huston, R.~McNulty, T.~Sj{\"o}strand, and R.~S. Thorne.
 \newblock {The PDF4LHC Working Group Interim Recommendations}.
 \newblock 2011.
+
+\bibitem[Cahn et~al.(1987)Cahn, Ellis, Kleiss, and Stirling]{Cahn:1986zv}
+R.~N. Cahn, S.~D. Ellis, R.~Kleiss, and W.~J. Stirling.
+\newblock {Transverse-momentum signatures for heavy Higgs bosons}.
+\newblock \emph{Phys. Rev. D}, 35:\penalty0 1626, 1987.
+\newblock \doi{10.1103/PhysRevD.35.1626}.
 
 \bibitem[Chatrchyan et~al.(2011{\natexlab{a}})]{CMS-JME-10-011}
 S.~Chatrchyan et~al.
@@ -110,6 +145,12 @@ C.~Collaboration.
   μτ and eτ in proton-proton collisions at $\sqrt{s}$= 13 TeV}.
 \newblock \emph{JHEP}, 2017.
 
+\bibitem[Cranmer(2015)]{LHCstaticstics}
+K.~Cranmer.
+\newblock {Practical Statistics for the LHC}.
+\newblock \emph{CERN-2014-003, pp. 267 - 308}, 2015.
+\newblock \doi{10.5170/CERN-2015-004.301}.
+
 \bibitem[de~Florian et~al.(2016)]{YR4}
 D.~de~Florian et~al.
 \newblock Handbook of {LHC} {H}iggs cross sections: 4. deciphering the nature
@@ -122,6 +163,14 @@ A.~Denner, S.~Heinemeyer, I.~Puljak, D.~Rebuzzi, and M.~Spira.
 \newblock Standard model {H}iggs-boson branching ratios with uncertainties.
 \newblock \emph{Eur. Phys. J. C}, 71:\penalty0 1753, 2011.
 \newblock \doi{10.1140/epjc/s10052-011-1753-8}.
+
+\bibitem[Georgi et~al.(1978)Georgi, Glashow, Machacek, and
+  Nanopoulos]{Georgi:1977gs}
+H.~M. Georgi, S.~L. Glashow, M.~E. Machacek, and D.~V. Nanopoulos.
+\newblock {H}iggs bosons from two gluon annihilation in proton proton
+  collisions.
+\newblock \emph{Phys. Rev. Lett.}, 40:\penalty0 692, 1978.
+\newblock \doi{10.1103/PhysRevLett.40.692}.
 
 \bibitem[Harnik et~al.(2013)Harnik, Kopp, and Zupan]{Harnik:2012pb}
 R.~Harnik, J.~Kopp, and J.~Zupan.
@@ -164,20 +213,17 @@ V.~Khachatryan et~al.
 \newblock \emph{JINST}, 10:\penalty0 P06005, 2015.
 \newblock \doi{10.1088/1748-0221/10/06/P06005}.
 
-\bibitem[Khachatryan et~al.(2016{\natexlab{a}})]{HIG-14-040}
-V.~Khachatryan et~al.
-\newblock Search for lepton flavour violating decays of the higgs boson to
-  $\mathrm{e}\tau$ and $\mathrm{e}\mu$ in proton-proton collisions at
-  {$\sqrt{s}=8$ TeV}.
-\newblock \emph{Phys. Lett. B}, 763:\penalty0 472, 2016{\natexlab{a}}.
-\newblock \doi{10.1016/j.physletb.2016.09.062}.
-
-\bibitem[Khachatryan et~al.(2016{\natexlab{b}})]{Khachatryan:2015dfa}
+\bibitem[Khachatryan et~al.(2016)]{Khachatryan:2015dfa}
 V.~Khachatryan et~al.
 \newblock {Reconstruction and identification of tau lepton decays to hadrons
   and $\nu_\tau$ at CMS}.
-\newblock \emph{JINST}, 11:\penalty0 P01019, 2016{\natexlab{b}}.
+\newblock \emph{JINST}, 11:\penalty0 P01019, 2016.
 \newblock \doi{10.1088/1748-0221/11/01/P01019}.
+
+\bibitem[Lista(2016)]{statistics:school2016}
+L.~Lista.
+\newblock {Practical Statistics for Particle Physicists}.
+\newblock 2016.
 
 \bibitem[Martin et~al.(2009)Martin, Stirling, Thorne, and Watt]{Martin:2009iq}
 A.~D. Martin, W.~J. Stirling, R.~S. Thorne, and G.~Watt.
@@ -193,11 +239,31 @@ P.~M. Nadolsky, H.-L. Lai, Q.-H. Cao, J.~Huston, J.~Pumplin, D.~Stump, W.-K.
 \newblock \emph{Phys. Rev. D}, 78:\penalty0 013004, 2008.
 \newblock \doi{10.1103/PhysRevD.78.013004}.
 
+\bibitem[Olari(2010)]{POWHEG-BOX}
+C.~Olari.
+\newblock {The POWHEG-BOX}.
+\newblock \emph{Nucl.Phys.Proc.Suppl.205-206:36-41,2010}, 2010.
+\newblock \doi{10.1016/j.nuclphysbps.2010.08.016}.
+
 \bibitem[{Particle Data Group} et~al.(2016){Particle Data Group}, Patrignani,
   et~al.]{Olive:2016xmw}
 {Particle Data Group}, C.~Patrignani, et~al.
 \newblock {Review of Particle Physics}.
 \newblock \emph{Chin. Phys. C}, 40:\penalty0 100001, 2016.
 \newblock \doi{10.1088/1674-1137/40/10/100001}.
+
+\bibitem[P.Roe et~al.(2005)]{BDTboostPI}
+B.~P.Roe et~al.
+\newblock {Boosted Decision Trees as an Alternative to Artificial Neural
+  Networks for Particle Identification}.
+\newblock 2005.
+
+\bibitem[Sj{\"o}strand et~al.(2015)Sj{\"o}strand, Ask, Christiansen, Corke,
+  Desai, Ilten, Mrenna, Prestel, Rasmussen, and Skands]{Sjostrand:2014zea}
+T.~Sj{\"o}strand, S.~Ask, J.~R. Christiansen, R.~Corke, N.~Desai, P.~Ilten,
+  S.~Mrenna, S.~Prestel, C.~O. Rasmussen, and P.~Z. Skands.
+\newblock {An introduction to {PYTHIA 8.2}}.
+\newblock \emph{Comput. Phys. Commun.}, 191:\penalty0 159, 2015.
+\newblock \doi{10.1016/j.cpc.2015.01.024}.
 
 \end{thebibliography}
