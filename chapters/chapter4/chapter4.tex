@@ -55,7 +55,7 @@ $ttHJet \to \Pgt\Pgt$                                   &MadGraph+PYTHIA8&     0
 
 \subsection{\Hehad}
 
-The search of lepton flavour violation Higgs decay $\Hehad$  is performed with CMS 2012 RunI dataset at center-of-mass energy  $\sqrt{s}=8 ~\textrm{TeV}$. The dataset is named as SingleElectron\_Run2012A,B,C,D with an integrated luminosity of $19.7 ~\textrm{fb}^{-1}$. Single electron HLT tigger is used which is talked more in details in Chapter 5. 
+The search of lepton flavour violation Higgs decay $\Hehad$  is performed with CMS 2012 RunI dataset at center-of-mass energy  $\sqrt{s}=8 ~\textrm{TeV}$. The dataset is named as SingleElectron\_Run2012A,B,C,D with an integrated luminosity of $19.7 ~\textrm{fb}^{-1}$. Single electron HLT tigger is used which is talked more in details in Chapter 5. A detail list of simulation samples used in the analysis is listed in Table.~\ref{tab:mcdatasets}.  For the signal samples, ggH and VBF Higgs production channels are the main channels considered. For background samples, besides $Z\to \tau \tau$ which is produced with embedding technique and misidentified background which is estimated with data-driven method are produced with MC simulation. Various simulation packages are used. Signal samples are produced with PYTHIA8, which uses sophisticated $\tau$-lepton decay machinery. Tauola~\cite{Simulation:Tauola} is also used for the simulation of $\tau$ lepton decay in some of samples. CMS detector environment is simulated by GEANT4. 
 
 
 \begin{table}[hbtp]
@@ -70,37 +70,128 @@ $ggH \to \tau\tau$ &POWHEG+PYTHIA6              &  19.27           \\\hline
  $VBF\to\tau\tau$  &POWHEG+PYTHIA6              &   1.58           \\  \hline
 $t\overline{t}+\textrm{jets}~ \textrm{full}~\textrm{leptonic}$  &  MadGraph+Tauola                &  26.20                \\\hline
 $t\overline{t}+\textrm{jets}~\textrm{Semi}~\textrm{leptonic}$   & MadGraph+Tauola           &  109.28               \\ \hline
-$t$,$\bar{t}$           & /T(bar)\_tW-channel\_TuneZ2star\_8TeV-powheg-tauola        &   11.1 (11.1)          \\
-                        & T(bar)\_t-channel-DR\_TuneZ2star\_8TeV?powheg-tauola  &   56.4 (30.7)         \\  \hline
-$WW \to 2l2\nu+jets$    & WWTo2L2Nu\_TuneZ2star\_8TeV\_pythia6\_tauola                  & 5.824 (k-factor: 1.2) \\ \hline
-$ZZ\to 4l$               & ZZJetsTo4L\_TuneZ2star\_8TeV-madgraph-tauola                 & 0.18                  \\  \hline
-$ZZ\to 2l2Q$             & ZZJetsTo2L2Q\_TuneZ2star\_8TeV-madgraph-tauola               &   2.502               \\  \hline
-$ZZ\to 2l2\nu$           &ZZJetsTo2L2Nu\_TuneZ2star\_8TeV-madgraph-tauola               &    0.716              \\  \hline
-$WZ\to 2l2Q$             &WZJetsTo2L2Q\_TuneZ2star\_8TeV-madgraph-tauola                &    2.21               \\  \hline
-$WZ\to 3l\nu$            &WZJetsTo3LNu\_TuneZ2\_8TeV-madgraph-tauola            & 1.06                  \\  \hline
-$W\gamma\to l\nu\gamma$ &WGToLNuG\_TuneZ2star\_8TeV-madgraph-tauola             & 461.6                 \\  \hline
-$W\gamma*\to l\nu 2e$    &WGstarToLNu2E\_TuneZ2star\_8TeV-madgraph-tauola               &  5.87  (k-factor: 1.5) \\  \hline
-$W\gamma*\to l\nu 2\mu$  &WGstarToLNu2Mu\_TuneZ2star\_7TeV-madgraph-tauola              &  1.91 (k-factor: 1.5) \\  \hline
-$W\gamma*\to l\nu 2\tau$&WGstarToLNu2Tau\_TuneZ2star\_7TeV-madgraph-tauola              &  0.336 (k-factor: 1.5) \\  \hline
+$t \to tw$              &   POWHEG+Tauola     &    56.4 \\\hline
+$\bar{t} \to tw$              &   POWHEG+Tauola     &    30.7 \\\hline
+$t$,$\bar{t}(\textrm{T channel})$           & POWHEG+Tauola        &   11.1 (11.1)          \\ \hline
+$WW \to 2l2\nu+jets$    & PYTHIA6+Tauola                  & 5.824\\ \hline
+$ZZ\to 4l$               & MadGraph+Tauola                 & 0.18                  \\  \hline
+$ZZ\to 2l2Q$             &MadGraph+Tauola              &   2.502               \\  \hline
+$ZZ\to 2l2\nu$           &MadGraph+Tauola              &    0.716              \\  \hline
+$WZ\to 2l2Q$             &MadGraph+Tauola                &    2.21               \\  \hline
+$WZ\to 3l\nu$            &MadGraph+Tauola           & 1.06                  \\  \hline
   \end{tabular}
  \end{center}
 \end{table}
 
 
 
-The data sample used in the analysis is from LHC 2016 Runs, recorded by CMS detecter. Total integrated luminosity of the analyzed data is $35.9 ~\textrm{fb}^{-1} $ with center-of-mass energy of $ \sqrt{s}=13 ~\textrm{TeV} $. The data sample labeled in the CMS experiment as SingleMuon\_Run2016B,C,D,E,F,G,H. The name SingleMuon in the data sample represents the trigger used in the analysis, which selects the events with at least a muon passed the trigger selection. Gluon gluon fusion Higgs(ggH)~\cite{Georgi:1977gs} production and vector boson fusion Higgs(VBF)~\cite{Cahn:1986zv} are the main Higgs production channels considered in the analysis. For the background samples, besides the misidentified background which is talked about in detail in Chapter6, the other background samples are all generated with Monte Carlo(MC) simulation.  POWHEG~\cite{POWHEG-BOX} or MadGraph~\cite{Alwall:2014} generator is used for the generation and all of the MC samples, including the signal samples, the parton showering, fragmentation, and decays are performed by Pythia8~\cite{Sjostrand:2014zea}.  Pileup effect is taking into account in the generator by generate minimum bias events simultaneously and a correction is applied by comparing the data sample. The average number of pileup interaction per bunch crossing is 27. CMS detector environment is simulated by GEANT4~\cite{GEANT4}. The details of the MC samples used in the analysis are summarized in Table.~\ref{tab:mutaumcsamples} and Table.~\ref{tab:mutaumcsamples2}.
-
-
-
-
 
 
 \section{Event reconstruction}
+In this section, a general presentation of the event reconstruction algorithm used in CMS, particle-flow(PF) reconstruction is shown. A more detail information about the reconstruction of tracks and the objects related to the lepton flavour violation higgs decay are in the following section. 
+\subsection{Particle flow algorithm}
+
+Particle flow event reconstruction algorithm is the main algorithm used in CMS. PF performs a global event reconstruction~\cite{CMS-PRF-14-001}, which aim to utilize the information from the whole detector to identify individual particles in each event.
+
+
+
+\subsubsection{Tracking and Calorimeter algorithm}
+
+In the PF algorithm, the reconstruction of charged particles in the inner tracker is a crucial part. In this section, the reconstruction of the trajectories of charged particles, especially the electron and muon reconstruction is discussed. 
+
+Inner tracker is aimed at measuring the track of energetic charged particle. The track finder is based on the Kalman Filtering(KF)~\cite{tracker:algo}. This reconstruction comes in a couple steps. First an initial seed is generated from a couple hits that compatible with a track in the tracker, then a trajectory is builded with the seed and other hits from the tracker along this track. At last a fit is perform on the track  to determine the properties of this particle candidate, like the momentum, the charge and the direction. The qualities that can affect the performance of the reconstruction are like the number of hits in the pixel detector, the total number of hits in the tracker, the distance from the cylinder and the energy of this charged particle. This is discussed in more details later.
+
+The performance of the track reconstruction is measured in reconstruction efficiency and misreconstruction rate. The reconstruction efficiency is defined as the ratio of track reconstructed with more than 50\% hits from simulated hits and the total simulated tracks. The misreconstruction rate is defined as the fraction of the tracks can not be associated with simulated tracks of the whole simulated tracks.  If a charged hadron is not identified by the tracking algorithm, then the hadron is take as a neutral hadron and measured by the calorimeters. This will affect the jet energy and position resolution. Improving the track reconstruction efficiency while keeping the misreconstructed rate low is critical for PF reconstruction.
+
+In CMS, an iterative tracking is perform, in which the reconstruction of tracks is done is a couple steps. Each step is aimed for a moderate efficiency but with a high purity. After one step, the hits that used to form tracks are masked and a next step is perform. This iterative tracking is down in ten steps if necessary and the detail information is shown in Table.~\ref{tbl:iterative_tracking} and more can be found in \cite{CMS-PRF-14-001}. In the table, the name column points out the processes that that step of iteration is aiming at. The seeding column shows the requirement on the seeding, while the targeted tracks column shows the characters of the tracks.
+
+Electron is one of the main particle understudy in $\Hehad$ search. In CMS, electron track reconstruction is taken as a merge of ECAL based and tracker based strategy. The tracker based seeding strategy is as described above, besides the case when energetic photons are radiated, then a preselection based on the number of hits and $\chi^{2}$ of the fit is set with the Gaussian-sum filter~\cite{Algo:GSF}. The ECAL based electron seeding strategy building the superclusters to gathering the bremsstrahlung photons. This works in the case when there is not much bremsstrahlung photons, then most of the energy is deposited in ECAL. In the case when soft photons are radiated mostly, ECAL based seeding may still performs well. But when the electrons are in the jets or low energy, either electron contributions are overlapping with other particle or the radiation and bending is too much, it is hard to recover these electrons with ECAL based algorithm only. The ECAL based and tracker based electron seeding is merged into one collection, which significantly improves the reconstruction efficiency.
+
+
+
+\begin{table}[!tpb]
+\caption{Iterative tracking steps take in CMS \label{tbl:iterative_tracking}}
+\label{tab:antil}
+\begin{center}
+\begin{tabular}{|llll|}   
+\hline
+Iteration                   &  Name               &   Seeding            &  Targeted Tracks  \\\hline
+1                              & InitialStep          & pixel triplets        &  prompt, high $p_{t}$   \\
+2                              & DetachedTriplet          & pixel triplets        &  from b hadron decays, R$\lesssim$ 5 cm  \\
+3                              & LowPtTriplet          & pixel triplets        &  prompt, low $p_{t}$ \\
+4                              & PixelPair          & pixel pairs                &  recover high $p_{t}$ \\
+5                              & MixedTriplet          & pixel+strip triplets                &  displaced,  R$\lesssim$ 7 cm   \\
+6                              & PixelLess          & strip triplets / pairs               &  very displaced, R$\lesssim$ 25 cm     \\
+7                              & TobTec          & strip triplets / pairs               &  very displaced, R$\lesssim$ 60 cm     \\
+8                              & JetCoreRegional          & pixel+strip pairs               &  inside high $p_{t}$ jets    \\
+9                              & MuonSeededInOut          & muon-tagged tracks               &  muons   \\
+10                            & MuonSeededOutIn          & muon detectors                &  muons   \\\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+Calorimeters are crucial components for the PF algorithm in CMS. The clustering algorithm in calorimeters is used to identify neutral stable particles like phone and neutral hadron, together with tracker in the identification of charged particles, reconstructing the energy of electrons and the possible associated bremsstrahlung photons and measuring the energy of charge particles that are missed by the tracker.  
+
+The clustering algorithm is perform separately in each sub-detector system beside the HF in which each cell directly raise a cluster. The algorithm starts by finding a cluster seed. Then a topological walking around the neighbouring cells is performed. Both seed cells and neighbouring cells are required to pass certain thresholds to construct high quality candidates and suppress the contribution from noise. In ECAL endcaps, additional requirements on $E_{T}$ because of the high noise level. In each of the topological clusters, the energy for the neighbouring cells are assumed from the seed cells. A Gaussian-mixture model is used in the construction of the topological clusters to evaluate the contribution of each cells. The finally parameters of the model is obtained by analytical fitting to the Gaussian model which give the maximum expectation.
+
+To accurately measure the energy of particles like photons and neutral hadrons, the calibration of calorimeters is indispensable. The calibration of calorimeter also affects identification efficiency and misidentification rate of the particles measured in the calorimeters. The calibration of ECAL is done with a couple source, like the test beam, the radioactive source and the cosmic ray measurements and refined with the collision data. There are thresholds used in the formation of topological clusters, which results in the energy measured is smaller than the incoming particle energy. A residual energy calibration is applied to all ECAL clusters to account for these affects with simulation samples.  The correction is applied as a function cluster energy and position, $f(E,\eta)=g(E)h(\eta)$. In the endcaps, the energy is taken as a liner combination of ECAL and preshower energy, the parameters in the combination is optimized by the $\chi^{2}$ method. Hadrons generally leave energy in both ECAL and HCAL. The calibration of ECAL mentioned above is for the photon, electron calibration. The behavior of hadron is different and a consequent calibration involving both ECAL and HCAL is needed. Simulated single neutral hadrons is used. The relationship involving both the energy measured by ECAL and HCAL and the calibrated energy $E_{calib}$ is expressed as
+
+\begin{align*}
+E_{calib}=a+b(E)f(\eta)E_{\textrm{ECAL}}+c(E)g(\eta)E_{\textrm{HCAL}}
+\end{align*}
+
+In the equation, a is independent of E and accounts for the effects of thresholds in the clustering algorithm. The other coefficients are determined by the $\chi^{2}$ optimization with the $E_{calib}$ and true energy E from simulation. 
+
+
+
+key words:
+particle-flow(PF) algorithm, subdetector, particle type,  primary vertex, jet finding algorithm
+muon, track silicon detector, hits muon system, energy deposit calorimeters, number of spacial points, energy , track momentum
+
+
+electron, charge particle track, ECAL energy clusters, bremsstrahlung photons, exception region, multivariate discriminator, track momentum, ECAL culster energy, sum of bremsstrahlung photons
+
+Hadronically decaying tau, hadrons-plus-strips(HPS) algorithm, tau decay modes, summed PF objects to reconstruct lepton charge,  MVA discriminator, reject misidentified tau from electrons and muons. 
+
+Charged hadrons, charged particle tracks, neutral hadrons, HCAL energy clusters, hadronic jets, anti-kt algorithm, distance parameter 0.4, jet momentum vector sum, offset correction, pileup, delta-R
+
+Jets misidentified, suppressed, imposing isolation,     missing transverse momentum,    transverse mass,    collinear mass,   visible mass.  
+
+
+
+
+
+A detail description of particle flow algorithm can be found in~\cite{CMS_PRF_14_001}.
+
+\begin{figure}[htbp] 
+\centering
+\includegraphics[width=0.6\textwidth]{chapter4/CMS_detecter_slice.pdf}
+\caption{A sketch view of CMS detecter. Examples are given to show how the particles interact with different sub-detecters.}
+\label{fig:CMSslice}
+\end{figure}
+
 
 
 \subsection{Muon reconstruction and selection criteria}
 
-With the PF muon as the input, muons used in the analysis are further categorized into different identification, isolation categories. Muon ID suggested in CMS RunII, for the LHC data 2016, running period BCDEF, ICHEP medium muon ID is applied(table~\ref{tbl:ICHEPMedID}), for running period G and H, also the monte Carlo samples, standard medium muon ID(table~\ref{tbl:standardMedID})are applied to achieve the best performance for muon identification.
+PF muon is used in the $\Hmuhad$ analysis. In CMS, the event reconstruction starts from building the tracks in tracker(tracker track) and muon system(standalone-muon track) separately. Global muon reconstruction and tracker muon reconstruction are based on these tracks. ~\cite{muonreco}. Global muon reconstruction starts from the standalone-muon tracks and requires at least two muon station in the muon system. For each of the standalone-muon track, a propagating is done to find a matching tracker track on the common surface. Kalman-filter technique~\cite{Fruhwirth:1987fm} is used in the fitting to combine the hits in standalone-muon track and tracker track. The tracker muon starts from the tracks with $\pt>0.5$GeV and total momentum $p>2.5$ GeV. The tracks are then extrapolated to match the tracks in the muon system with at least one muon segment.  Within the geometry acceptance of muon system, the muon reconstruction efficiency is high, especially high momentum muons, constructed as either global muon or tracker muon or both has the  efficiency about 99\%.  PF reconstruction utilizes the whole detector information to identify and reconstruct all of the particle. The muon PF algorithm applies a series of selections to the global muon and tracker muon to select out the PF muon. The selection is optimized to identify the muons in the jets with high efficiency and low misidentify rate. The details of the selection is in~\cite{PFmuonselection}.   
+
+
+
+With the PF muon as the input, muons used in the analysis are further categorized into different identification, isolation categories. Muon ID suggested in CMS RunII, for the LHC data 2016, running period BCDEF, ICHEP medium muon ID is applied(table~\ref{tbl:ICHEPMedID}), for running period G and H, also the monte Carlo samples, standard medium muon ID(table~\ref{tbl:standardMedID})are applied to achieve the best performance for muon identification. 
+
+%In the compatibility-based selection, two ?compatibility? variables are constructed, one based on calorimeter information and the other based on information from the
+%muon system. A tracker muon is considered to be a muon candidate if the value of a linear combination of these variables is larger than a pre-defined threshold.
+%The segment compatibility, which can have values between 0 and 1, describes the quality of the spatial
+%agreement between muon segments and the reconstructed track of the muon candidate
+
+
+%The kink finder algorithm searches for an interaction of the studied particle with the layers of the
+%tracking system by performing a fit of the section of the track before the layer with the one after the
+%layer. If an interaction happened, the fit will not work properly because of a change in curvature of
+%the track.
+
 
 
 \begin{table}[!tpb]
@@ -143,6 +234,20 @@ Fraction of valid tracker hits           & $>0.8$ \\\hline
 \end{tabular}
 \end{center}
 \end{table}
+
+
+\subsection{Electron reconstruction and identification}
+
+bremsstrahlung,   GSF track,  HCAL sum energy not exceed 10\%,  GSF track tangents, total energy corrected 
+
+
+
+
+More detail of electron reconstruction can be found in~\cite{electron_reco2015}
+
+
+This should be used for B-tagging citation~\cite{BTV-16-002}
+
 
 \subsection{Tau lepton reconstruction} \label{Chapter:taureco}
 
