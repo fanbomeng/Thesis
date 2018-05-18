@@ -29,10 +29,10 @@
 \BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Particle flow algorithm}{section.4.2}% 29
 \BOOKMARK [3][-]{subsubsection.4.2.1.1}{4.2.1.1 Tracking and Calorimeter algorithm}{subsection.4.2.1}% 30
 \BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 Muon reconstruction and selection criteria}{section.4.2}% 31
-\BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 Electron reconstruction and identification}{section.4.2}% 32
+\BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 Electron identification}{section.4.2}% 32
 \BOOKMARK [2][-]{subsection.4.2.4}{4.2.4 Tau lepton reconstruction}{section.4.2}% 33
-\BOOKMARK [1][-]{section.4.3}{4.3 Electron reconstruction}{chapter.4}% 34
-\BOOKMARK [1][-]{section.4.4}{4.4 Event simulation}{chapter.4}% 35
+\BOOKMARK [2][-]{subsection.4.2.5}{4.2.5 Jet reconstruction}{section.4.2}% 34
+\BOOKMARK [1][-]{section.4.3}{4.3 Event simulation}{chapter.4}% 35
 \BOOKMARK [0][-]{chapter.5}{CHAPTER 5: LFV event selection}{}% 36
 \BOOKMARK [1][-]{section.5.1}{5.1 Lg}{chapter.5}% 37
 \BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Loose selection}{section.5.1}% 38

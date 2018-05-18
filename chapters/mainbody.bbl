@@ -1,4 +1,4 @@
-\begin{thebibliography}{47}
+\begin{thebibliography}{53}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -16,6 +16,11 @@
 \newblock Technical Report CMS-NOTE-2011-005. ATL-PHYS-PUB-2011-11, CERN,
   Geneva, Aug 2011.
 \newblock URL \url{https://cds.cern.ch/record/1379837}.
+
+\bibitem[PU_(2013)]{PU_jetID}
+{Pileup Jet Identification}.
+\newblock Technical Report CMS-PAS-JME-13-005, CERN, Geneva, 2013.
+\newblock URL \url{http://cds.cern.ch/record/1581583}.
 
 \bibitem[HIG(2016)]{HIG-14-040}
 Search for lepton flavour violating decays of the higgs boson to
@@ -73,6 +78,18 @@ M.~Botje, J.~Butterworth, A.~Cooper-Sarkar, A.~de~Roeck, J.~Feltesse, S.~Forte,
   A.~Glazov, J.~Huston, R.~McNulty, T.~Sj{\"o}strand, and R.~S. Thorne.
 \newblock {The PDF4LHC Working Group Interim Recommendations}.
 \newblock 2011.
+
+\bibitem[Cacciari et~al.(2008)Cacciari, Salam, and Soyez]{Cacciari:2008gp}
+M.~Cacciari, G.~P. Salam, and G.~Soyez.
+\newblock {The anti-$k_t$ jet clustering algorithm}.
+\newblock \emph{JHEP}, 04:\penalty0 063, 2008.
+\newblock \doi{10.1088/1126-6708/2008/04/063}.
+
+\bibitem[Cacciari et~al.(2012)Cacciari, Salam, and Soyez]{FastJetalso}
+M.~Cacciari, G.~P. Salam, and G.~Soyez.
+\newblock {FastJet user manual}.
+\newblock \emph{Eur. Phys. J. C}, 72:\penalty0 1896, 2012.
+\newblock \doi{10.1140/epjc/s10052-012-1896-2}.
 
 \bibitem[Cahn et~al.(1987)Cahn, Ellis, Kleiss, and Stirling]{Cahn:1986zv}
 R.~N. Cahn, S.~D. Ellis, R.~Kleiss, and W.~J. Stirling.
@@ -189,6 +206,12 @@ A.~Denner, S.~Heinemeyer, I.~Puljak, D.~Rebuzzi, and M.~Spira.
 \newblock \emph{Eur. Phys. J. C}, 71:\penalty0 1753, 2011.
 \newblock \doi{10.1140/epjc/s10052-011-1753-8}.
 
+\bibitem[Ellis and Soper(1993)]{ktalgo}
+S.~D. Ellis and D.~E. Soper.
+\newblock {Successive combination jet algorithm for hadron collisions}.
+\newblock \emph{Phys. Rev.}, D48:\penalty0 3160--3166, 1993.
+\newblock \doi{10.1103/PhysRevD.48.3160}.
+
 \bibitem[Fruhwirth(1987)]{Fruhwirth:1987fm}
 R.~Fruhwirth.
 \newblock {Application of Kalman filtering to track and vertex fitting}.
@@ -257,6 +280,13 @@ V.~Khachatryan et~al.
   and $\nu_\tau$ at CMS}.
 \newblock \emph{JINST}, 11:\penalty0 P01019, 2016.
 \newblock \doi{10.1088/1748-0221/11/01/P01019}.
+
+\bibitem[Khachatryan et~al.(2017)]{jetenergycorrection}
+V.~Khachatryan et~al.
+\newblock {Jet energy scale and resolution in the CMS experiment in pp
+  collisions at 8 TeV}.
+\newblock \emph{JINST}, 12:\penalty0 P02014, 2017.
+\newblock \doi{10.1088/1748-0221/12/02/P02014}.
 
 \bibitem[Lista(2016)]{statistics:school2016}
 L.~Lista.
@@ -328,5 +358,11 @@ T.~Sj{\"o}strand, S.~Ask, J.~R. Christiansen, R.~Corke, N.~Desai, P.~Ilten,
 \newblock {An introduction to {PYTHIA 8.2}}.
 \newblock \emph{Comput. Phys. Commun.}, 191:\penalty0 159, 2015.
 \newblock \doi{10.1016/j.cpc.2015.01.024}.
+
+\bibitem[Yu.L.Dokshitzer and B.R.Webber(1997)]{Aachenjetalgo}
+S.~Yu.L.Dokshitzer, G.D.Leder and B.R.Webber.
+\newblock {Better Jet Clustering Algorithms}.
+\newblock \emph{JHEP 9708:001,1997}, 1997.
+\newblock \doi{10.1088/1126-6708/1997/08/001}.
 
 \end{thebibliography}

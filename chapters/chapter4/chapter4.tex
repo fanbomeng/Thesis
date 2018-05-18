@@ -95,7 +95,7 @@ Particle flow event reconstruction algorithm is the main algorithm used in CMS. 
 
 
 
-\subsubsection{Tracking and Calorimeter algorithm}
+\subsubsection{Tracking and Calorimeter algorithm}\label{PFtracker}
 
 In the PF algorithm, the reconstruction of charged particles in the inner tracker is a crucial part. In this section, the reconstruction of the trajectories of charged particles, especially the electron and muon reconstruction is discussed. 
 
@@ -105,7 +105,7 @@ The performance of the track reconstruction is measured in reconstruction effici
 
 In CMS, an iterative tracking is perform, in which the reconstruction of tracks is done is a couple steps. Each step is aimed for a moderate efficiency but with a high purity. After one step, the hits that used to form tracks are masked and a next step is perform. This iterative tracking is down in ten steps if necessary and the detail information is shown in Table.~\ref{tbl:iterative_tracking} and more can be found in \cite{CMS-PRF-14-001}. In the table, the name column points out the processes that that step of iteration is aiming at. The seeding column shows the requirement on the seeding, while the targeted tracks column shows the characters of the tracks.
 
-Electron is one of the main particle understudy in $\Hehad$ search. In CMS, electron track reconstruction is taken as a merge of ECAL based and tracker based strategy. The tracker based seeding strategy is as described above, besides the case when energetic photons are radiated, then a preselection based on the number of hits and $\chi^{2}$ of the fit is set with the Gaussian-sum filter~\cite{Algo:GSF}. The ECAL based electron seeding strategy building the superclusters to gathering the bremsstrahlung photons. This works in the case when there is not much bremsstrahlung photons, then most of the energy is deposited in ECAL. In the case when soft photons are radiated mostly, ECAL based seeding may still performs well. But when the electrons are in the jets or low energy, either electron contributions are overlapping with other particle or the radiation and bending is too much, it is hard to recover these electrons with ECAL based algorithm only. The ECAL based and tracker based electron seeding is merged into one collection, which significantly improves the reconstruction efficiency.
+Electron is one of the main particle understudy in $\Hehad$ search. In CMS, electron track reconstruction is taken as a merge of ECAL based and tracker based strategy. The tracker based seeding strategy is as described above, besides the case when energetic photons are radiated, then a preselection based on the number of hits and $\chi^{2}$ of the fit is set with the Gaussian-sum filter~\cite{Algo:GSF}. The ECAL based electron seeding strategy building the superclusters(SC) to gathering the bremsstrahlung photons. The energy of the SC is taken as the energy sum of the cell crystals inside and the position is evaluated with energy weight. The electron trajectory in the first layer of the the tracker is estimated and the seed from the track is selected. This works in the case when there is not much bremsstrahlung photons, then most of the energy is deposited in ECAL. In the case when soft photons are radiated mostly, ECAL based seeding may still performs well. But when the electrons are in the jets or low energy, either electron contributions are overlapping with other particle or the radiation and bending is too much, it is hard to recover these electrons with ECAL based algorithm only. The ECAL based and tracker based electron seeding is merged into one collection, which significantly improves the reconstruction efficiency.
 
 
 
@@ -142,23 +142,6 @@ E_{calib}=a+b(E)f(\eta)E_{\textrm{ECAL}}+c(E)g(\eta)E_{\textrm{HCAL}}
 \end{align*}
 
 In the equation, a is independent of E and accounts for the effects of thresholds in the clustering algorithm. The other coefficients are determined by the $\chi^{2}$ optimization with the $E_{calib}$ and true energy E from simulation. 
-
-
-
-key words:
-particle-flow(PF) algorithm, subdetector, particle type,  primary vertex, jet finding algorithm
-muon, track silicon detector, hits muon system, energy deposit calorimeters, number of spacial points, energy , track momentum
-
-
-electron, charge particle track, ECAL energy clusters, bremsstrahlung photons, exception region, multivariate discriminator, track momentum, ECAL culster energy, sum of bremsstrahlung photons
-
-Hadronically decaying tau, hadrons-plus-strips(HPS) algorithm, tau decay modes, summed PF objects to reconstruct lepton charge,  MVA discriminator, reject misidentified tau from electrons and muons. 
-
-Charged hadrons, charged particle tracks, neutral hadrons, HCAL energy clusters, hadronic jets, anti-kt algorithm, distance parameter 0.4, jet momentum vector sum, offset correction, pileup, delta-R
-
-Jets misidentified, suppressed, imposing isolation,     missing transverse momentum,    transverse mass,    collinear mass,   visible mass.  
-
-
 
 
 
@@ -236,14 +219,37 @@ Fraction of valid tracker hits           & $>0.8$ \\\hline
 \end{table}
 
 
-\subsection{Electron reconstruction and identification}
+\subsection{Electron identification}
 
-bremsstrahlung,   GSF track,  HCAL sum energy not exceed 10\%,  GSF track tangents, total energy corrected 
+Electrons in CMS is constructed with the information from tracker and calorimeters. One of the main difficulties is the bremsstrahlung emitted by the electron during the traveling among the detector materials. The conversion of the photons from the bremsstrahlung affect the reconstruction of tracks in the track and these phones also cause significance energy loose in the electron reconstruction. The construction of Electron is discussed in section~\ref{PFtracker} and more details can be found in~\cite{electron_reco2015}. 
+
+Electron ID is constructed to separate Prompt isolated electron(signal) from the background processes. The background can be the electrons from photon conversion, from quark semi-leptonic decay and from misidentification of other particles or jets. The variables used in the identification are related to tracker and ECAL.  There are mainly three types of variables. The variable related only to calorimeters. For example, the cluster shape of real electron in ECAL is usually narrower than the shape from hardonic showers and electrons leave most of the energy in ECAL and the energy ratio between ECAL and HCAL is large. The variables related to the matching of measured energy and geometry between tracker and ECAL. The variables related to tracker fitting to explore the difference between electrons and hadrons. These related variables can be used to construct cut-based selection sequence to selection electron. To achieve better performance, MVA based ID with boosted decision tree is also trained. Compared with the cut-based selection, more variables in the three categories mentioned above are used in the training~\cite{electron_reco2015}.  An example of the BDT electron ID is shown in Figure.~\ref{fig:eleBDTID}
 
 
+\begin{figure}[!htbp] 
+     \centering
+     \subfigure[EB]{ \includegraphics[width=0.4\textwidth]{chapter4/EleID_EB_BDT_perfor.pdf}}
+     \subfigure[EE]{ \includegraphics[width=0.4\textwidth]{chapter4/EleID_EE_BDT_perfor.pdf}}\\
+     \caption{Electron BDT-based ID shows good discriminating power against background in both EB and EE~\cite{electron_reco2015}}
+     \label{fig:eleBDTID}
+\end{figure}
 
 
-More detail of electron reconstruction can be found in~\cite{electron_reco2015}
+Electron isolation is used to reject background events in addition to the ID variables, also inverting the requirement in the isolation can be used to setup enriched background control regions. Large numbers of background events that can possible enter the signal selection are misidentified jets or the jets in which there are real electrons, for example the jets from b quark semi-leptonic decay. For these background events, one key different character with respect to signals is more energy flowing around the electron(or misidentified electron) trajectory. The isolation requirement used in HLT level is summing over the energy depositions either in ECAL or HCAL in the certain core, for example $\Delta R=0.3,0.4$, $\Delta R=\sqrt{\Delta \phi^{2}+\Delta\eta^{2}}$. The contribution from the particle candidate is removed. In the offline algorithm, particles can better identified with the PF algorithm. Similar in concept to the isolation using the energy flow, the PF isolation summing over the $\pt$ of the particles in the direction of the reconstructed candidate trajectory momentum. PF algorithm utilizes the whole detector information and the isolation is defined as
+
+\begin{align*}
+\textrm{Iso}_{\textrm{PF}}=\sum \pt^{\textrm{charged}}+\textrm{max}\bigg[ 0,\sum \pt^{\textrm{neutral~had}} +\sum \pt^{\gamma}-\pt^{\textrm{PU}}\bigg]
+\end{align*}
+
+The isolation variable sums over the contribution from charged PF candidates, neutral particles and photons in a certain selected $\Delta R$ region around the signal. The contribution from pileup is estimated with $\pt^{\textrm{PU}}$ with the FASTJET technique~\cite{FastJetalso}. The energy of PF objects are better calibrated and the double counting problem which shows up the energy flow isolation described above is solved. PF isolation variable performs better than the isolation variable used in HLT. The performance comparison is shown in Figure.~\ref{fig:eleIso}
+
+\begin{figure}[!htbp] 
+     \centering
+     \subfigure[EB]{ \includegraphics[width=0.4\textwidth]{chapter4/ROC_IsoOnly_Data_EB_HighPt.png}}
+     \subfigure[EE]{ \includegraphics[width=0.4\textwidth]{chapter4/ROC_IsoOnly_Data_EE_HighPt.png}}\\
+     \caption{PF electron isolation shows better performance in both EB and EE with respect to detector based isolation variable~\cite{electron_reco2015}}
+     \label{fig:eleIso}
+\end{figure}
 
 
 This should be used for B-tagging citation~\cite{BTV-16-002}
@@ -335,8 +341,29 @@ BDT method also used in the tau discriminating again electron training. The algo
 
 Tau signals can be faked by muons, especially in $\tau_{h}$ decay mode $h^{\pm}$. Tau against muon cut based muon discriminant is set by checking if there are signals in the muon system within $\Delta R=0.3$ of the $\tau_{h}$ direction or if the energy sum from Ecal and Hcal is less than 20$\%$ of the total $\tau$ energy. If less than two hits are found in the muon system, then it passes the loose working point. If no hits are found in the muon system, then this is the tight working point. 
 
+\subsection{Jet reconstruction}
 
-\section{Electron reconstruction}
+
+Anti-$k_{t}$ jet clustering algorithm~\cite{Cacciari:2008gp} is used in CMS for the jet reconstruction. The algorithm starts by introducing the distance $d_{ij}$ and $d_{iB}$ as following,
+
+\begin{align*}
+d_{ij}&=min(k_{ti}^{2p},k_{tj}^{2p})\frac{\Delta_{ij}^{2}}{R^{2}}\\
+d_{iB}&=k_{ti}^{2p}
+\end{align*}
+
+$d_{ij}$ is the distance between entities, the particle and the pseudojet. $\Delta_{ij}$ is the difference of rapidity and azimuth between entry i and entry j. $\Delta_{ij}^{2}=(\eta_{i}-\eta_{j})^{2}+(\phi_{i}-\phi_{j})^{2}$. R is a radius parameter. $k_{ti}$ and $k_{tj}$ stands for the momentum of the entries respectively. p is a parameter used to specify jet construction algorithms.  For Anti-$k_{t}$, p=-1. $d_{iB}$ is the distance between entry i and the beam. If the parameter p is set for other values, for example p=1 or 0, then the algorithm is the $k_t$~\cite{ktalgo} or Cambridge/Aachen jet reconstruction algorithm~\cite{Aachenjetalgo}.  With the Anti-$k_{t}$, assuming in one event, there are a couple hard particle with high momentum, $k_{t1}$, $k_{t2}$ and so on, also large numbers of soft ones around. Starting from $k_{t1}$ as an example, if $d_{1j}$ is smaller, then entry j combined with entry 1, if $d_{1B}$ is smaller, then entry 1 is set as a jet and removed from the list. The soft entries tend to ground around the high momentum entries to the range $\Delta_{ij}= R$, if there is no other hard entry around. If two hard entries are within the distance R, then the two entries are clustered into a single entry. In this case, if $k_{1}\gg k_{2}$, then the center is more closed to jet 1. If $k_{1}\sim k_{2}$, the boundary between to two jets is defined by $\Delta R_{1b}/k_{t1}=\Delta_{2b}/k_{t2}$. Jet clustering continues until all of the jets are clustered in the events. 
+
+Jet energy is corrected to have the correct energy scale.  The correction goes through a couple of steps~\cite{jetenergycorrection}. The major corrections are derived from simulated samples and the residual corrections from the different response between MC and data are from data-driven methods. 
+
+Pileup events can increase the measured jet energy, especially in LHC Run II, the number of pileup per event doubled. Two types of pileup affect the performance the most, in-time pileup(IT PU) and out-of time pileup(OOT PU). The IT PU refers to the additional events produced by the proton-proton collision within the same bunch-crossing as the primary hard collision.   The OOT PU refers to the events that produced in previous bunch crossing or subsequent one that affect current bunch. OOT PU can be mitigated by explore the timing window, pulse shape of the calorimeter. The IT PU mitigation is mainly discussed. Charged hadrons from IT PU in CMS are removed with Charged-hadron subtraction(CHS) algorithm in CMS. Tracks with the vertexes that are identified from PU with charged particles inside are removed. CHS removes around 50\% of the IT PU within the tracker coverage region. There are also soft jets from pileup interaction. These jets are usually in low energy range and affects the JES by overlapping with the hard jets. Multivariate analysis(MVA) with inputs from jet shape and jet constitution information can more than 90\% of pileup jets. This MVA ID is referred as PUJetID~\cite{PU_jetID}. After rejecting the charged particle jets and soft jets from pileup, a jet area method~\cite{FastJetalso} is used to further eliminate the effects from PU. In this method, an estimated energy density bringing in by the PU and effective area of jet is used to calculate the offset energy. After the PU correction, a matching between particle-level jets and reconstructed jets is performed with MC samples for the simulated response corrections. 
+
+
+
+
+
+
+
+
 
 \section{Event simulation}
 
