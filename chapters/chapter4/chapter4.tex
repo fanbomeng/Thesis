@@ -342,7 +342,7 @@ BDT method also used in the tau discriminating again electron training. The algo
 Tau signals can be faked by muons, especially in $\tau_{h}$ decay mode $h^{\pm}$. Tau against muon cut based muon discriminant is set by checking if there are signals in the muon system within $\Delta R=0.3$ of the $\tau_{h}$ direction or if the energy sum from Ecal and Hcal is less than 20$\%$ of the total $\tau$ energy. If less than two hits are found in the muon system, then it passes the loose working point. If no hits are found in the muon system, then this is the tight working point. 
 
 \subsection{Jet reconstruction}
-
+Jets are produced in the hadronic processes involving quarks or gluons. In p-p collision, jets involving in most of the processes. Understanding and constructing jets is crucial and difficult. 
 
 Anti-$k_{t}$ jet clustering algorithm~\cite{Cacciari:2008gp} is used in CMS for the jet reconstruction. The algorithm starts by introducing the distance $d_{ij}$ and $d_{iB}$ as following,
 
@@ -355,15 +355,41 @@ $d_{ij}$ is the distance between entities, the particle and the pseudojet. $\Del
 
 Jet energy is corrected to have the correct energy scale.  The correction goes through a couple of steps~\cite{jetenergycorrection}. The major corrections are derived from simulated samples and the residual corrections from the different response between MC and data are from data-driven methods. 
 
-Pileup events can increase the measured jet energy, especially in LHC Run II, the number of pileup per event doubled. Two types of pileup affect the performance the most, in-time pileup(IT PU) and out-of time pileup(OOT PU). The IT PU refers to the additional events produced by the proton-proton collision within the same bunch-crossing as the primary hard collision.   The OOT PU refers to the events that produced in previous bunch crossing or subsequent one that affect current bunch. OOT PU can be mitigated by explore the timing window, pulse shape of the calorimeter. The IT PU mitigation is mainly discussed. Charged hadrons from IT PU in CMS are removed with Charged-hadron subtraction(CHS) algorithm in CMS. Tracks with the vertexes that are identified from PU with charged particles inside are removed. CHS removes around 50\% of the IT PU within the tracker coverage region. There are also soft jets from pileup interaction. These jets are usually in low energy range and affects the JES by overlapping with the hard jets. Multivariate analysis(MVA) with inputs from jet shape and jet constitution information can more than 90\% of pileup jets. This MVA ID is referred as PUJetID~\cite{PU_jetID}. After rejecting the charged particle jets and soft jets from pileup, a jet area method~\cite{FastJetalso} is used to further eliminate the effects from PU. In this method, an estimated energy density bringing in by the PU and effective area of jet is used to calculate the offset energy. After the PU correction, a matching between particle-level jets and reconstructed jets is performed with MC samples for the simulated response corrections. 
+Pileup events can increase the measured jet energy, especially in LHC Run II, the number of pileup per event doubled. Two types of pileup affect the performance the most, in-time pileup(IT PU) and out-of time pileup(OOT PU). The IT PU refers to the additional events produced by the proton-proton collision within the same bunch-crossing as the primary hard collision.   The OOT PU refers to the events that produced in previous bunch crossing or subsequent one that affect current bunch. OOT PU can be mitigated by explore the timing window, pulse shape of the calorimeter. The IT PU mitigation is mainly discussed. Charged hadrons from IT PU in CMS are removed with Charged-hadron subtraction(CHS) algorithm in CMS. Tracks with the vertexes that are identified from PU with charged particles inside are removed. CHS removes around 50\% of the IT PU within the tracker coverage region. There are also soft jets from pileup interaction. These jets are usually in low energy range and affects the JES by overlapping with the hard jets. Multivariate analysis(MVA) with inputs from jet shape and jet constitution information can more than 90\% of pileup jets. This MVA ID is referred as PUJetID~\cite{PU_jetID}. After rejecting the charged particle jets and soft jets from pileup, a jet area method~\cite{FastJetalso} is used to further eliminate the effects from PU. In this method, an estimated energy density bringing in by the PU and effective area of jet is used to calculate the offset energy. After the PU correction, simulated response corrections are performed with simulated QCD multijet sample. A matching between particle-level jets and reconstructed jets is performed. The correction is performed with the anti-$k_{T}$ jets with distance parameter R=0.5 in $\pt$ and $
+\eta$ distribution and checked with jets corresponding to R in range 0.3 to 1.0. Following the simulated response corrections, the remaining residual correction is small derived with data-based methods. A comparison between data and MC samples and corrects data only.
+
+
+B jets is a main component in $t\bar{t}$ process, so the identification of b jets is important to the analysis involves $t\bar{t}$. In CMS, combined secondary vertex version 2(CMSv2) currently is used, which uses multivariable techniques and the character of b jets, to identify b jets~\cite{BTV-16-002}. B jets is from the hadronization of b quark. B hadron is relatively heavy, around 5-6 GeV, with high decay multiplicity, relatively high momentum decay products and relatively wide decay core. B hardon has long lifetime($ct\approx450$um) which give a traveling distant $\approx5$ mm at the energy of 70 GeV. Exploring the property of secondary vertex is used in the identification algorithm. In each jet, at least two tracks presenting in an angular distance $\Delta R <0.3$ is required. The jets with combined mass of two tracks compatible with $k_{s}^{0}$ is rejected to reduce the contamination. A number of variables~\cite{BTV-16-002} are used as input into the MVA training in different secondary vertices presenting situation. Combining the input variables into a discriminant variable to identify b jets.
 
 
 
+\subsection{Missing transverse momentum}
+Missing transverse momentum(MET) is defined as the sum $\pt$ of un-detected process in an event. In CMS, particle flow MET is widely used and the MET can be expressed as $\vec{\slashed{E}}_{T}=-\sum \vec{p}_{T}$, in which the summing is over the observed PF particles.  The magnitude of MET can be affected by various resources, for example the in efficiency of tracker, the thresholds on calorimeter and the asymmetry in detector response. The propagation of JEC to MET can reduce the bias. The corrected MET can be expressed as
+  
+\begin{align*}
+\vec{\slashed{E}}_{T}^{corr}=\vec{\slashed{E}}_{T}-\sum_{jets}(\vec{p}_{T,jet}^{~corr}-\vec{p}_{T,jet})
+\end{align*}
 
+The sum is summing over the jets with electromagnetic fraction below 0.9 and corrected $\pt>10$ GeV. Further correction aiming for estimation is the effects of PU on MET is derived with charged particles associated with PU vertexes, $\vec{v}=\sum_{charged}\vec{p}_{T}$. The correction is $f(\vec{v})\vec{v}$, in which factor $f(\vec{v})=c_{1}(1.0+\textrm{erf}(-c_{2}|\vec{c}|^{c_{3}}))$. the coefficients in $f(\vec{v})$ are estimated from fitting the MC minimum bias events. The correction on MET for the effect of PU is 
+\begin{align*}
+\vec{\slashed{E}}_{T}^{corr}=\vec{\slashed{E}}_{T}-\sum_{PU}f(\vec{v})\vec{v}
+\end{align*}
 
+The observed $\slashed{E}_{T}$ asymmetry in $\phi$ shows approximately linear relationship with the number of reconstructed vertices. The correction is performed with $N_{vtx}$ separately in x and y axis. 
 
+$\mcol$ is the most important variable in LFV Higgs decay analysis, which is closely related to MET. Higgs is more massive than the leptons($\Pe,\Pgm,\Pgt$), so the decay products are boosted. In $\Hmuhad$ and $\Hehad$ analysis, $\Pgt$ decays hadronically. The neutrinos in $\Pgt$ decay products are highly Lorentz boosted and are considered collinear with $\Pgt$. The direction of $\Pgt$ and the projection of MET amplitude on $\vec{\Pgt}$ direction are used to approximate the direction and energy of the neutrinos. With this approximation and the visible mass which is the mass formed with $\Pe$-$\Pgt$ or $\Pgm$-$\Pgt$ without the approximation, $\mcol$ can be derived as
 
-
+\begin{align*}
+\mcol&=M_{vis}\Big/\sqrt{x^{vis}_{\Pgt}}\\
+x^{vis}_{\Pgt}&=p_{T}^{\vec{\Pgt}^{vis}}\Big/(p_{T}^{\vec{\Pgt}^{vis}}+p_{T}^{\Pnu,est})
+\end{align*}
 
 \section{Event simulation}
+Monte Carlo simulation is used widely from the detector related processes, event reconstruction to physics analysis etc. The generation of MC sample in the generator involving the following steps. 
+
+In LHC, p-p collision, QCD hard subprocesses involving large momentum transferring, multiply final states and complex surrounding environment. For a particular process, MC generator starts by calculating the related QCD cross section. This involving calculating the matrix-element, choosing parton distribution functions(PDFs) and possibly performing high order correction.  Followed by the parton showers. In a hard process, parton showers uses the basic building block like $q\rightarrow qg$, $q\rightarrow gq$, $g\rightarrow gg$ and $g\rightarrow q\bar{q}$, iteratively showering from high energy to low energy, typically, for quark and gluon in the order of 1 GeV, when they can not be treated as free particles anymore. In addition to the hard subprocesses and the associated parton showers, a real event consists more additional contributions. Typically more than one pair of partons interacts in one collision. These multiple interactions are dealt with different models and affects the total scattering energy, the number of the particle in the hadronization stage, etc. Because of the color confinement, quarks and gluons forms hadrons after completing the parton shower, this is referred as hadronization. Similarly to the QCD processes, electromagnetic radiation is also taken into account with the evolution according to the electric charge instead of color. With the generated events through the MC generate, the events are put into GEANT4~\cite{GEANT4}
+
+%Defination of underlying event
+%The combination of particle production from MPI (excluding the parton-parton scattering with the highest
+%momentum transfer) and BBR interactions is commonly called the underlying event (UE)
 

@@ -331,25 +331,26 @@ B.~P.Roe et~al.
   Networks for Particle Identification}.
 \newblock 2005.
 
-\bibitem[Sirunyan et~al.(2017{\natexlab{a}})]{BTV-16-002}
+\bibitem[Sirunyan et~al.(2017{\natexlab{a}})]{CMS-PRF-14-001}
 A.~M. Sirunyan et~al.
-\newblock {Identification of heavy-flavour jets with the CMS detector in pp
-  collisions at 13 TeV}.
-\newblock Submitted to {\it JINST}, 2017{\natexlab{a}}.
+\newblock Particle-flow reconstruction and global event description with the
+  cms detector.
+\newblock \emph{JINST}, 12:\penalty0 P10003, 2017{\natexlab{a}}.
+\newblock \doi{10.1088/1748-0221/12/10/P10003}.
 
-\bibitem[Sirunyan et~al.(2017{\natexlab{b}})]{CMS-PRF-14-001}
+\bibitem[Sirunyan et~al.(2017{\natexlab{b}})]{CMS_PRF_14_001}
 A.~M. Sirunyan et~al.
 \newblock Particle-flow reconstruction and global event description with the
   cms detector.
 \newblock \emph{JINST}, 12:\penalty0 P10003, 2017{\natexlab{b}}.
 \newblock \doi{10.1088/1748-0221/12/10/P10003}.
 
-\bibitem[Sirunyan et~al.(2017{\natexlab{c}})]{CMS_PRF_14_001}
+\bibitem[Sirunyan et~al.(2018)]{BTV-16-002}
 A.~M. Sirunyan et~al.
-\newblock Particle-flow reconstruction and global event description with the
-  cms detector.
-\newblock \emph{JINST}, 12:\penalty0 P10003, 2017{\natexlab{c}}.
-\newblock \doi{10.1088/1748-0221/12/10/P10003}.
+\newblock {Identification of heavy-flavour jets with the CMS detector in pp
+  collisions at 13 TeV}.
+\newblock \emph{JINST}, 13:\penalty0 P05011, 2018.
+\newblock \doi{10.1088/1748-0221/13/05/P05011}.
 
 \bibitem[Sj{\"o}strand et~al.(2015)Sj{\"o}strand, Ask, Christiansen, Corke,
   Desai, Ilten, Mrenna, Prestel, Rasmussen, and Skands]{Sjostrand:2014zea}
