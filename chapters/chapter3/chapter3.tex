@@ -1,0 +1,132 @@
+\chapter{LHC and CMS experiment}
+
+LHC~\cite{LHC_refer} is the most powerful hadron accelerator and collider ever built. The circumference of this superconducting collider is 26.7 km and the design full operation energy is 14 TeV. In 2012 LHC operates on 8 TeV and in 2016, it boosts up to 13 TeV. There are four experiments holds on the LHC ring, ALICE, ATLAS, CMS and LHCb. ATLAS and CMS are two general purpose detector, aiming for the high luminosity in the order $L=10^{34} cm^{2}s$. LHCb focuses on the the b physics study, while ALICE studies the lead-lead collision.
+
+\section{LHC accelerator}
+
+A sketch view of the proton accelerating process is shown in Figure.~\ref{fig:LHC_sketch}. LHC is the last and most powerful accelerator and CMS experiment is located in one of the collision cites, however, before the beams are injected into LHC, a series of steps are needed and necessary to meet the requirement on the beams. For the proton-proton(p-p) collision, protons are from the source Duoplasmatron, which uses electric field to break down hydrogen gas into proton and electrons and protons are accelerated by a 90 kV supply. Leaving the source, protons are focused and accelerated to 750 keV by radio frequency quadrupole. Then the protons are further accelerated by linear accelerator Linac2 to 50 MeV. Proton synchrotron booster further accelerate protons from 50 MeV to 1.4 GeV and injects protons into Proton synchrotron(PS). PS accelerates protons to 25 GeV and later accelerator super proton synchrotron boost the protons to 450 GeV. LHC is the last ring in the whole accelerating process and accelerate the protons to its final energy 6.5 GeV(or 7 GeV). In a normal fill with protons, LHC holds 2808 bunches with an approximation of $10^{11}$ protons.
+
+There are thousands of superconducting magnets along the LHC ring to bend and focus the beam. Among the magnets, there are 1232 main dipoles, which are used to bend the beam with an operating field above 8 T. Other type of magnets, for example, quadrupoles magnets can tight the beam either vertically or horizontally while  sextupole, octupole and decapole can help fine tuning the the field. Radiofrequency cavities(RF) in the LHC are used to accelerate the protons from 450 GeV to 6.5 GeV(or 7 GeV), keep the bunches in the beam pipe compact and store the energy loose from synchrotron radiation. Eight RFs per beam, providing 16 MV  longitudinal oscillating voltage with 400 MHz superconducting cavity system. 
+
+Machine luminosity is an important parameter of the collider. For a process under study, the number of events created per-second $N_{\textrm{event}}$ is shown in Equation.~\ref{event_number}, in which L is the machine luminosity and $\sigma_{event}$ is the cross section of that process.
+
+\begin{align}\label{event_number}
+N_{\textrm{event}}=L\sigma_{event}
+\end{align}
+
+Machine luminosity is determined by a number of factors as shown in Equation.~\ref{Lumi_express}. $n_b$ and $N_{b}$ are the number of bunches per-beam and the number of protons per-bunch.$f_{rev}$ and $\gamma_{\gamma}$ are the revolution frequency and relativistic gamma factor respectively. $\beta*$ is the amplitude function of the beam at the collision point while function F describes the reduction of luminosity because of the crossing angle. This machine luminosity is also called instantaneous luminosity which is the luminosity at a unite time. The integrated luminosity which later referred as luminosity is instantaneous luminosity integrating over time~\ref{fig:LHC_sketch}.  
+
+\begin{align}\label{Lumi_express}
+L=\frac{N_{b}^{2}n_{b}f_{fev}\gamma_{\gamma}}{4\pi\epsilon\beta*}F
+\end{align}
+
+
+
+\begin{figure}[htbp] 
+\centering
+\includegraphics[width=0.8\textwidth]{chapter3/LHC_chain.jpg}
+\caption{A sketch view LHC injection chain and main experiments associated~\cite{Christiane:1260465}.}
+\label{fig:LHC_sketch}
+\end{figure}
+
+
+\section{Compact Muon Solenoid}
+Compact muon solenoid(CMS) is general purpose detector, which institutes in one of LHC collision point. It is a high performance detector that covers a broad range of physics researches, like Standard model physics, supersymmetry and dark matter. CMS detector is designed to have good muon momentum and position resolution over large range of energy and angles, good charged particle momentum resolution and high identification efficiency within inner tracker, good electromagnetic energy and position resolution and high photon and lepton isolation efficiency in high luminosity condition, good miss transverse momentum and jet energy resolution.  
+
+
+An general view of CMS detector is shown in Figure.~\ref{fig:CMS_sketch}. The detector is composed of a set of sub-detectors from the inside and out in a ring structure. The main sub-detectors are the following:
+
+\begin{figure}[htbp] 
+\centering
+\includegraphics[width=0.8\textwidth]{chapter3/CMS_detecter.png}
+\caption{A sketch view of CMS detector~\cite{CMS_experiment}}
+\label{fig:CMS_sketch}
+\end{figure}
+
+
+\begin{enumerate}[$\bullet$]
+\item Tracker consists two parts, the pixel detector and silicon tracks which are used measure the momentum and tracks of the charged particles.
+\item Electromagnetic calorimeter mainly measures the energy of the position of electrons and photons, also other particles will leave some percentage of energy inside. 
+\item Hadron calorimeter measures the energy of hadrons 
+\item Muon detector measures the tracks and momentum of the muons.
+\end{enumerate} 
+
+Another outstanding feature of CMS is the superconducting magnet system, which provide a 3.8 T magnetic field. The configuration of the magnet system drives the design and layout of the detector. Besides the sub-detectors listed above, trigger system is also crucial for the success of the whole program. Trigger system consists two part, the hardware based Level one trigger and the software based High level trigger. Trigger system does the initial selection of interesting events from the huge flux of events per-collision, which makes it possible for data-acquisition and recording later. The details of the sub-detectors and other systems mentioned will be introduced later. 
+
+In general CMS detector has the dimension, 21.6 m long, 14.6 in diameter and weighted in total 12500 tonne. The coordinate system adopted by CMS sets the center at the collision point. The x-axis points towards the center of LHC and z-axis points along the beam direction. so y-axis is on the vertical direction. The azimuthal angle $\phi$ is used to measure the angle from x-axis in the x-y plane and polar angle $\theta$ measures the angle from z-axis and r is the radial coordinate. Another variable pseudorapidity $\eta$, defined as $\eta=-\textrm{ln}\textrm{tan}(\theta/2)$. In the case $E\gg m$, pseudorapidity can be approximated as $\eta=-\textrm{ln}\big(\frac{E+p_{z}}{E-p_{z}}\big)$, where $p_{z}$ is the longitudinal component of momentum~\cite{CMS_experiment}. 
+
+\subsection{Tracker}
+The main purpose of inner tracking system of CMS is measuring the trajectories of charged particles from the LHC collision. The efficient and precise measurement is crucial for the reconstruction and identification of particles. LHC operates with the instantaneous luminosity in the order of $10^{34}cm^{-2}s^{-1}$, in average more than 20 p-p interactions and 1000 particles per-bunch crossing. High granularity and fast response is primary important for the tracker system. To measure the trajectories precisely, low interaction of tracker materials with incoming particles, like multi-scattering, photon conversion and nuclear interaction is also important. In the long operation period, radiation hardness of the tracker material is needed. All of these factors drive the design of CMS tracker system.
+
+The tracker system of CMS surrounds the collision point with the dimension 5.8 m in length and 2.5 m in diameter, with a coverage up to pseudorapidity $|\eta|<2.5$. A overview of the tracker system layout is shown in Figure.~\ref{fig:tracker_sketch}. Three layers of silicon pixel detector modules surround the interaction points and two additional disks of pixel modules on each side, in all 66 million pixels of the size $100\times150 \mu m$ each. Following the pixel detector is the silicon strip tracker. There are four components of strip tracker, tracker Inner barrel(TIB), tracker inner Discs(TID), tracker outer barrel(TOB) and tracker end caps(TEC). The strip tracker components arrangement as shown in Figure.~\ref{fig:tracker_sketch}, consisting of about 10 million strips and 10 layers. 
+
+
+\begin{figure}[htbp] 
+\centering
+\includegraphics[width=0.8\textwidth]{chapter3/Tracker_structure.png}
+\caption{The structure of tracker in CMS~\cite{CMS_experiment}}
+\label{fig:tracker_sketch}
+\end{figure}
+
+
+
+\subsection{The electromagnetic calorimeter}
+
+The CMS Electromagnetic calorimeter(ECAL) is a hermetic homogeneous lead tungstate($PbWO_{4}$) calorimeter. The whole sub-detector is composed of two parts, the central barrel(EB) covering the range $|\eta|<1.479$ and the endcap disks(EE) covering the range $1.479<|\eta|<3.0$. EB is made up of 61200 $PbWO_{4}$ crystals with $22\times22~mm^{2}$ in the front face, 23 cm in length(25.8 in radiation lengths). EE is made up of 7324 crystals per disk with front face $29\times29~mm^{2}$, 22 in length(24.7 in radiation lengths) and a preshower detector(ES)~\cite{CMS_TDR}. The geometrical configuration of ECAL is shown in Figure.~\ref{fig:ECAL_sketch}. 
+
+The $PbWO_{4}$ crystals used in ECAL have high density(8.28 $g/cm^{3}$), short radiation length(0.89 cm) and small Moli$\grave{e}$re radius(2.2 cm), together with the specific geometrical parameters used, rendering ECAL  good energy resolution, fast response, fine granularity and radiation resistant. Photodetectors are placed at the end of the crystals. In EB, avalanche photodiodes(APDs) are used, while vacuum phototriodes(VPTs) are used in EE. Both types of the photodiode show good performance in the environment with hard radiation and 4-T magnetic field. ES is in front of EE in the pseudorapidity range $1.653<|\eta|<2.6$. ES is a sampling detector with silicon strip sensors placed behind the lead radiator to measure the energy and position of the incoming particles.  
+
+\begin{figure}[htbp] 
+\centering
+\includegraphics[width=0.8\textwidth]{chapter3/ECAL_transverse.png}
+\caption{ECAL geometrical configuration~\cite{CMS_TDR}}
+\label{fig:ECAL_sketch}
+\end{figure}
+
+Each half of EB is composed of 18 supermodules that one contains 1700 crystals. The $PbWO_{4}$ crystal relative energy resolution is measured with ECAL supermdules directly exposed to electron beam without considering the materials in front as the case in reality. The relative energy resolution as a function of electron energy can be expressed as 
+%spikes
+% np scattering in the protective epoxy coating of the APD, and the resulting proton directly ionizing the APD active volume.
+\begin{align*}
+\frac{\sigma}{E}=\frac{2.8\%}{\sqrt{E/\textrm{GeV}}}\oplus\frac{12\%}{E/\textrm{GeV}}\oplus 0.3\%
+\end{align*}
+
+The first term stands for the contribution from stochastic factors, like the number fluctuation in production of the secondary particles. The second term is the noise contribution coming from electronics and digitization, while the last is a constant term that covers the other factors~\cite{ECAL_EB_reso}.
+
+\subsection{The hadron calorimeter}
+
+CMS hadron calorimeter(HCAL) is a hermetic sampling calorimeter, which is important for the measurement of the energy and momentum of hadrons, also the missing energy that caused by the non-interacting particles.  HCAL is composed mainly by HCAL barrel(HB), HCAL endcaps(HE) and forward calorimeter(HF). The mechanical structure of HCAL is shown in Figure.~\ref{fig:HCALL_sketch}. 
+
+\begin{figure}[htbp] 
+\centering
+\includegraphics[width=0.8\textwidth]{chapter3/HCAL_sketch.png}
+\caption{A longitudinal view of CMS HCAL sub-detector~\cite{CMS_experiment}}
+\label{fig:HCALL_sketch}
+\end{figure}
+
+
+HB is mostly composed of  several layer of brass absorber plates, between which are the plastic scintillator tiles. The inner most and out most layer plates are made of stainless steel to gain structural strength. When hadrons hit the absorber, secondary particles are produced in showers. As the showers develops, the alternating layers of scintillators are activated and emit blue-violet light. The lights are collected as signals. HB covers the central pseudorapidity range $|\eta|<1.3$ with a individual read out unit $\Delta \eta\times\Delta\phi=0.087\times 0.087$. To have enough sampling depth in HCAL central region because of the limited spaces between ECAL and muon detector, an extra outer calorimeter(HO) is installed.  HO utilizes the outside solenoid coil as additional absorber to insert plastic scintillators. Similar to HB, HE is also made of brass absorber and plastic scintillator tiles layers, which covers the range $1.3<|\eta|<3.0$. The read out units has the geometry $\Delta \eta\times\Delta\phi=0.17\times 0.17$ in HE~\cite{CMS_experiment}. An combined ECAL and HCAL energy resolution~\cite{HCAL_reso} measured in test beam with pions is 
+
+\begin{align*}
+\frac{\sigma}{E}=\frac{110\%}{\sqrt{E/\textrm{GeV}}}\oplus 0.9\%
+\end{align*}
+
+HF situates $\pm11$ m from the interaction point to complement the large pseudorapidity measurement of HE in the range $3.0<|\eta|<5.0$. HF is made of grooved steel plates with quartz fibers. Charged shower particles generate Cherenkov light, which is collected by the quartz fibers as signals. Radiation hardness is critical for the operation of HF.   
+
+
+
+\subsection{Muon System}
+
+
+
+
+\subsection{Trigger}
+probably I have to put something there
+
+
+\subsubsection{Level 1 Trigger}
+probably I have to put something there2
+
+
+
+\subsubsection{High Level Trigger}
+

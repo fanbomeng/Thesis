@@ -3,7 +3,7 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: mainbody.aux
 A level-1 auxiliary file: chapter1.aux
 A level-1 auxiliary file: chapter2.aux
-A level-1 auxiliary file: chapter3.aux
+A level-1 auxiliary file: chapter3/chapter3.aux
 A level-1 auxiliary file: chapter4/chapter4.aux
 A level-1 auxiliary file: chapter5/chapter5.aux
 A level-1 auxiliary file: chapter6/chapter6.aux
@@ -28,51 +28,53 @@ Warning--empty note in Botje:2011sn
 Warning--empty journal in Chatrchyan:2014nva
 Warning--empty institution in CMS:2016gvn
 Warning--empty journal in TauRecoandIDRunII
+Warning--empty journal in CMS_TDR
 Warning--empty institution in YR4
+Warning--empty note in Christiane:1260465
 Warning--empty journal in statistics:school2016
 Warning--empty journal in Simulation:Tauola
 Warning--empty year in Simulation:Tauola
 Warning--empty year in Simulation:Tauola
 Warning--empty journal in BDTboostPI
-You've used 53 entries,
+You've used 59 entries,
             2773 wiz_defined-function locations,
-            931 strings with 14276 characters,
-and the built_in function-call counts, 23943 in all, are:
-= -- 2111
-> -- 1579
-< -- 40
-+ -- 553
-- -- 492
-* -- 2005
-:= -- 3870
-add.period$ -- 197
-call.type$ -- 53
-change.case$ -- 302
-chr.to.int$ -- 45
-cite$ -- 133
-duplicate$ -- 1025
-empty$ -- 1770
-format.name$ -- 564
-if$ -- 4910
+            971 strings with 15397 characters,
+and the built_in function-call counts, 26358 in all, are:
+= -- 2342
+> -- 1681
+< -- 46
++ -- 589
+- -- 522
+* -- 2187
+:= -- 4255
+add.period$ -- 222
+call.type$ -- 59
+change.case$ -- 328
+chr.to.int$ -- 51
+cite$ -- 147
+duplicate$ -- 1137
+empty$ -- 1980
+format.name$ -- 606
+if$ -- 5417
 int.to.chr$ -- 9
 int.to.str$ -- 1
-missing$ -- 44
-newline$ -- 311
-num.names$ -- 192
-pop$ -- 530
+missing$ -- 49
+newline$ -- 348
+num.names$ -- 216
+pop$ -- 569
 preamble$ -- 1
-purify$ -- 249
+purify$ -- 269
 quote$ -- 0
-skip$ -- 786
+skip$ -- 871
 stack$ -- 0
-substring$ -- 564
-swap$ -- 64
+substring$ -- 666
+swap$ -- 69
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 583
-warning$ -- 22
-while$ -- 175
+type$ -- 649
+warning$ -- 24
+while$ -- 197
 width$ -- 0
-write$ -- 755
-(There were 22 warnings)
+write$ -- 843
+(There were 24 warnings)

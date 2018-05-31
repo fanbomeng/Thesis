@@ -1,4 +1,4 @@
-\begin{thebibliography}{53}
+\begin{thebibliography}{59}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -46,11 +46,12 @@ W.~Adam, B.~Mangano, T.~Speer, and T.~Todorov.
 \newblock Technical Report CMS-NOTE-2006-041, CERN, Geneva, Dec 2006.
 \newblock URL \url{https://cds.cern.ch/record/934067}.
 
-\bibitem[Agostinelli et~al.(2003)]{GEANT4}
-S.~Agostinelli et~al.
-\newblock {GEANT4} --- a simulation toolkit.
-\newblock \emph{Nucl. Instrum. Meth. A}, 506:\penalty0 250, 2003.
-\newblock \doi{10.1016/S0168-9002(03)01368-8}.
+\bibitem[Adzic et~al.(2007)]{ECAL_EB_reso}
+P.~Adzic et~al.
+\newblock {Energy resolution of the barrel of the CMS electromagnetic
+  calorimeter}.
+\newblock \emph{JINST}, 2:\penalty0 P04004, 2007.
+\newblock \doi{10.1088/1748-0221/2/04/P04004}.
 
 \bibitem[Alwall et~al.(2014)Alwall, Frederix, Frixione, Hirschi, Maltoni,
   Mattelaer, Shao, Stelzer, Torrielli, and Zaro]{Alwall:2014}
@@ -96,6 +97,12 @@ R.~N. Cahn, S.~D. Ellis, R.~Kleiss, and W.~J. Stirling.
 \newblock {Transverse-momentum signatures for heavy Higgs bosons}.
 \newblock \emph{Phys. Rev. D}, 35:\penalty0 1626, 1987.
 \newblock \doi{10.1103/PhysRevD.35.1626}.
+
+\bibitem[Chatrchyan et~al.(2008)]{CMS_experiment}
+S.~Chatrchyan et~al.
+\newblock {The CMS Experiment at the CERN LHC}.
+\newblock \emph{JINST}, 3:\penalty0 S08004, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08004}.
 
 \bibitem[Chatrchyan et~al.(2011{\natexlab{a}})]{CMS-JME-10-011}
 S.~Chatrchyan et~al.
@@ -187,11 +194,28 @@ C.~Collaboration.
   μτ and eτ in proton-proton collisions at $\sqrt{s}$= 13 TeV}.
 \newblock \emph{JHEP}, 2017.
 
+\bibitem[Collaboration(2003)]{GEANT4}
+G.~Collaboration.
+\newblock Geant4—a simulation toolkit.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  506\penalty0 (3):\penalty0 250 -- 303, 2003.
+\newblock ISSN 0168-9002.
+\newblock \doi{https://doi.org/10.1016/S0168-9002(03)01368-8}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0168900203013688}.
+
 \bibitem[Cranmer(2015)]{LHCstaticstics}
 K.~Cranmer.
 \newblock {Practical Statistics for the LHC}.
 \newblock \emph{CERN-2014-003, pp. 267 - 308}, 2015.
 \newblock \doi{10.5170/CERN-2015-004.301}.
+
+\bibitem[Dasu et~al.(2000)]{CMS_TDR}
+S.~Dasu et~al.
+\newblock {CMS. The TriDAS project. Technical design report, vol. 1: The
+  trigger systems}.
+\newblock 2000.
 
 \bibitem[de~Florian et~al.(2016)]{YR4}
 D.~de~Florian et~al.
@@ -211,6 +235,13 @@ S.~D. Ellis and D.~E. Soper.
 \newblock {Successive combination jet algorithm for hadron collisions}.
 \newblock \emph{Phys. Rev.}, D48:\penalty0 3160--3166, 1993.
 \newblock \doi{10.1103/PhysRevD.48.3160}.
+
+\bibitem[Evans and Bryant(2008)]{LHC_refer}
+L.~Evans and P.~Bryant.
+\newblock Lhc machine.
+\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0 S08001,
+  2008.
+\newblock URL \url{http://stacks.iop.org/1748-0221/3/i=08/a=S08001}.
 
 \bibitem[Fruhwirth(1987)]{Fruhwirth:1987fm}
 R.~Fruhwirth.
@@ -288,6 +319,12 @@ V.~Khachatryan et~al.
 \newblock \emph{JINST}, 12:\penalty0 P02014, 2017.
 \newblock \doi{10.1088/1748-0221/12/02/P02014}.
 
+\bibitem[Lefèvre(2008)]{Christiane:1260465}
+C.~Lefèvre.
+\newblock {The CERN accelerator complex. Complexe des accélérateurs du CERN}.
+\newblock Dec 2008.
+\newblock URL \url{https://cds.cern.ch/record/1260465}.
+
 \bibitem[Lista(2016)]{statistics:school2016}
 L.~Lista.
 \newblock {Practical Statistics for Particle Physicists}.
@@ -359,6 +396,14 @@ T.~Sj{\"o}strand, S.~Ask, J.~R. Christiansen, R.~Corke, N.~Desai, P.~Ilten,
 \newblock {An introduction to {PYTHIA 8.2}}.
 \newblock \emph{Comput. Phys. Commun.}, 191:\penalty0 159, 2015.
 \newblock \doi{10.1016/j.cpc.2015.01.024}.
+
+\bibitem[Yazgan and the CMS ECAL/HCAL~Collaborations(2009)]{HCAL_reso}
+E.~Yazgan and the CMS ECAL/HCAL~Collaborations.
+\newblock The cms barrel calorimeter response to particle beams from 2 to 350
+  gev/c.
+\newblock \emph{Journal of Physics: Conference Series}, 160\penalty0
+  (1):\penalty0 012056, 2009.
+\newblock URL \url{http://stacks.iop.org/1742-6596/160/i=1/a=012056}.
 
 \bibitem[Yu.L.Dokshitzer and B.R.Webber(1997)]{Aachenjetalgo}
 S.~Yu.L.Dokshitzer, G.D.Leder and B.R.Webber.
