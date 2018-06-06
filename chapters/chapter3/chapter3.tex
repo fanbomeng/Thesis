@@ -114,19 +114,46 @@ HF situates $\pm11$ m from the interaction point to complement the large pseudor
 
 
 
-\subsection{Muon System}
+\subsection{Muon detector}
+CMS muon detector is designed to measure the momentum and charge of muons. Three types of gas detectors are used in CMS, the   barrel drift tube(DT) chambers, the cathode strip chambers(CSC) in the endcaps and resistive plate chambers(RPC) in both barrel and endcap regions. 
+
+In muon detector barrel(MB), DT chambers and RPCs are used which covers the pseudorapidity region $|\eta|<1.2$. MB is composed of 250 chambers. The chambers are located in 4 stations inside the magnet return yoke. The yoke is further divided into 5 wheels, each of which is composed of 12 sectors. As shown in Figure.~\ref{fig:muon_sketch}, the stations are named MB1 to MB4, which are composted one DT chamber and varied number of RPCs that depending one the exact location. DT chamber measures the position the incoming muon which knocks off electrons of the gas atoms in the chamber and collected by a large numbers of charged wires inside.% The gas used in DT chambers is a mixture of Ar and $\textrm{CO}_{2}$.
+
+In muon detector endcaps(ME), 468 CSCs which covers the range $0.9<|\eta|<2.4$ are used. ME also composed of 4 stations of chambers and in each of the discs. CSC is in a wedge shape and composed of 6 gas gaps. The gap is filled in with a cathodes strip and anode wires what running perpendicularly to the strip. When a muon comes, the knocked off electrons creating avalanche and received by the positive charged wires.  
+
+Both DT chambers and CSCs measure the position and can also trigger on the $\pt$ of muons. To better deal with the high luminosity and improving the trigger muon $\pt$ resolution, the dedicated trigger system RPCs are added to both MB and ME. RPC is a double-gap bakelite chamber which operates with the avalanches that caused by the muons. RPC can provide additional fast triggering and sharp $\pt$ threshold. Four RPCs layers are used in the MB first two stations(two each) and another two layers(one each) are used in the last two stations.  In the ME, one RPC layers in each of the first three stations.    
 
 
+
+\begin{figure}[htbp] 
+\centering
+\includegraphics[width=0.8\textwidth]{chapter3/Muon_chambers.png}
+\caption{A overview of muon chamber configuration in CMS~\cite{Muon_chambers}}
+\label{fig:muon_sketch}
+\end{figure}
 
 
 \subsection{Trigger}
-probably I have to put something there
+
+LHC is a high luminosity collider in the order of $10^{34}\textrm{cm}^{2}\textrm{s}^{-1}$. In the p-p collision, the bunch crossing time is 25 ns and the corresponding frequency is 40 MHz. In each of the 25 ns, there are approximately 20 collisions. This high rate makes it impossible to transmit and record all of the events, also it is not necessary, since most of the events are not of current physics research interests. CMS use a two level trigger system to select events and reduce the event recording rate, Level-1(L1) trigger and High-level trigger(HLT) systems. 
 
 
-\subsubsection{Level 1 Trigger}
-probably I have to put something there2
+L1 trigger is based on custom designed and programmable electronics, situated inside the detector. It utilizes the information from calorimeters and muon system, performing simplified but effective reconstructions, corrections and selections, which reduces the event rate from 40 MHz to 100 kHz. In LHC Run II, the L1 trigger system has been upgraded to deal with the increased luminosity and improve the performance. The L1 calorimeter trigger accesses the information from the whole ECAL and HCAL in the granularity of trigger tower level, which approximately correspond to a region $0.087\times0.087$ in $\eta$ and $\phi$. The trigger reconstructs the $\Pe/\gamma$, jets, $\tau$ and the sum energy of the candidates with the algorithms implemented in the time multiplexed trigger architecture~\cite{TMT_trigger}. The algorithms implemented at hardware trigger level, with dynamic clustering of trigger towers, pile-up migration and innovated tau and jet reconstruction with various look-up table for the calibrations and corrections~\cite{L1_Egamma}. The L1 muon trigger system fully utilizes three muon detectors in the track reconstruction. In general, the track reconstruction of muons are divided into three regions, barrel, overlap and endcap, based on the geometry. Through dedicated construction algorithm, the tracks are built, so as computing the muon qualities. There informations are used in the triggering processes~\cite{L1muontrigger}. 
+
+
+HLT in CMS further reduced the event rate from 100 kHz(after L1 trigger selection) down to 1 kHz that is a possible rate for event storage. HLT is software based trigger system and utilized the streamlined version of the CMS soft-ware for event reconstruction on the large computer farm~\cite{CMS_trigger_RUNII}. Maximizing the trigger efficiency and keeping acceptable CPU-time is crucial. HLC accesses to the full granularity and sub-detectors of CMS, including the tracker. The dedicated algorithms used in HLT is the very closed to the ones used in the off-line reconstruction and analysis, besides the for some different parameter configurations~\cite{CMS_HLT_RunII}.             
 
 
 
-\subsubsection{High Level Trigger}
+
+
+
+
+
+%\subsubsection{Level 1 Trigger}
+%probably I have to put something there2
+
+
+
+%\subsubsection{High Level Trigger}
 

@@ -1,4 +1,4 @@
-\begin{thebibliography}{59}
+\begin{thebibliography}{65}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -34,6 +34,17 @@ Search for lepton flavour violating decays of the higgs boson to
 \newblock CMS Physics Analysis Summary CMS-PAS-LUM-17-001, 2017.
 \newblock URL \url{https://cds.cern.ch/record/2257069}.
 
+\bibitem[Acosta(2016)]{CMS_trigger_RUNII}
+D.~Acosta.
+\newblock Cms trigger improvements towards run ii.
+\newblock \emph{Nuclear and Particle Physics Proceedings}, 273-275:\penalty0
+  1008 -- 1013, 2016.
+\newblock ISSN 2405-6014.
+\newblock \doi{https://doi.org/10.1016/j.nuclphysbps.2015.09.158}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S2405601415006471}.
+\newblock 37th International Conference on High Energy Physics (ICHEP).
+
 \bibitem[Adam et~al.(2005)Adam, Frühwirth, Strandlie, and Todor]{Algo:GSF}
 W.~Adam, R.~Frühwirth, A.~Strandlie, and T.~Todor.
 \newblock {Reconstruction of Electrons with the Gaussian-Sum Filter in the CMS
@@ -62,6 +73,21 @@ J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
   simulations}.
 \newblock \emph{JHEP}, 07:\penalty0 079, 2014.
 \newblock \doi{10.1007/JHEP07(2014)079}.
+
+\bibitem[Baber et~al.(2014)Baber, Blake, Brooke, Hermida, Dasu, Durkin, Fayer,
+  Friis, Gorski, Hall, Harder, Iles, Ives, Jones, Klabbers, Levine, Lucas,
+  Lucas, Newbold, Marrouche, Paramesvaran, Perry, Rose, Sankey, Smith, Tapper,
+  Thea, and Williams]{TMT_trigger}
+M.~Baber, M.~Blake, J.~Brooke, M.~C. Hermida, S.~Dasu, T.~Durkin, S.~Fayer,
+  E.~K. Friis, T.~Gorski, G.~Hall, K.~Harder, G.~Iles, S.~Ives, J.~Jones, P.~R.
+  Klabbers, A.~G. Levine, C.~Lucas, R.~Lucas, D.~Newbold, J.~Marrouche,
+  S.~Paramesvaran, T.~M. Perry, A.~Rose, D.~Sankey, W.~Smith, A.~Tapper,
+  A.~Thea, and T.~Williams.
+\newblock Development and testing of an upgrade to the cms level-1 calorimeter
+  trigger.
+\newblock \emph{Journal of Instrumentation}, 9\penalty0 (01):\penalty0 C01006,
+  2014.
+\newblock URL \url{http://stacks.iop.org/1748-0221/9/i=01/a=C01006}.
 
 \bibitem[Ball et~al.(2010)Ball, Del~Debbio, Forte, Guffanti, Latorre, Rojo, and
   Ubiali]{Ball:2010de}
@@ -103,6 +129,13 @@ S.~Chatrchyan et~al.
 \newblock {The CMS Experiment at the CERN LHC}.
 \newblock \emph{JINST}, 3:\penalty0 S08004, 2008.
 \newblock \doi{10.1088/1748-0221/3/08/S08004}.
+
+\bibitem[Chatrchyan et~al.(2010)]{Muon_chambers}
+S.~Chatrchyan et~al.
+\newblock {Aligning the CMS Muon Chambers with the Muon Alignment System during
+  an Extended Cosmic Ray Run}.
+\newblock \emph{JINST}, 5:\penalty0 T03019, 2010.
+\newblock \doi{10.1088/1748-0221/5/03/T03019}.
 
 \bibitem[Chatrchyan et~al.(2011{\natexlab{a}})]{CMS-JME-10-011}
 S.~Chatrchyan et~al.
@@ -257,6 +290,12 @@ H.~M. Georgi, S.~L. Glashow, M.~E. Machacek, and D.~V. Nanopoulos.
 \newblock \emph{Phys. Rev. Lett.}, 40:\penalty0 692, 1978.
 \newblock \doi{10.1103/PhysRevLett.40.692}.
 
+\bibitem[Gori(2014)]{CMS_HLT_RunII}
+V.~Gori.
+\newblock {The CMS High Level Trigger}.
+\newblock \emph{Int. J. Mod. Phys. Conf. Ser.}, 31:\penalty0 1460297, 2014.
+\newblock \doi{10.1142/S201019451460297X}.
+
 \bibitem[Harnik et~al.(2013)Harnik, Kopp, and Zupan]{Harnik:2012pb}
 R.~Harnik, J.~Kopp, and J.~Zupan.
 \newblock Flavor violating higgs decays.
@@ -368,6 +407,14 @@ B.~P.Roe et~al.
   Networks for Particle Identification}.
 \newblock 2005.
 
+\bibitem[Rabady et~al.(2017)Rabady, Ero, Flouris, Fulcher, Loukas, Paradas,
+  Reis, Sakulin, and Wulz]{L1muontrigger}
+D.~Rabady, J.~Ero, G.~Flouris, J.~Fulcher, N.~Loukas, E.~Paradas, T.~Reis,
+  H.~Sakulin, and C.-E. Wulz.
+\newblock {Upgrade of the CMS muon trigger system in the barrel region}.
+\newblock \emph{Nucl. Instrum. Meth.}, A845:\penalty0 616--620, 2017.
+\newblock \doi{10.1016/j.nima.2016.05.071}.
+
 \bibitem[Sirunyan et~al.(2017{\natexlab{a}})]{CMS-PRF-14-001}
 A.~M. Sirunyan et~al.
 \newblock Particle-flow reconstruction and global event description with the
@@ -410,5 +457,22 @@ S.~Yu.L.Dokshitzer, G.D.Leder and B.R.Webber.
 \newblock {Better Jet Clustering Algorithms}.
 \newblock \emph{JHEP 9708:001,1997}, 1997.
 \newblock \doi{10.1088/1126-6708/1997/08/001}.
+
+\bibitem[Zabi et~al.(2016)Zabi, Beaudette, Cadamuro, Mastrolorenzo, Romanteau,
+  Sauvan, Strebler, Marrouche, Wardle, Aggleton, Ball, Brooke, Newbold,
+  Paramesvaran, Smith, Baber, Bundock, Citron, Elwood, Hall, Iles, Laner,
+  Penning, Rose, Tapper, Durkin, Harder, Harper, Shepherd-Themistocleous, Thea,
+  and Williams]{L1_Egamma}
+A.~Zabi, F.~Beaudette, L.~Cadamuro, L.~Mastrolorenzo, T.~Romanteau, J.~Sauvan,
+  T.~Strebler, J.~Marrouche, N.~Wardle, R.~Aggleton, F.~Ball, J.~Brooke,
+  D.~Newbold, S.~Paramesvaran, D.~Smith, M.~Baber, A.~Bundock, M.~Citron,
+  A.~Elwood, G.~Hall, G.~Iles, C.~Laner, B.~Penning, A.~Rose, A.~Tapper,
+  T.~Durkin, K.~Harder, S.~Harper, C.~Shepherd-Themistocleous, A.~Thea, and
+  T.~Williams.
+\newblock Triggering on electrons, jets and tau leptons with the cms upgraded
+  calorimeter trigger for the lhc run ii.
+\newblock \emph{Journal of Instrumentation}, 11\penalty0 (02):\penalty0 C02008,
+  2016.
+\newblock URL \url{http://stacks.iop.org/1748-0221/11/i=02/a=C02008}.
 
 \end{thebibliography}
