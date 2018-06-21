@@ -1,4 +1,4 @@
-\begin{thebibliography}{65}
+\begin{thebibliography}{68}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -34,6 +34,10 @@ Search for lepton flavour violating decays of the higgs boson to
 \newblock CMS Physics Analysis Summary CMS-PAS-LUM-17-001, 2017.
 \newblock URL \url{https://cds.cern.ch/record/2257069}.
 
+\bibitem[SM_(2018)]{SM_particletable}
+06 2018.
+\newblock URL \url{https://en.wikipedia.org/wiki/Standard_Model}.
+
 \bibitem[Acosta(2016)]{CMS_trigger_RUNII}
 D.~Acosta.
 \newblock Cms trigger improvements towards run ii.
@@ -45,8 +49,8 @@ D.~Acosta.
   \url{http://www.sciencedirect.com/science/article/pii/S2405601415006471}.
 \newblock 37th International Conference on High Energy Physics (ICHEP).
 
-\bibitem[Adam et~al.(2005)Adam, Frühwirth, Strandlie, and Todor]{Algo:GSF}
-W.~Adam, R.~Frühwirth, A.~Strandlie, and T.~Todor.
+\bibitem[Adam et~al.(2005)Adam, Fr{\"u}hwirth, Strandlie, and Todor]{Algo:GSF}
+W.~Adam, R.~Fr{\"u}hwirth, A.~Strandlie, and T.~Todor.
 \newblock {Reconstruction of Electrons with the Gaussian-Sum Filter in the CMS
   Tracker at the LHC}.
 \newblock 2005.
@@ -229,7 +233,7 @@ C.~Collaboration.
 
 \bibitem[Collaboration(2003)]{GEANT4}
 G.~Collaboration.
-\newblock Geant4—a simulation toolkit.
+\newblock Geant4---a simulation toolkit.
 \newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
   Accelerators, Spectrometers, Detectors and Associated Equipment},
   506\penalty0 (3):\penalty0 250 -- 303, 2003.
@@ -263,6 +267,16 @@ A.~Denner, S.~Heinemeyer, I.~Puljak, D.~Rebuzzi, and M.~Spira.
 \newblock \emph{Eur. Phys. J. C}, 71:\penalty0 1753, 2011.
 \newblock \doi{10.1140/epjc/s10052-011-1753-8}.
 
+\bibitem[Djouadi(2008)]{DJOUADI20081}
+A.~Djouadi.
+\newblock The anatomy of electroweak symmetry breaking: Tome i: The higgs boson
+  in the standard model.
+\newblock \emph{Physics Reports}, 457\penalty0 (1):\penalty0 1 -- 216, 2008.
+\newblock ISSN 0370-1573.
+\newblock \doi{https://doi.org/10.1016/j.physrep.2007.10.004}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0370157307004334}.
+
 \bibitem[Ellis and Soper(1993)]{ktalgo}
 S.~D. Ellis and D.~E. Soper.
 \newblock {Successive combination jet algorithm for hadron collisions}.
@@ -295,6 +309,12 @@ V.~Gori.
 \newblock {The CMS High Level Trigger}.
 \newblock \emph{Int. J. Mod. Phys. Conf. Ser.}, 31:\penalty0 1460297, 2014.
 \newblock \doi{10.1142/S201019451460297X}.
+
+\bibitem[Griffiths(2008)]{Griffiths:111880}
+D.~J. Griffiths.
+\newblock \emph{{Introduction to elementary particles; 2nd rev. version}}.
+\newblock Physics textbook. Wiley, New York, NY, 2008.
+\newblock URL \url{https://cds.cern.ch/record/111880}.
 
 \bibitem[Harnik et~al.(2013)Harnik, Kopp, and Zupan]{Harnik:2012pb}
 R.~Harnik, J.~Kopp, and J.~Zupan.
@@ -358,9 +378,10 @@ V.~Khachatryan et~al.
 \newblock \emph{JINST}, 12:\penalty0 P02014, 2017.
 \newblock \doi{10.1088/1748-0221/12/02/P02014}.
 
-\bibitem[Lefèvre(2008)]{Christiane:1260465}
-C.~Lefèvre.
-\newblock {The CERN accelerator complex. Complexe des accélérateurs du CERN}.
+\bibitem[Lef{\`e}vre(2008)]{Christiane:1260465}
+C.~Lef{\`e}vre.
+\newblock {The CERN accelerator complex. Complexe des acc{\'e}l{\'e}rateurs du
+  CERN}.
 \newblock Dec 2008.
 \newblock URL \url{https://cds.cern.ch/record/1260465}.
 
