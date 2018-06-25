@@ -39,45 +39,45 @@ Warning--empty journal in Simulation:Tauola
 Warning--empty year in Simulation:Tauola
 Warning--empty year in Simulation:Tauola
 Warning--empty journal in BDTboostPI
-You've used 68 entries,
+You've used 69 entries,
             2773 wiz_defined-function locations,
-            1041 strings with 18276 characters,
-and the built_in function-call counts, 33069 in all, are:
-= -- 2877
-> -- 2362
-< -- 51
-+ -- 820
-- -- 744
-* -- 2844
-:= -- 5365
-add.period$ -- 262
-call.type$ -- 68
-change.case$ -- 426
-chr.to.int$ -- 60
-cite$ -- 167
-duplicate$ -- 1315
-empty$ -- 2327
-format.name$ -- 837
-if$ -- 6752
+            1050 strings with 18487 characters,
+and the built_in function-call counts, 33457 in all, are:
+= -- 2912
+> -- 2383
+< -- 52
++ -- 827
+- -- 750
+* -- 2871
+:= -- 5429
+add.period$ -- 267
+call.type$ -- 69
+change.case$ -- 430
+chr.to.int$ -- 61
+cite$ -- 169
+duplicate$ -- 1335
+empty$ -- 2359
+format.name$ -- 846
+if$ -- 6834
 int.to.chr$ -- 9
 int.to.str$ -- 1
-missing$ -- 58
-newline$ -- 405
-num.names$ -- 248
-pop$ -- 754
+missing$ -- 60
+newline$ -- 412
+num.names$ -- 252
+pop$ -- 764
 preamble$ -- 1
-purify$ -- 360
+purify$ -- 364
 quote$ -- 0
-skip$ -- 1055
+skip$ -- 1070
 stack$ -- 0
-substring$ -- 835
-swap$ -- 79
+substring$ -- 837
+swap$ -- 80
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 743
+type$ -- 749
 warning$ -- 25
-while$ -- 228
+while$ -- 231
 width$ -- 0
-write$ -- 983
+write$ -- 1000
 (There were 26 warnings)
