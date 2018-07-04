@@ -63,7 +63,7 @@ L_{SM}=&-\frac{1}{4}G^{a}_{\mu v}G^{\mu v}_{a}-\frac{1}{4}W^{a}_{\mu v}W^{\mu v}
 
 
 
-\subsection{spontaneous symmetry breaking and Higgs mechanism}
+\subsection{Spontaneous symmetry breaking and Higgs mechanism}
 
 In SM, the electroweak sector follows the $SU(2)_{L}\times U(1)_{Y}$, which is spontaneously broken in the $SU(2)_{L}$ part. This mechanism plays an important role in giving mass to the mediator bosons in weak interaction and introducing the Higgs boson(Higgs).  Higgs is responsible for generating the mass of the fermions in SM, while SM remains renormalizable in local symmetry. A good example of showing the concept of spontaneous symmetry breaking with the $\phi^{4}$ theory can be found in~\cite{Peskin:1995ev}.
 
@@ -124,11 +124,7 @@ From the terms in Equation~\ref{Lag_scaler} that involving the mass of $W^{\pm}$
 \begin{equation}
 M_{W}=\frac{1}{2}vg_{2}~~~\textrm{and}~~~M_{Z}=\frac{1}{2}v\sqrt{g^{2}_{2}+g^{2}_{1}}
 \end{equation}
-while the photon $A_{\mu}$ remains massless.
-
-
-
-
+while the photon $A_{\mu}$ remains massless. The mixing of electromagnetic and weak interaction is often expressed in terms of Weinberg angle or weak mixing angle. The angle $\theta_{W}$ is defined as following:
 \[
 \begin{pmatrix}
 \gamma    \\
@@ -144,27 +140,111 @@ B\\
 W_{3}
 \end{pmatrix}
 \]
-
-
 \begin{equation}
 M_{Z}=\frac{M_{W}}{cos\theta_{W}}~~~ \textrm{and}~~~
 cos\theta_{W}=\frac{g_{2}}{\sqrt{g_{2}^{2}+g_{1}^{2}}}
 \end{equation}
 
-
-
-
-
+The mass of the fermions can also be generated with the interaction between the scalar doublet $\phi$ and fermion fields. Taking muon as an example, the interaction term in Lagrangian and the term that give mass to muon is shown as following:
+\begin{equation}\label{Higgsmuonmass}
+L_{\mu}=-\lambda_{\mu}(\bar{v}_{\mu},\bar{\mu}_{L})\phi\mu_{R}
+            =-\frac{1}{\sqrt{2}}\lambda_{\mu}(v+H)\bar{\mu}_{L}\mu_{R}+ \cdots
+\end{equation}
+The mass of muon is given as $M_{\mu}=\frac{\lambda_{\mu}v}{\sqrt{2}}$ so as very similarly the mass of other fermions. The coupling of Higgs and fermions can also be derived from Equation.~\ref{Higgsmuonmass}~\cite{DJOUADI20081}. 
 
 
 
 
 \section{Lepton flavour violation in beyond stand model theories}
+Lepton flavour violating Higgs decays are forbidden in SM. The specific terms will not be compatible with renormalization. 
 
 
-Three questions need to answer:
-1. Higgs in standard model
-2. Why LFV is not possible in SM
-3. LFV in beyond standard models
+\subsection{LFV in two Higgs models}
 
-why LFV is not possible in SM
+In the model with two Higgs doublets(2HDM) $\Phi_{1}$ and $\Phi_{2}$, similar to the SM, the Yukawa interaction can be written as: 
+\begin{equation}
+L=y_{1}\bar{L}\Phi_{1}E+y_{2}\bar{L}\Phi_{2}E+h.c,
+\end{equation}
+Here, $y_{1}$ and $y_{2}$ are Yukawa couplings. If there is not a parity symmetry distinguish the two Higgs doublets, there can be coupling of the two doublets to the leptons in the tree level. In general it is impossible to diagonalize $y_{1}$ and $y_{2}$ simultaneously and the LFV Higgs decay can be presented in the renormalizable Lagrangian~\cite{deLima2015}. A bit more description of 2HDM is in the following~\cite{BRANCO20121}.   
+
+
+In 2HDM, there are in general four sub-type of models, the main difference comes from the coupling of Higgs doublets to the quarks and leptons as shown in Table.~\ref{2HDM_models}.
+\begin{table}[htp!]
+\caption{Four types of 2HDM models differs by the coupling to Higgs doublet fields}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Model                                 &~  $u^{i}_{R}$~  &~  $d^{i}_{R}$ ~   &~   $e^{i}_{R}$ ~\\\hline
+Type I                                 &  $\Phi_{2}$    &  $\Phi_{2}$     &  $\Phi_{2}$   \\\hline
+Type II                                &  $\Phi_{2}$    &  $\Phi_{1}$     &  $\Phi_{1}$   \\\hline
+Type III (lepton specific)     &  $\Phi_{2}$    &  $\Phi_{2}$     &  $\Phi_{1}$   \\\hline
+Type IV (Flipped)                &  $\Phi_{2}$    &  $\Phi_{1}$     &  $\Phi_{2}$   \\\hline
+\end{tabular}
+\end{center}
+\label{2HDM_models}
+\end{table}
+The type III 2HDM is more relevant to LFV which can have the tree level LFV Higgs decay. The Higgs doublets can have the general form:
+\begin{equation}
+\Phi_{j}=
+\begin{pmatrix}
+\phi^{+}_{j}    \\
+(v_{j}+\phi_{j}+i\eta_{j}/\sqrt{2})
+\end{pmatrix}
+\end{equation}
+Under the common assumption of CP conservation in the Higgs sector and not spontaneously broken, the quartic odd terms are eliminated in the potential, then the scalar potential can be expressed as
+\begin{equation}
+\begin{aligned}
+V=&m^{2}_{11}\Phi^{\dagger}_{1}\Phi_{1}+m^{2}_{22}\Phi^{\dagger}_{2}\Phi_{2}-m^{2}_{12}(\Phi^{\dagger}_{1}\Phi_{2}+\Phi^{\dagger}_{2}\Phi_{1})+\frac{\lambda_{1}}{2}(\Phi^{\dagger}_{1}\Phi_{1})^{2}+\\
+  &\frac{\lambda_{2}}{2}(\Phi^{\dagger}_{2}\Phi_{2})^{2}+\lambda_{3}\Phi^{\dagger}_{1}\Phi_{1}\Phi^{\dagger}_{2}\Phi_{2}+\lambda_{4}\Phi^{\dagger}_{1}\Phi_{2}\Phi^{\dagger}_{2}\Phi_{1}+\frac{\lambda_{5}}{2}[(\Phi^{\dagger}_{1}\Phi_{2})^{2}+(\Phi^{\dagger}_{2}\Phi_{1})^{2}]
+  \end{aligned}
+\end{equation}
+The scalar doublets fields $\Phi_{1}$ and $\Phi_{2}$ are not physical observables but the mass eigenstates. So any combination of the scalar doublet fields, as long as it preserve CP and solid gauge symmetries in SM, produces the same physics results~\cite{BRANCO20121}. The following based is referred as Higgs basis for the Higgs doublets:
+\begin{equation}\label{Higgs_base}
+H_{1}=
+\begin{pmatrix}
+G^{+}    \\
+\frac{1}{\sqrt(2)}(v+\phi^{0}_{1}+iG^{0})
+\end{pmatrix}~,~
+H_{2}=
+\begin{pmatrix}
+H^{+}    \\
+\frac{1}{\sqrt(2)}(\phi^{0}_{2}+iA)
+\end{pmatrix}
+\end{equation}
+The relationship between scalar field $\rho_{1}$ and $\rho_{2}$ and Higgs mass eigenstates h and H is the following:
+\begin{equation}\label{Higgs_mass_states}
+\begin{aligned}
+h=&sin(\alpha-\beta)\phi_{1}^{0}+cos(\alpha-\beta)\phi_{2}^{0}\\
+H=&cos(\alpha-\beta)\phi_{1}^{0}-sin(\alpha-\beta)\phi_{2}^{0}
+\end{aligned}
+\end{equation}
+The angle $\alpha-\beta$ is the mixing angle between these two groups of scalars. The interactions of Higgs and fermions are through Yukawa coupling. In the Higgs base, the Yukawa interaction terms in the Lagrangian of the 2HDM can be expressed as:
+\begin{equation}
+\begin{aligned}
+-L_{Y}=&\sqrt{2}\big(\bar{q}_{L_{j}}\tilde{H}_{1}\frac{K^{\ast}_{ij}m^{U}_{i}}{v}u_{R_{i}}+\bar{q}_{L_{i}}H_{1}\frac{m^{D}_{i}}{v}d_{R_{i}}+\bar{l}_{L_{i}}H_{1}\frac{m^{E}_{i}}{v}e_{R_{i}}\big) \\
+            &+\bar{q}_{L_{i}}\tilde{H}_{2}\rho^{U}_{ij}u_{R_{j}}+\bar{q}_{L_{i}}H_{2}\rho^{D}_{ij}d_{R_{j}}+\bar{l}_{L_{i}}H_{2}\rho^{E}_{ij}e_{R_{j}}+h.c..
+\end{aligned}
+\end{equation}
+Inside the Lagrangian, the terms denote as following, $\tilde{H}_i=i\sigma_{2}H^{\ast_{i}}$,  $K_{ij}$ as the CKM matrix and $\rho^{U,D,E}$ are complex matrices in flavor space. Taking in Equation.~\ref{Higgs_base} and \ref{Higgs_mass_states}, the lepton Yukawa interaction terms are collected as:
+\begin{equation}
+\begin{aligned}
+-L_{Y}=&\bar{e}_{i}\big(\frac{m^{E}_{i}}{v}\delta_{ij}s_{\beta-\alpha}+\frac{1}{\sqrt{2}}\rho^{E}_{ij}c_{\beta-\alpha}\big)e_{j}h\\
+            &+\bar{e}_{i}\big(\frac{m^{E}_{i}}{v}\delta_{ij}c_{\beta-\alpha}-\frac{1}{\sqrt{2}}\rho^{E}_{ij}S_{\beta-\alpha}\big)e_{j}H+...
+\end{aligned}
+\end{equation}
+The coupling of leptons and Higgs in the 2HDM model typeIII are expressed as
+\begin{equation}
+\begin{aligned}
+g_{hff^{'}}&=\frac{m_{f}}{v}s_{\beta-\alpha}\delta_{ff^{'}}+\frac{\rho_{ff^{'}}}{\sqrt{2}}c_{\beta-\alpha}\\
+g_{Hff^{'}}&=\frac{m_{f}}{v}s_{\beta-\alpha}\delta_{ff^{'}}-\frac{\rho_{ff^{'}}}{\sqrt{2}}c_{\beta-\alpha}\\
+\end{aligned}
+\end{equation}
+So this shows the possibility of LFV Higgs decay at tree level~\cite{PhysRevD.90.115004}.
+
+
+
+
+
+
+
+
