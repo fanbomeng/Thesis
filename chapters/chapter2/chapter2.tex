@@ -96,7 +96,7 @@ If $\mu^{2}<0$ and $\lambda>0$, the doublet field $\phi$ will have a none zero m
 \end{equation}
 
 When the SU(2) symmetry is spontaneously broken, the scalar doublet field $\phi$ can expand around vev at first order together with the Higgs field:
-\begin{equation}
+\begin{equation}\label{Higgs_vev_expansion}
 \phi=
 \begin{pmatrix}
 \theta_{2}+i\theta_{1} \\
@@ -154,9 +154,44 @@ The mass of muon is given as $M_{\mu}=\frac{\lambda_{\mu}v}{\sqrt{2}}$ so as ver
 
 
 
-
 \section{Lepton flavour violation in beyond stand model theories}
-Lepton flavour violating Higgs decays are forbidden in SM. The specific terms will not be compatible with renormalization. 
+Lepton flavour violating Higgs decays are forbidden in SM. The specific terms will not be compatible with renormalization. But beyond Standard Model, Lepton flavour conservation does not necessarily hold. In the following, two methods that can have lepton flavour violation are introduced, one model independent effective field approach and one with two Higgs doublet model. In both case, the focus is LFV Higgs decays and to show how LFV Higgs decays shows up in the new theories. 
+
+
+\subsection{Lepton flavour violation Higgs decay in effective field theory}
+The Effective Lagrangian approach is widely used to explore the new physics with higher dimensional operators in a model independent way. The Lagrangian in the theory can be written as following up to dimension six: 
+\begin{equation}
+L_{eff}=L_{SM}+\sum\frac{a^{ij}_{n}}{\Lambda^{2}}O^{ij}_{n}
+\end{equation}
+where $a^{ij}_{n}$ is the coefficients, $i,j,(=1,2,3)$ are flavour indices, n holds the number of the operators and $\Lambda$ is the new physics scale. 
+
+There are various operators that can introduce processes that violate lepton flavour conservation~\cite{PhysRevD.62.116005}. As an example that most relevant to LFV Higgs decays, Yukawa-type operators that generate LFV Higgs decays only will be discussed. The Yukawa-type operators hold the following terms:
+\begin{equation}
+O^{ij}_{L\phi}=(\Phi^{\dagger}\Phi)(\bar{L}_{L_{i}}l_{R_{j}}\Phi)
+\end{equation}
+While, inside the Lagrangian, the change to SM Lagrangian takes the form:
+\begin{equation}
+\Delta L_{Y}=-\frac{\lambda^{'}_{ij}}{\Lambda^{2}}(\Phi^{\dagger}\Phi)(\bar{L}^{i}_{L}l^{j}_{R}\Phi)+h.c...
+\end{equation}
+Taking in the scalar doublet expansion around vev as shown in Equation.~\ref{Higgs_vev_expansion}, the O(6) Yukawa-type operators have the following form:
+\begin{equation}
+\begin{aligned}
+\Delta L_{Y}=&-\frac{\lambda^{'}_{ij}}{\Lambda^{2}}(\Phi^{\dagger}\Phi)(\bar{L}^{i}_{L}l^{j}_{R}\Phi)+h.c...\\
+         =&-\frac{\lambda^{'}_{ij}}{2\sqrt{2}\Lambda^{2}}l_{L}^{i}l_{R}^{j}(v+H)^{3}+h.c...\\
+         =&-\frac{\lambda^{'}_{ij}v^{3}}{2\sqrt{2}\Lambda^{2}}l_{L}^{i}l_{R}^{j}-\frac{\lambda^{'}_{ij}3v^{2}}{2\sqrt{2}\Lambda^{2}}l_{L}^{i}l_{R}^{j}+h.c...
+\end{aligned}
+\end{equation}
+The new Yukawa coupling terms have effects on fermion masses and SM Yukawa interactions. The SM components in Equation.~\ref{Higgsmuonmass} is obtained through the diagonalization of mass matrices~\cite{Harnik:2012pb}. The total Lagrangian is a combination of SM Lagrangian $L_{SM}$ and the effective field Lagrangian $\Delta L_{Y}$. Thus the combined fermion mass and Yukawa interaction terms are following:
+\begin{equation}
+\sqrt{2}m=V_{L}\Big[\lambda+\frac{v^{2}}{2\Lambda^{2}}\lambda^{'}\Big]V^{\dagger}_{R},~~\sqrt{2}Y=V_{L}\Big[\lambda+3\frac{v^{2}}{2\Lambda^{2}}\lambda^{'}\Big]V^{\dagger}_{R}
+\end{equation}
+The Yukawa couplings of Higgs and leptons mixed in the contributions from dimension six operators and have the following form, in which $\hat{\lambda=V_{L}\lambda^{'}V_{R}}$
+\begin{equation}
+Y_{ij}=\frac{m_{i}}{v}\delta_{ij}+\frac{v^{2}}{\sqrt{2}\Lambda^{2}}\hat{\lambda}_{ij}
+\end{equation}
+In the limit $\Lambda \to \infty$, the SM results can be recovered, but in general case, like in the electro-weak scale and a arbitrary non-diagonal matrix $\hat{\lambda}$, LFV Higgs decays can be introduced into the theory through effective fields.
+
+
 
 
 \subsection{LFV in two Higgs models}
@@ -232,7 +267,7 @@ Inside the Lagrangian, the terms denote as following, $\tilde{H}_i=i\sigma_{2}H^
             &+\bar{e}_{i}\big(\frac{m^{E}_{i}}{v}\delta_{ij}c_{\beta-\alpha}-\frac{1}{\sqrt{2}}\rho^{E}_{ij}S_{\beta-\alpha}\big)e_{j}H+...
 \end{aligned}
 \end{equation}
-The coupling of leptons and Higgs in the 2HDM model typeIII are expressed as
+Term $s_{\beta-\alpha}$ and $c_{\beta-\alpha}$ stand for $sin_{\beta-\alpha}$ and $cos_{\beta-\alpha}$ respectively. The coupling of leptons and Higgs in the 2HDM model typeIII are expressed as
 \begin{equation}
 \begin{aligned}
 g_{hff^{'}}&=\frac{m_{f}}{v}s_{\beta-\alpha}\delta_{ff^{'}}+\frac{\rho_{ff^{'}}}{\sqrt{2}}c_{\beta-\alpha}\\

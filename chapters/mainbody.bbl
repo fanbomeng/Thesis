@@ -1,4 +1,4 @@
-\begin{thebibliography}{72}
+\begin{thebibliography}{73}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -291,6 +291,14 @@ A.~Denner, S.~Heinemeyer, I.~Puljak, D.~Rebuzzi, and M.~Spira.
 \newblock Standard model {H}iggs-boson branching ratios with uncertainties.
 \newblock \emph{Eur. Phys. J. C}, 71:\penalty0 1753, 2011.
 \newblock \doi{10.1140/epjc/s10052-011-1753-8}.
+
+\bibitem[Diaz-Cruz and Toscano(2000)]{PhysRevD.62.116005}
+J.~L. Diaz-Cruz and J.~J. Toscano.
+\newblock Lepton flavor violating decays of higgs bosons beyond the standard
+  model.
+\newblock \emph{Phys. Rev. D}, 62:\penalty0 116005, Nov 2000.
+\newblock \doi{10.1103/PhysRevD.62.116005}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevD.62.116005}.
 
 \bibitem[Djouadi(2008)]{DJOUADI20081}
 A.~Djouadi.
