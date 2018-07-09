@@ -1,4 +1,4 @@
-\begin{thebibliography}{73}
+\begin{thebibliography}{79}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -22,6 +22,14 @@
 \newblock Technical Report CMS-PAS-JME-13-005, CERN, Geneva, 2013.
 \newblock URL \url{http://cds.cern.ch/record/1581583}.
 
+\bibitem[201(2015)]{2015337}
+Search for lepton-flavour-violating decays of the higgs boson.
+\newblock \emph{Physics Letters B}, 749:\penalty0 337 -- 362, 2015.
+\newblock ISSN 0370-2693.
+\newblock \doi{https://doi.org/10.1016/j.physletb.2015.07.053}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0370269315005638}.
+
 \bibitem[HIG(2016)]{HIG-14-040}
 Search for lepton flavour violating decays of the higgs boson to
   $\mathrm{e}\tau$ and $\mathrm{e}\mu$ in proton-proton collisions at
@@ -37,6 +45,13 @@ Search for lepton flavour violating decays of the higgs boson to
 \bibitem[SM_(2018)]{SM_particletable}
 06 2018.
 \newblock URL \url{https://en.wikipedia.org/wiki/Standard_Model}.
+
+\bibitem[Aad et~al.(2015)]{Aad2015gha}
+G.~Aad et~al.
+\newblock {Search for lepton-flavour-violating H → μτ decays of the Higgs
+  boson with the ATLAS detector}.
+\newblock \emph{JHEP}, 11:\penalty0 211, 2015.
+\newblock \doi{10.1007/JHEP11(2015)211}.
 
 \bibitem[Acosta(2016)]{CMS_trigger_RUNII}
 D.~Acosta.
@@ -100,6 +115,13 @@ M.~Baber, M.~Blake, J.~Brooke, M.~C. Hermida, S.~Dasu, T.~Durkin, S.~Fayer,
   2014.
 \newblock URL \url{http://stacks.iop.org/1748-0221/9/i=01/a=C01006}.
 
+\bibitem[Baldini et~al.(2016)]{TheMEG2016wtm}
+A.~M. Baldini et~al.
+\newblock {Search for the lepton flavour violating decay $\mu ^+ \rightarrow
+  \mathrm {e}^+ \gamma $ with the full dataset of the MEG experiment}.
+\newblock \emph{Eur. Phys. J. C}, 76:\penalty0 434, 2016.
+\newblock \doi{10.1140/epjc/s10052-016-4271-x}.
+
 \bibitem[Ball et~al.(2010)Ball, Del~Debbio, Forte, Guffanti, Latorre, Rojo, and
   Ubiali]{Ball:2010de}
 R.~D. Ball, L.~Del~Debbio, S.~Forte, A.~Guffanti, J.~I. Latorre, J.~Rojo, and
@@ -108,6 +130,13 @@ R.~D. Ball, L.~Del~Debbio, S.~Forte, A.~Guffanti, J.~I. Latorre, J.~Rojo, and
   and their uncertainties.
 \newblock \emph{Nucl. Phys. B}, 838:\penalty0 136, 2010.
 \newblock \doi{10.1016/j.nuclphysb.2010.05.008}.
+
+\bibitem[Blankenburg et~al.(2012)Blankenburg, Ellis, and
+  Isidori]{Blankenburg:2012ex}
+G.~Blankenburg, J.~Ellis, and G.~Isidori.
+\newblock {Flavour-changing decays of a 125 GeV Higgs-like particle}.
+\newblock \emph{Phys. Lett. B}, 712:\penalty0 386, 2012.
+\newblock \doi{10.1016/j.physletb.2012.05.007}.
 
 \bibitem[Botje et~al.(2011)Botje, Butterworth, Cooper-Sarkar, de~Roeck,
   Feltesse, Forte, Glazov, Huston, McNulty, Sj{\"o}strand, and
@@ -145,6 +174,13 @@ R.~N. Cahn, S.~D. Ellis, R.~Kleiss, and W.~J. Stirling.
 \newblock {Transverse-momentum signatures for heavy Higgs bosons}.
 \newblock \emph{Phys. Rev. D}, 35:\penalty0 1626, 1987.
 \newblock \doi{10.1103/PhysRevD.35.1626}.
+
+\bibitem[Celis et~al.(2014)Celis, Cirigliano, and Passemar]{Celis:2013xja}
+A.~Celis, V.~Cirigliano, and E.~Passemar.
+\newblock {Lepton flavor violation in the Higgs sector and the role of hadronic
+  tau-lepton decays}.
+\newblock \emph{Phys. Rev. D}, 89:\penalty0 013008, 2014.
+\newblock \doi{10.1103/PhysRevD.89.013008}.
 
 \bibitem[Chatrchyan et~al.(2008)]{CMS_experiment}
 S.~Chatrchyan et~al.
@@ -349,10 +385,18 @@ D.~J. Griffiths.
 \newblock Physics textbook. Wiley, New York, NY, 2008.
 \newblock URL \url{https://cds.cern.ch/record/111880}.
 
-\bibitem[Harnik et~al.(2013)Harnik, Kopp, and Zupan]{Harnik:2012pb}
+\bibitem[Harnik et~al.(2013{\natexlab{a}})Harnik, Kopp, and
+  Zupan]{Harnik2012pb}
 R.~Harnik, J.~Kopp, and J.~Zupan.
 \newblock Flavor violating higgs decays.
-\newblock \emph{JHEP}, 03:\penalty0 26, 2013.
+\newblock \emph{JHEP}, 03:\penalty0 26, 2013{\natexlab{a}}.
+\newblock \doi{10.1007/JHEP03(2013)026}.
+
+\bibitem[Harnik et~al.(2013{\natexlab{b}})Harnik, Kopp, and
+  Zupan]{Harnik:2012pb}
+R.~Harnik, J.~Kopp, and J.~Zupan.
+\newblock Flavor violating higgs decays.
+\newblock \emph{JHEP}, 03:\penalty0 26, 2013{\natexlab{b}}.
 \newblock \doi{10.1007/JHEP03(2013)026}.
 
 \bibitem[Hayasaka et~al.(2010)]{Hayasaka:2010np}
