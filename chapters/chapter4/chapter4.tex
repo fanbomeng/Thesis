@@ -162,7 +162,7 @@ PF muon is used in the $\Hmuhad$ analysis. In CMS, the event reconstruction star
 
 
 
-With the PF muon as the input, muons used in the analysis are further categorized into different identification, isolation categories. Muon ID suggested in CMS RunII, for the LHC data 2016, running period BCDEF, ICHEP medium muon ID is applied(table~\ref{tbl:ICHEPMedID}), for running period G and H, also the monte Carlo samples, standard medium muon ID(table~\ref{tbl:standardMedID})are applied to achieve the best performance for muon identification. 
+With the PF muon as the input, muons used in the analysis are further categorized into different identification(ID), isolation(Iso) categories. Loose muon ID is referred to the muons selected by the PF algorithm. The medium Muon ID was suggested in CMS RunII. For the LHC data 2016, running period BCDEF, ICHEP medium muon ID is applied(table~\ref{tbl:ICHEPMedID}), for running period G and H, also the monte Carlo samples, standard medium muon ID(table~\ref{tbl:standardMedID})are applied to achieve the best performance for muon identification. The muon isolation used in the analysis is calculated the same way as the electron isolation which is shown in the following electron section.
 
 %In the compatibility-based selection, two ?compatibility? variables are constructed, one based on calorimeter information and the other based on information from the
 %muon system. A tracker muon is considered to be a muon candidate if the value of a linear combination of these variables is larger than a pre-defined threshold.
@@ -237,11 +237,13 @@ Electron ID is constructed to separate Prompt isolated electron(signal) from the
 
 Electron isolation is used to reject background events in addition to the ID variables, also inverting the requirement in the isolation can be used to setup enriched background control regions. Large numbers of background events that can possible enter the signal selection are misidentified jets or the jets in which there are real electrons, for example the jets from b quark semi-leptonic decay. For these background events, one key different character with respect to signals is more energy flowing around the electron(or misidentified electron) trajectory. The isolation requirement used in HLT level is summing over the energy depositions either in ECAL or HCAL in the certain core, for example $\Delta R=0.3,0.4$, $\Delta R=\sqrt{\Delta \phi^{2}+\Delta\eta^{2}}$. The contribution from the particle candidate is removed. In the offline algorithm, particles can better identified with the PF algorithm. Similar in concept to the isolation using the energy flow, the PF isolation summing over the $\pt$ of the particles in the direction of the reconstructed candidate trajectory momentum. PF algorithm utilizes the whole detector information and the isolation is defined as
 
-\begin{align*}
-\textrm{Iso}_{\textrm{PF}}=\sum \pt^{\textrm{charged}}+\textrm{max}\bigg[ 0,\sum \pt^{\textrm{neutral~had}} +\sum \pt^{\gamma}-\pt^{\textrm{PU}}\bigg]
-\end{align*}
 
-The isolation variable sums over the contribution from charged PF candidates, neutral particles and photons in a certain selected $\Delta R$ region around the signal. The contribution from pileup is estimated with $\pt^{\textrm{PU}}$ with the FASTJET technique~\cite{FastJetalso}. The energy of PF objects are better calibrated and the double counting problem which shows up the energy flow isolation described above is solved. PF isolation variable performs better than the isolation variable used in HLT. The performance comparison is shown in Figure.~\ref{fig:eleIso}
+
+\begin{equation}\label{Iso_correction}
+%\textrm{Iso}_{\textrm{PF}}=\sum \pt^{\textrm{charged}}+\textrm{max}\bigg[ 0,\sum \pt^{\textrm{neutral~had}} +\sum \pt^{\gamma}-\pt^{\textrm{PU}}\bigg]
+\textrm{Iso}_{\textrm{PF}}=\sum \pt^{\textrm{charged}}+\textrm{max}\bigg[ 0,\sum \pt^{\textrm{neutral~had}} +\sum \pt^{\gamma}-\frac{1}{2}\sum\pt^{\textrm{charged,PU}}\bigg]
+\end{equation}
+The isolation variable sums over the contribution from charged PF candidates, neutral particles and photons in the selected certain $\Delta R$ region around the signal. The contribution from pileup is considered with the $\Delta \beta$ correction in the last term of Equation.~\ref{Iso_correction}. The factor 0.5 comes from the naive measurement of neutral to charged particles in jets~\cite{FastJetalso}. The energy of PF objects are better calibrated and the double counting problem which shows up the energy flow isolation described above is solved. PF isolation variable performs better than the isolation variable used in HLT. The performance comparison is shown in Figure.~\ref{fig:eleIso}
 
 \begin{figure}[!htbp] 
      \centering
@@ -252,7 +254,6 @@ The isolation variable sums over the contribution from charged PF candidates, ne
 \end{figure}
 
 
-This should be used for B-tagging citation~\cite{BTV-16-002}
 
 
 \subsection{Tau lepton reconstruction} \label{Chapter:taureco}

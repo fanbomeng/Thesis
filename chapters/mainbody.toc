@@ -1,59 +1,58 @@
 \contentsline {chapter}{FIGURES}{v}{chapter*.3}
 \contentsline {chapter}{TABLES}{viii}{chapter*.4}
-\contentsline {chapter}{PREFACE}{x}{chapter*.5}
-\contentsline {chapter}{ACKNOWLEDGMENTS}{xi}{chapter*.6}
+\contentsline {chapter}{ACKNOWLEDGMENTS}{x}{chapter*.5}
 \contentsline {chapter}{{CHAPTER\ 1: Introduction}}{1}{chapter.1}
 \contentsline {chapter}{{CHAPTER\ 2: Theory}}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Standard model}{4}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Spontaneous symmetry breaking and Higgs mechanism}{7}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}Lepton flavour violation in beyond stand model theories}{9}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Lepton flavour violation Higgs decay in effective field theory}{10}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}LFV in two Higgs models}{12}{subsection.2.2.2}
-\contentsline {chapter}{{CHAPTER\ 3: LHC and CMS experiment}}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}LHC accelerator}{15}{section.3.1}
-\contentsline {section}{\numberline {3.2}Compact Muon Solenoid}{17}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Tracker}{20}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}The electromagnetic calorimeter}{22}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}The hadron calorimeter}{23}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Muon detector}{25}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Trigger}{26}{subsection.3.2.5}
-\contentsline {chapter}{{CHAPTER\ 4: Datasets}}{29}{chapter.4}
-\contentsline {section}{\numberline {4.1}Datasets used in LFV analysis}{29}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace }{29}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace }{30}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Event reconstruction}{30}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Particle flow algorithm}{34}{subsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.1.1}Tracking and Calorimeter algorithm}{34}{subsubsection.4.2.1.1}
-\contentsline {subsection}{\numberline {4.2.2}Muon reconstruction and selection criteria}{39}{subsection.4.2.2}
+\contentsline {section}{\numberline {2.2}Lepton flavour violation in beyond stand model theories}{10}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Lepton flavour violation Higgs decay in effective field theory}{11}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}LFV in two Higgs models}{13}{subsection.2.2.2}
+\contentsline {chapter}{{CHAPTER\ 3: LHC and CMS experiment}}{16}{chapter.3}
+\contentsline {section}{\numberline {3.1}LHC accelerator}{16}{section.3.1}
+\contentsline {section}{\numberline {3.2}Compact Muon Solenoid}{18}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Tracker}{21}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}The electromagnetic calorimeter}{23}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}The hadron calorimeter}{24}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Muon detector}{26}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Trigger}{27}{subsection.3.2.5}
+\contentsline {chapter}{{CHAPTER\ 4: Datasets}}{30}{chapter.4}
+\contentsline {section}{\numberline {4.1}Datasets used in LFV analysis}{30}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace }{30}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace }{31}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Event reconstruction}{31}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Particle flow algorithm}{35}{subsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Tracking and Calorimeter algorithm}{35}{subsubsection.4.2.1.1}
+\contentsline {subsection}{\numberline {4.2.2}Muon reconstruction and selection criteria}{40}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Electron identification}{41}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Tau lepton reconstruction}{44}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}Jet reconstruction}{50}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}Missing transverse momentum}{53}{subsection.4.2.6}
-\contentsline {section}{\numberline {4.3}Event simulation}{54}{section.4.3}
-\contentsline {chapter}{{CHAPTER\ 5: LFV event selection}}{56}{chapter.5}
-\contentsline {section}{\numberline {5.1}$H\rightarrow \mu \tau _h$}{56}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Loose selection}{56}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Cut-based analysis}{58}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {4.2.4}Tau lepton reconstruction}{45}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Jet reconstruction}{51}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Missing transverse momentum}{54}{subsection.4.2.6}
+\contentsline {section}{\numberline {4.3}Event simulation}{56}{section.4.3}
+\contentsline {chapter}{{CHAPTER\ 5: LFV event selection}}{58}{chapter.5}
+\contentsline {section}{\numberline {5.1}$H\rightarrow \mu \tau _h$}{58}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Loose selection}{58}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Cut-based analysis}{60}{subsection.5.1.2}
 \contentsline {subsection}{\numberline {5.1.3}Multivariate analysis}{61}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}$H\rightarrow e \tau _h$}{62}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Loose selection}{62}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Cut-based analysis}{67}{subsection.5.2.2}
-\contentsline {chapter}{{CHAPTER\ 6: LFV analysis background estimation}}{69}{chapter.6}
-\contentsline {subsection}{\numberline {6.0.1}Background estimates for $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $}{69}{subsection.6.0.1}
-\contentsline {subsubsection}{\numberline {6.0.1.1}Misidentified Leptons}{69}{subsubsection.6.0.1.1}
-\contentsline {subsubsection}{\numberline {6.0.1.2}Other backgrounds}{74}{subsubsection.6.0.1.2}
-\contentsline {subsection}{\numberline {6.0.2}Background estimates for $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $}{75}{subsection.6.0.2}
-\contentsline {subsubsection}{\numberline {6.0.2.1}Misidentified Leptons}{75}{subsubsection.6.0.2.1}
-\contentsline {subsubsection}{\numberline {6.0.2.2}$Z \to \tau \tau $}{77}{subsubsection.6.0.2.2}
-\contentsline {subsubsection}{\numberline {6.0.2.3}Other backgrounds}{79}{subsubsection.6.0.2.3}
-\contentsline {chapter}{{CHAPTER\ 7: Signal extraction and systematics}}{80}{chapter.7}
-\contentsline {section}{\numberline {7.1}Boosted decision trees method}{80}{section.7.1}
-\contentsline {section}{\numberline {7.2}Statistical methods}{83}{section.7.2}
-\contentsline {section}{\numberline {7.3}Systematics}{89}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Systematics used in $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $}{89}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Systematic uncertainties in $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $}{93}{subsection.7.3.2}
-\contentsline {chapter}{{CHAPTER\ 8: LFV Higgs decay searching results}}{97}{chapter.8}
-\contentsline {subsection}{\numberline {8.0.1}Results in $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $ search}{97}{subsection.8.0.1}
-\contentsline {subsection}{\numberline {8.0.2}Results in $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $ search}{105}{subsection.8.0.2}
-\contentsline {chapter}{{CHAPTER\ 9: Conclusion}}{110}{chapter.9}
-\contentsline {chapter}{BIBLIOGRAPHY}{111}{appendix*.7}
+\contentsline {section}{\numberline {5.2}$H\rightarrow e \tau _h$}{66}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Loose selection}{66}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Cut-based analysis}{68}{subsection.5.2.2}
+\contentsline {chapter}{{CHAPTER\ 6: LFV analysis background estimation}}{71}{chapter.6}
+\contentsline {section}{\numberline {6.1}Background estimates for $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $}{71}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Misidentified Leptons}{71}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Other backgrounds}{76}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Background estimates for $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $}{77}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Misidentified Leptons}{77}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}$Z \to \tau \tau $}{79}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Other backgrounds}{81}{subsection.6.2.3}
+\contentsline {chapter}{{CHAPTER\ 7: Signal extraction and systematics}}{82}{chapter.7}
+\contentsline {section}{\numberline {7.1}Boosted decision trees method}{82}{section.7.1}
+\contentsline {section}{\numberline {7.2}Statistical methods}{85}{section.7.2}
+\contentsline {section}{\numberline {7.3}Systematics}{91}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Systematics used in $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $}{91}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Systematic uncertainties in $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $}{95}{subsection.7.3.2}
+\contentsline {chapter}{{CHAPTER\ 8: LFV Higgs decay searching results}}{99}{chapter.8}
+\contentsline {subsection}{\numberline {8.0.1}Results in $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $ search}{99}{subsection.8.0.1}
+\contentsline {subsection}{\numberline {8.0.2}Results in $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $ search}{107}{subsection.8.0.2}
+\contentsline {chapter}{{CHAPTER\ 9: Conclusion}}{112}{chapter.9}
+\contentsline {chapter}{BIBLIOGRAPHY}{114}{appendix*.6}

@@ -1,9 +1,12 @@
-\begin{thebibliography}{79}
+\begin{thebibliography}{81}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Hig()]{Higgs_production_mode}
+URL \url{http://www.grab-group.ethz.ch/research/higgs-boson.html}.
 
 \bibitem[PFm(2010)]{PFmuonselection}
 {Particle-flow commissioning with muons and electrons from J/Psi and W events
@@ -284,6 +287,16 @@ C.~Collaboration.
 \newblock {Search for lepton flavour violating decays of the Higgs boson to
   μτ and eτ in proton-proton collisions at $\sqrt{s}$= 13 TeV}.
 \newblock \emph{JHEP}, 2017.
+
+\bibitem[collaboration(2018)]{Sirunyan2018}
+C.~collaboration.
+\newblock Search for lepton flavour violating decays of the higgs boson to
+  $\mu$$\tau$ and e$\tau$ in proton-proton collisions at $\sqrt{s}$=13 tev.
+\newblock \emph{Journal of High Energy Physics}, 2018\penalty0 (6):\penalty0 1,
+  Jun 2018.
+\newblock ISSN 1029-8479.
+\newblock \doi{10.1007/JHEP06(2018)001}.
+\newblock URL \url{https://doi.org/10.1007/JHEP06(2018)001}.
 
 \bibitem[Collaboration(2003)]{GEANT4}
 G.~Collaboration.

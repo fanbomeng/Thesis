@@ -60,7 +60,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[final,numrefs,sort&compress,twoadvisors]{nddiss2e}
+\documentclass[final,numrefs,sort&compress,noinfo]{nddiss2e}
 % One of the options draft, review, final must be chosen.
 % One of the options textrefs or numrefs should be chosen
 % to specify if you want numerical or ``author-date''
@@ -98,10 +98,8 @@
 \title{Search for lepton flavor violating decays of the Higgs boson}
 \author{Fanbo Meng}
 \work{Dissertation} % or \work{Thesis}
-%\degaward{Doctor of Philosophy} % or 
 \degaward{Doctor of Philosophy}
 \advisor{Colin Jessop}
-%\secondadvisor{Gordon Gray} % if you have two advisers are using the option twoadvisors
 \department{Physics}
 
 \maketitle
@@ -119,14 +117,19 @@
 
 % An abstract is optional for a mster's thesis, and required for a doctoral dissertation.
 \begin{abstract}
-  this going to put with the abstract, a summary of the whole analysis 
+
+A search for lepton flavour violation Higgs decay in the $\mu\tau$ and $e\tau$ in which tau leptons decay hadronically are presented. Results are presented for both tau lepton hadronic decay channels and the full results combined with tau lepton leptonic decays. The $\Hehad$ search utilizes the 2012 pp collision datasets at LHC with an integrated luminosity of 19.7 $fb^{-1}$ at center-of-mass energy of 8 TeV collected by CMS experiment. No significant excess was observed. The upper limits on branching fraction($H \to e\tau$) and corresponding Yukawa coupling were set at 95\% CL. For the $\Hmuhad$ search, full 2016 pp collision datasets with integrated luminosity of 35.9 $fb^{-1}$ at center-of-mass energy of 13 TeV was used. No significant excess was observed and upper limits on branching fraction $H\to \mu\tau$ and corresponding Yukawa coupling were set. 
+
+
+
+
 \end{abstract}
 
 % A dedication is optional.
-\renewcommand{\dedicationname}{NEW DEDICATION NAME}
+%\renewcommand{\dedicationname}{TO MY FAMILY}
 
 \begin{dedication}
-  To be written
+To my family 
 \end{dedication}
 
 % These are required, and must be in this order.
@@ -135,83 +138,28 @@
 \listoftables
 
 % A preface is optional.
-\begin{preface}
-probably I will write some preface, but it depends   \Hmuhad
-\end{preface}
+%\begin{preface}
+%probably I will write some preface, but it depends   \Hmuhad
+%\end{preface}
 
 % It's hard to tell from the information available from the Graduate
 % School in Spring 2013 whether or not an acknowledgements section is optional.
+
+
 \begin{acknowledge}
- this part is going to be filled with acknowledge
+
+I would first like to thank my adviser Prof.Colin Jessop for the constant guidance, help and support in the past years in both research and everyday life. Thanks for Colin's advises step by step towards being a qualified researcher and great helps and understanding when I was in difficulties. Together with choosing University of Notre Dame, I will never regret. I would like also thank the help and accompanies from my friends at Notre Dame and CERN. Thanks for making my life colorful. Thanks for the high energy group provides me the opportunity working at CERN. CMS is a great collaboration with great research environments, researchers and collaborators, where I have never experienced anywhere better. 
+
+Finally I would like to thank the love and supports from my family.  
+
+ 
+
+
 \end{acknowledge}
 
 
 \mainmatter
-% Place the text body here.
-%\include{chapter-one}
-%Begin each chapter with \chapter{Title}. Both the thesis title and
-%chapter titles should match in style.
 
-%
-% An unnumbered chapter (features)
-%
-%%\unnumchapter{Features of Formatting in This Example File}
-% The \unnumchapter command allows you to include an unnumbered chapter as part of
-% the main text before Chapter 1. It will appear in your table of contents, and you
-% should have at most one such chapter (although nothing in the class file will
-% prevent you from creating more).
-
-% The usual \cite{} command is also available, and should work as expected.
-%%This \verb+chapter+ has been added to the original sample file to highlight the
-%%various features with the tformatting that conforms to the Graduate school
-%%guidelines --- whether obtained due to the use of \nddiss\/ class file or just
-%%plain good practice.
-%%\begin{itemize}
-%%\item An important note on line-breaks via \verb+\\+ in titles: the
-%%  titles of the thesis as well as chapters and table captions use
-%%  \verb+\MakeTextUppercase{}+ from the \verb+textcase+ package.  Due
-%%  to the nature of the \verb+center+ environment, any line-breaks
-%%  introduced in titles and captions should be protected, as in
-%%  \verb+\protect\\+.
-%%  To preserve the case in titles and captions, use, e.g.,
-%%  \verb+\NoCaseChange{Gnus}+.
-%%\item In the \emph{dedication}, the title name has been modified. So, you know
-%%how to and that it can be done.
-%%\item The entries in the \emph{List of figures} and \emph{List of Tables} are
-%%single-spaced themselves but are double-spaced from the other.
-%%\item The table captions are not in all CAPS as well for the reason mentioned
-%%above.
-%%\item Appropriate space is left between the \verb+Table xx+ and its
-%%corresponding caption (which is double-spaced itself) as in table \ref{tbl:bogus1}.
-%%\item Tables look much better without the vertical lines (good practice).
-%%\item There is double-spacing between the table entries but single-spacing
-%%within the entry.
-%%\item The chapter (see Chapter \ref{chap:golfing}) or section titles are
-%%double-spaced as mentioned in the guidelines.
-%%\item There is a \verb+subsubsection+ present (eg. section \ref{sec:data}) and
-%%is properly formatted in the TOC.
-%%\item Sections deeper than \verb+subsubsection+ should not appear in the TOC.
-%%\item Table \ref{tbl:defs} is an example of the use of \textsf{landscape}
-%%environment in which a normal table is formatted in a \emph{landscape} mode.
-%%\item The \textsf{longtable} environment is used in Tables \ref{tbl:votes} and
-%%\ref{tbl:rotated-rankings}, in normal and \verb+landscape+ mode, respectively. The
-%%table captions are formatted properly in both cases.
-%%\item In the table \ref{tbl:votes}, the \verb+footnote+ in the table header 
-%%does not appear at all. This is not an error of the \nddiss\/ class but of the
-%%\textsf{longtable} package.
-%%\item An example of citing a website is shown in the bibliography (see
-%%\citep{gairley2000}) which is formatted using the \verb+nddiss2e.bst+
-%%citation style file.
-%%\item A bit of information on the \nddiss\/ class file and the typesetting program
-%%used is included in a box on the last page of the thesis.
-%%\item Footnotes should space properly.
-%%\item Items in \verb+itemize+, \verb+enumerate+, and \verb+description+ environment
-%%should automatically single-space within an item, but double space between items.
-%%\end{itemize}
-
-%
-% Chapter 1
-%
 
 \include{chapter1/chapter1}
 
@@ -256,7 +204,7 @@ probably I will write some preface, but it depends   \Hmuhad
 % Chapter 9 
 %
 
-\include{chapter9}
+\include{chapter9/chapter9}
 %
 % Appendix (optional)
 %
