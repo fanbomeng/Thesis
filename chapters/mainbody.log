@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.7)  18 JUL 2018 18:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.7)  19 JUL 2018 15:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2001,8 +2001,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 5.
 
-LaTeX Info: Redefining \HepProcess on input line 9.
-LaTeX Info: Redefining \HepProcess on input line 9.
+LaTeX Info: Redefining \HepProcess on input line 8.
+LaTeX Info: Redefining \HepProcess on input line 8.
 [99
 
 
@@ -2154,7 +2154,7 @@ Overfull \hbox (13.30118pt too wide) in paragraph at lines 122--123
 ling is $[] \OML/cmm/m/it/12 <
  []
 
-<chapter8/yukawaMuon_dark.pdf, id=3630, 569.12625pt x 546.04pt>
+<chapter8/yukawaMuon_dark.pdf, id=3634, 569.12625pt x 546.04pt>
 File: chapter8/yukawaMuon_dark.pdf Graphic file (type pdf)
 
 <use chapter8/yukawaMuon_dark.pdf>
@@ -2197,7 +2197,7 @@ LaTeX Info: Redefining \HepProcess on input line 147.
                                                   \fi \fi 
 l.147 
        <./chapter8/yukawaMuon_dark.pdf, page is rotated 90 degrees>]
-<chapter8/etau_HETau_etauhad_1_2016_postfit.pdf, id=3787, 569.12625pt x 546.04p
+<chapter8/etau_HETau_etauhad_1_2016_postfit.pdf, id=3790, 569.12625pt x 546.04p
 t>
 File: chapter8/etau_HETau_etauhad_1_2016_postfit.pdf Graphic file (type pdf)
  <use chapter8/etau_HETau_etauhad_1_2016_postfit.pdf>
@@ -2205,7 +2205,7 @@ Package pdftex.def Info: chapter8/etau_HETau_etauhad_1_2016_postfit.pdf used on
  input line 158.
 (pdftex.def)             Requested size: 166.39746pt x 159.64731pt.
 
-<chapter8/etau_HETau_etauhad_2_2016_postfit.pdf, id=3788, 569.12625pt x 546.04p
+<chapter8/etau_HETau_etauhad_2_2016_postfit.pdf, id=3791, 569.12625pt x 546.04p
 t>
 File: chapter8/etau_HETau_etauhad_2_2016_postfit.pdf Graphic file (type pdf)
  <use chapter8/etau_HETau_etauhad_2_2016_postfit.pdf>
@@ -2213,7 +2213,7 @@ Package pdftex.def Info: chapter8/etau_HETau_etauhad_2_2016_postfit.pdf used on
  input line 159.
 (pdftex.def)             Requested size: 166.39746pt x 159.64731pt.
 
-<chapter8/etau_HETau_etauhad_3_2016_postfit.pdf, id=3789, 569.12625pt x 546.04p
+<chapter8/etau_HETau_etauhad_3_2016_postfit.pdf, id=3792, 569.12625pt x 546.04p
 t>
 File: chapter8/etau_HETau_etauhad_3_2016_postfit.pdf Graphic file (type pdf)
  <use chapter8/etau_HETau_etauhad_3_2016_postfit.pdf>
@@ -2221,14 +2221,14 @@ Package pdftex.def Info: chapter8/etau_HETau_etauhad_3_2016_postfit.pdf used on
  input line 160.
 (pdftex.def)             Requested size: 166.39746pt x 159.64731pt.
 
-<chapter8/HEtau_summary.pdf, id=3790, 518.93875pt x 569.12625pt>
+<chapter8/HEtau_summary.pdf, id=3793, 518.93875pt x 569.12625pt>
 File: chapter8/HEtau_summary.pdf Graphic file (type pdf)
 
 <use chapter8/HEtau_summary.pdf>
 Package pdftex.def Info: chapter8/HEtau_summary.pdf used on input line 210.
 (pdftex.def)             Requested size: 249.60254pt x 273.74196pt.
 
-<chapter8/EtauYukawa.pdf, id=3791, 569.12625pt x 547.04375pt>
+<chapter8/EtauYukawa.pdf, id=3794, 569.12625pt x 547.04375pt>
 File: chapter8/EtauYukawa.pdf Graphic file (type pdf)
 
 <use chapter8/EtauYukawa.pdf>
@@ -2387,10 +2387,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 244.
  ) 
 Here is how much of TeX's memory you used:
- 9876 strings out of 492995
- 143257 string characters out of 6132705
- 250440 words of memory out of 5000000
- 12673 multiletter control sequences out of 15000+600000
+ 9877 strings out of 492995
+ 143274 string characters out of 6132705
+ 250545 words of memory out of 5000000
+ 12674 multiletter control sequences out of 15000+600000
  15301 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,14n,40p,3701b,602s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2416,10 +2416,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2017/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on mainbody.pdf (137 pages, 4909481 bytes).
+Output written on mainbody.pdf (137 pages, 4909638 bytes).
 PDF statistics:
- 4302 PDF objects out of 5155 (max. 8388607)
- 2663 compressed objects within 27 object streams
+ 4305 PDF objects out of 5155 (max. 8388607)
+ 2666 compressed objects within 27 object streams
  431 named destinations out of 1000 (max. 500000)
  829 words of extra memory for PDF output out of 10000 (max. 10000000)
 
