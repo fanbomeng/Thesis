@@ -10,9 +10,9 @@
 \contentsline {subsection}{\numberline {2.2.2}LFV in two Higgs models}{13}{subsection.2.2.2}
 \contentsline {chapter}{{CHAPTER\ 3: LHC and CMS experiment}}{16}{chapter.3}
 \contentsline {section}{\numberline {3.1}LHC accelerator}{16}{section.3.1}
-\contentsline {section}{\numberline {3.2}Compact Muon Solenoid}{18}{section.3.2}
+\contentsline {section}{\numberline {3.2}Compact Muon Solenoid}{19}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Tracker}{21}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}The electromagnetic calorimeter}{23}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.2}The electromagnetic calorimeter}{22}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}The hadron calorimeter}{24}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Muon detector}{26}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3.2.5}Trigger}{27}{subsection.3.2.5}
@@ -53,6 +53,6 @@
 \contentsline {subsection}{\numberline {7.3.2}Systematic uncertainties in $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $}{95}{subsection.7.3.2}
 \contentsline {chapter}{{CHAPTER\ 8: LFV Higgs decay searching results}}{99}{chapter.8}
 \contentsline {subsection}{\numberline {8.0.1}Results in $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $ search}{99}{subsection.8.0.1}
-\contentsline {subsection}{\numberline {8.0.2}Results in $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $ search}{107}{subsection.8.0.2}
+\contentsline {subsection}{\numberline {8.0.2}Results in $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $ search}{105}{subsection.8.0.2}
 \contentsline {chapter}{{CHAPTER\ 9: Conclusion}}{112}{chapter.9}
 \contentsline {chapter}{BIBLIOGRAPHY}{114}{appendix*.6}
