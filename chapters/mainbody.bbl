@@ -1,12 +1,13 @@
-\begin{thebibliography}{81}
+\begin{thebibliography}{88}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Hig()]{Higgs_production_mode}
-URL \url{http://www.grab-group.ethz.ch/research/higgs-boson.html}.
+\bibitem[Yel()]{Yellow_report}
+{LHC Higgs cross section working group}.
+\newblock URL \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHXSWG}.
 
 \bibitem[PFm(2010)]{PFmuonselection}
 {Particle-flow commissioning with muons and electrons from J/Psi and W events
@@ -96,6 +97,14 @@ J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
 \newblock \emph{JHEP}, 07:\penalty0 079, 2014.
 \newblock \doi{10.1007/JHEP07(2014)079}.
 
+\bibitem[Anastasiou et~al.(2009)Anastasiou, Boughezal, and
+  Petriello]{Anastasiou:2008tj}
+C.~Anastasiou, R.~Boughezal, and F.~Petriello.
+\newblock {Mixed QCD-electroweak corrections to Higgs boson production in gluon
+  fusion}.
+\newblock \emph{JHEP}, 04:\penalty0 003, 2009.
+\newblock \doi{10.1088/1126-6708/2009/04/003}.
+
 \bibitem[Aristizabal~Sierra and Vicente(2014)]{PhysRevD.90.115004}
 D.~Aristizabal~Sierra and A.~Vicente.
 \newblock Explaining the cms higgs flavor-violating decay excess.
@@ -141,6 +150,12 @@ G.~Blankenburg, J.~Ellis, and G.~Isidori.
 \newblock \emph{Phys. Lett. B}, 712:\penalty0 386, 2012.
 \newblock \doi{10.1016/j.physletb.2012.05.007}.
 
+\bibitem[Bolzoni et~al.(2010)Bolzoni, Maltoni, Moch, and Zaro]{Bolzoni:2010xr}
+P.~Bolzoni, F.~Maltoni, S.-O. Moch, and M.~Zaro.
+\newblock {Higgs production via vector-boson fusion at NNLO in QCD}.
+\newblock \emph{Phys. Rev. Lett.}, 105:\penalty0 011801, 2010.
+\newblock \doi{10.1103/PhysRevLett.105.011801}.
+
 \bibitem[Botje et~al.(2011)Botje, Butterworth, Cooper-Sarkar, de~Roeck,
   Feltesse, Forte, Glazov, Huston, McNulty, Sj{\"o}strand, and
   Thorne]{Botje:2011sn}
@@ -177,6 +192,14 @@ R.~N. Cahn, S.~D. Ellis, R.~Kleiss, and W.~J. Stirling.
 \newblock {Transverse-momentum signatures for heavy Higgs bosons}.
 \newblock \emph{Phys. Rev. D}, 35:\penalty0 1626, 1987.
 \newblock \doi{10.1103/PhysRevD.35.1626}.
+
+\bibitem[Catani et~al.(2003)Catani, de~Florian, Grazzini, and
+  Nason]{Catani:2003zt}
+S.~Catani, D.~de~Florian, M.~Grazzini, and P.~Nason.
+\newblock {Soft gluon resummation for Higgs boson production at hadron
+  colliders}.
+\newblock \emph{JHEP}, 07:\penalty0 028, 2003.
+\newblock \doi{10.1088/1126-6708/2003/07/028}.
 
 \bibitem[Celis et~al.(2014)Celis, Cirigliano, and Passemar]{Celis:2013xja}
 A.~Celis, V.~Cirigliano, and E.~Passemar.
@@ -321,11 +344,130 @@ S.~Dasu et~al.
   trigger systems}.
 \newblock 2000.
 
-\bibitem[de~Florian et~al.(2016)]{YR4}
+\bibitem[de~Florian et~al.(2016{\natexlab{a}})de~Florian, Grojean, Maltoni,
+  Mariotti, Nikitenko, Pieri, Savard, Schumacher, Tanaka, Aggleton, Ahmad,
+  Allanach, Anastasiou, Astill, Badger, Badziak, Baglio, Bagnaschi,
+  Ballestrero, Banfi, Barducci, Beckingham, Becot, Bélanger, Bellm, Belyaev,
+  Bernlochner, Beskidt, Biekötter, Bishara, Bizon, Bomark, Bonvini, Borowka,
+  Bortolotto, Boselli, Botella, Boughezal, Branco, Brehmer, Brenner, Bressler,
+  Brivio, Broggio, Brun, Buchalla, Burgard, Calandri, Caminada,
+  Caminal~Armadans, Campanario, Campbell, Caola, Carloni~Calame, Carrazza,
+  Carvalho, Casolino, Cata, Celis, Cerutti, Chanon, Chen, Chen,
+  Chokoufé~Nejad, Christensen, Ciuchini, Contino, Corbett, Costa, Curtin,
+  Dall'Osso, David, Dawson, de~Blas, de~Boer, de~Castro~Manzano, Degrande,
+  Delgado, Demartin, Denner, Di~Micco, Di~Nardo, Dittmaier, Dobado, Dorigo,
+  Dreyer, Dührssen, Duhr, Dulat, Ecker, Ellis, Ellwanger, Englert, Espriu,
+  Falkowski, Fayard, Feger, Ferrera, Ferroglia, Fidanza, Figy, Flechl, Fontes,
+  Forte, Francavilla, Franco, Frederix, Freitas, Freitas, Frensch, Frixione,
+  Fuks, Furlan, Gadatsch, Gao, Gao, Garzelli, Gehrmann, Gerosa, Ghezzi, Ghosh,
+  Gieseke, Gillberg, Giudice, Glover, Goertz, Gonçalves, Gonzalez-Fraile,
+  Gorbahn, Gori, Gottardo, Gouzevitch, Govoni, Gray, Grazzini, Greiner, Greljo,
+  Grigo, Gritsan, Gröber, Guindon, Haber, Han, Han, Harlander, Harrendorf,
+  Hartanto, Hays, Heinemeyer, Heinrich, Herrero, Herzog, Hespel, Hirschi,
+  Hoeche, Honeywell, Huber, Hugonie, Huston, Ilnicka, Isidori, Jäger, Jaquier,
+  Jones, Juste, Kallweit, Kaluza, Kardos, Karlberg, Kassabov, Kauer, Kazakov,
+  Kerner, Kilian, Kling, Köneke, Kogler, Konoplich, Kortner, Kraml, Krause,
+  Krauss, Krawczyk, Kulesza, Kuttimalai, Lane, Lazopoulos, Lee, Lenzi, Lewis,
+  Li, Liebler, Lindert, Liu, Liu, Llanes-Estrada, Logan, Lopez-Val, Low,
+  Luisoni, Maierhöfer, Maina, Mansoulié, Mantler, Mantoani, Marini,
+  Martinez~Outschoorn, Marzani, Marzocca, Massironi, Mawatari, Mazzitelli,
+  McCarn, Mellado, Melnikov, Menari, Merlo, Meyer, Milenovic, Mimasu, Mishima,
+  Mistlberger, Moch, Mohammadi, Monni, Montagna, Moreno~Llácer, Moretti,
+  Moretti, Motyka, Mück, Mühlleitner, Munir, Musella, Nadolsky, Napoletano,
+  Nebot, Neu, Neubert, Nevzorov, Nicrosini, Nielsen, Nikolopoulos, No, O'Brien,
+  Ohl, Oleari, Orimoto, Pagani, Pandini, Papaefstathiou, Papanastasiou,
+  Passarino, Pecjak, Pelliccioni, Perez, Perrozzi, Petriello, Petrucciani,
+  Pianori, Piccinini, Pierini, Pilkington, Plätzer, Plehn, Podskubka, Potter,
+  Pozzorini, Prokofiev, Pukhov, Puljak, Queitsch-Maitland, Quevillon, Rathlev,
+  Rauch, Re, Rebelo, Rebuzzi, Reina, Reuschle, Reuter, Riembau, Riva, Rizzi,
+  Robens, Röntsch, Rojo, Romão, Rompotis, Roskes, Roth, Salam, Salerno,
+  Sampaio, Santos, Sanz, Sanz-Cillero, Sargsyan, Sarica, Schichtel, Schlenk,
+  Schmidt, Schmitt, Schönherr, Schubert, Schulze, Sekula, Sekulla, Shabalina,
+  Shao, Shelton, Shepherd-Themistocleous, Shim, Siegert, Signer, Silva,
+  Silvestrini, Sjodahl, Slavich, Slawinska, Soffi, Spannowsky, Speckner,
+  Sperka, Spira, Stål, Staub, Stebel, Stefaniak, Steinhauser, Stewart,
+  Strassler, Streicher, Strom, Su, Sun, Tackmann, Tackmann, Teixeira,
+  Teixeira~de Lima, Theeuwes, Thorne, Tommasini, Torrielli, Tosi, Tramontano,
+  Trócsányi, Trott, Tsinikos, Ubiali, Vanlaer, Verkerke, Vicini, Viliani,
+  Vryonidou, Wackeroth, Wagner, Wang, Wayand, Weiglein, Weiss, Wiesemann,
+  Williams, Winter, Winterbottom, Wolf, Xiao, Yang, Yohay, Yuen, Zanderighi,
+  Zaro, Zeppenfeld, Ziegler, Zirke, and Zupan]{deFlorian:2227475}
+D.~de~Florian, C.~Grojean, F.~Maltoni, C.~Mariotti, A.~Nikitenko, M.~Pieri,
+  P.~Savard, M.~Schumacher, R.~Tanaka, R.~Aggleton, M.~Ahmad, B.~Allanach,
+  C.~Anastasiou, W.~Astill, S.~Badger, M.~Badziak, J.~Baglio, E.~Bagnaschi,
+  A.~Ballestrero, A.~Banfi, D.~Barducci, M.~Beckingham, C.~Becot, G.~Bélanger,
+  J.~Bellm, N.~Belyaev, F.~Bernlochner, C.~Beskidt, A.~Biekötter, F.~Bishara,
+  W.~Bizon, N.~Bomark, M.~Bonvini, S.~Borowka, V.~Bortolotto, S.~Boselli,
+  F.~Botella, R.~Boughezal, G.~Branco, J.~Brehmer, L.~Brenner, S.~Bressler,
+  I.~Brivio, A.~Broggio, H.~Brun, G.~Buchalla, C.~Burgard, A.~Calandri,
+  L.~Caminada, R.~Caminal~Armadans, F.~Campanario, J.~Campbell, F.~Caola,
+  C.~Carloni~Calame, S.~Carrazza, A.~Carvalho, M.~Casolino, O.~Cata, A.~Celis,
+  F.~Cerutti, N.~Chanon, M.~Chen, X.~Chen, B.~Chokoufé~Nejad, N.~Christensen,
+  M.~Ciuchini, R.~Contino, T.~Corbett, R.~Costa, D.~Curtin, M.~Dall'Osso,
+  A.~David, S.~Dawson, J.~de~Blas, W.~de~Boer, P.~de~Castro~Manzano,
+  C.~Degrande, R.~Delgado, F.~Demartin, A.~Denner, B.~Di~Micco, R.~Di~Nardo,
+  S.~Dittmaier, A.~Dobado, T.~Dorigo, F.~Dreyer, M.~Dührssen, C.~Duhr,
+  F.~Dulat, K.~Ecker, K.~Ellis, U.~Ellwanger, C.~Englert, D.~Espriu,
+  A.~Falkowski, L.~Fayard, R.~Feger, G.~Ferrera, A.~Ferroglia, N.~Fidanza,
+  T.~Figy, M.~Flechl, D.~Fontes, S.~Forte, P.~Francavilla, E.~Franco,
+  R.~Frederix, A.~Freitas, F.~Freitas, F.~Frensch, S.~Frixione, B.~Fuks,
+  E.~Furlan, S.~Gadatsch, J.~Gao, Y.~Gao, M.~Garzelli, T.~Gehrmann, R.~Gerosa,
+  M.~Ghezzi, D.~Ghosh, S.~Gieseke, D.~Gillberg, G.~Giudice, E.~Glover,
+  F.~Goertz, D.~Gonçalves, J.~Gonzalez-Fraile, M.~Gorbahn, S.~Gori,
+  C.~Gottardo, M.~Gouzevitch, P.~Govoni, D.~Gray, M.~Grazzini, N.~Greiner,
+  A.~Greljo, J.~Grigo, A.~Gritsan, R.~Gröber, S.~Guindon, H.~Haber, C.~Han,
+  T.~Han, R.~Harlander, M.~Harrendorf, H.~Hartanto, C.~Hays, S.~Heinemeyer,
+  G.~Heinrich, M.~Herrero, F.~Herzog, B.~Hespel, V.~Hirschi, S.~Hoeche,
+  S.~Honeywell, S.~Huber, C.~Hugonie, J.~Huston, A.~Ilnicka, G.~Isidori,
+  B.~Jäger, M.~Jaquier, S.~Jones, A.~Juste, S.~Kallweit, A.~Kaluza, A.~Kardos,
+  A.~Karlberg, Z.~Kassabov, N.~Kauer, D.~Kazakov, M.~Kerner, W.~Kilian,
+  F.~Kling, K.~Köneke, R.~Kogler, R.~Konoplich, S.~Kortner, S.~Kraml,
+  C.~Krause, F.~Krauss, M.~Krawczyk, A.~Kulesza, S.~Kuttimalai, R.~Lane,
+  A.~Lazopoulos, G.~Lee, P.~Lenzi, I.~Lewis, Y.~Li, S.~Liebler, J.~Lindert,
+  X.~Liu, Z.~Liu, F.~Llanes-Estrada, H.~Logan, D.~Lopez-Val, I.~Low,
+  G.~Luisoni, P.~Maierhöfer, E.~Maina, B.~Mansoulié, H.~Mantler, M.~Mantoani,
+  A.~Marini, V.~Martinez~Outschoorn, S.~Marzani, D.~Marzocca, A.~Massironi,
+  K.~Mawatari, J.~Mazzitelli, A.~McCarn, B.~Mellado, K.~Melnikov, S.~Menari,
+  L.~Merlo, C.~Meyer, P.~Milenovic, K.~Mimasu, S.~Mishima, B.~Mistlberger,
+  S.-O. Moch, A.~Mohammadi, P.~Monni, G.~Montagna, M.~Moreno~Llácer,
+  N.~Moretti, S.~Moretti, L.~Motyka, A.~Mück, M.~Mühlleitner, S.~Munir,
+  P.~Musella, P.~Nadolsky, D.~Napoletano, M.~Nebot, C.~Neu, M.~Neubert,
+  R.~Nevzorov, O.~Nicrosini, J.~Nielsen, K.~Nikolopoulos, J.~No, C.~O'Brien,
+  T.~Ohl, C.~Oleari, T.~Orimoto, D.~Pagani, C.~Pandini, A.~Papaefstathiou,
+  A.~Papanastasiou, G.~Passarino, B.~Pecjak, M.~Pelliccioni, G.~Perez,
+  L.~Perrozzi, F.~Petriello, G.~Petrucciani, E.~Pianori, F.~Piccinini,
+  M.~Pierini, A.~Pilkington, S.~Plätzer, T.~Plehn, R.~Podskubka, C.~Potter,
+  S.~Pozzorini, K.~Prokofiev, A.~Pukhov, I.~Puljak, M.~Queitsch-Maitland,
+  J.~Quevillon, D.~Rathlev, M.~Rauch, E.~Re, M.~Rebelo, D.~Rebuzzi, L.~Reina,
+  C.~Reuschle, J.~Reuter, M.~Riembau, F.~Riva, A.~Rizzi, T.~Robens,
+  R.~Röntsch, J.~Rojo, J.~Romão, N.~Rompotis, J.~Roskes, R.~Roth, G.~Salam,
+  R.~Salerno, M.~Sampaio, R.~Santos, V.~Sanz, J.~Sanz-Cillero, H.~Sargsyan,
+  U.~Sarica, P.~Schichtel, J.~Schlenk, T.~Schmidt, C.~Schmitt, M.~Schönherr,
+  U.~Schubert, M.~Schulze, S.~Sekula, M.~Sekulla, E.~Shabalina, H.~Shao,
+  J.~Shelton, C.~Shepherd-Themistocleous, S.~Shim, F.~Siegert, A.~Signer,
+  J.~Silva, L.~Silvestrini, M.~Sjodahl, P.~Slavich, M.~Slawinska, L.~Soffi,
+  M.~Spannowsky, C.~Speckner, D.~Sperka, M.~Spira, O.~Stål, F.~Staub,
+  T.~Stebel, T.~Stefaniak, M.~Steinhauser, I.~Stewart, M.~Strassler,
+  J.~Streicher, D.~Strom, S.~Su, X.~Sun, F.~Tackmann, K.~Tackmann, A.~Teixeira,
+  R.~Teixeira~de Lima, V.~Theeuwes, R.~Thorne, D.~Tommasini, P.~Torrielli,
+  M.~Tosi, F.~Tramontano, Z.~Trócsányi, M.~Trott, I.~Tsinikos, M.~Ubiali,
+  P.~Vanlaer, W.~Verkerke, A.~Vicini, L.~Viliani, E.~Vryonidou, D.~Wackeroth,
+  C.~Wagner, J.~Wang, S.~Wayand, G.~Weiglein, C.~Weiss, M.~Wiesemann,
+  C.~Williams, J.~Winter, D.~Winterbottom, R.~Wolf, M.~Xiao, L.~Yang, R.~Yohay,
+  S.~Yuen, G.~Zanderighi, M.~Zaro, D.~Zeppenfeld, R.~Ziegler, T.~Zirke, and
+  J.~Zupan.
+\newblock {Handbook of LHC Higgs Cross Sections: 4. Deciphering the Nature of
+  the Higgs Sector}.
+\newblock Technical Report FERMILAB-FN-1025-T, Oct 2016{\natexlab{a}}.
+\newblock URL \url{https://cds.cern.ch/record/2227475}.
+\newblock 869 pages, 295 figures, 248 tables and 1645 citations. Working Group
+  web page: https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHXSWG.
+
+\bibitem[de~Florian et~al.(2016{\natexlab{b}})]{YR4}
 D.~de~Florian et~al.
 \newblock Handbook of {LHC} {H}iggs cross sections: 4. deciphering the nature
   of the {H}iggs sector.
-\newblock CERN Report CERN-2017-002-M, 2016.
+\newblock CERN Report CERN-2017-002-M, 2016{\natexlab{b}}.
 
 \bibitem[de~Lima et~al.(2015)de~Lima, Machado, Matheus, and
   do~Prado]{deLima2015}
@@ -349,6 +491,79 @@ J.~L. Diaz-Cruz and J.~J. Toscano.
 \newblock \doi{10.1103/PhysRevD.62.116005}.
 \newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevD.62.116005}.
 
+\bibitem[Dittmaier et~al.(2011)Dittmaier, Mariotti, Passarino, Tanaka, Baglio,
+  Bolzoni, Boughezal, Brein, Collins-Tooth, Dawson, Dean, Denner, Farrington,
+  Felcini, Flechl, de~Florian, Forte, Grazzini, Hackstein, Hahn, Harlander,
+  Hartonen, Heinemeyer, Huston, Kalinowski, Krämer, Krauss, Lee, Lehti,
+  Maltoni, Mazumdar, Moch, Mück, Mühlleitner, Nason, Neu, Oleari, Olsen,
+  Palmer, Petriello, Piacquadio, Pilaftsis, Potter, Puljak, Qian, Rebuzzi,
+  Reina, Rzehak, Schumacher, Slavich, Spira, Stöckli, Thorne, Acosta, Vickey,
+  Vicini, Wackeroth, Warsinsky, Weber, Weiglein, Weydert, Yu, Zaro, and
+  Zirke]{Dittmaier:1318996}
+S.~Dittmaier, C.~Mariotti, G.~Passarino, R.~Tanaka, J.~Baglio, P.~Bolzoni,
+  R.~Boughezal, O.~Brein, C.~Collins-Tooth, S.~Dawson, S.~Dean, A.~Denner,
+  S.~Farrington, M.~Felcini, M.~Flechl, D.~de~Florian, S.~Forte, M.~Grazzini,
+  C.~Hackstein, T.~Hahn, R.~Harlander, T.~Hartonen, S.~Heinemeyer, J.~Huston,
+  A.~Kalinowski, M.~Krämer, F.~Krauss, J.~S. Lee, S.~Lehti, F.~Maltoni,
+  K.~Mazumdar, S.~O. Moch, A.~Mück, M.~Mühlleitner, P.~Nason, C.~Neu,
+  C.~Oleari, J.~Olsen, S.~Palmer, F.~Petriello, G.~Piacquadio, A.~Pilaftsis,
+  C.~T. Potter, I.~Puljak, J.~Qian, D.~Rebuzzi, L.~Reina, H.~Rzehak,
+  M.~Schumacher, P.~Slavich, M.~Spira, F.~Stöckli, R.~S. Thorne, M.~V. Acosta,
+  T.~Vickey, A.~Vicini, D.~Wackeroth, M.~Warsinsky, M.~Weber, G.~Weiglein,
+  C.~Weydert, J.~Yu, M.~Zaro, and T.~Zirke.
+\newblock \emph{{Handbook of LHC Higgs Cross Sections: 1. Inclusive
+  Observables}}.
+\newblock CERN Yellow Reports: Monographs. CERN, Geneva, 2011.
+\newblock URL \url{https://cds.cern.ch/record/1318996}.
+\newblock Comments: 153 pages, 43 figures, to be submitted to CERN Report.
+  Working Group web page:
+  https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CrossSections.
+
+\bibitem[Dittmaier et~al.(2012)Dittmaier, Mariotti, Passarino, Tanaka, Alekhin,
+  Alwall, Bagnaschi, Banfi, Blumlein, Bolognesi, Chanon, Cheng, Cieri,
+  Cooper-Sarkar, Cutajar, Dawson, Davies, De~Filippis, Degrassi, Denner,
+  D'Enterria, Diglio, Di~Micco, Di~Nardo, Ellis, Farilla, Farrington, Felcini,
+  Ferrera, Flechl, de~Florian, Forte, Ganjour, Garzelli, Gascon-Shotkin,
+  Glazov, Goria, Grazzini, Guillet, Hackstein, Hamilton, Harlander, Hauru,
+  Heinemeyer, Hoche, Huston, Jackson, Jimenez-Delgado, Jorgensen, Kado,
+  Kallweit, Kardos, Kauer, Kim, Kovac, Kramer, Krauss, Kuo, Lehti, Li, Lorenzo,
+  Maltoni, Mellado, Moch, Muck, Muhlleitner, Nadolsky, Nason, Neu, Nikitenko,
+  Oleari, Olsen, Palmer, Paganis, Papadopoulos, Petersen, Petriello, Petrucci,
+  Piacquadio, Pilon, Potter, Price, Puljak, Quayle, Radescu, Rebuzzi, Reina,
+  Rojo, Rosco, Salam, Sapronov, Schaarschmidt, Schonherr, Schumacher, Siegert,
+  Slavich, Spira, Stewart, Stirling, Stockli, Sturm, Tackmann, Thorne,
+  Tommasini, Torrielli, Tramontano, Trocsanyi, Ubiali, Uccirati, Acosta,
+  Vickey, Vicini, Waalewijn, Wackeroth, Warsinsky, Weber, Wiesemann, Weiglein,
+  Yu, and Zanderighi]{Dittmaier:1416519}
+S.~Dittmaier, C.~Mariotti, G.~Passarino, R.~Tanaka, S.~Alekhin, J.~Alwall,
+  E.~A. Bagnaschi, A.~Banfi, J.~Blumlein, S.~Bolognesi, N.~Chanon, T.~Cheng,
+  L.~Cieri, A.~M. Cooper-Sarkar, M.~Cutajar, S.~Dawson, G.~Davies,
+  N.~De~Filippis, G.~Degrassi, A.~Denner, D.~D'Enterria, S.~Diglio,
+  B.~Di~Micco, R.~Di~Nardo, R.~K. Ellis, A.~Farilla, S.~Farrington, M.~Felcini,
+  G.~Ferrera, M.~Flechl, D.~de~Florian, S.~Forte, S.~Ganjour, M.~V. Garzelli,
+  S.~Gascon-Shotkin, S.~Glazov, S.~Goria, M.~Grazzini, J.~P. Guillet,
+  C.~Hackstein, K.~Hamilton, R.~Harlander, M.~Hauru, S.~Heinemeyer, S.~Hoche,
+  J.~Huston, C.~Jackson, P.~Jimenez-Delgado, M.~D. Jorgensen, M.~Kado,
+  S.~Kallweit, A.~Kardos, N.~Kauer, H.~Kim, M.~Kovac, M.~Kramer, F.~Krauss,
+  C.~M. Kuo, S.~Lehti, Q.~Li, N.~Lorenzo, F.~Maltoni, B.~Mellado, S.~O. Moch,
+  A.~Muck, M.~Muhlleitner, P.~Nadolsky, P.~Nason, C.~Neu, A.~Nikitenko,
+  C.~Oleari, J.~Olsen, S.~Palmer, S.~Paganis, C.~G. Papadopoulos, T.~C.
+  Petersen, F.~Petriello, F.~Petrucci, G.~Piacquadio, E.~Pilon, C.~T. Potter,
+  J.~Price, I.~Puljak, W.~Quayle, V.~Radescu, D.~Rebuzzi, L.~Reina, J.~Rojo,
+  D.~Rosco, G.~P. Salam, A.~Sapronov, J.~Schaarschmidt, M.~Schonherr,
+  M.~Schumacher, F.~Siegert, P.~Slavich, M.~Spira, I.~W. Stewart, W.~J.
+  Stirling, F.~Stockli, C.~Sturm, F.~J. Tackmann, R.~S. Thorne, D.~Tommasini,
+  P.~Torrielli, F.~Tramontano, Z.~Trocsanyi, M.~Ubiali, S.~Uccirati, M.~V.
+  Acosta, T.~Vickey, A.~Vicini, W.~J. Waalewijn, D.~Wackeroth, M.~Warsinsky,
+  M.~Weber, M.~Wiesemann, G.~Weiglein, J.~Yu, and G.~Zanderighi.
+\newblock {Handbook of LHC Higgs Cross Sections: 2. Differential
+  Distributions}.
+\newblock Technical Report arXiv:1201.3084. CERN-2012-002, Geneva, 2012.
+\newblock URL \url{https://cds.cern.ch/record/1416519}.
+\newblock Comments: 275 pages, 136 figures, to be submitted to CERN Report.
+  Working Group web page:
+  https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CrossSections.
+
 \bibitem[Djouadi(2008)]{DJOUADI20081}
 A.~Djouadi.
 \newblock The anatomy of electroweak symmetry breaking: Tome i: The higgs boson
@@ -358,6 +573,12 @@ A.~Djouadi.
 \newblock \doi{https://doi.org/10.1016/j.physrep.2007.10.004}.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S0370157307004334}.
+
+\bibitem[Djouadi et~al.(1991)Djouadi, Spira, and Zerwas]{Djouadi:1991tka}
+A.~Djouadi, M.~Spira, and P.~M. Zerwas.
+\newblock {Production of Higgs bosons in proton colliders: QCD corrections}.
+\newblock \emph{Phys. Lett.}, B264:\penalty0 440--446, 1991.
+\newblock \doi{10.1016/0370-2693(91)90375-Z}.
 
 \bibitem[Ellis and Soper(1993)]{ktalgo}
 S.~D. Ellis and D.~E. Soper.
