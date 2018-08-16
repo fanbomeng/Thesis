@@ -5,17 +5,17 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Production models in LHC}}{10}{figure.2.2}
  {\vskip 0.4em} 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces A sketch view LHC injection chain and main experiments associated\nobreakspace {}\cite {Christiane:1260465}.}}{20}{figure.3.1}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces A sketch view LHC injection chain and main experiments associated\nobreakspace {}\cite {Christiane:1260465}.}}{21}{figure.3.1}
  {\vskip 0.4em} 
 \contentsline {figure}{\numberline {3.2}{\ignorespaces A sketch view of CMS detector\nobreakspace {}\cite {CMS_experiment}}}{22}{figure.3.2}
  {\vskip 0.4em} 
 \contentsline {figure}{\numberline {3.3}{\ignorespaces The structure of tracker in CMS\nobreakspace {}\cite {CMS_experiment}}}{24}{figure.3.3}
  {\vskip 0.4em} 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces ECAL geometrical configuration\nobreakspace {}\cite {CMS_TDR}}}{25}{figure.3.4}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces ECAL geometrical configuration\nobreakspace {}\cite {CMS_TDR}}}{26}{figure.3.4}
  {\vskip 0.4em} 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces A longitudinal view of CMS HCAL sub-detector\nobreakspace {}\cite {CMS_experiment}}}{26}{figure.3.5}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces A longitudinal view of CMS HCAL sub-detector\nobreakspace {}\cite {CMS_experiment}}}{27}{figure.3.5}
  {\vskip 0.4em} 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces A overview of muon chamber configuration in CMS\nobreakspace {}\cite {Muon_chambers}}}{29}{figure.3.6}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces A overview of muon chamber configuration in CMS\nobreakspace {}\cite {Muon_chambers}}}{30}{figure.3.6}
  {\vskip 0.4em} 
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces A sketch view of CMS detecter. Examples are given to show how the particles interact with different sub-detecters.}}{41}{figure.4.1}
@@ -109,7 +109,7 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {1 jet}}}{110}{figure.8.5}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {2 jets}}}{110}{figure.8.5}
  {\vskip 0.4em} 
-\contentsline {figure}{\numberline {8.6}{\ignorespaces 95\% CL upper limit on branching ratio on $H \to e \tau $ with both the results from $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $ and $H \to e \tau _{\mu }$ and the combined. }}{111}{figure.8.6}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces 95\% CL upper limit on branching ratio on $H \to e \tau $ with both the results from $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $ and $H \to e \tau _{\mu }$ and the combined. }}{112}{figure.8.6}
  {\vskip 0.4em} 
 \contentsline {figure}{\numberline {8.7}{\ignorespaces Upper limit of flavour violating Yukawa coupling $|Y_{e\tau }|, |Y_{\tau e}|$ from the combined $H \to e \tau $ result. The red solid line represents the expected limit and the black solid line is the observed limit. 68\% and 95\% range of containing the observed limit is shown in the green and yellow band. The result from $\tau \to 3e$ is shown in gray, the one from $\tau \to e\gamma $ is shown in dark green and presented analysis is in light blue. The theoretical naturalness limit $Y_{ij}Y_{ji} \leq m_im_j/v^2$ is shown by purple diagonal line\nobreakspace {}\cite {Harnik:2012pb}}}{113}{figure.8.7}
  {\vskip 0.4em} 

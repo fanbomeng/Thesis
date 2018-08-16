@@ -7,12 +7,12 @@
 \contentsline {subsection}{\numberline {2.1.1}Spontaneous symmetry breaking and Higgs mechanism}{7}{subsection.2.1.1}
 \contentsline {section}{\numberline {2.2}Lepton flavour violation in beyond stand model theories}{12}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Lepton flavour violation Higgs decay in effective field theory}{12}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}LFV in two Higgs models}{14}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}LFV in two Higgs models}{15}{subsection.2.2.2}
 \contentsline {chapter}{{CHAPTER\ 3: LHC and CMS experiment}}{18}{chapter.3}
 \contentsline {section}{\numberline {3.1}LHC accelerator}{18}{section.3.1}
-\contentsline {section}{\numberline {3.2}Compact Muon Solenoid}{21}{section.3.2}
+\contentsline {section}{\numberline {3.2}Compact Muon Solenoid}{20}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Tracker}{23}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}The electromagnetic calorimeter}{24}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.2}Electromagnetic calorimeter}{25}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}The hadron calorimeter}{26}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Muon detector}{28}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3.2.5}Trigger}{29}{subsection.3.2.5}
