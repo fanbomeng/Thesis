@@ -8,13 +8,13 @@
  {\vskip 0.4em} 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Monte Carlo samples used in the search, together with their respective cross sections.}}{34}{table.4.1}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Monte Carlo samples used in the $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $ search, together with their respective cross sections.}}{33}{table.4.1}
  {\vskip 0.4em} 
-\contentsline {table}{\numberline {4.2}{\ignorespaces Continue with MC samples used in the analysis.}}{35}{table.4.2}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Continue with MC samples used in the analysis.}}{34}{table.4.2}
  {\vskip 0.4em} 
 \contentsline {table}{\numberline {4.3}{\ignorespaces Signal and background MC samples}}{36}{table.4.3}
  {\vskip 0.4em} 
-\contentsline {table}{\numberline {4.4}{\ignorespaces Iterative tracking steps take in CMS }}{39}{table.4.4}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Iterative tracking steps taken in CMS }}{39}{table.4.4}
  {\vskip 0.4em} 
 \contentsline {table}{\numberline {4.5}{\ignorespaces Muon ID used in the analysis, for the LHC data 2016, running period BCDEF. }}{43}{table.4.5}
  {\vskip 0.4em} 
@@ -22,7 +22,7 @@
  {\vskip 0.4em} 
 \contentsline {table}{\numberline {4.7}{\ignorespaces Dominant hadronic $\tau $ lepton decays branching fractions and the associated intermediate resonance. The h stands for both $\pi $ and K. The table is symmetric under charge conjugation.}}{50}{table.4.7}
  {\vskip 0.4em} 
-\contentsline {table}{\numberline {4.8}{\ignorespaces $\tau $ hadronic decay mode hypothesis signatures compatibility tests. $m_{\tau }$ is required to be in the mass window }}{52}{table.4.8}
+\contentsline {table}{\numberline {4.8}{\ignorespaces $\tau $ hadronic decay mode hypothesis signatures compatibility tests. The $m_{\tau }$ is required to be in the mass window }}{52}{table.4.8}
  {\vskip 0.4em} 
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {5.1}{\ignorespaces Selection criteria in each category with the optimization of the $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $ analysis}}{65}{table.5.1}
@@ -35,7 +35,7 @@
 \contentsline {table}{\numberline {6.2}{\ignorespaces Scale factor to the events in which a muon is misidentified as a tau}}{79}{table.6.2}
  {\vskip 0.4em} 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Part one of the systematic uncertainties considered in $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $ analysis. All of the uncertainties listed in the systematic tables are correlated between categories besides the ones after the sign $\oplus $. These are the uncertainties correlated in within each category but independent between categories. The theoretical uncertainties related to the acceptance and migration of events are listed in a range. The negative or positive values indicate a anticorrelated or correlated between categories}}{95}{table.7.1}
+\contentsline {table}{\numberline {7.1}{\ignorespaces Part one of the systematic uncertainties considered in $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $ analysis. All of the uncertainties listed in the systematic tables are correlated between categories besides the ones after the sign $\oplus $. These are the uncertainties correlated within each category but independent between categories. The theoretical uncertainties related to the acceptance and migration of events are listed in a range. The negative or positive values indicate anticorrelated or correlated between categories}}{95}{table.7.1}
  {\vskip 0.4em} 
 \contentsline {table}{\numberline {7.2}{\ignorespaces Part two of the systematic uncertainties considered in $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $ analysis}}{96}{table.7.2}
  {\vskip 0.4em} 

@@ -19,15 +19,15 @@
 \contentsline {chapter}{{CHAPTER\ 4: Datasets}}{32}{chapter.4}
 \contentsline {section}{\numberline {4.1}Datasets used in LFV analysis}{32}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace }{32}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace }{33}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Event reconstruction}{33}{section.4.2}
+\contentsline {subsection}{\numberline {4.1.2}\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace }{35}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Event reconstruction}{35}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Particle flow algorithm}{37}{subsection.4.2.1}
 \contentsline {subsubsection}{\numberline {4.2.1.1}Tracking and Calorimeter algorithm}{37}{subsubsection.4.2.1.1}
-\contentsline {subsection}{\numberline {4.2.2}Muon reconstruction and selection criteria}{42}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.2}Muon reconstruction and selection criteria}{41}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Electron identification}{43}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Tau lepton reconstruction}{47}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}Jet reconstruction}{53}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}Missing transverse momentum}{56}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.4}Tau lepton reconstruction}{48}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Jet reconstruction}{54}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Missing transverse momentum}{57}{subsection.4.2.6}
 \contentsline {section}{\numberline {4.3}Event simulation}{58}{section.4.3}
 \contentsline {chapter}{{CHAPTER\ 5: LFV event selection}}{60}{chapter.5}
 \contentsline {section}{\numberline {5.1}$H\rightarrow \mu \tau _h$}{60}{section.5.1}
