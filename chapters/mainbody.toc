@@ -50,8 +50,8 @@
 \contentsline {section}{\numberline {7.2}Statistical methods}{87}{section.7.2}
 \contentsline {section}{\numberline {7.3}Systematics}{93}{section.7.3}
 \contentsline {subsection}{\numberline {7.3.1}Systematics used in $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $}{93}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Systematic uncertainties in $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $}{97}{subsection.7.3.2}
-\contentsline {chapter}{{CHAPTER\ 8: LFV Higgs decay searching results}}{101}{chapter.8}
+\contentsline {subsection}{\numberline {7.3.2}Systematic uncertainties in $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $}{94}{subsection.7.3.2}
+\contentsline {chapter}{{CHAPTER\ 8: LFV Higgs decay search results}}{101}{chapter.8}
 \contentsline {subsection}{\numberline {8.0.1}Results in $\ensuremath {\mathrm {H}\to \mu \tau _{h}}\xspace $ search}{101}{subsection.8.0.1}
 \contentsline {subsection}{\numberline {8.0.2}Results in $\ensuremath {\mathrm {H} \to e \tau _{h}}\xspace $ search}{107}{subsection.8.0.2}
 \contentsline {chapter}{{CHAPTER\ 9: Conclusion}}{114}{chapter.9}
