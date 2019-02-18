@@ -1,11 +1,11 @@
 
-\chapter{Datasets}
+\chapter{DATASETS}
 \section{Datasets used in LFV analysis}
 \subsection{\Hmuhad}
 The dataset analyzed in the $\Hmuhad$ decay channel is collected by CMS detector during LHC 2016 operation. The total integrated luminosity of the analyzed dataset is $35.9 ~\textrm{fb}^{-1} $ at a center-of-mass energy of $ \sqrt{s}=13 ~\textrm{TeV} $. The dataset in which each event has at least one muon is used. It is selected by the trigger system. The ggH~\cite{Georgi:1977gs} and VBF~\cite{Cahn:1986zv} production are the main Higgs production channels considered in the analysis. For the background samples, besides the misidentified background which is discussed more in detail in Chapter 6, the other background samples are all generated with the Monte Carlo(MC) simulation. The POWHEG~\cite{POWHEG-BOX} are MadGraph~\cite{Alwall:2014} generator are used for the generation and all of the MC samples, including the signal samples, the parton showering, fragmentation, and decays are performed by Pythia8~\cite{Sjostrand:2014zea}.  The pileup effect is taking into account by generating minimum bias events. The average number of pileup interaction per bunch crossing is 27 in 2016. The CMS detector environment is simulated by GEANT4~\cite{GEANT4}. The details of the MC samples used in the analysis are summarized in Table.~\ref{tab:mutaumcsamples} and Table.~\ref{tab:mutaumcsamples2}.
 
 \begin{table}[!hbpt]
-\caption{Monte Carlo samples used in the $\Hmuhad$ search, together with their respective cross sections.}
+\caption{MONTE CARLO SAMPLES USED IN THE $\Hmuhad$ SEARCH, TOGETHER WITH THEIR RESPECTIVE CROSS SECTIONS.}
 \begin{center}
 % sample name   &    generator    & cross section 
 \begin{tabular}{|c|c|c|}
@@ -34,7 +34,7 @@ $VV \to2\ell 2 q$                                        &  MadGraph+PYTHIA8   &
 \end{table}
 
 \begin{table}[!hbpt]
-\caption{Continue with MC samples used in the analysis.}
+\caption{CONTINUE WITH MC SAMPLES USED IN THE ANALYSIS}
 \begin{center}
 \begin{tabular}{|c|c|c|}
 \hline
@@ -55,14 +55,14 @@ $ttHJet \to \Pgt\Pgt$                                   &MadGraph+PYTHIA8&     0
 
 \subsection{\Hehad}
 
-The search for lepton flavour violation Higgs decay $\Hehad$  is performed with CMS 2012 RunI dataset at a center-of-mass energy  $\sqrt{s}=8 ~\textrm{TeV}$ with an integrated luminosity of $19.7 ~\textrm{fb}^{-1}$. In each of the events in the dataset, at least one electron is required, which is selected by the single electron trigger. More details about the this trigger is discussed in details in the Chapter 5. A detail list of simulation samples used in the analysis is in Table.~\ref{tab:mcdatasets}.  For the signal samples, the ggH and VBF Higgs production channels are the channels considered. For the background samples, besides the $Z\to \tau \tau$ which is produced with the embedding technique and the misidentified background which is estimated with the data-driven method are produced with Monte Carlo simulation. Various simulation packages are used. Signal samples are produced with PYTHIA8, which uses sophisticated $\tau$-lepton decay machinery. The Tauola~\cite{Simulation:Tauola} package is also used for the simulation of $\tau$ lepton decay in some of samples. The CMS detector environment is simulated by GEANT4. 
+The search for lepton flavour violation Higgs decay $\Hehad$  is performed with CMS 2012 RunI dataset at a center-of-mass energy  $\sqrt{s}=8 ~\textrm{TeV}$ with an integrated luminosity of $19.7 ~\textrm{fb}^{-1}$. In each of the events in the dataset, at least one electron is required, which is selected by the single electron trigger. More details about the this trigger is discussed in details in the Chapter 5. A detail list of simulation samples used in the analysis is in Table.~\ref{tab:mcdatasets}.  For the signal samples, the ggH and VBF Higgs production channels are the channels considered. For the background samples, besides the $Z\to \tau \tau$ which is produced with the embedding technique and the misidentified background which is estimated with the data-driven method are produced with Monte Carlo simulation. Various simulation packages are used. Signal samples are produced with PYTHIA8. The Tauola~\cite{Simulation:Tauola} package is used for the simulation of $\tau$ lepton decay in some of samples. The CMS detector environment is simulated by GEANT4. 
 
 
 \begin{table}[hbtp]
  \begin{center}
-  \caption{Signal and background MC samples}
+  \caption{SIGNAL AND BACKGROUND MC SAMPLES}
   \label{tab:mcdatasets}
-  \begin{tabular}{l|l|l}
+  \begin{tabular}{|l|c|c|} \hline 
 Processes & Generator & Cross section [pb] \\\hline
 $ggH\to e\tau $     &          PYTHIA8                     &  19.27                \\\hline
 $VBH\to e\tau$     &          PYTHIA8                      &   1.58                \\  \hline
@@ -95,7 +95,7 @@ The particle flow event reconstruction algorithm is the main algorithm used in C
 
 
 
-\subsubsection{Tracking and Calorimeter algorithm}\label{PFtracker}
+\subsection{Tracking and Calorimeter algorithm}\label{PFtracker}
 
 In the PF algorithm, the reconstruction of charged particles in the inner tracker is crucial. In this section, the reconstruction of the trajectories of charged particles, especially the electron and muon reconstruction are discussed. 
 
@@ -110,9 +110,10 @@ Electrons are one of the main particles under study in $\Hehad$ search. In CMS, 
 
 
 \begin{table}[!tpb]
-\caption{Iterative tracking steps taken in CMS \label{tbl:iterative_tracking}}
+\caption{ITERATIVE TRACKING STEPS TAKEN IN CMS \label{tbl:iterative_tracking}}
 \label{tab:antil}
 \begin{center}
+\resizebox{\textwidth}{!}{
 \begin{tabular}{|llll|}   
 \hline
 Iteration                   &  Name               &   Seeding            &  Targeted Tracks  \\\hline
@@ -126,7 +127,7 @@ Iteration                   &  Name               &   Seeding            &  Targ
 8                              & JetCoreRegional          & pixel+strip pairs               &  inside high $p_{t}$ jets    \\
 9                              & MuonSeededInOut          & muon-tagged tracks               &  muons   \\
 10                            & MuonSeededOutIn          & muon detectors                &  muons   \\\hline
-\end{tabular}
+\end{tabular}}
 \end{center}
 \end{table}
 
@@ -135,7 +136,7 @@ Calorimeters are crucial components for the PF algorithm in CMS. The clustering 
 
 The clustering algorithm is perform separately in each sub-detector system besides the HF in which each cell directly raise a cluster. The algorithm starts by finding a cluster seed. Then a topological walk around the neighbouring cells is performed. Both seed cells and neighbouring cells are required to pass certain thresholds to construct high quality candidates and suppress the contribution from the noise. In ECAL endcaps, there are additional requirements on $E_{T}$ because of the high noise level. In each of the topological clusters, the energy for the neighbouring cells are assumed from the same particle candidate. A Gaussian-mixture model is used in the construction of the topological clusters to evaluate the contribution of each cells. The finally parameters of the model are obtained by analytical fitting to the Gaussian model.
 
-To accurately measure the energy of the particles like photons and neutral hadrons, the calibration of calorimeters is indispensable. The calibration of calorimeters also affects the identification efficiency and the misidentification rate of the particles measured by the calorimeters. The calibration of ECAL is done with a couple sources, like the test beam, the radioactive source and the cosmic ray measurements and is refined with the collision data. There are thresholds used in the formation of topological clusters, which makes the energy measured smaller than the incoming particle energy. A residual energy calibration is applied to all of the ECAL clusters to account for these affects.  The correction is applied as a function of cluster energy and position, $f(E,\eta)=g(E)h(\eta)$. In the endcaps, the energy of the measured particle is taken as a liner combination of the ECAL and preshower energy. The parameters in the combination are optimized by the $\chi^{2}$ method. Hadrons generally leave energy in both ECAL and HCAL. The calibration of ECAL mentioned above is for the photon and electron calibration. The behavior of hadron is different and a consequent calibration involving both ECAL and HCAL is needed. Simulated single neutral hadrons are used. The relationship involves both the energy measured by ECAL and HCAL and the calibrated energy $E_{calib}$ is expressed as
+To accurately measure the energy of the particles like photons and neutral hadrons, the calibration of calorimeters is indispensable. The calibration of calorimeters also affects the identification efficiency and the misidentification rate of the particles measured by the calorimeters. The calibration of ECAL is done with a couple sources, like the test beam, the radioactive source and the cosmic ray measurements and is refined with the collision data. There are thresholds used in the formation of topological clusters, which makes the energy measured smaller than the incoming particle energy. A residual energy calibration is applied to all of the ECAL clusters to account for these affects.  The correction is applied as a function of cluster energy and position, $f(E,\eta)=g(E)h(\eta)$. In the endcaps, the energy of the measured particle is taken as a linear combination of the ECAL and preshower energy. The parameters in the combination are optimized by the $\chi^{2}$ method. Hadrons generally leave energy in both ECAL and HCAL. The calibration of ECAL mentioned above is for the photon and electron calibration. The behavior of hadron is different and a consequent calibration involving both ECAL and HCAL is needed. Simulated single neutral hadrons are used. The relationship involves both the energy measured by ECAL and HCAL and the calibrated energy $E_{calib}$ is expressed as
 
 \begin{align*}
 E_{calib}=a+b(E)f(\eta)E_{\textrm{ECAL}}+c(E)g(\eta)E_{\textrm{HCAL}}
@@ -147,7 +148,7 @@ In the equation above, the coefficient "a" is independent of E and accounts for 
 \begin{figure}[htbp] 
 \centering
 \includegraphics[width=0.6\textwidth]{chapter4/CMS_detecter_slice.pdf}
-\caption{A sketch view of CMS detecter. Examples are given to show how the particles interact with different sub-detecters.}
+\caption[A sketch view of CMS detecter. Examples are given to show how the particles interact with different sub-detecters.]{A sketch view of CMS detecter. Examples are given to show how the particles interact with different sub-detecters.}
 \label{fig:CMSslice}
 \end{figure}
 
@@ -175,8 +176,8 @@ Taking the PF muon as the input, muons used in the analysis are further categori
 
 
 \begin{table}[!tpb]
-\caption{Muon ID used in the analysis, for the LHC data 2016, running period BCDEF.  \label{tbl:ICHEPMedID}}
-\label{tab:antil}
+\caption{MUON ID USED IN THE ANALYSIS, FOR THE LHC DATA 2016, RUNNING PERIOD BCDEF  }
+\label{tbl:ICHEPMedID}. 
 \begin{center}
 \begin{tabular}{|l|c|}   
 \hline
@@ -196,8 +197,7 @@ Fraction of valid tracker hits           & $>0.49$ \\\hline
 
 
 \begin{table}[!tpb]
-\caption{Muon ID used in the analysis, for the LHC data 2016, running period G and H, also the monte Carlo samples.  \label{tbl:standardMedID}}
-\label{tab:antil}
+\caption{MUON ID USED IN THE ANALYSIS, FOR THE LHC DATA 2016, RUNNING PERIOD G AND H, ALSO THE MONTE CARLO SAMPLES.}\label{tbl:standardMedID}
 \begin{center}
 \begin{tabular}{|l|c|}   
 \hline
@@ -227,7 +227,7 @@ The electron ID is constructed to separate prompt isolated electron(signal) from
      \centering
      \subfigure[EB]{ \includegraphics[width=0.4\textwidth]{chapter4/EleID_EB_BDT_perfor.pdf}}
      \subfigure[EE]{ \includegraphics[width=0.4\textwidth]{chapter4/EleID_EE_BDT_perfor.pdf}}\\
-     \caption{The electron BDT-based ID shows good discriminating power against background in both EB and EE~\cite{electron_reco2015}}
+     \caption[The electron BDT-based ID shows good discriminating power against background in both EB and EE]{The electron BDT-based ID shows good discriminating power against background in both EB and EE~\cite{electron_reco2015}}
      \label{fig:eleBDTID}
 \end{figure}
 
@@ -246,7 +246,7 @@ The isolation variable sums over the contribution from charged PF candidates, ne
      \centering
      \subfigure[EB]{ \includegraphics[width=0.4\textwidth]{chapter4/ROC_IsoOnly_Data_EB_HighPt.png}}
      \subfigure[EE]{ \includegraphics[width=0.4\textwidth]{chapter4/ROC_IsoOnly_Data_EE_HighPt.png}}\\
-     \caption{The PF electron isolation shows better performance in both EB and EE with respect to detector based isolation variable~\cite{electron_reco2015}}
+     \caption[The PF electron isolation shows better performance in both EB and EE with respect to detector based isolation variable]{The PF electron isolation shows better performance in both EB and EE with respect to detector based isolation variable~\cite{electron_reco2015}}
      \label{fig:eleIso}
 \end{figure}
 
@@ -258,12 +258,12 @@ The isolation variable sums over the contribution from charged PF candidates, ne
 In CMS Run I period, tau leptons are constructed with hadrons plus strips(HPS) algorithm. In general, the HPS starts with PF jets which are reconstructed with $Anti-k_{T}$ algorithm~\cite{Cacciari:2008gp}, as the initial seeds. The $\pi_{0}$ components from the $\tau$ hadronic decays are first constructed and combined with the charge hadrons parts, to identify different $\tau$ decay modes and calculate $\tau$ four-momentum and other quantities~\cite{TauIdentiRunI}. The $\tau$ decay modes is discussed in the later part of this section.
 
 Photon conversions and the bremsstrahlung of electron/positron when travel inside the CMS detector are well treated by the HPS algorithm. These phenomenons broaden the signature of the tau decay. Taking PF jets as input, the algorithm constructs strips out of electromagnetic particles and starts by taking the strip(0.05 in $\eta$ and 0.2 in $\phi$) in which contains the most energetic electromagnetic particle as the center one. Within this strip window, if other charged particles are found, they are associated with this strip. The position of the strip is taken and four momentum of the strip is calculated. This procedure is repeated, until no strips can be constructed. The selected strips are required to have $P_{T}^{strip}>1$ GeV. The following decay topologies are taking into account by the HPS:
-\begin{enumerate}[$\bullet$]
+\begin{itemize}
 \item one charged particle without any strip, $h^{\pm}$ and the case when $\pi^{0}$ is not energetic enough to form a strip
 \item one charged particle plus one strip
 \item one charged particle plus two strips
-\item three charged partibles. 
-\end{enumerate} 
+\item three charged particles. 
+\end{itemize} 
 
 All of the charged hadrons and strips are required to be contained in the $\Delta R=2.8/P_{T}^{\tau_{h}}$ core, where the $P_{T}^{\tau_{h}}$ is the reconstructed $\tau_{h}$ transverse momentum and $\Delta R$ is defined as $\Delta R=\sqrt(\Delta \phi^{2}+\Delta \eta^{2})$. The $\tau_{h}$ candidate is also required to match the direction of the seed PF jet within $\Delta R=0.1$. Assuming all of the charged hadrons to be pions and taking in the associated strips, the HPS algorithm requires that different decay topologies meet the intermediate meson mass requirments as listed in Table.~\ref{tb:tauHdecay}. 
 
@@ -277,18 +277,24 @@ The tight, medium and loose working points(WP) are the tau isolation discriminan
 
 
 \begin{table}[htp]
-\caption{Dominant hadronic $\tau$ lepton decays branching fractions and the associated intermediate resonance. The h stands for both $\pi$ and K. The table is symmetric under charge conjugation.}\label{tb:tauHdecay}
+\begin{threeparttable}
+\caption{RUN I TAU HADRONIC DECAY MODE HYPOTHESIS SIGNATURES COMPATIBILITY TESTS}\label{tb:tauHdecay}
 \begin{center}
 \begin{tabular}{|c|c|c|c|}
 \hline
-Decay mode                                             & Resonance & Mass ($MeV/c^{2}$) & Branching fraction(\%)\\\hline
-$\tau^{-}\to h^{-}v_{\tau}$                                     &                                  &           &  11.6\%     \\
-$\tau^{-}\to h^{-}\pi^{0} v_{\tau}$                       & $\rho^{-}$                 & 770     &   26.0\%      \\
-$\tau^{-}\to h^{-}\pi^{0} \pi^{0}  v_{\tau}$       & $\alpha_{1}^{-}$       & 1200   &   9.5\%     \\
-$\tau^{-}\to h^{-}h^{+}h^{-}v_{\tau}$                     & $\alpha_{1}^{-}$       &  1200  &   9.8\%  \\
-$\tau^{-}\to h^{-}h^{+}h^{-}\pi^{0} v_{\tau}$      &                                  &            &   4.8\% \\\hline
+Decay mode                                             & Mass window(GeV)                                & Branching fraction(\%)\\\hline
+$\tau^{-}\to h^{-}v_{\tau}$                         &                                                                 &  11.6\%     \\
+$\tau^{-}\to h^{-}\pi^{0} v_{\tau}$              & $0.3<m_{\tau}<1.3\cdot \sqrt{\pt/100}$    &   26.0\%      \\
+$\tau^{-}\to h^{-}\pi^{0} \pi^{0}  v_{\tau}$  &  $0.4<m_{\tau}<1.2\cdot \sqrt{\pt/100}$      &   9.5\%     \\
+$\tau^{-}\to h^{-}h^{+}h^{-}v_{\tau}$         & $0.8<m_{\tau}<1.5$                                        &   9.8\%  \\
+$\tau^{-}\to h^{-}h^{+}h^{-}\pi^{0} v_{\tau}$      &                             &   4.8\% \\\hline
  \end{tabular}
+ \begin{tablenotes}
+ \small
+ \item Note: Dominant hadronic $\tau$ lepton decays branching fractions and the associated intermediate resonance. The h stands for both $\pi$ and K. The table is symmetric under charge conjugation.
+ \end{tablenotes}
 \end{center}
+\end{threeparttable}
 \end{table}
 
 
@@ -319,7 +325,9 @@ with:
 
 
 \begin{table}[htp]
-\caption{$\tau$ hadronic decay mode hypothesis signatures compatibility tests. The $m_{\tau}$ is required to be in the mass window }\label{tb:tauHdecayRecomass}
+\begin{threeparttable}
+\caption{RUN II TAU HADRONIC DECAY MODE HYPOTHESIS SIGNATURES COMPATIBILITY TESTS}
+\label{tb:tauHdecayRecomass}
 \begin{center}
 \begin{tabular}{|c|c|}
 \hline
@@ -328,10 +336,15 @@ $\tau^{-}\to h^{-}\pi^{0} v_{\tau}$                       & $0.3-\delta m_{\tau}
 $\tau^{-}\to h^{-}\pi^{0} \pi^{0}  v_{\tau}$       &  $0.4-\delta m_{\tau}<m_{\tau}<1.2\cdot \sqrt{\pt/100}+\delta m_{\tau}$   \\\hline
 $\tau^{-}\to h^{-}h^{+}h^{-}v_{\tau}$                     & $0.8-\delta m_{\tau}<m_{\tau}<1.5+\delta m_{\tau}$   \\\hline
  \end{tabular}
+ \begin{tablenotes}
+ \small
+ \item{Note:} $\tau$ hadronic decay mode hypothesis signatures compatibility tests. The $m_{\tau}$ is required to be in the mass window.
+ \end{tablenotes}
 \end{center}
+\end{threeparttable}
 \end{table}
 
-In current algorithm, $\tau^{-}\to h^{-}h^{+}h^{-}v_{\tau}$ is not included because of the jet contamination. This hadronic $\tau$ decay mode composed of 4.8\% of total branching fraction. The $h^{-}\pi^{0}$ and $h^{-}\pi^{0}\pi^{0}$ are analyzed together, which is referred as $h^{-}\pi^{0}$.
+In current algorithm, $\tau^{-}\to h^{-}h^{+}h^{-}\pi^{0}v_{\tau}$ is not included because of the jet contamination. This hadronic $\tau$ decay mode composed of 4.8\% of total branching fraction. The $h^{-}\pi^{0}$ and $h^{-}\pi^{0}\pi^{0}$ are analyzed together, which is referred as $h^{-}\pi^{0}$.
 
 In the analysis with 2016 datasets, the multivariate(MVA) regression technique based $\tau$ isolation variable is used, which keeps high identification efficiency while maintains relatively low fake rate compared with cut based discriminator. A Boosted Decision Tree(BDT) has been used in the training of the isolation variable. In the BDT method, the isolation variable shows a good distinguishing power against jets. Various variables have been used as BDT inputs. The variables are isolation variable($I_{\tau}$), impact parameters from the highest $\pt$ track of $\tau_{h}$ candidate, $\tau_{h}$ decay mode information, shape variables like $\Delta R$, $\Delta \eta$, $\tau$ lifetime information and photon electron multiplicity. More details about the exact variables that are used are discussed in~\cite{TauRecoandIDRunII,TauReconstuction}. The BDT method uses these variables to distinguishing $\tau_{h}$ dacay from jets, which can be the decay products from quarks or gluons.  
 

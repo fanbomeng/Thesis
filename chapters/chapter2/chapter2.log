@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.7)  1 AUG 2018 17:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.7)  22 JAN 2019 16:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9,11 +9,11 @@ LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 ./chapter2.tex:2: Undefined control sequence.
 l.2 \chapter
-            {Theory}
+            {THEORY}
 ? 
 ./chapter2.tex:2: Emergency stop.
 l.2 \chapter
-            {Theory}
+            {THEORY}
 End of file on the terminal!
 
  

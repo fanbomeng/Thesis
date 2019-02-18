@@ -1,7 +1,7 @@
 
 
 %% I need to describe muon ID in chaper 4.2 and Tau decay mode finding, tau MVA ID around 4.2 too 
-\chapter{LFV event selection}
+\chapter{LFV EVENT SELECTION}
 In both 8 TeV $H\rightarrow e\tau_h$ and 13 TeV $H\rightarrow\mu\tau_h$ analyses, events are selected in several steps. A loose selection selects on the different IDs, energy, geometry parameters of the analysis related objects. In the $\mcol$ fit analysis this is followed by a tighter set of selection criteria in which selection requirements are placed on the kinematics variables and fits on variable $\mcol$ in both  $H\rightarrow e\tau_h$ and $H\rightarrow\mu\tau_h$ analysis. This selection sequence is referred as $\mcol$ fit analysis. In $H\rightarrow\mu\tau_h$, there is an alternate selection sequence that follows the loose selection. A multivariate analysis with a Boosted decision tree (BDT) is defined and fits on the BDT discriminator. This is referred as the BDT fit analysis and provides more sensitive results in $\Hmuhad$ analysis. 
 
 
@@ -15,18 +15,19 @@ Hadronic taus are required to have $P_T>30$ GeV,$|\eta|<2.3$, passing old tau de
 
 Events in the analysis are divided into four categories based on the number of jets. In 2-jets category, it is furthered divided into 2 categories,  2-jet gluon gluon fusion higgs production(ggH) category and 2-jet vector boson fusion(VBF) category based on the value of 2 jets invariant mass($M_{jj}$). The ggH and VBF Higgs production models are considered in the analysis. This choice of categorization enhanced one of the production models in each of the categories and improves the sensitivity. The 0-jet category enhances ggH production mode. In 1-jet category, the dominant signal production mode is also ggH, but with a boosted jet associated with the production and VBF higgs production also contributes this category. In the 2-jet ggH category, signal events mainly come from ggH, while in 2-jet VBF, VBF higgs is the dominant production channel.  The following is a more detailed list of the selection condition in each categories.
 
-\begin{enumerate}
-\item[{\bf 0-jet:}] No events have jets pass the loose PF ID and  with jet $P_T>30$ GeV, $|\eta|<4.7$.
-\item[{\bf 1-jet:}] Events with one jet passes losse PF ID and jet $P_T>30$ GeV, $|\eta|<4.7$.
-\item [{\bf 2-jets ggH:}] Events have two jets passing loose PF ID, $P_T>30$ GeV, $|\eta|<4.7$ and a requirement on the invariant mass of the two jets, $\textrm{M}_{jj}<550$ GeV. 
-\item [{\bf 2 jets VBF:}] Events with two jets pass loose PF ID. Jets $P_T>30$ GeV, $|\eta|<4.7$ and $\textrm{M}_{jj}>550$ GeV are required. 
-\end{enumerate} The threshold on $\textrm{M}_{jj}$ has been optimized to give the best expected exclusion limits.
+\begin{itemize}
+%\item[{\bf 0-jet:}] No events have jets pass the loose PF ID and  with jet $P_T>30$ GeV, $|\eta|<4.7$.
+\item  \textbf{0-jet:} No events have jets pass the loose PF ID and  with jet $P_T>30$ GeV, $|\eta|<4.7$.
+\item  \textbf{1-jet:} Events with one jet passes losse PF ID and jet $P_T>30$ GeV, $|\eta|<4.7$.
+\item   \textbf{2-jets ggH:} Events have two jets passing loose PF ID, $P_T>30$ GeV, $|\eta|<4.7$ and a requirement on the invariant mass of the two jets, $\textrm{M}_{jj}<550$ GeV. 
+\item \textbf{2 jets VBF:} Events with two jets pass loose PF ID. Jets $P_T>30$ GeV, $|\eta|<4.7$ and $\textrm{M}_{jj}>550$ GeV are required. 
+\end{itemize} The threshold on $\textrm{M}_{jj}$ has been optimized to give the best expected exclusion limits.
 
 
 \subsection{Cut-based analysis}
 After the loose selection and the categorization, a further cut-based selection is applied. Variables that can help distinguish signal from background are $P_{T}^{\mu}$, $P_{T}^{\tau}$ and $M_{T}(\tau_{h})$. The lepton $P_{T}$ variables are very powerful background discriminant variables, but will also cause the problem that signal peaks under backgrounds. As leptons from signal process  tend to have higher $P_{T}$ values, cutting tighter on the lepton $P_{T}$, removes more background events. However this will also reshape some of the backgrounds, making them peak closer under the signal so that signal processes will be affected more by the background statistics fluctuation. In the $H\rightarrow e\tau_h$ analysis, the effect of cutting tighter on lepton $P_{T}$ will be shown. In $H\rightarrow\mu\tau_h$ search, lepton $P_{T}$ variables are kept at loose values and optimized on other variables to achieve tighter expected limits. 
 
-The optimization is procedure uses only Monte Carlo samples so as not to double use data. In $\Hmuhad$  channel, the variables tuned are $\textrm{M}_{jj}$ and $M_{T}(\tau_{h})$. The selection criteria has been optimized to have the most stringent expected limits with the Asimov dataset(background only). The name Asimov dataset is inspired by the short story Franchise, by Isaac Asimov. If looser values of the cuts give the same expected limits as the tighter ones, then the looser cut values are chosen to have more statistics. Examples of optimization by checking the limits are shown in Figure. \ref{fig:optMT} and~\ref{fig:optVBFmass}, in which the optimization of $M_T(\tau_{h})$  and $\textrm{M}_{jj}$ are shown. A full summary of the cuts optimized for $\Hmuhad$ is shown in Table.~\ref{tab:Mhadcategories}
+The optimization process uses only Monte Carlo samples so as not to double use data. In $\Hmuhad$  channel, the variables tuned are $\textrm{M}_{jj}$ and $M_{T}(\tau_{h})$. The selection criteria has been optimized to have the most stringent expected limits with the Asimov dataset(background only). If looser values of the cuts give the same expected limits as the tighter ones, then the looser cut values are chosen to have more statistics. Examples of optimization by checking the limits are shown in Figure. \ref{fig:optMT} and~\ref{fig:optVBFmass}, in which the optimization of $M_T(\tau_{h})$  and $\textrm{M}_{jj}$ are shown. A full summary of the cuts optimized for $\Hmuhad$ is shown in Table.~\ref{tab:Mhadcategories}
 
 
 \begin{figure}[htbp] 
@@ -50,7 +51,7 @@ The optimization is procedure uses only Monte Carlo samples so as not to double 
 
 \begin{table}[hbtp]
   \begin{center}
-  \caption{Selection criteria in each category with the optimization of the $\Hmuhad$ analysis}
+  \caption{SELECTION CRITERIA IN EACH CATEGORY WITH THE OPTIMIZATION OF THE $\Hmuhad$ ANALYSIS}
   \begin{tabular}{l} \hline
   {\bf 0-jet category} \\ \hline
   \tabitem $\pt^{\mu}>26$ GeV, $\pt^{\tau}>30$ GeV\\
@@ -131,19 +132,23 @@ The chosen input variables show low correlation in both samples as shown in Figu
 \section{\texorpdfstring{$H\rightarrow e \tau_h$}{Lg}}
 
 \subsection{Loose selection}
-In $ \Hehad$ channel, the high level trigger that is used applies an electron $\pt$ cut at 27 GeV at HLT level. A further cut on electron $P_{T}>30$ GeV is applied. Electrons are also required to have $|\eta_{e}<2.3|$ and $D_{z}<0.2 cm$. $D_{z}$ is the longitudinal impact parameter that shows the displacement between primary vertex and track path. Electrons are required to pass the MVA based tight ID and cut based PF tight isolation  $I_{rel}^{e}<0.1$. Tau candidates are required to have $P_{T}>30$ GeV, pseudorapidity $|\eta^{\tau}<2.3|$ and the longitudinal impact parameter $D_{z}<0.2$ cm. Tau isolation used is the cut based tight tau isolation. In addition, tau candidates are required to pass the tau Decay mode finding and tau discriminator against electrons and muons. The analysis also requires no extra isolated electrons with $\pt>10$ GeV and extra taus with $\pt>20$ GeV. Tau and electron candidates are required to have opposite sign of charges and separate with $\Delta R>0.4$ from any jets in the events with $\pt>30$ GeV. All of the requirements contribute to the selections of good qualities candidates. The datasets are binned into three categories according to the number of jets in the events:
-\begin{enumerate}
-\item[{\bf 0-jet:}] No events have jets pass the loose PF ID and  with jet $P_T>30$ GeV, $|\eta|<4.7$. This category enhances the gluon-gluon fusion contribution.
-\item[{\bf 1-jet:}] Events with one jet passes loose PF ID and jet $P_T>30$ GeV , $|\eta|<4.7$. This category enhances the gluon-gluon fusion production with initial state radiation.
-\item [{\bf 2 jets:}] Events with two jets pass loose PF ID and with jet $P_T>30$ GeV and $|\eta|<4.7$, This category contains both Higgs production mode and with an enhancement in VBF production mode. \end{enumerate}
+In $ \Hehad$ channel, the high level trigger that is used applies an electron $\pt$ cut at 27 GeV at HLT level. A further cut on electron $P_{T}>30$ GeV is applied. Electrons are also required to have $|\eta_{e}|<2.3$ and $D_{z}<0.2 cm$. $D_{z}$ is the longitudinal impact parameter that shows the displacement between primary vertex and track path. Electrons are required to pass the MVA based tight ID and cut based PF tight isolation  $I_{rel}^{e}<0.1$. Tau candidates are required to have $P_{T}>30$ GeV, pseudorapidity $|\eta^{\tau}|<2.3$ and the longitudinal impact parameter $D_{z}<0.2$ cm. Tau isolation used is the cut based tight tau isolation. In addition, tau candidates are required to pass the tau Decay mode finding and tau discriminator against electrons and muons. The analysis also requires no extra isolated electrons with $\pt>10$ GeV and extra taus with $\pt>20$ GeV. Tau and electron candidates are required to have opposite sign of charges and separate with $\Delta R>0.4$ from any jets in the events with $\pt>30$ GeV. All of the requirements contribute to the selections of good qualities candidates. The datasets are binned into three categories according to the number of jets in the events:
+\begin{itemize}
+\item  \textbf{0-jet:} No events have jets pass the loose PF ID and  with jet $P_T>30$ GeV, $|\eta|<4.7$. This category enhances the gluon-gluon fusion contribution.
+\item  \textbf{1-jet:} Events with one jet passes loose PF ID and jet $P_T>30$ GeV , $|\eta|<4.7$. This category enhances the gluon-gluon fusion production with initial state radiation.
+\item \textbf{2 jets:} Events with two jets pass loose PF ID and with jet $P_T>30$ GeV and $|\eta|<4.7$, This category contains both Higgs production mode and with an enhancement in VBF production mode. 
+\end{itemize}
 
 With the preselection and binning of the jets numbers, the $\mcol$ distribution of $\Hehad$ in different categories are shown in Figure.~\ref{fig:etauCol_preselection}
 \begin{figure}[hbtp]\centering
  \subfigure[0 jet]{\includegraphics[width=0.4565\textwidth]{chapter5/etauPlots/etau_preselection0jet.pdf}}
  \subfigure[1 jet]{ \includegraphics[width=0.4565\textwidth]{chapter5/etauPlots/etau_preselection1jet.pdf}}
  \subfigure[2 jets]{\includegraphics[width=0.4565\textwidth]{chapter5/etauPlots/etau_preselection2jet.pdf}}
- \caption{With loose selection conditions, the comparison of the observed collinear mass distributions with background from prediction. The shaded grey bands indicate the total background uncertainty.
-The open histograms correspond to the expected signal distributions for $\mathcal{B}(\Hehad)=100\%$ in the  0-jet, 1-jet and 2-jet categories, respectively.}
+ \caption{The comparison of the observed collinear mass distributions with background from prediction in base selction selection conditions}
+ \begin{minipage}{1\textwidth} % choose width suitably
+{\footnotesize The shaded grey bands indicate the total background uncertainty.
+The open histograms correspond to the expected signal distributions for $\mathcal{B}(\Hehad)=100\%$ in the  0-jet, 1-jet and 2-jet categories, respectively.\par}
+\end{minipage}
 \label{fig:etauCol_preselection}\end{figure}
 
 
@@ -153,8 +158,7 @@ A set of kinematics variables are used to further select signal events. In $\Heh
 
 \begin{table}[hbtp]
   \begin{center}
-  \caption{Selection criteria for each event category after cut
-    optimization, for the $\Hehad$ channel}
+  \caption{SELECTION CRITERIA FOR EACH EVENT CATEGORY AFTER THE OPTIMIZATION IN THE $\Hehad$ ANALYSIS}
   \begin{tabular}{l} \hline
   {\bf 0-jet category} \\ \hline
   \tabitem $\pt^{e}>45$ GeV, $\pt^{\tau}>30$ GeV, $\Delta \phi_{e \tau}>2.3$ \\

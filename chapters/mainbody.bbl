@@ -1,30 +1,37 @@
-\begin{thebibliography}{88}
+\begin{thebibliography}{86}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Yel()]{Yellow_report}
-{LHC Higgs cross section working group}.
-\newblock URL \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHXSWG}.
+\bibitem[Blankenburg et~al.(2012)Blankenburg, Ellis, and
+  Isidori]{Blankenburg:2012ex}
+Gianluca Blankenburg, John Ellis, and Gino Isidori.
+\newblock {Flavour-changing decays of a 125 GeV Higgs-like particle}.
+\newblock \emph{Phys. Lett. B}, 712:\penalty0 386, 2012.
+\newblock \doi{10.1016/j.physletb.2012.05.007}.
 
-\bibitem[PFm(2010)]{PFmuonselection}
-{Particle-flow commissioning with muons and electrons from J/Psi and W events
-  at 7 TeV}.
-\newblock Technical Report CMS-PAS-PFT-10-003, CERN, Geneva, 2010.
-\newblock URL \url{http://cds.cern.ch/record/1279347}.
+\bibitem[Harnik et~al.(2013{\natexlab{a}})Harnik, Kopp, and
+  Zupan]{Harnik2012pb}
+Roni Harnik, Joachim Kopp, and Jure Zupan.
+\newblock Flavor violating higgs decays.
+\newblock \emph{JHEP}, 03:\penalty0 26, 2013{\natexlab{a}}.
+\newblock \doi{10.1007/JHEP03(2013)026}.
 
-\bibitem[CMS(2011)]{CMS-NOTE-2011-005}
-{Procedure for the LHC Higgs boson search combination in Summer 2011}.
-\newblock Technical Report CMS-NOTE-2011-005. ATL-PHYS-PUB-2011-11, CERN,
-  Geneva, Aug 2011.
-\newblock URL \url{https://cds.cern.ch/record/1379837}.
+\bibitem[Celis et~al.(2014)Celis, Cirigliano, and Passemar]{Celis:2013xja}
+Alejandro Celis, Vincenzo Cirigliano, and Emilie Passemar.
+\newblock {Lepton flavor violation in the Higgs sector and the role of hadronic
+  tau-lepton decays}.
+\newblock \emph{Phys. Rev. D}, 89:\penalty0 013008, 2014.
+\newblock \doi{10.1103/PhysRevD.89.013008}.
 
-\bibitem[PU_(2013)]{PU_jetID}
-{Pileup Jet Identification}.
-\newblock Technical Report CMS-PAS-JME-13-005, CERN, Geneva, 2013.
-\newblock URL \url{http://cds.cern.ch/record/1581583}.
+\bibitem[Baldini et~al.(2016)]{TheMEG2016wtm}
+A.~M. Baldini et~al.
+\newblock {Search for the lepton flavour violating decay $\mu ^+ \rightarrow
+  \mathrm {e}^+ \gamma $ with the full dataset of the MEG experiment}.
+\newblock \emph{Eur. Phys. J. C}, 76:\penalty0 434, 2016.
+\newblock \doi{10.1140/epjc/s10052-016-4271-x}.
 
 \bibitem[201(2015)]{2015337}
 Search for lepton-flavour-violating decays of the higgs boson.
@@ -34,31 +41,228 @@ Search for lepton-flavour-violating decays of the higgs boson.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S0370269315005638}.
 
-\bibitem[HIG(2016)]{HIG-14-040}
-Search for lepton flavour violating decays of the higgs boson to
-  $\mathrm{e}\tau$ and $\mathrm{e}\mu$ in proton-proton collisions at
-  {$\sqrt{s}=8$ TeV}.
-\newblock \emph{Phys. Lett. B}, 763:\penalty0 472, 2016.
-\newblock \doi{10.1016/j.physletb.2016.09.062}.
-
-\bibitem[CMS(2017)]{CMS-PAS-LUM-17-001}
-{CMS} luminosity measurements for the 2016 data taking period.
-\newblock CMS Physics Analysis Summary CMS-PAS-LUM-17-001, 2017.
-\newblock URL \url{https://cds.cern.ch/record/2257069}.
-
-\bibitem[SM_(2018)]{SM_particletable}
-06 2018.
-\newblock URL \url{https://en.wikipedia.org/wiki/Standard_Model}.
-
 \bibitem[Aad et~al.(2015)]{Aad2015gha}
-G.~Aad et~al.
+Georges Aad et~al.
 \newblock {Search for lepton-flavour-violating H → μτ decays of the Higgs
   boson with the ATLAS detector}.
 \newblock \emph{JHEP}, 11:\penalty0 211, 2015.
 \newblock \doi{10.1007/JHEP11(2015)211}.
 
+\bibitem[SM_(2018)]{SM_particletable}
+06 2018.
+\newblock URL \url{https://en.wikipedia.org/wiki/Standard_Model}.
+
+\bibitem[Djouadi(2008)]{DJOUADI20081}
+Abdelhak Djouadi.
+\newblock The anatomy of electroweak symmetry breaking: Tome i: The higgs boson
+  in the standard model.
+\newblock \emph{Physics Reports}, 457\penalty0 (1):\penalty0 1 -- 216, 2008.
+\newblock ISSN 0370-1573.
+\newblock \doi{https://doi.org/10.1016/j.physrep.2007.10.004}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0370157307004334}.
+
+\bibitem[Peskin and Schroeder(1995)]{Peskin:1995ev}
+Michael~E. Peskin and Daniel~V. Schroeder.
+\newblock \emph{{An Introduction to quantum field theory}}.
+\newblock Addison-Wesley, Reading, USA, 1995.
+\newblock ISBN 9780201503975, 0201503972.
+\newblock URL \url{http://www.slac.stanford.edu/~mpeskin/QFT.html}.
+
+\bibitem[Dittmaier et~al.(2011)Dittmaier, Mariotti, Passarino, Tanaka, Baglio,
+  et~al.]{Dittmaier:1318996}
+S~Dittmaier, C~Mariotti, G~Passarino, R~Tanaka, J~Baglio, et~al.
+\newblock \emph{{Handbook of LHC Higgs Cross Sections: 1. Inclusive
+  Observables}}.
+\newblock CERN Yellow Reports: Monographs. CERN, Geneva, 2011.
+\newblock URL \url{https://cds.cern.ch/record/1318996}.
+\newblock Comments: 153 pages, 43 figures, to be submitted to CERN Report.
+  Working Group web page:
+  https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CrossSections.
+
+\bibitem[Djouadi et~al.(1991)Djouadi, Spira, and Zerwas]{Djouadi:1991tka}
+A.~Djouadi, M.~Spira, and P.~M. Zerwas.
+\newblock {Production of Higgs bosons in proton colliders: QCD corrections}.
+\newblock \emph{Phys. Lett.}, B264:\penalty0 440--446, 1991.
+\newblock \doi{10.1016/0370-2693(91)90375-Z}.
+
+\bibitem[Catani et~al.(2003)Catani, de~Florian, Grazzini, and
+  Nason]{Catani:2003zt}
+Stefano Catani, Daniel de~Florian, Massimiliano Grazzini, and Paolo Nason.
+\newblock {Soft gluon resummation for Higgs boson production at hadron
+  colliders}.
+\newblock \emph{JHEP}, 07:\penalty0 028, 2003.
+\newblock \doi{10.1088/1126-6708/2003/07/028}.
+
+\bibitem[de~Florian et~al.(2016{\natexlab{a}})de~Florian, Grojean, Maltoni,
+  Mariotti, Nikitenko, et~al.]{deFlorian:2227475}
+D.~de~Florian, C.~Grojean, F.~Maltoni, C.~Mariotti, Nikitenko, et~al.
+\newblock {Handbook of LHC Higgs Cross Sections: 4. Deciphering the Nature of
+  the Higgs Sector}.
+\newblock Technical Report FERMILAB-FN-1025-T, Oct 2016{\natexlab{a}}.
+\newblock URL \url{https://cds.cern.ch/record/2227475}.
+\newblock 869 pages, 295 figures, 248 tables and 1645 citations. Working Group
+  web page: https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHXSWG.
+
+\bibitem[Anastasiou et~al.(2009)Anastasiou, Boughezal, and
+  Petriello]{Anastasiou:2008tj}
+Charalampos Anastasiou, Radja Boughezal, and Frank Petriello.
+\newblock {Mixed QCD-electroweak corrections to Higgs boson production in gluon
+  fusion}.
+\newblock \emph{JHEP}, 04:\penalty0 003, 2009.
+\newblock \doi{10.1088/1126-6708/2009/04/003}.
+
+\bibitem[Bolzoni et~al.(2010)Bolzoni, Maltoni, Moch, and Zaro]{Bolzoni:2010xr}
+Paolo Bolzoni, Fabio Maltoni, Sven-Olaf Moch, and Marco Zaro.
+\newblock {Higgs production via vector-boson fusion at NNLO in QCD}.
+\newblock \emph{Phys. Rev. Lett.}, 105:\penalty0 011801, 2010.
+\newblock \doi{10.1103/PhysRevLett.105.011801}.
+
+\bibitem[Dittmaier et~al.(2012)Dittmaier, Mariotti, Passarino, Tanaka, Alekhin,
+  Alwall, et~al.]{Dittmaier:1416519}
+S~Dittmaier, C~Mariotti, G~Passarino, R~Tanaka, S~Alekhin, Alwall, et~al.
+\newblock {Handbook of LHC Higgs Cross Sections: 2. Differential
+  Distributions}.
+\newblock Technical Report arXiv:1201.3084. CERN-2012-002, Geneva, 2012.
+\newblock URL \url{https://cds.cern.ch/record/1416519}.
+\newblock Comments: 275 pages, 136 figures, to be submitted to CERN Report.
+  Working Group web page:
+  https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CrossSections.
+
+\bibitem[Yel(2018)]{Yellow_report}
+{LHC Higgs cross section working group}, 08 2018.
+\newblock URL \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHXSWG}.
+
+\bibitem[Diaz-Cruz and Toscano(2000)]{PhysRevD.62.116005}
+J.~Lorenzo Diaz-Cruz and J.~J. Toscano.
+\newblock Lepton flavor violating decays of higgs bosons beyond the standard
+  model.
+\newblock \emph{Phys. Rev. D}, 62:\penalty0 116005, Nov 2000.
+\newblock \doi{10.1103/PhysRevD.62.116005}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevD.62.116005}.
+
+\bibitem[Harnik et~al.(2013{\natexlab{b}})Harnik, Kopp, and
+  Zupan]{Harnik:2012pb}
+Roni Harnik, Joachim Kopp, and Jure Zupan.
+\newblock Flavor violating higgs decays.
+\newblock \emph{JHEP}, 03:\penalty0 26, 2013{\natexlab{b}}.
+\newblock \doi{10.1007/JHEP03(2013)026}.
+
+\bibitem[de~Lima et~al.(2015)de~Lima, Machado, Matheus, and
+  do~Prado]{deLima2015}
+L.~de~Lima, C.~S. Machado, R.~D. Matheus, and L.~A.~F. do~Prado.
+\newblock Higgs flavor violation as a signal to discriminate models.
+\newblock \emph{Journal of High Energy Physics}, 2015\penalty0 (11):\penalty0
+  74, Nov 2015.
+
+\bibitem[Branco et~al.(2012)Branco, Ferreira, Lavoura, Rebelo, Sher, and
+  Silva]{BRANCO20121}
+G.C. Branco, P.M. Ferreira, L.~Lavoura, M.N. Rebelo, Marc Sher, and Jo{\~a}o~P.
+  Silva.
+\newblock Theory and phenomenology of two-higgs-doublet models.
+\newblock \emph{Physics Reports}, 516\penalty0 (1):\penalty0 1 -- 102, 2012.
+\newblock ISSN 0370-1573.
+\newblock \doi{https://doi.org/10.1016/j.physrep.2012.02.002}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0370157312000695}.
+\newblock Theory and phenomenology of two-Higgs-doublet models.
+
+\bibitem[Aristizabal~Sierra and Vicente(2014)]{PhysRevD.90.115004}
+D.~Aristizabal~Sierra and A.~Vicente.
+\newblock Explaining the cms higgs flavor-violating decay excess.
+\newblock \emph{Phys. Rev. D}, 90:\penalty0 115004, Dec 2014.
+\newblock \doi{10.1103/PhysRevD.90.115004}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevD.90.115004}.
+
+\bibitem[Evans and Bryant(2008)]{LHC_refer}
+Lyndon Evans and Philip Bryant.
+\newblock Lhc machine.
+\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0 S08001,
+  2008.
+\newblock URL \url{http://stacks.iop.org/1748-0221/3/i=08/a=S08001}.
+
+\bibitem[Lef{\`e}vre(2008)]{Christiane:1260465}
+Christiane Lef{\`e}vre.
+\newblock {The CERN accelerator complex. Complexe des acc{\'e}l{\'e}rateurs du
+  CERN}.
+\newblock Dec 2008.
+\newblock URL \url{https://cds.cern.ch/record/1260465}.
+
+\bibitem[Chatrchyan et~al.(2008)]{CMS_experiment}
+S.~Chatrchyan et~al.
+\newblock {The CMS Experiment at the CERN LHC}.
+\newblock \emph{JINST}, 3:\penalty0 S08004, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08004}.
+
+\bibitem[Dasu et~al.(2000)]{CMS_TDR}
+S.~Dasu et~al.
+\newblock {CMS. The TriDAS project. Technical design report, vol. 1: The
+  trigger systems}.
+\newblock 2000.
+
+\bibitem[Adzic et~al.(2007)]{ECAL_EB_reso}
+P.~Adzic et~al.
+\newblock {Energy resolution of the barrel of the CMS electromagnetic
+  calorimeter}.
+\newblock \emph{JINST}, 2:\penalty0 P04004, 2007.
+\newblock \doi{10.1088/1748-0221/2/04/P04004}.
+
+\bibitem[Yazgan and the CMS ECAL/HCAL~Collaborations(2009)]{HCAL_reso}
+Efe Yazgan and the CMS ECAL/HCAL~Collaborations.
+\newblock The cms barrel calorimeter response to particle beams from 2 to 350
+  gev/c.
+\newblock \emph{Journal of Physics: Conference Series}, 160\penalty0
+  (1):\penalty0 012056, 2009.
+\newblock URL \url{http://stacks.iop.org/1742-6596/160/i=1/a=012056}.
+
+\bibitem[Chatrchyan et~al.(2010)]{Muon_chambers}
+S~Chatrchyan et~al.
+\newblock {Aligning the CMS Muon Chambers with the Muon Alignment System during
+  an Extended Cosmic Ray Run}.
+\newblock \emph{JINST}, 5:\penalty0 T03019, 2010.
+\newblock \doi{10.1088/1748-0221/5/03/T03019}.
+
+\bibitem[Baber et~al.(2014)Baber, Blake, Brooke, Hermida, Dasu, Durkin, Fayer,
+  Friis, Gorski, Hall, Harder, Iles, Ives, Jones, Klabbers, Levine, Lucas,
+  Lucas, Newbold, Marrouche, Paramesvaran, Perry, Rose, Sankey, Smith, Tapper,
+  Thea, and Williams]{TMT_trigger}
+M~Baber, M~Blake, J~Brooke, M~Cepeda Hermida, S~Dasu, T~Durkin, S~Fayer, E~K
+  Friis, T~Gorski, G~Hall, K~Harder, G~Iles, S~Ives, J~Jones, P~R Klabbers, A~G
+  Levine, C~Lucas, R~Lucas, D~Newbold, J~Marrouche, S~Paramesvaran, T~M Perry,
+  A~Rose, D~Sankey, W~Smith, A~Tapper, A~Thea, and T~Williams.
+\newblock Development and testing of an upgrade to the cms level-1 calorimeter
+  trigger.
+\newblock \emph{Journal of Instrumentation}, 9\penalty0 (01):\penalty0 C01006,
+  2014.
+\newblock URL \url{http://stacks.iop.org/1748-0221/9/i=01/a=C01006}.
+
+\bibitem[Zabi et~al.(2016)Zabi, Beaudette, Cadamuro, Mastrolorenzo, Romanteau,
+  Sauvan, Strebler, Marrouche, Wardle, Aggleton, Ball, Brooke, Newbold,
+  Paramesvaran, Smith, Baber, Bundock, Citron, Elwood, Hall, Iles, Laner,
+  Penning, Rose, Tapper, Durkin, Harder, Harper, Shepherd-Themistocleous, Thea,
+  and Williams]{L1_Egamma}
+A.~Zabi, F.~Beaudette, L.~Cadamuro, L.~Mastrolorenzo, T.~Romanteau, J.B.
+  Sauvan, T.~Strebler, J.~Marrouche, N.~Wardle, R.~Aggleton, F.~Ball,
+  J.~Brooke, D.~Newbold, S.~Paramesvaran, D.~Smith, M.~Baber, A.~Bundock,
+  M.~Citron, A.~Elwood, G.~Hall, G.~Iles, C.~Laner, B.~Penning, A.~Rose,
+  A.~Tapper, T.~Durkin, K.~Harder, S.~Harper, C.~Shepherd-Themistocleous,
+  A.~Thea, and T.~Williams.
+\newblock Triggering on electrons, jets and tau leptons with the cms upgraded
+  calorimeter trigger for the lhc run ii.
+\newblock \emph{Journal of Instrumentation}, 11\penalty0 (02):\penalty0 C02008,
+  2016.
+\newblock URL \url{http://stacks.iop.org/1748-0221/11/i=02/a=C02008}.
+
+\bibitem[Rabady et~al.(2017)Rabady, Ero, Flouris, Fulcher, Loukas, Paradas,
+  Reis, Sakulin, and Wulz]{L1muontrigger}
+Dinyar Rabady, Janos Ero, Giannis Flouris, Jonathan Fulcher, Nikitas Loukas,
+  Evangelos Paradas, Thomas Reis, Hannes Sakulin, and Claudia-Elisabeth Wulz.
+\newblock {Upgrade of the CMS muon trigger system in the barrel region}.
+\newblock \emph{Nucl. Instrum. Meth.}, A845:\penalty0 616--620, 2017.
+\newblock \doi{10.1016/j.nima.2016.05.071}.
+
 \bibitem[Acosta(2016)]{CMS_trigger_RUNII}
-D.~Acosta.
+Darin Acosta.
 \newblock Cms trigger improvements towards run ii.
 \newblock \emph{Nuclear and Particle Physics Proceedings}, 273-275:\penalty0
   1008 -- 1013, 2016.
@@ -68,24 +272,31 @@ D.~Acosta.
   \url{http://www.sciencedirect.com/science/article/pii/S2405601415006471}.
 \newblock 37th International Conference on High Energy Physics (ICHEP).
 
-\bibitem[Adam et~al.(2005)Adam, Fr{\"u}hwirth, Strandlie, and Todor]{Algo:GSF}
-W.~Adam, R.~Fr{\"u}hwirth, A.~Strandlie, and T.~Todor.
-\newblock {Reconstruction of Electrons with the Gaussian-Sum Filter in the CMS
-  Tracker at the LHC}.
-\newblock 2005.
+\bibitem[Gori(2014)]{CMS_HLT_RunII}
+Valentina Gori.
+\newblock {The CMS High Level Trigger}.
+\newblock \emph{Int. J. Mod. Phys. Conf. Ser.}, 31:\penalty0 1460297, 2014.
+\newblock \doi{10.1142/S201019451460297X}.
 
-\bibitem[Adam et~al.(2006)Adam, Mangano, Speer, and Todorov]{tracker:algo}
-W.~Adam, B.~Mangano, T.~Speer, and T.~Todorov.
-\newblock {Track Reconstruction in the CMS tracker}.
-\newblock Technical Report CMS-NOTE-2006-041, CERN, Geneva, Dec 2006.
-\newblock URL \url{https://cds.cern.ch/record/934067}.
+\bibitem[Georgi et~al.(1978)Georgi, Glashow, Machacek, and
+  Nanopoulos]{Georgi:1977gs}
+H.~M. Georgi, S.~L. Glashow, M.~E. Machacek, and Dimitri~V. Nanopoulos.
+\newblock {H}iggs bosons from two gluon annihilation in proton proton
+  collisions.
+\newblock \emph{Phys. Rev. Lett.}, 40:\penalty0 692, 1978.
+\newblock \doi{10.1103/PhysRevLett.40.692}.
 
-\bibitem[Adzic et~al.(2007)]{ECAL_EB_reso}
-P.~Adzic et~al.
-\newblock {Energy resolution of the barrel of the CMS electromagnetic
-  calorimeter}.
-\newblock \emph{JINST}, 2:\penalty0 P04004, 2007.
-\newblock \doi{10.1088/1748-0221/2/04/P04004}.
+\bibitem[Cahn et~al.(1987)Cahn, Ellis, Kleiss, and Stirling]{Cahn:1986zv}
+Robert~N. Cahn, Stephen~D. Ellis, Ronald Kleiss, and W.~James Stirling.
+\newblock {Transverse-momentum signatures for heavy Higgs bosons}.
+\newblock \emph{Phys. Rev. D}, 35:\penalty0 1626, 1987.
+\newblock \doi{10.1103/PhysRevD.35.1626}.
+
+\bibitem[Olari(2010)]{POWHEG-BOX}
+Carlo Olari.
+\newblock {The POWHEG-BOX}.
+\newblock \emph{Nucl.Phys.Proc.Suppl.205-206:36-41,2010}, 2010.
+\newblock \doi{10.1016/j.nuclphysbps.2010.08.016}.
 
 \bibitem[Alwall et~al.(2014)Alwall, Frederix, Frixione, Hirschi, Maltoni,
   Mattelaer, Shao, Stelzer, Torrielli, and Zaro]{Alwall:2014}
@@ -97,232 +308,17 @@ J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
 \newblock \emph{JHEP}, 07:\penalty0 079, 2014.
 \newblock \doi{10.1007/JHEP07(2014)079}.
 
-\bibitem[Anastasiou et~al.(2009)Anastasiou, Boughezal, and
-  Petriello]{Anastasiou:2008tj}
-C.~Anastasiou, R.~Boughezal, and F.~Petriello.
-\newblock {Mixed QCD-electroweak corrections to Higgs boson production in gluon
-  fusion}.
-\newblock \emph{JHEP}, 04:\penalty0 003, 2009.
-\newblock \doi{10.1088/1126-6708/2009/04/003}.
-
-\bibitem[Aristizabal~Sierra and Vicente(2014)]{PhysRevD.90.115004}
-D.~Aristizabal~Sierra and A.~Vicente.
-\newblock Explaining the cms higgs flavor-violating decay excess.
-\newblock \emph{Phys. Rev. D}, 90:\penalty0 115004, Dec 2014.
-\newblock \doi{10.1103/PhysRevD.90.115004}.
-\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevD.90.115004}.
-
-\bibitem[Baber et~al.(2014)Baber, Blake, Brooke, Hermida, Dasu, Durkin, Fayer,
-  Friis, Gorski, Hall, Harder, Iles, Ives, Jones, Klabbers, Levine, Lucas,
-  Lucas, Newbold, Marrouche, Paramesvaran, Perry, Rose, Sankey, Smith, Tapper,
-  Thea, and Williams]{TMT_trigger}
-M.~Baber, M.~Blake, J.~Brooke, M.~C. Hermida, S.~Dasu, T.~Durkin, S.~Fayer,
-  E.~K. Friis, T.~Gorski, G.~Hall, K.~Harder, G.~Iles, S.~Ives, J.~Jones, P.~R.
-  Klabbers, A.~G. Levine, C.~Lucas, R.~Lucas, D.~Newbold, J.~Marrouche,
-  S.~Paramesvaran, T.~M. Perry, A.~Rose, D.~Sankey, W.~Smith, A.~Tapper,
-  A.~Thea, and T.~Williams.
-\newblock Development and testing of an upgrade to the cms level-1 calorimeter
-  trigger.
-\newblock \emph{Journal of Instrumentation}, 9\penalty0 (01):\penalty0 C01006,
-  2014.
-\newblock URL \url{http://stacks.iop.org/1748-0221/9/i=01/a=C01006}.
-
-\bibitem[Baldini et~al.(2016)]{TheMEG2016wtm}
-A.~M. Baldini et~al.
-\newblock {Search for the lepton flavour violating decay $\mu ^+ \rightarrow
-  \mathrm {e}^+ \gamma $ with the full dataset of the MEG experiment}.
-\newblock \emph{Eur. Phys. J. C}, 76:\penalty0 434, 2016.
-\newblock \doi{10.1140/epjc/s10052-016-4271-x}.
-
-\bibitem[Ball et~al.(2010)Ball, Del~Debbio, Forte, Guffanti, Latorre, Rojo, and
-  Ubiali]{Ball:2010de}
-R.~D. Ball, L.~Del~Debbio, S.~Forte, A.~Guffanti, J.~I. Latorre, J.~Rojo, and
-  M.~Ubiali.
-\newblock A first unbiased global {NLO} determination of parton distributions
-  and their uncertainties.
-\newblock \emph{Nucl. Phys. B}, 838:\penalty0 136, 2010.
-\newblock \doi{10.1016/j.nuclphysb.2010.05.008}.
-
-\bibitem[Blankenburg et~al.(2012)Blankenburg, Ellis, and
-  Isidori]{Blankenburg:2012ex}
-G.~Blankenburg, J.~Ellis, and G.~Isidori.
-\newblock {Flavour-changing decays of a 125 GeV Higgs-like particle}.
-\newblock \emph{Phys. Lett. B}, 712:\penalty0 386, 2012.
-\newblock \doi{10.1016/j.physletb.2012.05.007}.
-
-\bibitem[Bolzoni et~al.(2010)Bolzoni, Maltoni, Moch, and Zaro]{Bolzoni:2010xr}
-P.~Bolzoni, F.~Maltoni, S.-O. Moch, and M.~Zaro.
-\newblock {Higgs production via vector-boson fusion at NNLO in QCD}.
-\newblock \emph{Phys. Rev. Lett.}, 105:\penalty0 011801, 2010.
-\newblock \doi{10.1103/PhysRevLett.105.011801}.
-
-\bibitem[Botje et~al.(2011)Botje, Butterworth, Cooper-Sarkar, de~Roeck,
-  Feltesse, Forte, Glazov, Huston, McNulty, Sj{\"o}strand, and
-  Thorne]{Botje:2011sn}
-M.~Botje, J.~Butterworth, A.~Cooper-Sarkar, A.~de~Roeck, J.~Feltesse, S.~Forte,
-  A.~Glazov, J.~Huston, R.~McNulty, T.~Sj{\"o}strand, and R.~S. Thorne.
-\newblock {The PDF4LHC Working Group Interim Recommendations}.
-\newblock 2011.
-
-\bibitem[Branco et~al.(2012)Branco, Ferreira, Lavoura, Rebelo, Sher, and
-  Silva]{BRANCO20121}
-G.~Branco, P.~Ferreira, L.~Lavoura, M.~Rebelo, M.~Sher, and J.~P. Silva.
-\newblock Theory and phenomenology of two-higgs-doublet models.
-\newblock \emph{Physics Reports}, 516\penalty0 (1):\penalty0 1 -- 102, 2012.
-\newblock ISSN 0370-1573.
-\newblock \doi{https://doi.org/10.1016/j.physrep.2012.02.002}.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/S0370157312000695}.
-\newblock Theory and phenomenology of two-Higgs-doublet models.
-
-\bibitem[Cacciari et~al.(2008)Cacciari, Salam, and Soyez]{Cacciari:2008gp}
-M.~Cacciari, G.~P. Salam, and G.~Soyez.
-\newblock {The anti-$k_t$ jet clustering algorithm}.
-\newblock \emph{JHEP}, 04:\penalty0 063, 2008.
-\newblock \doi{10.1088/1126-6708/2008/04/063}.
-
-\bibitem[Cacciari et~al.(2012)Cacciari, Salam, and Soyez]{FastJetalso}
-M.~Cacciari, G.~P. Salam, and G.~Soyez.
-\newblock {FastJet user manual}.
-\newblock \emph{Eur. Phys. J. C}, 72:\penalty0 1896, 2012.
-\newblock \doi{10.1140/epjc/s10052-012-1896-2}.
-
-\bibitem[Cahn et~al.(1987)Cahn, Ellis, Kleiss, and Stirling]{Cahn:1986zv}
-R.~N. Cahn, S.~D. Ellis, R.~Kleiss, and W.~J. Stirling.
-\newblock {Transverse-momentum signatures for heavy Higgs bosons}.
-\newblock \emph{Phys. Rev. D}, 35:\penalty0 1626, 1987.
-\newblock \doi{10.1103/PhysRevD.35.1626}.
-
-\bibitem[Catani et~al.(2003)Catani, de~Florian, Grazzini, and
-  Nason]{Catani:2003zt}
-S.~Catani, D.~de~Florian, M.~Grazzini, and P.~Nason.
-\newblock {Soft gluon resummation for Higgs boson production at hadron
-  colliders}.
-\newblock \emph{JHEP}, 07:\penalty0 028, 2003.
-\newblock \doi{10.1088/1126-6708/2003/07/028}.
-
-\bibitem[Celis et~al.(2014)Celis, Cirigliano, and Passemar]{Celis:2013xja}
-A.~Celis, V.~Cirigliano, and E.~Passemar.
-\newblock {Lepton flavor violation in the Higgs sector and the role of hadronic
-  tau-lepton decays}.
-\newblock \emph{Phys. Rev. D}, 89:\penalty0 013008, 2014.
-\newblock \doi{10.1103/PhysRevD.89.013008}.
-
-\bibitem[Chatrchyan et~al.(2008)]{CMS_experiment}
-S.~Chatrchyan et~al.
-\newblock {The CMS Experiment at the CERN LHC}.
-\newblock \emph{JINST}, 3:\penalty0 S08004, 2008.
-\newblock \doi{10.1088/1748-0221/3/08/S08004}.
-
-\bibitem[Chatrchyan et~al.(2010)]{Muon_chambers}
-S.~Chatrchyan et~al.
-\newblock {Aligning the CMS Muon Chambers with the Muon Alignment System during
-  an Extended Cosmic Ray Run}.
-\newblock \emph{JINST}, 5:\penalty0 T03019, 2010.
-\newblock \doi{10.1088/1748-0221/5/03/T03019}.
-
-\bibitem[Chatrchyan et~al.(2011{\natexlab{a}})]{CMS-JME-10-011}
-S.~Chatrchyan et~al.
-\newblock Determination of jet energy calibration and transverse momentum
-  resolution in {CMS}.
-\newblock \emph{JINST}, 6:\penalty0 11002, 2011{\natexlab{a}}.
-\newblock \doi{10.1088/1748-0221/6/11/P11002}.
-
-\bibitem[Chatrchyan et~al.(2011{\natexlab{b}})]{CMS:2011aa}
-S.~Chatrchyan et~al.
-\newblock {Measurement of the inclusive $\PW$ and $\PZ$ production cross
-  sections in pp collisions at $\sqrt{s}=7$ TeV with the CMS experiment}.
-\newblock \emph{JHEP}, 10:\penalty0 132, 2011{\natexlab{b}}.
-\newblock \doi{10.1007/JHEP10(2011)132}.
-
-\bibitem[Chatrchyan et~al.(2012{\natexlab{a}})]{Chatrchyan:2012xi}
-S.~Chatrchyan et~al.
-\newblock {Performance of CMS muon reconstruction in pp collision events at
-  $\sqrt{s} = 7$ TeV}.
-\newblock \emph{JINST}, 7:\penalty0 P10002, 2012{\natexlab{a}}.
-\newblock \doi{10.1088/1748-0221/7/10/P10002}.
-
-\bibitem[Chatrchyan et~al.(2012{\natexlab{b}})]{muonreco}
-S.~Chatrchyan et~al.
-\newblock {Performance of CMS muon reconstruction in $pp$ collision events at
-  $\sqrt{s} = 7$ TeV}.
-\newblock \emph{JINST}, 7:\penalty0 P10002, 2012{\natexlab{b}}.
-\newblock \doi{10.1088/1748-0221/7/10/P10002}.
-
-\bibitem[Chatrchyan et~al.(2013)]{Chatrchyan:2012nj}
-S.~Chatrchyan et~al.
-\newblock Measurement of the inelastic proton-proton cross section at
-  {$\sqrt{s} = 7 TeV$}.
-\newblock \emph{Phys. Lett. B}, 722:\penalty0 5, 2013.
-\newblock \doi{10.1016/j.physletb.2013.03.024}.
-
-\bibitem[Chatrchyan et~al.(2014{\natexlab{a}})]{Chatrchyan:2014mua}
-S.~Chatrchyan et~al.
-\newblock Measurement of inclusive {$W$} and {$Z$} boson production cross
-  sections in $pp$ collisions at {$\sqrt{s}$ = 8 TeV}.
-\newblock \emph{Phys. Rev. Lett.}, 112:\penalty0 191802, 2014{\natexlab{a}}.
-\newblock \doi{10.1103/PhysRevLett.112.191802}.
-
-\bibitem[Chatrchyan et~al.(2014{\natexlab{b}})]{Chatrchyan:2014nva}
-S.~Chatrchyan et~al.
-\newblock {Evidence for the 125 GeV Higgs boson decaying to a pair of $\tau$
-  leptons}.
-\newblock 2014{\natexlab{b}}.
-
-\bibitem[Collaboration"(2011)]{TauIdentiRunI}
-C.~Collaboration".
-\newblock {Performance of $\tau$-lepton reconstruction and identification in
-  CMS}.
-\newblock \emph{JINST}, 7\penalty0 (arXiv:1109.6034. CMS-TAU-11-001.
-  CERN-PH-EP-2011-137):\penalty0 P01001. 33 p, Sep 2011.
-\newblock URL \url{http://cds.cern.ch/record/1385560}.
-
-\bibitem[Collaboration(2016{\natexlab{a}})]{CMS:2016gvn}
-C.~Collaboration.
-\newblock {Performance of reconstruction and identification of tau leptons in
-  their decays to hadrons and tau neutrino in LHC Run-2}.
-\newblock CMS Physics Analysis Summary CMS-PAS-TAU-16-002, 2016{\natexlab{a}}.
-\newblock URL \url{https://cds.cern.ch/record/2196972}.
-
-\bibitem[Collaboration(2016{\natexlab{b}})]{TauRecoandIDRunII}
-C.~Collaboration.
-\newblock {Performance of reconstruction and identification of tau leptons in
-  their decays to hadrons and tau neutrino in LHC Run-2}.
-\newblock 2016{\natexlab{b}}.
-
-\bibitem[Collaboration(2016{\natexlab{c}})]{TauReconstuction}
-C.~Collaboration.
-\newblock {Reconstruction and identification of tau lepton decays to hadrons
-  and tau neutrino at CMS}.
-\newblock \emph{JINST 11 (2016) P01019}, 11, 2016{\natexlab{c}}.
-\newblock \doi{10.1088/1748-0221/11/01/P01019}.
-
-\bibitem[Collaboration(2016{\natexlab{d}})]{btag_ago}
-C.~Collaboration.
-\newblock {Identification of b quark jets at the CMS Experiment in the LHC Run
-  2}.
-\newblock Technical Report CMS-PAS-BTV-15-001, CERN, Geneva,
-  2016{\natexlab{d}}.
-\newblock URL \url{https://cds.cern.ch/record/2138504}.
-
-\bibitem[Collaboration(2017)]{paper:13TeVsearch}
-C.~Collaboration.
-\newblock {Search for lepton flavour violating decays of the Higgs boson to
-  μτ and eτ in proton-proton collisions at $\sqrt{s}$= 13 TeV}.
-\newblock \emph{JHEP}, 2017.
-
-\bibitem[collaboration(2018)]{Sirunyan2018}
-C.~collaboration.
-\newblock Search for lepton flavour violating decays of the higgs boson to
-  $\mu$$\tau$ and e$\tau$ in proton-proton collisions at $\sqrt{s}$=13 tev.
-\newblock \emph{Journal of High Energy Physics}, 2018\penalty0 (6):\penalty0 1,
-  Jun 2018.
-\newblock ISSN 1029-8479.
-\newblock \doi{10.1007/JHEP06(2018)001}.
-\newblock URL \url{https://doi.org/10.1007/JHEP06(2018)001}.
+\bibitem[Sj{\"o}strand et~al.(2015)Sj{\"o}strand, Ask, Christiansen, Corke,
+  Desai, Ilten, Mrenna, Prestel, Rasmussen, and Skands]{Sjostrand:2014zea}
+Torbjorn Sj{\"o}strand, Stefan Ask, Jesper~R. Christiansen, Richard Corke,
+  Nishita Desai, Philip Ilten, Stephen Mrenna, Stefan Prestel, Christine~O.
+  Rasmussen, and Peter~Z. Skands.
+\newblock {An introduction to {PYTHIA 8.2}}.
+\newblock \emph{Comput. Phys. Commun.}, 191:\penalty0 159, 2015.
+\newblock \doi{10.1016/j.cpc.2015.01.024}.
 
 \bibitem[Collaboration(2003)]{GEANT4}
-G.~Collaboration.
+GEANT4 Collaboration.
 \newblock Geant4---a simulation toolkit.
 \newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
   Accelerators, Spectrometers, Detectors and Associated Equipment},
@@ -332,266 +328,36 @@ G.~Collaboration.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S0168900203013688}.
 
-\bibitem[Cranmer(2015)]{LHCstaticstics}
-K.~Cranmer.
-\newblock {Practical Statistics for the LHC}.
-\newblock \emph{CERN-2014-003, pp. 267 - 308}, 2015.
-\newblock \doi{10.5170/CERN-2015-004.301}.
+\bibitem[N.Davidson et~al.()]{Simulation:Tauola}
+G.Nanava N.Davidson et~al.
+\newblock Universal interface of tauola technical and physics documentation.
+\newblock \doi{10.1016/j.cpc.2011.12.009}.
 
-\bibitem[Dasu et~al.(2000)]{CMS_TDR}
-S.~Dasu et~al.
-\newblock {CMS. The TriDAS project. Technical design report, vol. 1: The
-  trigger systems}.
-\newblock 2000.
+\bibitem[Sirunyan et~al.(2017)]{CMS-PRF-14-001}
+A.~M. Sirunyan et~al.
+\newblock Particle-flow reconstruction and global event description with the
+  cms detector.
+\newblock \emph{JINST}, 12:\penalty0 P10003, 2017.
+\newblock \doi{10.1088/1748-0221/12/10/P10003}.
 
-\bibitem[de~Florian et~al.(2016{\natexlab{a}})de~Florian, Grojean, Maltoni,
-  Mariotti, Nikitenko, Pieri, Savard, Schumacher, Tanaka, Aggleton, Ahmad,
-  Allanach, Anastasiou, Astill, Badger, Badziak, Baglio, Bagnaschi,
-  Ballestrero, Banfi, Barducci, Beckingham, Becot, Bélanger, Bellm, Belyaev,
-  Bernlochner, Beskidt, Biekötter, Bishara, Bizon, Bomark, Bonvini, Borowka,
-  Bortolotto, Boselli, Botella, Boughezal, Branco, Brehmer, Brenner, Bressler,
-  Brivio, Broggio, Brun, Buchalla, Burgard, Calandri, Caminada,
-  Caminal~Armadans, Campanario, Campbell, Caola, Carloni~Calame, Carrazza,
-  Carvalho, Casolino, Cata, Celis, Cerutti, Chanon, Chen, Chen,
-  Chokoufé~Nejad, Christensen, Ciuchini, Contino, Corbett, Costa, Curtin,
-  Dall'Osso, David, Dawson, de~Blas, de~Boer, de~Castro~Manzano, Degrande,
-  Delgado, Demartin, Denner, Di~Micco, Di~Nardo, Dittmaier, Dobado, Dorigo,
-  Dreyer, Dührssen, Duhr, Dulat, Ecker, Ellis, Ellwanger, Englert, Espriu,
-  Falkowski, Fayard, Feger, Ferrera, Ferroglia, Fidanza, Figy, Flechl, Fontes,
-  Forte, Francavilla, Franco, Frederix, Freitas, Freitas, Frensch, Frixione,
-  Fuks, Furlan, Gadatsch, Gao, Gao, Garzelli, Gehrmann, Gerosa, Ghezzi, Ghosh,
-  Gieseke, Gillberg, Giudice, Glover, Goertz, Gonçalves, Gonzalez-Fraile,
-  Gorbahn, Gori, Gottardo, Gouzevitch, Govoni, Gray, Grazzini, Greiner, Greljo,
-  Grigo, Gritsan, Gröber, Guindon, Haber, Han, Han, Harlander, Harrendorf,
-  Hartanto, Hays, Heinemeyer, Heinrich, Herrero, Herzog, Hespel, Hirschi,
-  Hoeche, Honeywell, Huber, Hugonie, Huston, Ilnicka, Isidori, Jäger, Jaquier,
-  Jones, Juste, Kallweit, Kaluza, Kardos, Karlberg, Kassabov, Kauer, Kazakov,
-  Kerner, Kilian, Kling, Köneke, Kogler, Konoplich, Kortner, Kraml, Krause,
-  Krauss, Krawczyk, Kulesza, Kuttimalai, Lane, Lazopoulos, Lee, Lenzi, Lewis,
-  Li, Liebler, Lindert, Liu, Liu, Llanes-Estrada, Logan, Lopez-Val, Low,
-  Luisoni, Maierhöfer, Maina, Mansoulié, Mantler, Mantoani, Marini,
-  Martinez~Outschoorn, Marzani, Marzocca, Massironi, Mawatari, Mazzitelli,
-  McCarn, Mellado, Melnikov, Menari, Merlo, Meyer, Milenovic, Mimasu, Mishima,
-  Mistlberger, Moch, Mohammadi, Monni, Montagna, Moreno~Llácer, Moretti,
-  Moretti, Motyka, Mück, Mühlleitner, Munir, Musella, Nadolsky, Napoletano,
-  Nebot, Neu, Neubert, Nevzorov, Nicrosini, Nielsen, Nikolopoulos, No, O'Brien,
-  Ohl, Oleari, Orimoto, Pagani, Pandini, Papaefstathiou, Papanastasiou,
-  Passarino, Pecjak, Pelliccioni, Perez, Perrozzi, Petriello, Petrucciani,
-  Pianori, Piccinini, Pierini, Pilkington, Plätzer, Plehn, Podskubka, Potter,
-  Pozzorini, Prokofiev, Pukhov, Puljak, Queitsch-Maitland, Quevillon, Rathlev,
-  Rauch, Re, Rebelo, Rebuzzi, Reina, Reuschle, Reuter, Riembau, Riva, Rizzi,
-  Robens, Röntsch, Rojo, Romão, Rompotis, Roskes, Roth, Salam, Salerno,
-  Sampaio, Santos, Sanz, Sanz-Cillero, Sargsyan, Sarica, Schichtel, Schlenk,
-  Schmidt, Schmitt, Schönherr, Schubert, Schulze, Sekula, Sekulla, Shabalina,
-  Shao, Shelton, Shepherd-Themistocleous, Shim, Siegert, Signer, Silva,
-  Silvestrini, Sjodahl, Slavich, Slawinska, Soffi, Spannowsky, Speckner,
-  Sperka, Spira, Stål, Staub, Stebel, Stefaniak, Steinhauser, Stewart,
-  Strassler, Streicher, Strom, Su, Sun, Tackmann, Tackmann, Teixeira,
-  Teixeira~de Lima, Theeuwes, Thorne, Tommasini, Torrielli, Tosi, Tramontano,
-  Trócsányi, Trott, Tsinikos, Ubiali, Vanlaer, Verkerke, Vicini, Viliani,
-  Vryonidou, Wackeroth, Wagner, Wang, Wayand, Weiglein, Weiss, Wiesemann,
-  Williams, Winter, Winterbottom, Wolf, Xiao, Yang, Yohay, Yuen, Zanderighi,
-  Zaro, Zeppenfeld, Ziegler, Zirke, and Zupan]{deFlorian:2227475}
-D.~de~Florian, C.~Grojean, F.~Maltoni, C.~Mariotti, A.~Nikitenko, M.~Pieri,
-  P.~Savard, M.~Schumacher, R.~Tanaka, R.~Aggleton, M.~Ahmad, B.~Allanach,
-  C.~Anastasiou, W.~Astill, S.~Badger, M.~Badziak, J.~Baglio, E.~Bagnaschi,
-  A.~Ballestrero, A.~Banfi, D.~Barducci, M.~Beckingham, C.~Becot, G.~Bélanger,
-  J.~Bellm, N.~Belyaev, F.~Bernlochner, C.~Beskidt, A.~Biekötter, F.~Bishara,
-  W.~Bizon, N.~Bomark, M.~Bonvini, S.~Borowka, V.~Bortolotto, S.~Boselli,
-  F.~Botella, R.~Boughezal, G.~Branco, J.~Brehmer, L.~Brenner, S.~Bressler,
-  I.~Brivio, A.~Broggio, H.~Brun, G.~Buchalla, C.~Burgard, A.~Calandri,
-  L.~Caminada, R.~Caminal~Armadans, F.~Campanario, J.~Campbell, F.~Caola,
-  C.~Carloni~Calame, S.~Carrazza, A.~Carvalho, M.~Casolino, O.~Cata, A.~Celis,
-  F.~Cerutti, N.~Chanon, M.~Chen, X.~Chen, B.~Chokoufé~Nejad, N.~Christensen,
-  M.~Ciuchini, R.~Contino, T.~Corbett, R.~Costa, D.~Curtin, M.~Dall'Osso,
-  A.~David, S.~Dawson, J.~de~Blas, W.~de~Boer, P.~de~Castro~Manzano,
-  C.~Degrande, R.~Delgado, F.~Demartin, A.~Denner, B.~Di~Micco, R.~Di~Nardo,
-  S.~Dittmaier, A.~Dobado, T.~Dorigo, F.~Dreyer, M.~Dührssen, C.~Duhr,
-  F.~Dulat, K.~Ecker, K.~Ellis, U.~Ellwanger, C.~Englert, D.~Espriu,
-  A.~Falkowski, L.~Fayard, R.~Feger, G.~Ferrera, A.~Ferroglia, N.~Fidanza,
-  T.~Figy, M.~Flechl, D.~Fontes, S.~Forte, P.~Francavilla, E.~Franco,
-  R.~Frederix, A.~Freitas, F.~Freitas, F.~Frensch, S.~Frixione, B.~Fuks,
-  E.~Furlan, S.~Gadatsch, J.~Gao, Y.~Gao, M.~Garzelli, T.~Gehrmann, R.~Gerosa,
-  M.~Ghezzi, D.~Ghosh, S.~Gieseke, D.~Gillberg, G.~Giudice, E.~Glover,
-  F.~Goertz, D.~Gonçalves, J.~Gonzalez-Fraile, M.~Gorbahn, S.~Gori,
-  C.~Gottardo, M.~Gouzevitch, P.~Govoni, D.~Gray, M.~Grazzini, N.~Greiner,
-  A.~Greljo, J.~Grigo, A.~Gritsan, R.~Gröber, S.~Guindon, H.~Haber, C.~Han,
-  T.~Han, R.~Harlander, M.~Harrendorf, H.~Hartanto, C.~Hays, S.~Heinemeyer,
-  G.~Heinrich, M.~Herrero, F.~Herzog, B.~Hespel, V.~Hirschi, S.~Hoeche,
-  S.~Honeywell, S.~Huber, C.~Hugonie, J.~Huston, A.~Ilnicka, G.~Isidori,
-  B.~Jäger, M.~Jaquier, S.~Jones, A.~Juste, S.~Kallweit, A.~Kaluza, A.~Kardos,
-  A.~Karlberg, Z.~Kassabov, N.~Kauer, D.~Kazakov, M.~Kerner, W.~Kilian,
-  F.~Kling, K.~Köneke, R.~Kogler, R.~Konoplich, S.~Kortner, S.~Kraml,
-  C.~Krause, F.~Krauss, M.~Krawczyk, A.~Kulesza, S.~Kuttimalai, R.~Lane,
-  A.~Lazopoulos, G.~Lee, P.~Lenzi, I.~Lewis, Y.~Li, S.~Liebler, J.~Lindert,
-  X.~Liu, Z.~Liu, F.~Llanes-Estrada, H.~Logan, D.~Lopez-Val, I.~Low,
-  G.~Luisoni, P.~Maierhöfer, E.~Maina, B.~Mansoulié, H.~Mantler, M.~Mantoani,
-  A.~Marini, V.~Martinez~Outschoorn, S.~Marzani, D.~Marzocca, A.~Massironi,
-  K.~Mawatari, J.~Mazzitelli, A.~McCarn, B.~Mellado, K.~Melnikov, S.~Menari,
-  L.~Merlo, C.~Meyer, P.~Milenovic, K.~Mimasu, S.~Mishima, B.~Mistlberger,
-  S.-O. Moch, A.~Mohammadi, P.~Monni, G.~Montagna, M.~Moreno~Llácer,
-  N.~Moretti, S.~Moretti, L.~Motyka, A.~Mück, M.~Mühlleitner, S.~Munir,
-  P.~Musella, P.~Nadolsky, D.~Napoletano, M.~Nebot, C.~Neu, M.~Neubert,
-  R.~Nevzorov, O.~Nicrosini, J.~Nielsen, K.~Nikolopoulos, J.~No, C.~O'Brien,
-  T.~Ohl, C.~Oleari, T.~Orimoto, D.~Pagani, C.~Pandini, A.~Papaefstathiou,
-  A.~Papanastasiou, G.~Passarino, B.~Pecjak, M.~Pelliccioni, G.~Perez,
-  L.~Perrozzi, F.~Petriello, G.~Petrucciani, E.~Pianori, F.~Piccinini,
-  M.~Pierini, A.~Pilkington, S.~Plätzer, T.~Plehn, R.~Podskubka, C.~Potter,
-  S.~Pozzorini, K.~Prokofiev, A.~Pukhov, I.~Puljak, M.~Queitsch-Maitland,
-  J.~Quevillon, D.~Rathlev, M.~Rauch, E.~Re, M.~Rebelo, D.~Rebuzzi, L.~Reina,
-  C.~Reuschle, J.~Reuter, M.~Riembau, F.~Riva, A.~Rizzi, T.~Robens,
-  R.~Röntsch, J.~Rojo, J.~Romão, N.~Rompotis, J.~Roskes, R.~Roth, G.~Salam,
-  R.~Salerno, M.~Sampaio, R.~Santos, V.~Sanz, J.~Sanz-Cillero, H.~Sargsyan,
-  U.~Sarica, P.~Schichtel, J.~Schlenk, T.~Schmidt, C.~Schmitt, M.~Schönherr,
-  U.~Schubert, M.~Schulze, S.~Sekula, M.~Sekulla, E.~Shabalina, H.~Shao,
-  J.~Shelton, C.~Shepherd-Themistocleous, S.~Shim, F.~Siegert, A.~Signer,
-  J.~Silva, L.~Silvestrini, M.~Sjodahl, P.~Slavich, M.~Slawinska, L.~Soffi,
-  M.~Spannowsky, C.~Speckner, D.~Sperka, M.~Spira, O.~Stål, F.~Staub,
-  T.~Stebel, T.~Stefaniak, M.~Steinhauser, I.~Stewart, M.~Strassler,
-  J.~Streicher, D.~Strom, S.~Su, X.~Sun, F.~Tackmann, K.~Tackmann, A.~Teixeira,
-  R.~Teixeira~de Lima, V.~Theeuwes, R.~Thorne, D.~Tommasini, P.~Torrielli,
-  M.~Tosi, F.~Tramontano, Z.~Trócsányi, M.~Trott, I.~Tsinikos, M.~Ubiali,
-  P.~Vanlaer, W.~Verkerke, A.~Vicini, L.~Viliani, E.~Vryonidou, D.~Wackeroth,
-  C.~Wagner, J.~Wang, S.~Wayand, G.~Weiglein, C.~Weiss, M.~Wiesemann,
-  C.~Williams, J.~Winter, D.~Winterbottom, R.~Wolf, M.~Xiao, L.~Yang, R.~Yohay,
-  S.~Yuen, G.~Zanderighi, M.~Zaro, D.~Zeppenfeld, R.~Ziegler, T.~Zirke, and
-  J.~Zupan.
-\newblock {Handbook of LHC Higgs Cross Sections: 4. Deciphering the Nature of
-  the Higgs Sector}.
-\newblock Technical Report FERMILAB-FN-1025-T, Oct 2016{\natexlab{a}}.
-\newblock URL \url{https://cds.cern.ch/record/2227475}.
-\newblock 869 pages, 295 figures, 248 tables and 1645 citations. Working Group
-  web page: https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHXSWG.
+\bibitem[Adam et~al.(2006)Adam, Mangano, Speer, and Todorov]{tracker:algo}
+Wolfgang Adam, Boris Mangano, Thomas Speer, and Teddy Todorov.
+\newblock {Track Reconstruction in the CMS tracker}.
+\newblock Technical Report CMS-NOTE-2006-041, CERN, Geneva, Dec 2006.
+\newblock URL \url{https://cds.cern.ch/record/934067}.
 
-\bibitem[de~Florian et~al.(2016{\natexlab{b}})]{YR4}
-D.~de~Florian et~al.
-\newblock Handbook of {LHC} {H}iggs cross sections: 4. deciphering the nature
-  of the {H}iggs sector.
-\newblock CERN Report CERN-2017-002-M, 2016{\natexlab{b}}.
+\bibitem[Adam et~al.(2005)Adam, Fr{\"u}hwirth, Strandlie, and Todor]{Algo:GSF}
+Wolfgang Adam, R.~Fr{\"u}hwirth, Are Strandlie, and T.~Todor.
+\newblock {Reconstruction of Electrons with the Gaussian-Sum Filter in the CMS
+  Tracker at the LHC}.
+\newblock 2005.
 
-\bibitem[de~Lima et~al.(2015)de~Lima, Machado, Matheus, and
-  do~Prado]{deLima2015}
-L.~de~Lima, C.~S. Machado, R.~D. Matheus, and L.~A.~F. do~Prado.
-\newblock Higgs flavor violation as a signal to discriminate models.
-\newblock \emph{Journal of High Energy Physics}, 2015\penalty0 (11):\penalty0
-  74, Nov 2015.
-
-\bibitem[Denner et~al.(2011)Denner, Heinemeyer, Puljak, Rebuzzi, and
-  Spira]{Denner:2011mq}
-A.~Denner, S.~Heinemeyer, I.~Puljak, D.~Rebuzzi, and M.~Spira.
-\newblock Standard model {H}iggs-boson branching ratios with uncertainties.
-\newblock \emph{Eur. Phys. J. C}, 71:\penalty0 1753, 2011.
-\newblock \doi{10.1140/epjc/s10052-011-1753-8}.
-
-\bibitem[Diaz-Cruz and Toscano(2000)]{PhysRevD.62.116005}
-J.~L. Diaz-Cruz and J.~J. Toscano.
-\newblock Lepton flavor violating decays of higgs bosons beyond the standard
-  model.
-\newblock \emph{Phys. Rev. D}, 62:\penalty0 116005, Nov 2000.
-\newblock \doi{10.1103/PhysRevD.62.116005}.
-\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevD.62.116005}.
-
-\bibitem[Dittmaier et~al.(2011)Dittmaier, Mariotti, Passarino, Tanaka, Baglio,
-  Bolzoni, Boughezal, Brein, Collins-Tooth, Dawson, Dean, Denner, Farrington,
-  Felcini, Flechl, de~Florian, Forte, Grazzini, Hackstein, Hahn, Harlander,
-  Hartonen, Heinemeyer, Huston, Kalinowski, Krämer, Krauss, Lee, Lehti,
-  Maltoni, Mazumdar, Moch, Mück, Mühlleitner, Nason, Neu, Oleari, Olsen,
-  Palmer, Petriello, Piacquadio, Pilaftsis, Potter, Puljak, Qian, Rebuzzi,
-  Reina, Rzehak, Schumacher, Slavich, Spira, Stöckli, Thorne, Acosta, Vickey,
-  Vicini, Wackeroth, Warsinsky, Weber, Weiglein, Weydert, Yu, Zaro, and
-  Zirke]{Dittmaier:1318996}
-S.~Dittmaier, C.~Mariotti, G.~Passarino, R.~Tanaka, J.~Baglio, P.~Bolzoni,
-  R.~Boughezal, O.~Brein, C.~Collins-Tooth, S.~Dawson, S.~Dean, A.~Denner,
-  S.~Farrington, M.~Felcini, M.~Flechl, D.~de~Florian, S.~Forte, M.~Grazzini,
-  C.~Hackstein, T.~Hahn, R.~Harlander, T.~Hartonen, S.~Heinemeyer, J.~Huston,
-  A.~Kalinowski, M.~Krämer, F.~Krauss, J.~S. Lee, S.~Lehti, F.~Maltoni,
-  K.~Mazumdar, S.~O. Moch, A.~Mück, M.~Mühlleitner, P.~Nason, C.~Neu,
-  C.~Oleari, J.~Olsen, S.~Palmer, F.~Petriello, G.~Piacquadio, A.~Pilaftsis,
-  C.~T. Potter, I.~Puljak, J.~Qian, D.~Rebuzzi, L.~Reina, H.~Rzehak,
-  M.~Schumacher, P.~Slavich, M.~Spira, F.~Stöckli, R.~S. Thorne, M.~V. Acosta,
-  T.~Vickey, A.~Vicini, D.~Wackeroth, M.~Warsinsky, M.~Weber, G.~Weiglein,
-  C.~Weydert, J.~Yu, M.~Zaro, and T.~Zirke.
-\newblock \emph{{Handbook of LHC Higgs Cross Sections: 1. Inclusive
-  Observables}}.
-\newblock CERN Yellow Reports: Monographs. CERN, Geneva, 2011.
-\newblock URL \url{https://cds.cern.ch/record/1318996}.
-\newblock Comments: 153 pages, 43 figures, to be submitted to CERN Report.
-  Working Group web page:
-  https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CrossSections.
-
-\bibitem[Dittmaier et~al.(2012)Dittmaier, Mariotti, Passarino, Tanaka, Alekhin,
-  Alwall, Bagnaschi, Banfi, Blumlein, Bolognesi, Chanon, Cheng, Cieri,
-  Cooper-Sarkar, Cutajar, Dawson, Davies, De~Filippis, Degrassi, Denner,
-  D'Enterria, Diglio, Di~Micco, Di~Nardo, Ellis, Farilla, Farrington, Felcini,
-  Ferrera, Flechl, de~Florian, Forte, Ganjour, Garzelli, Gascon-Shotkin,
-  Glazov, Goria, Grazzini, Guillet, Hackstein, Hamilton, Harlander, Hauru,
-  Heinemeyer, Hoche, Huston, Jackson, Jimenez-Delgado, Jorgensen, Kado,
-  Kallweit, Kardos, Kauer, Kim, Kovac, Kramer, Krauss, Kuo, Lehti, Li, Lorenzo,
-  Maltoni, Mellado, Moch, Muck, Muhlleitner, Nadolsky, Nason, Neu, Nikitenko,
-  Oleari, Olsen, Palmer, Paganis, Papadopoulos, Petersen, Petriello, Petrucci,
-  Piacquadio, Pilon, Potter, Price, Puljak, Quayle, Radescu, Rebuzzi, Reina,
-  Rojo, Rosco, Salam, Sapronov, Schaarschmidt, Schonherr, Schumacher, Siegert,
-  Slavich, Spira, Stewart, Stirling, Stockli, Sturm, Tackmann, Thorne,
-  Tommasini, Torrielli, Tramontano, Trocsanyi, Ubiali, Uccirati, Acosta,
-  Vickey, Vicini, Waalewijn, Wackeroth, Warsinsky, Weber, Wiesemann, Weiglein,
-  Yu, and Zanderighi]{Dittmaier:1416519}
-S.~Dittmaier, C.~Mariotti, G.~Passarino, R.~Tanaka, S.~Alekhin, J.~Alwall,
-  E.~A. Bagnaschi, A.~Banfi, J.~Blumlein, S.~Bolognesi, N.~Chanon, T.~Cheng,
-  L.~Cieri, A.~M. Cooper-Sarkar, M.~Cutajar, S.~Dawson, G.~Davies,
-  N.~De~Filippis, G.~Degrassi, A.~Denner, D.~D'Enterria, S.~Diglio,
-  B.~Di~Micco, R.~Di~Nardo, R.~K. Ellis, A.~Farilla, S.~Farrington, M.~Felcini,
-  G.~Ferrera, M.~Flechl, D.~de~Florian, S.~Forte, S.~Ganjour, M.~V. Garzelli,
-  S.~Gascon-Shotkin, S.~Glazov, S.~Goria, M.~Grazzini, J.~P. Guillet,
-  C.~Hackstein, K.~Hamilton, R.~Harlander, M.~Hauru, S.~Heinemeyer, S.~Hoche,
-  J.~Huston, C.~Jackson, P.~Jimenez-Delgado, M.~D. Jorgensen, M.~Kado,
-  S.~Kallweit, A.~Kardos, N.~Kauer, H.~Kim, M.~Kovac, M.~Kramer, F.~Krauss,
-  C.~M. Kuo, S.~Lehti, Q.~Li, N.~Lorenzo, F.~Maltoni, B.~Mellado, S.~O. Moch,
-  A.~Muck, M.~Muhlleitner, P.~Nadolsky, P.~Nason, C.~Neu, A.~Nikitenko,
-  C.~Oleari, J.~Olsen, S.~Palmer, S.~Paganis, C.~G. Papadopoulos, T.~C.
-  Petersen, F.~Petriello, F.~Petrucci, G.~Piacquadio, E.~Pilon, C.~T. Potter,
-  J.~Price, I.~Puljak, W.~Quayle, V.~Radescu, D.~Rebuzzi, L.~Reina, J.~Rojo,
-  D.~Rosco, G.~P. Salam, A.~Sapronov, J.~Schaarschmidt, M.~Schonherr,
-  M.~Schumacher, F.~Siegert, P.~Slavich, M.~Spira, I.~W. Stewart, W.~J.
-  Stirling, F.~Stockli, C.~Sturm, F.~J. Tackmann, R.~S. Thorne, D.~Tommasini,
-  P.~Torrielli, F.~Tramontano, Z.~Trocsanyi, M.~Ubiali, S.~Uccirati, M.~V.
-  Acosta, T.~Vickey, A.~Vicini, W.~J. Waalewijn, D.~Wackeroth, M.~Warsinsky,
-  M.~Weber, M.~Wiesemann, G.~Weiglein, J.~Yu, and G.~Zanderighi.
-\newblock {Handbook of LHC Higgs Cross Sections: 2. Differential
-  Distributions}.
-\newblock Technical Report arXiv:1201.3084. CERN-2012-002, Geneva, 2012.
-\newblock URL \url{https://cds.cern.ch/record/1416519}.
-\newblock Comments: 275 pages, 136 figures, to be submitted to CERN Report.
-  Working Group web page:
-  https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CrossSections.
-
-\bibitem[Djouadi(2008)]{DJOUADI20081}
-A.~Djouadi.
-\newblock The anatomy of electroweak symmetry breaking: Tome i: The higgs boson
-  in the standard model.
-\newblock \emph{Physics Reports}, 457\penalty0 (1):\penalty0 1 -- 216, 2008.
-\newblock ISSN 0370-1573.
-\newblock \doi{https://doi.org/10.1016/j.physrep.2007.10.004}.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/S0370157307004334}.
-
-\bibitem[Djouadi et~al.(1991)Djouadi, Spira, and Zerwas]{Djouadi:1991tka}
-A.~Djouadi, M.~Spira, and P.~M. Zerwas.
-\newblock {Production of Higgs bosons in proton colliders: QCD corrections}.
-\newblock \emph{Phys. Lett.}, B264:\penalty0 440--446, 1991.
-\newblock \doi{10.1016/0370-2693(91)90375-Z}.
-
-\bibitem[Ellis and Soper(1993)]{ktalgo}
-S.~D. Ellis and D.~E. Soper.
-\newblock {Successive combination jet algorithm for hadron collisions}.
-\newblock \emph{Phys. Rev.}, D48:\penalty0 3160--3166, 1993.
-\newblock \doi{10.1103/PhysRevD.48.3160}.
-
-\bibitem[Evans and Bryant(2008)]{LHC_refer}
-L.~Evans and P.~Bryant.
-\newblock Lhc machine.
-\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0 S08001,
-  2008.
-\newblock URL \url{http://stacks.iop.org/1748-0221/3/i=08/a=S08001}.
+\bibitem[Chatrchyan et~al.(2012{\natexlab{a}})]{muonreco}
+Serguei Chatrchyan et~al.
+\newblock {Performance of CMS muon reconstruction in $pp$ collision events at
+  $\sqrt{s} = 7$ TeV}.
+\newblock \emph{JINST}, 7:\penalty0 P10002, 2012{\natexlab{a}}.
+\newblock \doi{10.1088/1748-0221/7/10/P10002}.
 
 \bibitem[Fruhwirth(1987)]{Fruhwirth:1987fm}
 R.~Fruhwirth.
@@ -599,46 +365,90 @@ R.~Fruhwirth.
 \newblock \emph{Nucl. Instrum. Meth.}, A262:\penalty0 444--450, 1987.
 \newblock \doi{10.1016/0168-9002(87)90887-4}.
 
-\bibitem[Georgi et~al.(1978)Georgi, Glashow, Machacek, and
-  Nanopoulos]{Georgi:1977gs}
-H.~M. Georgi, S.~L. Glashow, M.~E. Machacek, and D.~V. Nanopoulos.
-\newblock {H}iggs bosons from two gluon annihilation in proton proton
-  collisions.
-\newblock \emph{Phys. Rev. Lett.}, 40:\penalty0 692, 1978.
-\newblock \doi{10.1103/PhysRevLett.40.692}.
+\bibitem[PFm(2010)]{PFmuonselection}
+{Particle-flow commissioning with muons and electrons from J/Psi and W events
+  at 7 TeV}.
+\newblock Technical Report CMS-PAS-PFT-10-003, CERN, Geneva, 2010.
+\newblock URL \url{http://cds.cern.ch/record/1279347}.
 
-\bibitem[Gori(2014)]{CMS_HLT_RunII}
-V.~Gori.
-\newblock {The CMS High Level Trigger}.
-\newblock \emph{Int. J. Mod. Phys. Conf. Ser.}, 31:\penalty0 1460297, 2014.
-\newblock \doi{10.1142/S201019451460297X}.
+\bibitem[Khachatryan et~al.(2015{\natexlab{a}})]{electron_reco2015}
+Vardan Khachatryan et~al.
+\newblock {Performance of electron reconstruction and selection with the CMS
+  detector in proton-proton collisions at $\sqrt{s}$ = 8 TeV}.
+\newblock \emph{JINST}, 10:\penalty0 P06005, 2015{\natexlab{a}}.
+\newblock \doi{10.1088/1748-0221/10/06/P06005}.
 
-\bibitem[Griffiths(2008)]{Griffiths:111880}
-D.~J. Griffiths.
-\newblock \emph{{Introduction to elementary particles; 2nd rev. version}}.
-\newblock Physics textbook. Wiley, New York, NY, 2008.
-\newblock URL \url{https://cds.cern.ch/record/111880}.
+\bibitem[Cacciari et~al.(2012)Cacciari, Salam, and Soyez]{FastJetalso}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock {FastJet user manual}.
+\newblock \emph{Eur. Phys. J. C}, 72:\penalty0 1896, 2012.
+\newblock \doi{10.1140/epjc/s10052-012-1896-2}.
 
-\bibitem[Harnik et~al.(2013{\natexlab{a}})Harnik, Kopp, and
-  Zupan]{Harnik2012pb}
-R.~Harnik, J.~Kopp, and J.~Zupan.
-\newblock Flavor violating higgs decays.
-\newblock \emph{JHEP}, 03:\penalty0 26, 2013{\natexlab{a}}.
-\newblock \doi{10.1007/JHEP03(2013)026}.
+\bibitem[Cacciari et~al.(2008)Cacciari, Salam, and Soyez]{Cacciari:2008gp}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock {The anti-$k_t$ jet clustering algorithm}.
+\newblock \emph{JHEP}, 04:\penalty0 063, 2008.
+\newblock \doi{10.1088/1126-6708/2008/04/063}.
 
-\bibitem[Harnik et~al.(2013{\natexlab{b}})Harnik, Kopp, and
-  Zupan]{Harnik:2012pb}
-R.~Harnik, J.~Kopp, and J.~Zupan.
-\newblock Flavor violating higgs decays.
-\newblock \emph{JHEP}, 03:\penalty0 26, 2013{\natexlab{b}}.
-\newblock \doi{10.1007/JHEP03(2013)026}.
+\bibitem[Collaboration"(2011)]{TauIdentiRunI}
+"CMS Collaboration".
+\newblock {Performance of $\tau$-lepton reconstruction and identification in
+  CMS}.
+\newblock \emph{JINST}, 7\penalty0 (arXiv:1109.6034. CMS-TAU-11-001.
+  CERN-PH-EP-2011-137):\penalty0 P01001. 33 p, Sep 2011.
+\newblock URL \url{http://cds.cern.ch/record/1385560}.
 
-\bibitem[Hayasaka et~al.(2010)]{Hayasaka:2010np}
-K.~Hayasaka et~al.
-\newblock {Search for lepton flavor violating $\tau$ decays into three leptons
-  with 719 million produced $\tau^+\tau^-$ pairs}.
-\newblock \emph{Phys. Lett. B}, 687:\penalty0 139, 2010.
-\newblock \doi{10.1016/j.physletb.2010.03.037}.
+\bibitem[Collaboration(2016{\natexlab{a}})]{TauRecoandIDRunII}
+CMS Collaboration.
+\newblock {Performance of reconstruction and identification of tau leptons in
+  their decays to hadrons and tau neutrino in LHC Run-2}.
+\newblock 2016{\natexlab{a}}.
+
+\bibitem[Collaboration(2016{\natexlab{b}})]{TauReconstuction}
+CMS Collaboration.
+\newblock {Reconstruction and identification of tau lepton decays to hadrons
+  and tau neutrino at CMS}.
+\newblock \emph{JINST 11 (2016) P01019}, 11, 2016{\natexlab{b}}.
+\newblock \doi{10.1088/1748-0221/11/01/P01019}.
+
+\bibitem[Ellis and Soper(1993)]{ktalgo}
+Stephen~D. Ellis and Davison~E. Soper.
+\newblock {Successive combination jet algorithm for hadron collisions}.
+\newblock \emph{Phys. Rev.}, D48:\penalty0 3160--3166, 1993.
+\newblock \doi{10.1103/PhysRevD.48.3160}.
+
+\bibitem[Yu.L.Dokshitzer and B.R.Webber(1997)]{Aachenjetalgo}
+S.Moretti Yu.L.Dokshitzer, G.D.Leder and B.R.Webber.
+\newblock {Better Jet Clustering Algorithms}.
+\newblock \emph{JHEP 9708:001,1997}, 1997.
+\newblock \doi{10.1088/1126-6708/1997/08/001}.
+
+\bibitem[Khachatryan et~al.(2017)]{jetenergycorrection}
+Vardan Khachatryan et~al.
+\newblock {Jet energy scale and resolution in the CMS experiment in pp
+  collisions at 8 TeV}.
+\newblock \emph{JINST}, 12:\penalty0 P02014, 2017.
+\newblock \doi{10.1088/1748-0221/12/02/P02014}.
+
+\bibitem[PU_(2013)]{PU_jetID}
+{Pileup Jet Identification}.
+\newblock Technical Report CMS-PAS-JME-13-005, CERN, Geneva, 2013.
+\newblock URL \url{http://cds.cern.ch/record/1581583}.
+
+\bibitem[Sirunyan et~al.(2018)]{BTV-16-002}
+Albert~M Sirunyan et~al.
+\newblock {Identification of heavy-flavour jets with the CMS detector in pp
+  collisions at 13 TeV}.
+\newblock \emph{JINST}, 13:\penalty0 P05011, 2018.
+\newblock \doi{10.1088/1748-0221/13/05/P05011}.
+
+\bibitem[Collaboration(2016{\natexlab{c}})]{btag_ago}
+CMS Collaboration.
+\newblock {Identification of b quark jets at the CMS Experiment in the LHC Run
+  2}.
+\newblock Technical Report CMS-PAS-BTV-15-001, CERN, Geneva,
+  2016{\natexlab{c}}.
+\newblock URL \url{https://cds.cern.ch/record/2138504}.
 
 \bibitem[{Hoecker} et~al.(2007){Hoecker}, {Speckmayer}, {Stelzer}, {Therhaag},
   {von Toerne}, {Voss}, {Backes}, {Carli}, {Cohen}, {Christov}, {Dannheim},
@@ -652,54 +462,118 @@ A.~{Hoecker}, P.~{Speckmayer}, J.~{Stelzer}, J.~{Therhaag}, E.~{von Toerne},
   X.~{Prudent}, A.~{Robert}, D.~{Schouten}, F.~{Tegenfeldt}, A.~{Voigt},
   K.~{Voss}, M.~{Wolter}, and A.~{Zemla}.
 \newblock {TMVA - Toolkit for Multivariate Data Analysis}.
-\newblock \emph{ArXiv Physics e-prints}, Mar. 2007.
+\newblock \emph{ArXiv Physics e-prints}, March 2007.
+
+\bibitem[Chatrchyan et~al.(2014{\natexlab{a}})]{Chatrchyan:2014nva}
+Serguei Chatrchyan et~al.
+\newblock {Evidence for the 125 GeV Higgs boson decaying to a pair of $\tau$
+  leptons}.
+\newblock 2014{\natexlab{a}}.
+
+\bibitem[P.Roe et~al.(2005)]{BDTboostPI}
+Byron P.Roe et~al.
+\newblock {Boosted Decision Trees as an Alternative to Artificial Neural
+  Networks for Particle Identification}.
+\newblock 2005.
+
+\bibitem[CMS(2011)]{CMS-NOTE-2011-005}
+{Procedure for the LHC Higgs boson search combination in Summer 2011}.
+\newblock Technical Report CMS-NOTE-2011-005. ATL-PHYS-PUB-2011-11, CERN,
+  Geneva, Aug 2011.
+\newblock URL \url{https://cds.cern.ch/record/1379837}.
+
+\bibitem[Lista(2016)]{statistics:school2016}
+Luca Lista.
+\newblock {Practical Statistics for Particle Physicists}.
+\newblock 2016.
+
+\bibitem[Cranmer(2015)]{LHCstaticstics}
+Kyle Cranmer.
+\newblock {Practical Statistics for the LHC}.
+\newblock \emph{CERN-2014-003, pp. 267 - 308}, 2015.
+\newblock \doi{10.5170/CERN-2015-004.301}.
 
 \bibitem[Khachatryan et~al.(2011)]{Khachatryan2011}
-V.~Khachatryan et~al.
+Vardan Khachatryan et~al.
 \newblock Measurements of inclusive {W} and {Z} cross sections in pp collisions
   at $\sqrt{s}$ = 7 {TeV}.
 \newblock \emph{J. High Energy Phys.}, 01:\penalty0 080, 2011.
 \newblock \doi{10.1007/JHEP01(2011)080}.
 
-\bibitem[Khachatryan et~al.(2015{\natexlab{a}})]{Khachatryan:2015hwa}
-V.~Khachatryan et~al.
-\newblock {Performance of electron reconstruction and selection with the CMS
-  detector in proton-proton collisions at $\sqrt{s}$ = 8 TeV}.
-\newblock \emph{JINST}, 10:\penalty0 P06005, 2015{\natexlab{a}}.
-\newblock \doi{10.1088/1748-0221/10/06/P06005}.
+\bibitem[Chatrchyan et~al.(2012{\natexlab{b}})]{Chatrchyan:2012xi}
+Serguei Chatrchyan et~al.
+\newblock {Performance of CMS muon reconstruction in pp collision events at
+  $\sqrt{s} = 7$ TeV}.
+\newblock \emph{JINST}, 7:\penalty0 P10002, 2012{\natexlab{b}}.
+\newblock \doi{10.1088/1748-0221/7/10/P10002}.
 
-\bibitem[Khachatryan et~al.(2015{\natexlab{b}})]{electron_reco2015}
-V.~Khachatryan et~al.
+\bibitem[Khachatryan et~al.(2015{\natexlab{b}})]{Khachatryan:2015hwa}
+Vardan Khachatryan et~al.
 \newblock {Performance of electron reconstruction and selection with the CMS
   detector in proton-proton collisions at $\sqrt{s}$ = 8 TeV}.
 \newblock \emph{JINST}, 10:\penalty0 P06005, 2015{\natexlab{b}}.
 \newblock \doi{10.1088/1748-0221/10/06/P06005}.
 
 \bibitem[Khachatryan et~al.(2016)]{Khachatryan:2015dfa}
-V.~Khachatryan et~al.
+Vardan Khachatryan et~al.
 \newblock {Reconstruction and identification of tau lepton decays to hadrons
   and $\nu_\tau$ at CMS}.
 \newblock \emph{JINST}, 11:\penalty0 P01019, 2016.
 \newblock \doi{10.1088/1748-0221/11/01/P01019}.
 
-\bibitem[Khachatryan et~al.(2017)]{jetenergycorrection}
-V.~Khachatryan et~al.
-\newblock {Jet energy scale and resolution in the CMS experiment in pp
-  collisions at 8 TeV}.
-\newblock \emph{JINST}, 12:\penalty0 P02014, 2017.
-\newblock \doi{10.1088/1748-0221/12/02/P02014}.
+\bibitem[Collaboration(2016{\natexlab{d}})]{CMS:2016gvn}
+CMS Collaboration.
+\newblock {Performance of reconstruction and identification of tau leptons in
+  their decays to hadrons and tau neutrino in LHC Run-2}.
+\newblock CMS Physics Analysis Summary CMS-PAS-TAU-16-002, 2016{\natexlab{d}}.
+\newblock URL \url{https://cds.cern.ch/record/2196972}.
 
-\bibitem[Lef{\`e}vre(2008)]{Christiane:1260465}
-C.~Lef{\`e}vre.
-\newblock {The CERN accelerator complex. Complexe des acc{\'e}l{\'e}rateurs du
-  CERN}.
-\newblock Dec 2008.
-\newblock URL \url{https://cds.cern.ch/record/1260465}.
+\bibitem[de~Florian et~al.(2016{\natexlab{b}})]{YR4}
+D.~de~Florian et~al.
+\newblock Handbook of {LHC} {H}iggs cross sections: 4. deciphering the nature
+  of the {H}iggs sector.
+\newblock CERN Report CERN-2017-002-M, 2016{\natexlab{b}}.
 
-\bibitem[Lista(2016)]{statistics:school2016}
-L.~Lista.
-\newblock {Practical Statistics for Particle Physicists}.
-\newblock 2016.
+\bibitem[CMS(2017)]{CMS-PAS-LUM-17-001}
+{CMS} luminosity measurements for the 2016 data taking period.
+\newblock CMS Physics Analysis Summary CMS-PAS-LUM-17-001, 2017.
+\newblock URL \url{https://cds.cern.ch/record/2257069}.
+
+\bibitem[Chatrchyan et~al.(2011{\natexlab{a}})]{CMS:2011aa}
+Serguei Chatrchyan et~al.
+\newblock {Measurement of the inclusive $\PW$ and $\PZ$ production cross
+  sections in pp collisions at $\sqrt{s}=7$ TeV with the CMS experiment}.
+\newblock \emph{JHEP}, 10:\penalty0 132, 2011{\natexlab{a}}.
+\newblock \doi{10.1007/JHEP10(2011)132}.
+
+\bibitem[Chatrchyan et~al.(2014{\natexlab{b}})]{Chatrchyan:2014mua}
+Serguei Chatrchyan et~al.
+\newblock Measurement of inclusive {$W$} and {$Z$} boson production cross
+  sections in $pp$ collisions at {$\sqrt{s}$ = 8 TeV}.
+\newblock \emph{Phys. Rev. Lett.}, 112:\penalty0 191802, 2014{\natexlab{b}}.
+\newblock \doi{10.1103/PhysRevLett.112.191802}.
+
+\bibitem[Chatrchyan et~al.(2013)]{Chatrchyan:2012nj}
+Serguei Chatrchyan et~al.
+\newblock Measurement of the inelastic proton-proton cross section at
+  {$\sqrt{s} = 7 TeV$}.
+\newblock \emph{Phys. Lett. B}, 722:\penalty0 5, 2013.
+\newblock \doi{10.1016/j.physletb.2013.03.024}.
+
+\bibitem[Chatrchyan et~al.(2011{\natexlab{b}})]{CMS-JME-10-011}
+Serguei Chatrchyan et~al.
+\newblock Determination of jet energy calibration and transverse momentum
+  resolution in {CMS}.
+\newblock \emph{JINST}, 6:\penalty0 11002, 2011{\natexlab{b}}.
+\newblock \doi{10.1088/1748-0221/6/11/P11002}.
+
+\bibitem[Nadolsky et~al.(2008)Nadolsky, Lai, Cao, Huston, Pumplin, Stump, Tung,
+  and Yuan]{Nadolsky:2008zw}
+Pavel~M. Nadolsky, Hung-Liang Lai, Qing-Hong Cao, Joey Huston, Jon Pumplin,
+  Daniel Stump, Wu-Ki Tung, and C.-P. Yuan.
+\newblock {Implications of CTEQ global analysis for collider observables}.
+\newblock \emph{Phys. Rev. D}, 78:\penalty0 013004, 2008.
+\newblock \doi{10.1103/PhysRevD.78.013004}.
 
 \bibitem[Martin et~al.(2009)Martin, Stirling, Thorne, and Watt]{Martin:2009iq}
 A.~D. Martin, W.~J. Stirling, R.~S. Thorne, and G.~Watt.
@@ -707,24 +581,43 @@ A.~D. Martin, W.~J. Stirling, R.~S. Thorne, and G.~Watt.
 \newblock \emph{Eur. Phys. J. C}, 63:\penalty0 189, 2009.
 \newblock \doi{10.1140/epjc/s10052-009-1072-5}.
 
-\bibitem[Nadolsky et~al.(2008)Nadolsky, Lai, Cao, Huston, Pumplin, Stump, Tung,
-  and Yuan]{Nadolsky:2008zw}
-P.~M. Nadolsky, H.-L. Lai, Q.-H. Cao, J.~Huston, J.~Pumplin, D.~Stump, W.-K.
-  Tung, and C.-P. Yuan.
-\newblock {Implications of CTEQ global analysis for collider observables}.
-\newblock \emph{Phys. Rev. D}, 78:\penalty0 013004, 2008.
-\newblock \doi{10.1103/PhysRevD.78.013004}.
+\bibitem[Ball et~al.(2010)Ball, Del~Debbio, Forte, Guffanti, Latorre, Rojo, and
+  Ubiali]{Ball:2010de}
+Richard~D. Ball, Luigi Del~Debbio, Stefano Forte, Alberto Guffanti, Jos{\'e}~I.
+  Latorre, Juan Rojo, and Maria Ubiali.
+\newblock A first unbiased global {NLO} determination of parton distributions
+  and their uncertainties.
+\newblock \emph{Nucl. Phys. B}, 838:\penalty0 136, 2010.
+\newblock \doi{10.1016/j.nuclphysb.2010.05.008}.
 
-\bibitem[N.Davidson et~al.()]{Simulation:Tauola}
-G.~N.Davidson et~al.
-\newblock Universal interface of tauola technical and physics documentation.
-\newblock \doi{10.1016/j.cpc.2011.12.009}.
+\bibitem[Botje et~al.(2011)Botje, Butterworth, Cooper-Sarkar, de~Roeck,
+  Feltesse, Forte, Glazov, Huston, McNulty, Sj{\"o}strand, and
+  Thorne]{Botje:2011sn}
+Michiel Botje, Jon Butterworth, Amanda Cooper-Sarkar, Albert de~Roeck, Joel
+  Feltesse, Stefano Forte, Alexander Glazov, Joey Huston, Ronan McNulty,
+  Torb{\"o}rn Sj{\"o}strand, and Robert~S. Thorne.
+\newblock {The PDF4LHC Working Group Interim Recommendations}.
+\newblock 2011.
 
-\bibitem[Olari(2010)]{POWHEG-BOX}
-C.~Olari.
-\newblock {The POWHEG-BOX}.
-\newblock \emph{Nucl.Phys.Proc.Suppl.205-206:36-41,2010}, 2010.
-\newblock \doi{10.1016/j.nuclphysbps.2010.08.016}.
+\bibitem[Collaboration(2017)]{paper:13TeVsearch}
+CMS Collaboration.
+\newblock {Search for lepton flavour violating decays of the Higgs boson to
+  μτ and eτ in proton-proton collisions at $\sqrt{s}$= 13 TeV}.
+\newblock \emph{JHEP}, 2017.
+
+\bibitem[Denner et~al.(2011)Denner, Heinemeyer, Puljak, Rebuzzi, and
+  Spira]{Denner:2011mq}
+A.~Denner, S.~Heinemeyer, I.~Puljak, D.~Rebuzzi, and M.~Spira.
+\newblock Standard model {H}iggs-boson branching ratios with uncertainties.
+\newblock \emph{Eur. Phys. J. C}, 71:\penalty0 1753, 2011.
+\newblock \doi{10.1140/epjc/s10052-011-1753-8}.
+
+\bibitem[Hayasaka et~al.(2010)]{Hayasaka:2010np}
+K.~Hayasaka et~al.
+\newblock {Search for lepton flavor violating $\tau$ decays into three leptons
+  with 719 million produced $\tau^+\tau^-$ pairs}.
+\newblock \emph{Phys. Lett. B}, 687:\penalty0 139, 2010.
+\newblock \doi{10.1016/j.physletb.2010.03.037}.
 
 \bibitem[{Particle Data Group} et~al.(2016){Particle Data Group}, Patrignani,
   et~al.]{Olive:2016xmw}
@@ -733,85 +626,21 @@ C.~Olari.
 \newblock \emph{Chin. Phys. C}, 40:\penalty0 100001, 2016.
 \newblock \doi{10.1088/1674-1137/40/10/100001}.
 
-\bibitem[Peskin and Schroeder(1995)]{Peskin:1995ev}
-M.~E. Peskin and D.~V. Schroeder.
-\newblock \emph{{An Introduction to quantum field theory}}.
-\newblock Addison-Wesley, Reading, USA, 1995.
-\newblock ISBN 9780201503975, 0201503972.
-\newblock URL \url{http://www.slac.stanford.edu/~mpeskin/QFT.html}.
+\bibitem[HIG(2016)]{HIG-14-040}
+Search for lepton flavour violating decays of the higgs boson to
+  $\mathrm{e}\tau$ and $\mathrm{e}\mu$ in proton-proton collisions at
+  {$\sqrt{s}=8$ TeV}.
+\newblock \emph{Phys. Lett. B}, 763:\penalty0 472, 2016.
+\newblock \doi{10.1016/j.physletb.2016.09.062}.
 
-\bibitem[P.Roe et~al.(2005)]{BDTboostPI}
-B.~P.Roe et~al.
-\newblock {Boosted Decision Trees as an Alternative to Artificial Neural
-  Networks for Particle Identification}.
-\newblock 2005.
-
-\bibitem[Rabady et~al.(2017)Rabady, Ero, Flouris, Fulcher, Loukas, Paradas,
-  Reis, Sakulin, and Wulz]{L1muontrigger}
-D.~Rabady, J.~Ero, G.~Flouris, J.~Fulcher, N.~Loukas, E.~Paradas, T.~Reis,
-  H.~Sakulin, and C.-E. Wulz.
-\newblock {Upgrade of the CMS muon trigger system in the barrel region}.
-\newblock \emph{Nucl. Instrum. Meth.}, A845:\penalty0 616--620, 2017.
-\newblock \doi{10.1016/j.nima.2016.05.071}.
-
-\bibitem[Sirunyan et~al.(2017{\natexlab{a}})]{CMS-PRF-14-001}
-A.~M. Sirunyan et~al.
-\newblock Particle-flow reconstruction and global event description with the
-  cms detector.
-\newblock \emph{JINST}, 12:\penalty0 P10003, 2017{\natexlab{a}}.
-\newblock \doi{10.1088/1748-0221/12/10/P10003}.
-
-\bibitem[Sirunyan et~al.(2017{\natexlab{b}})]{CMS_PRF_14_001}
-A.~M. Sirunyan et~al.
-\newblock Particle-flow reconstruction and global event description with the
-  cms detector.
-\newblock \emph{JINST}, 12:\penalty0 P10003, 2017{\natexlab{b}}.
-\newblock \doi{10.1088/1748-0221/12/10/P10003}.
-
-\bibitem[Sirunyan et~al.(2018)]{BTV-16-002}
-A.~M. Sirunyan et~al.
-\newblock {Identification of heavy-flavour jets with the CMS detector in pp
-  collisions at 13 TeV}.
-\newblock \emph{JINST}, 13:\penalty0 P05011, 2018.
-\newblock \doi{10.1088/1748-0221/13/05/P05011}.
-
-\bibitem[Sj{\"o}strand et~al.(2015)Sj{\"o}strand, Ask, Christiansen, Corke,
-  Desai, Ilten, Mrenna, Prestel, Rasmussen, and Skands]{Sjostrand:2014zea}
-T.~Sj{\"o}strand, S.~Ask, J.~R. Christiansen, R.~Corke, N.~Desai, P.~Ilten,
-  S.~Mrenna, S.~Prestel, C.~O. Rasmussen, and P.~Z. Skands.
-\newblock {An introduction to {PYTHIA 8.2}}.
-\newblock \emph{Comput. Phys. Commun.}, 191:\penalty0 159, 2015.
-\newblock \doi{10.1016/j.cpc.2015.01.024}.
-
-\bibitem[Yazgan and the CMS ECAL/HCAL~Collaborations(2009)]{HCAL_reso}
-E.~Yazgan and the CMS ECAL/HCAL~Collaborations.
-\newblock The cms barrel calorimeter response to particle beams from 2 to 350
-  gev/c.
-\newblock \emph{Journal of Physics: Conference Series}, 160\penalty0
-  (1):\penalty0 012056, 2009.
-\newblock URL \url{http://stacks.iop.org/1742-6596/160/i=1/a=012056}.
-
-\bibitem[Yu.L.Dokshitzer and B.R.Webber(1997)]{Aachenjetalgo}
-S.~Yu.L.Dokshitzer, G.D.Leder and B.R.Webber.
-\newblock {Better Jet Clustering Algorithms}.
-\newblock \emph{JHEP 9708:001,1997}, 1997.
-\newblock \doi{10.1088/1126-6708/1997/08/001}.
-
-\bibitem[Zabi et~al.(2016)Zabi, Beaudette, Cadamuro, Mastrolorenzo, Romanteau,
-  Sauvan, Strebler, Marrouche, Wardle, Aggleton, Ball, Brooke, Newbold,
-  Paramesvaran, Smith, Baber, Bundock, Citron, Elwood, Hall, Iles, Laner,
-  Penning, Rose, Tapper, Durkin, Harder, Harper, Shepherd-Themistocleous, Thea,
-  and Williams]{L1_Egamma}
-A.~Zabi, F.~Beaudette, L.~Cadamuro, L.~Mastrolorenzo, T.~Romanteau, J.~Sauvan,
-  T.~Strebler, J.~Marrouche, N.~Wardle, R.~Aggleton, F.~Ball, J.~Brooke,
-  D.~Newbold, S.~Paramesvaran, D.~Smith, M.~Baber, A.~Bundock, M.~Citron,
-  A.~Elwood, G.~Hall, G.~Iles, C.~Laner, B.~Penning, A.~Rose, A.~Tapper,
-  T.~Durkin, K.~Harder, S.~Harper, C.~Shepherd-Themistocleous, A.~Thea, and
-  T.~Williams.
-\newblock Triggering on electrons, jets and tau leptons with the cms upgraded
-  calorimeter trigger for the lhc run ii.
-\newblock \emph{Journal of Instrumentation}, 11\penalty0 (02):\penalty0 C02008,
-  2016.
-\newblock URL \url{http://stacks.iop.org/1748-0221/11/i=02/a=C02008}.
+\bibitem[collaboration(2018)]{Sirunyan2018}
+CMS collaboration.
+\newblock Search for lepton flavour violating decays of the higgs boson to
+  $\mu$$\tau$ and e$\tau$ in proton-proton collisions at $\sqrt{s}$=13 tev.
+\newblock \emph{Journal of High Energy Physics}, 2018\penalty0 (6):\penalty0 1,
+  Jun 2018.
+\newblock ISSN 1029-8479.
+\newblock \doi{10.1007/JHEP06(2018)001}.
+\newblock URL \url{https://doi.org/10.1007/JHEP06(2018)001}.
 
 \end{thebibliography}

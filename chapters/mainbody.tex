@@ -83,25 +83,32 @@
 \usepackage{hyperref}
 \usepackage{slashed}
 %\usepackage{cite}
+\usepackage[numbers,sort&compress]{natbib}
 \usepackage{subfigure}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{hepnicenames}
 \usepackage{longtable}
-\begin{document}
+\usepackage{threeparttable}
+\usepackage{footnote}
+\usepackage{booktabs, caption, makecell}
 \input{symbolsinput.tex} 
+\usepackage[flushleft]{threeparttable}
+
+
+\begin{document}
+
 \frontmatter % All the items before the first chapter go in ``frontmatter''
 
 % Titles may be 1-4 lines long. If your title is longer than 4 lines,
 % the class file may have difficulty formatting the title page.
 % Line-breaks in the title have to be protected with `\protect`.
-\title{Search for lepton flavor violating decays of the Higgs boson}
+\title{SEARCH FOR LEPTON FLAVOUR VIOLATING DECAYS OF THE HIGGS BOSON}
+\advisor{Colin Jessop}
 \author{Fanbo Meng}
 \work{Dissertation} % or \work{Thesis}
 \degaward{Doctor of Philosophy}
-\advisor{Colin Jessop}
 \department{Physics}
-
 \maketitle
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -111,14 +118,14 @@
 
 % You must either set the copyright information or put your work in the public domain.
 \copyrightholder{Fanbo Meng} % See template or documentation for
-\copyrightyear{2017}           % other copyright options.
+\copyrightyear{2019}           % other copyright options.
 %\copyrightlicense{CC-BY-4.0}
 \makecopyright
 
 % An abstract is optional for a mster's thesis, and required for a doctoral dissertation.
 \begin{abstract}
 
-A search for lepton flavour violation Higgs decay in the $H \to \mu\tau_{h}$ and $H\to e\tau_{h}$ in which tau leptons decay hadronically is presented. The search of tau lepton hadronic decay channels and the searches that are combined with tau lepton leptonic decays are presented. The $H \to e \tau_{h}$ search utilizes the 2012 proton-proton collision dataset at LHC with an integrated luminosity of 19.7 $fb^{-1}$ at a center-of-mass energy of 8 TeV collected by CMS experiment. No significant excess was observed. The upper limits on branching fraction and the corresponding Yukawa coupling were set at 95\% CL. For the $\Hmuhad$ search, the full 2016 proton-proton collision dataset with an integrated luminosity of 35.9 $fb^{-1}$ at a center-of-mass energy of 13 TeV was used. No significant excess was observed and the upper limits on branching fraction $H\to \mu\tau$ and the corresponding Yukawa coupling were set. 
+A search for lepton flavour violation Higgs decay in the $H \to \mu\tau_{h}$ and $H\to e\tau_{h}$ in which tau leptons decay hadronically is presented. The search of tau lepton hadronic decay channels and the searches that are combined with tau lepton leptonic decays are presented. The $H \to e \tau_{h}$ search utilizes the 2012 proton-proton collision dataset at LHC with an integrated luminosity of 19.7 $fb^{-1}$ at a center-of-mass energy of 8 TeV collected by CMS experiment. No significant excess was observed. The upper limits on branching fraction is $B<0.69$ and the corresponding Yukawa coupling is set as $Y_{e\tau}<2.4\times10^{-3}$ at 95\% CL. For the $\Hmuhad$ search, the full 2016 proton-proton collision dataset with an integrated luminosity of 35.9 $fb^{-1}$ at a center-of-mass energy of 13 TeV was used. No significant excess was observed. The upper limits on branching fraction $H\to \mu\tau$ is $B<0.25\%$ and the corresponding Yukawa coupling is set as $Y_{\mu\tau}<1.43\times10^{-3}$ at 95\% CL. 
 
 
 
@@ -134,8 +141,19 @@ To my family
 
 % These are required, and must be in this order.
 \tableofcontents
-\listoffigures
-\listoftables
+{%
+\let\oldnumberline\numberline%
+\renewcommand{\numberline}{\figurename~\oldnumberline}%
+\listoffigures%
+}
+
+%\listoffigures
+{%
+\let\oldnumberline\numberline%
+\renewcommand{\numberline}{\tablename~\oldnumberline}%
+\listoftables%
+}
+%\listoftables
 
 % A preface is optional.
 %\begin{preface}
@@ -224,7 +242,8 @@ Finally I would like to thank the love and supports from my family.
 % if using chapter-wise bibliography
 
  \backmatter
- \bibliographystyle{abbrvnat} % The standard abbrvnat style should be acceptable. Also provided with both the advanced and standard
+ \bibliographystyle{unsrtnat}
+ %\bibliographystyle{abbrvnat} % The standard abbrvnat style should be acceptable. Also provided with both the advanced and standard
  \bibliography{/Users/FMENG/Desktop/Thesis/Thesis/chapters/reference/reference}       % distributions are nddiss2e and nddiss2enoarticletitles style options.
 % If you prefer to manually enter your bibliography, that is fine. Comment out the previous two lines, and enter your bibliography
 % as usual. Note that if you choose this route, formatting the bibliography is your responsibility. An example is below, including the

@@ -1,5 +1,5 @@
 
-\chapter{Signal extraction and systematics}
+\chapter{SIGNAL EXTRACTION AND SYSTEMATICS}
 
 \section{Boosted decision trees method} \label{BDTchaper}
 The boosted decision trees(BDT)~\cite{BDTboostPI,TMVAnote} is used in the $\Hmuhad$ analysis. The $\Hmuhad$ result which is referred as BDT fit analysis, with this MVA method, improves a factor of two with respect to the $\mcol$ fit analysis. The BDT algorithm is composed of two parts, the boosting algorithm and the decision tree. The AdaBoost(adaptive boost) is the boosting algorithm used in the $\Hmuhad$ analysis. 
@@ -49,7 +49,7 @@ T(x)=\sum_{m=1}^{N_{tree}}\alpha_{m}T_{m}(x)
 
 \section{Statistical methods}
 
-Physics results are extracted with statistical methods. The limit of branching ratio with confident level(CL) method, significance and best fit branching fraction are mentioned in the analysis.  
+Physics results are extracted with statistical methods. The limit of branching ratio with confident level(CLs) method, significance and best fit branching fraction are mentioned in the analysis.  
 
 The probability density function(PDF) and likelihood function are the basic functions used. The PDF of a continuous variable x can be interpreted as the likelihood of x at its different values. The PDF holds the property that it is normalized to unity. 
 \begin{align*}
@@ -86,11 +86,11 @@ The $\mu$ is the given signal strength modifier and $0<\hat{\mu}<\mu$. The $\til
 \begin{figure}[!tbp] 
 \centering
 \includegraphics[width=0.6\textwidth]{chapter7/Test_statistics.png}
-\caption{Test statistics distribution of signal+background and background only PDFs and the observed valued shown in arrow.}
+\caption{Test statistics distribution of signal+background and background only PDFs and the observed value shown in arrow.}
 \label{fig:teststatistics}
 \end{figure}
  
-The confident Level(CLs) is defined with two values $p_{\mu}$ and 1-$p_{b}$. In signal+background model, $p_{\mu}$ is defined as
+The $\textrm{CL}_{s}$ is defined with two values $p_{\mu}$ and 1-$p_{b}$. In signal+background model, $p_{\mu}$ is defined as
 \begin{align*}
 p_{\mu}=P(\tilde{q}_{\mu}\geq  \tilde{q}_{\mu}^{obs}  |\textrm{signal+background})=\int^{\infty}_{\tilde{q}_{\mu}^{obs}}f(\tilde{q}_{\mu}|\mu,\hat{\theta}_{\mu}^{obs})d \tilde{q}_{\mu}
 \end{align*}
@@ -100,17 +100,17 @@ In background only model 1-$p_{b}$ is defined as
 \end{align*}
 The $\textrm{CL}_{s}$ then is expressed as
 \begin{align*}
-CL_{s}=\frac{p_{\mu}}{1-p_{b}}
+\textrm{CL}_{s}=\frac{p_{\mu}}{1-p_{b}}
 \end{align*}
 
-For a given value of signal strength modifier $\mu$, $CL_{s}\leq\alpha$, then the signal+background is said excluded with $(1-\alpha)~ CL_{s}$. Usually $\alpha$ is picked as 95\%.
+For a given value of signal strength modifier $\mu$, $CL_{s}\leq\alpha$, then the signal+background is said excluded with $(1-\alpha)~ \textrm{CL}_{s}$. Usually $\alpha$ is picked as 95\%.
 
-The expected limit shown in lepton flavour violation Higgs decay is the median 95\% $CL_{s}$ upper limit with the $\pm 1 \sigma$ and $\pm 2 \sigma$ bands in the background only model. By generating a large number of background only pseudo-data, the CLs and $\mu^{95\%}$ of each toy are calculated. An example of $\mu^{95\%}$ distributions is shown in Figure.~\ref{fig:Signal_strength_example}. As shown in the cumulative distribution of $\mu^{95\%}$, the median corresponds to 50\%,while $\pm 1 \sigma$, $\pm 2 \sigma$  correspond to range 16\% to 84\% and 2.5\% to 97.5\% respectively.     
+The expected limit shown in lepton flavour violating Higgs decay is the median 95\% $CL_{s}$ upper limit with the $\pm 1 \sigma$ and $\pm 2 \sigma$ bands in the background only model. By generating a large number of background only pseudo-data, the CLs and $\mu^{95\%}$ of each toy are calculated. An example of $\mu^{95\%}$ distributions is shown in Figure.~\ref{fig:Signal_strength_example}. As shown in the cumulative distribution of $\mu^{95\%}$, the median corresponds to 50\%,while $\pm 1 \sigma$, $\pm 2 \sigma$  correspond to range 16\% to 84\% and 2.5\% to 97.5\% respectively.     
 \begin{figure}[!tbp] 
 \centering
 \includegraphics[width=0.4\textwidth]{chapter7/Signal_strength_example_1.png}
 \includegraphics[width=0.4\textwidth]{chapter7/Signal_strength_example_2.png}
-\caption{Signal strength modifier $\mu$ at 95\% $CL_{s}$ distribution from the MC pseudo-data. The right plot is the cumulative distribution of $\mu^{95\%}$ with $\pm 1 \sigma$ and $\pm 2 \sigma$ bands.}
+\caption[Signal strength modifier distribution of the MC pseudo-data]{Signal strength modifier $\mu$ at 95\% $CL_{s}$ distribution from the MC pseudo-data. The right plot is the cumulative distribution of $\mu^{95\%}$ with $\pm 1 \sigma$ and $\pm 2 \sigma$ bands.}
 \label{fig:Signal_strength_example}
 \end{figure}
 
@@ -138,17 +138,18 @@ p^{estimate}=\frac{1}{2}\bigg[1-erf\bigg(\sqrt{q_{0}^{obs}/2}\bigg)\bigg]
 Systematic uncertainties originated from different sources that experimentally or theoretically affect the physics results. These uncertainties are considered by the effects on the normalization and the shapes of the distribution from different processes. 
 
 \subsection{Systematics used in $\Hmuhad$}
-The systematic uncertainties considered in this analysis are summarized in Table.~\ref{tab:systematicsone} and Table.~\ref{tab:systematicstwo}. The uncertainty on muon trigger, identification and isolation together amounts  to 2\% and the hadronic tau lepton efficiency amounts to 5\%. The uncertainties on lepton selections that include trigger, ID, isolation efficiencies are estimated with tag and probe method with Z boson data sets~\cite{Khachatryan2011,Chatrchyan:2012xi,Khachatryan:2015hwa,Khachatryan:2015dfa,CMS:2016gvn}. The systematic uncertainty of b tagging veto is taken from the uncertainty of b tagging veto efficiency measurement, which adjusts b tagging veto performance in the simulation to match data sample. The exact values used in each category of $t\bar{t}$ and single top samples are summarized in Table.~\ref{tab:btaguncertainty}. The uncertainties on $Z\to\tau\tau$, WW, WZ, ZZ, $t\bar{t}$, single top backgrounds mainly originate from the uncertainties on the cross section measurements. The normalization uncertainty of $\mu$ misidentifying $\tau$ scale factor measurement and the uncertainty on $Z\to \mu\mu$ process together amounts to 25\%. An additional shape uncertainty on muon misidentifying tau is extracted from the measurement of the scale factor and treats independently of different hadronic tau decay modes. The uncertainty of the misidentified lepton background is estimated from the matching of the same sign control region which is defined as region II in Table.~\ref{tab:fakeratediagram}. The 30\% on normalization uncertainty correlated between each category and additional 10\% uncorrelated between each category are taken as a conservative estimation. Only the tau shape uncertainties are considered, which are taken from the variations of the misidentified tau parameters in the fitting. The muon misidentified shape uncertainty is omitted as it would be negligible compared with the bin-by-bin uncertainty applied.  The shape uncertainties of jet energy scale is estimated by varying the fitting parameters of different sources that affect this scale by one $\sigma$. The tau energy scale is treated as shape uncertainties and each of the tau decay modes is considered independently. The unclustered energy refers to the energy deficiency from the jets $\pt<10$ GeV and the PF candidates that are not included in the jet reconstruction. The unclustered energy uncertainty is considered independently for charged particles, photons, neutral hadrons and very forward particles.  The uncertainties on Higgs boson cross section is affected by the renormalization scales, factorization, parton distribution functions(PDF) and the strong coupling constant($\alpha_{s}$). These uncertainties contribution in normalization scale and are taken from the latest recommendation~\cite{YR4}. The uncertainties on Higgs cross section also affect the acceptance and result in the migration of events between categories.  The bin-by-bin uncertainty is applied to account for the statistics uncertainties within each bin. These uncertainties are uncorrected between different bins and categories. The uncertainty of integrated luminosity~\cite{CMS-PAS-LUM-17-001}  amounts to 2.5\%.
+The systematic uncertainties considered in this analysis are summarized in Table.~\ref{tabsystematicsone} and Table.~\ref{tab:systematicstwo}. The uncertainty on muon trigger, identification and isolation together amounts  to 2\% and the hadronic tau lepton efficiency amounts to 5\%. The uncertainties on lepton selections that include trigger, ID, isolation efficiencies are estimated with tag and probe method with Z boson data sets~\cite{Khachatryan2011,Chatrchyan:2012xi,Khachatryan:2015hwa,Khachatryan:2015dfa,CMS:2016gvn}. The systematic uncertainty of b tagging veto is taken from the uncertainty of b tagging veto efficiency measurement, which adjusts b tagging veto performance in the simulation to match data sample. The exact values used in each category of $t\bar{t}$ and single top samples are summarized in Table.~\ref{tab:btaguncertainty}. The uncertainties on $Z\to\tau\tau$, WW, WZ, ZZ, $t\bar{t}$, single top backgrounds mainly originate from the uncertainties on the cross section measurements. The normalization uncertainty of $\mu$ misidentifying $\tau$ scale factor measurement and the uncertainty on $Z\to \mu\mu$ process together amounts to 25\%. An additional shape uncertainty on muon misidentifying tau is extracted from the measurement of the scale factor and treats independently of different hadronic tau decay modes. The uncertainty of the misidentified lepton background is estimated from the matching of the same sign control region which is defined as region II in Table.~\ref{tab:fakeratediagram}. The 30\% on normalization uncertainty correlated between each category and additional 10\% uncorrelated between each category are taken as a conservative estimation. Only the tau shape uncertainties are considered, which are taken from the variations of the misidentified tau parameters in the fitting. The muon misidentified shape uncertainty is omitted as it would be negligible compared with the bin-by-bin uncertainty applied.  The shape uncertainties of jet energy scale is estimated by varying the fitting parameters of different sources that affect this scale by one $\sigma$. The tau energy scale is treated as shape uncertainties and each of the tau decay modes is considered independently. The unclustered energy refers to the energy deficiency from the jets $\pt<10$ GeV and the PF candidates that are not included in the jet reconstruction. The unclustered energy uncertainty is considered independently for charged particles, photons, neutral hadrons and very forward particles.  The uncertainties on Higgs boson cross section is affected by the renormalization scales, factorization, parton distribution functions(PDF) and the strong coupling constant($\alpha_{s}$). These uncertainties contribution in normalization scale and are taken from the latest recommendation~\cite{YR4}. The uncertainties on Higgs cross section also affect the acceptance and result in the migration of events between categories.  The bin-by-bin uncertainty is applied to account for the statistics uncertainties within each bin. These uncertainties are uncorrected between different bins and categories. The uncertainty of integrated luminosity~\cite{CMS-PAS-LUM-17-001}  amounts to 2.5\%.
 
 
 
 \begin{table}[htpb]
-\caption{Part one of the systematic uncertainties considered in $\Hmuhad$ analysis. All of the uncertainties listed in the systematic tables are correlated between categories besides the ones after the sign $\oplus$. These are the uncertainties correlated within each category but independent between categories. The theoretical uncertainties related to the acceptance and migration of events are listed in a range. The negative or positive values indicate anticorrelated or correlated between categories}
-
-%\caption{Part one of the systematic uncertainties considered in $\Hmuhad$ analysis. Systematic uncertainties in the expected event yields. All uncertainties are treated as correlated between the categories, except those that have two values separated by the $\oplus$ sign. In this case, the first value is the correlated uncertainty and the second value is the  uncorrelated uncertainty for each individual category. Theoretical uncertainties on VBF Higgs boson production~\cite{YR4}  are also applied to VH production. Uncertainties on acceptance lead to migration of events between the categories, and can be correlated or anticorrelated between categories. Ranges of uncertainties for the Higgs boson production indicate the variation in size, from negative (anticorrelated) to positive (correlated)}
-\label{tab:systematicsone}
+\caption{PART ONE OF THE SYSTEMATIC UNCERTAINTIES CONSIDERED IN THE $\Hmuhad$ ANALYSIS}\label{tabsystematicsone}
 \centering
-\begin{tabular}{l*{4}{c}} \hline
+\begin{threeparttable}
+%\begin{center}
+%\caption{Part one of the systematic uncertainties considered in $\Hmuhad$ analysis. Systematic uncertainties in the expected event yields. All uncertainties are treated as correlated between the categories, except those that have two values separated by the $\oplus$ sign. In this case, the first value is the correlated uncertainty and the second value is the  uncorrelated uncertainty for each individual category. Theoretical uncertainties on VBF Higgs boson production~\cite{YR4}  are also applied to VH production. Uncertainties on acceptance lead to migration of events between the categories, and can be correlated or anticorrelated between categories. Ranges of uncertainties for the Higgs boson production indicate the variation in size, from negative (anticorrelated) to positive (correlated)}
+%\centering
+\begin{tabular}{lc}\hline
 Systematic  uncertainty            & $\PH\to\Pgm\tauh$  \\ \hline
 Muon  trigger/identification/isolation         &       2\%             \\
 Hadronic tau lepton efficiency                  &       5\%              \\
@@ -162,34 +163,47 @@ $\text{Jet}\to\tauh, \Pgm $ background             &  30\%$\oplus$10\%   \\
 Jet energy scale                                                       &   3--20\% \\
 \tauh energy scale                                                    &   1.2\%  \\\hline
 \end{tabular}
+%\centering
+\begin{tablenotes}
+\small
+\item Note:  All of the uncertainties listed in the systematic tables are correlated between categories besides the ones after the sign $\oplus$. These are the uncertainties correlated within each category but independent between categories. The theoretical uncertainties related to the acceptance and migration of events are listed in a range. The negative or positive values indicate anticorrelated or correlated between categories.
+\end{tablenotes}
+%\end{center}
+\end{threeparttable}
 \end{table}
 
 
 
 \begin{table}[htpb]
-\caption{Part two of the systematic uncertainties considered in $\Hmuhad$ analysis}
+%\begin{threeparttable}
+\caption{PART TWO OF THE SYSTEMATIC UNCERTAINTIES CONSIDERED IN $\Hmuhad$ ANALYSIS}
+%\caption{Part two of the systematic uncertainties considered in $\Hmuhad$ analysis}
 \label{tab:systematicstwo}
-\centering
-\begin{tabular}{l*{4}{c}} \hline
+%\centering
+\begin{center}
+\begin{tabular}{l*{2}{c}} \hline
 Systematic  uncertainty                                             & $\PH\to\Pgm\tauh$ \\ \hline
 
 $\Pgm \to\tauh$ energy scale                                   &    1.5\%  \\
 \Pgm\ energy scale                                                   &        0.2\%      \\
 Unclustered energy scale                                         &        $\pm 1 \sigma$  \\
-Renorm./fact. scales ({\Pg\Pg}H)   \cite{YR4}          &   \multicolumn{4}{c}{3.9\%}\\
-Renorm./fact. scales (VBF and VH) \cite{YR4}         &   \multicolumn{4}{c}{0.4\%}\\
-PDF + $\alpha_s$ ({\Pg\Pg}H)    \cite{YR4}             &   \multicolumn{4}{c}{ 3.2\%}\\
-PDF + $\alpha_s$ (VBF and VH)   \cite{YR4}          &   \multicolumn{4}{c}{ 2.1\%}\\
-Renorm./fact. acceptance ({\Pg\Pg}H)                     &   \multicolumn{4}{c}{$-3.0$\% -- $+2.0$\% } \\
-Renorm./fact. acceptance (VBF and VH)                &   \multicolumn{4}{c}{$-0.3$\% -- $+1.0$\% } \\
-PDF + $\alpha_s$ acceptance ({\Pg\Pg}H)              &   \multicolumn{4}{c}{ $-1.5$\% --  $+0.5$\%}\\
-PDF + $\alpha_s$ acceptance (VBF and VH)          &   \multicolumn{4}{c}{ $-1.5$\% --  $+1.0$\%}\\
-Integrated luminosity               &   \multicolumn{4}{c}{ 2.5\%  } \\ \hline
+Renorm./fact. scales ({\Pg\Pg}H)   \cite{YR4}          &   \multicolumn{2}{c}{3.9\%}\\
+Renorm./fact. scales (VBF and VH) \cite{YR4}         &   \multicolumn{2}{c}{0.4\%}\\
+PDF + $\alpha_s$ ({\Pg\Pg}H)    \cite{YR4}             &   \multicolumn{2}{c}{ 3.2\%}\\
+PDF + $\alpha_s$ (VBF and VH)   \cite{YR4}          &   \multicolumn{2}{c}{ 2.1\%}\\
+Renorm./fact. acceptance ({\Pg\Pg}H)                     &   \multicolumn{2}{c}{$-3.0$\% -- $+2.0$\% } \\
+Renorm./fact. acceptance (VBF and VH)                &   \multicolumn{2}{c}{$-0.3$\% -- $+1.0$\% } \\
+PDF + $\alpha_s$ acceptance ({\Pg\Pg}H)              &   \multicolumn{2}{c}{ $-1.5$\% --  $+0.5$\%}\\
+PDF + $\alpha_s$ acceptance (VBF and VH)          &   \multicolumn{2}{c}{ $-1.5$\% --  $+1.0$\%}\\
+Integrated luminosity               &   \multicolumn{2}{c}{ 2.5\%  } \\ \hline
 \end{tabular}
+\end{center}
+%\end{threeparttable}
 \end{table}
 
 \begin{table}[htpb]
-\caption{b tagging veto systematic uncertainty in each category}
+\caption{B TAGGING VETO SYSTEMATIC UNCERTAINTIES IN EACH CATEOGORY}
+%\caption{b tagging veto systematic uncertainty in each category}
 \label{tab:btaguncertainty}
 \centering
 \begin{tabular}{lclclclcl}\hline
@@ -212,12 +226,14 @@ The systematic uncertainties affect the $\Hehad$ analysis are summarized in Tabl
 
 
 
-\begin{table*}[hbt]
+\begin{table}[hbt]
  \centering
- \caption{The normalization systematic uncertainties considered in $\Hehad$ analysis. The uncertainties are correlated between categories besides the ones after $\oplus$. These uncertainies are uncorrelated between categories. }
+ \begin{threeparttable}
+ \caption{THE NORMALIZATION SYSTEMATIC UNCERTAINTIES CONSIDERED IN $\Hehad$ ANALYSIS}
+% \caption[The normalization systematic uncertainties considered in $\Hehad$ analysis]{The normalization systematic uncertainties considered in $\Hehad$ analysis. The uncertainties are correlated between categories besides the ones after $\oplus$. These uncertainies are uncorrelated between categories. }
   \label{tab:systematics_had}
-\begin{tabular}{l|c|c|c} \hline
-Systematic uncertainty                  & \multicolumn{3}{c}{\PH$\to \Pe\tauh$}      \\ 
+\begin{tabular}{lccc} \hline
+Systematic uncertainty                  & \multicolumn{3}{c}{\PH$\to \Pe\tauh$}      \\\hline 
                                                       & 0-jet       & 1-jet        & 2-jet                 \\ \hline
 Electron trigger/ID/isolation           &  1\%           &   1\%         &  2\%                       \\
 Efficiency of $\tauh$                      &  6.7\%         &  6.7\%        & 6.7\%                      \\
@@ -231,12 +247,18 @@ $\ttbar$ background                     & 10\%           &  10\%         & 10\%$
 Single top quark background       & 25\%           &  25\%         & 25\%                      \\
 Luminosity                                    & 2.6\%          &  2.6\%        & 2.6\%                      \\ \hline
 \end{tabular}
-\end{table*}
+\begin{tablenotes}
+\small
+\item Note: The uncertainties are correlated between categories besides the ones after $\oplus$. These uncertainies are uncorrelated between categories.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
 
 
 \begin{table}[hbtp]
  \centering
- \caption{The systematic uncertainties that affect the shape of $\mcol$ distribution. }
+ \caption{THE SYSTEMATIC UNCERTAINTIES THAT AFFECT THE SHAPE OF $\mcol$ DISTRIBUTION.}
+ %\caption{The systematic uncertainties that affect the shape of $\mcol$ distribution. }
   %\caption{Systematic uncertainties in the shape of the signal and background distributions, expressed in percentage. The systematic uncertainty and its implementation are described in the text.}
   \label{tab:shape_systematics}
   \begin{tabular}{lclc} \hline
@@ -251,11 +273,12 @@ $\tauh$ energy scale                                    &    3\%                
 
 
 
-\begin{table*}[hbtp]
+\begin{table}[hbtp]
+ \caption{THEORETICAL UNCERTAINTIES CONSIDERED IN $\Hehad$ ANALYSIS}  \label{tab:theory_systematics}
  \centering
- \caption{Theoretical uncertainties that affects the Higgs boson production cross section. These uncertainties are correlated or anticorrelated(with minus sign superscript) between all of the categories.}
+ \begin{threeparttable}
+ %\caption[Theoretical uncertainties considered in $\Hehad$ analysis]{Theoretical uncertainties that affects the Higgs boson production cross section. These uncertainties are correlated or anticorrelated(with minus sign superscript) between all of the categories.}
  % \caption{Theoretical uncertainties in percentage for the Higgs boson production cross section for each production process and category. All uncertainties are treated as fully correlated between categories except those denoted by a negative superscript which are fully anticorrelated due to the migration of events.}
-  \label{tab:theory_systematics}
   \begin{tabular}{l|l|l|l|l|l|l} \hline
 Systematic uncertainty                  &  \multicolumn{3}{c|}{Gluon fusion} &  \multicolumn{3}{c}{Vector boson fusion}  \\ \cline{2-7}
                                 &    0-jet  & 1-jet  & 2-jet   & 0-jet & 1-jet  & 2-jet  \\ \hline
@@ -263,7 +286,12 @@ Parton distribution function         &    $9.7$\%  &  $9.7$\% &   $9.7$\% & $3.6
 Renormalization/factorization scale           &    $8$\%    &  $10$\%   &  $30^{-}$\%   & $4$\%     &   $1.5$\%  & $2$\%   \\
 Underlying event/parton shower  &   $4$\%     & $5^{-}$\%   &  $10^{-}$\%   & $10$\%    &   $<$1\%    & $1^{-}$\%   \\ \hline
   \end{tabular}
-\end{table*}
+  \begin{tablenotes}
+  \small
+  \item Note: These uncertainties are correlated or anticorrelated(with minus sign superscript) between all of the categories.
+  \end{tablenotes}
+  \end{threeparttable}
+\end{table}
 
 
        
